@@ -1,0 +1,92 @@
+{
+  "Version": "2.5",
+  "ModID": "woodworking_kurila",
+  "DeprecateIds": [
+    "Woodworking Overhaul",
+    "extended_woodworking_kurila"
+  ],
+  "ModDependencies": [
+    "shared_marquetry_workshop_kurila",
+    "shared_products_extended_kurila",
+    "shared-pools-and-definitions",
+    "shared_cherry_sawmill_kurila",
+    "shared_wanza_sawmill_kurila",
+    "advanced_lumberjack_kurila",
+    "shared_info_parts_kurila",
+    "shared_TT_MenuInputOutputAmounts_Serp",
+    "advanced_sawmill_kurila"
+  ],
+  "LoadAfterIds": [
+    "IndustrializedLowTierProduction",
+    "shared-pools-and-definitions",
+    "shared_marquetry_workshop_kurila",
+    "Taludas_TheWholesomeHaciendaHaul",
+    "lion053_Enbesa_Spectacles_Production",
+    "husky_sled_revision_2_kurila",
+    "shared_cherry_sawmill_kurila",
+    "shared_wanza_sawmill_kurila",
+    "husky_sled_revision_kurila",
+    "jakob_new_world_cities",
+    "jakob-modular-factories",
+    "production-tools-jakob",
+    "jewelry_works_kurila",
+    "smoked_fish_kurila",
+    "drink_works_2_kurila",
+    "metal_works_kurila",
+    "advanced_sawmill_kurila",
+    "sulphur_works_kurila",
+    "saltpetre_works_kurila",
+    "military_attention",
+    "advanced_lumberjack_kurila"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Woodworking (Kurila)",
+    "English": "Woodworking (Kurila)",
+    "French": "Woodworking (Kurila)",
+    "German": "Woodworking (Kurila)",
+    "Italian": "Woodworking (Kurila)",
+    "Japanese": "Woodworking (Kurila)",
+    "Korean": "Woodworking (Kurila)",
+    "Polish": "Woodworking (Kurila)",
+    "Russian": "Woodworking (Kurila)",
+    "Spanish": "Woodworking (Kurila)",
+    "Taiwanese": "Woodworking (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "HighLife",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

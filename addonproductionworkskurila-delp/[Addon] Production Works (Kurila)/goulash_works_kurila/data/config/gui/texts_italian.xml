@@ -1,0 +1,9 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500301395</GUID>
+      <Text>Farina di Teff</Text>
+    </Text>
+  </ModOp>
+</ModOps>

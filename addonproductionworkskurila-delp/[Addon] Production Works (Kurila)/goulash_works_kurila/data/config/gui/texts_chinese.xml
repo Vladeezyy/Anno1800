@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500301395</GUID>
+      <Text>苔麸粉</Text>
+    </Text>
+  </ModOp>
+</ModOps>

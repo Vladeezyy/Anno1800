@@ -1,0 +1,125 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Vanilla Changes -->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1010242</GUID>
+        <Text>ベニアウッド</Text>
+      </Text>
+  	<!-- Extended Marquetry Workshops-->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300844</GUID>
+        <Text>無垢材に代わるお手軽な素材として、突板材があります。シンプルな性格にもかかわらず、見た目も美しい。</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300845</GUID>
+        <Text>ベニアウッド: 2t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300846</GUID>
+        <Text>ベニアウッド: 2t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301292</GUID>
+        <Text>寄せ木工房</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1010320</GUID>
+        <Text>寄せ木工房: 丸太</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>101296</GUID>
+        <Text>寄せ木工房: 丸太</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301293</GUID>
+        <Text>寄せ木工房: サクラの木</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301294</GUID>
+        <Text>チェリー材の突板は、無垢材に代わる好ましい選択肢です。顕著な木目は、ここで本領を発揮します。</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301295</GUID>
+        <Text>チェリー材の突き板: 4t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301296</GUID>
+        <Text>寄せ木工房: ワンザウッド</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301297</GUID>
+        <Text>無垢材に代わる手頃な価格の突き板仕上げのワンザ材。珍しい色と木目が目を引きます。</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301298</GUID>
+        <Text>ワンザ材突板: 6t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301299</GUID>
+        <Text>寄せ木工房</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301300</GUID>
+        <Text>寄せ木工房: サクラの木</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301301</GUID>
+        <Text>チェリー材の突き板: 4t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301302</GUID>
+        <Text>寄せ木工房: ワンザウッド</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301303</GUID>
+        <Text>ワンザ材突板: 6t</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500301307</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301309) Text]&#xD;&#xA;[AssetData(1500301310) Text]&#xD;&#xA;[AssetData(1500301311) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301309</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt; [AssetData(120008) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301310</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt; [AssetData(135087) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301311</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt; [AssetData(1500301150) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301312</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301313</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301314</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+  </ModOp>
+</ModOps>

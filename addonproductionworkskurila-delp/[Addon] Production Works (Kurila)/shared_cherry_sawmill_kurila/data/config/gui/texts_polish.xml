@@ -1,0 +1,87 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301320</GUID>
+        <Text>Tartak: Drewno wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301321</GUID>
+        <Text>Drewno wiśniowe jest bardzo wysokiej jakości, jest wytwarzane tylko przez doświadczonych rzemieślników. Ale to, co jest z nich wykonane, jest znakomite.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301322</GUID>
+        <Text>Deski wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301323</GUID>
+        <Text>Tartak: Drewno wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301324</GUID>
+        <Text>Deski wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301325</GUID>
+        <Text>Zaawansowany tartak: Drewno wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301326</GUID>
+        <Text>Deski wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301327</GUID>
+        <Text>Zaawansowany tartak: Drewno wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301328</GUID>
+        <Text>Deski wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301329</GUID>
+        <Text>Tartak rzeczny: Drewno wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301330</GUID>
+        <Text>Deski wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301331</GUID>
+        <Text>Tartak rzeczny: Drewno wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301332</GUID>
+        <Text>Deski wiśni</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301344</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301352</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+  </ModOp>
+</ModOps>

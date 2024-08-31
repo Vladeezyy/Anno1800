@@ -1,0 +1,7 @@
+<!-- Lowers all Transfertimes down to 100ms -->
+
+<ModOps>
+    <ModOp Type="replace" Path="//Asset/Values/Session/TransferData/Item/Duration">
+        <Duration>100</Duration>
+    </ModOp>
+</ModOps>

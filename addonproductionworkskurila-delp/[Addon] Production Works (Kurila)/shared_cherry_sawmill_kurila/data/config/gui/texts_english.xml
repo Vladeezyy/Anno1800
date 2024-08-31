@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500301320</GUID>
+        <Text>Sawmill: Cherry Wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301321</GUID>
+        <Text>Cherry Timbers are very high quality, they are only made by experienced artisans. But what is made from them is exquisite.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301322</GUID>
+        <Text>Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301323</GUID>
+        <Text>Sawmill: Cherry Wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301324</GUID>
+        <Text>Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301325</GUID>
+        <Text>Advanced Sawmill: Cherry Wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301326</GUID>
+        <Text>Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301327</GUID>
+        <Text>Advanced Sawmill: Cherry Wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301328</GUID>
+        <Text>Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301329</GUID>
+        <Text>River Saw Mill: Cherry Wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301330</GUID>
+        <Text>Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301331</GUID>
+        <Text>River Saw Mill: Cherry Wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301332</GUID>
+        <Text>Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301344</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301352</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+  </ModOp>
+</ModOps>

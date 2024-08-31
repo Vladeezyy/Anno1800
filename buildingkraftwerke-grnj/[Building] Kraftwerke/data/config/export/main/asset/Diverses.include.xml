@@ -1,0 +1,58 @@
+<ModOps> 
+  <ModOp GUID="112706" Type="replace"  Path="/Values/Product/ProductionRegions/Item/RegionType">
+		<RegionType>Moderate,Arctic,Colony01,Africa</RegionType>
+		</ModOp>
+  <!-- <ModOp Type="addNextSibling" GUID="130248"> -->
+	<!-- <Asset> -->
+		<!-- <Template>Trigger</Template> -->
+		<!-- <Values> -->
+			<!-- <Standard> -->
+				<!-- <GUID>2141010115</GUID> -->
+				<!-- <Name>Gas Unlock</Name> -->
+			<!-- </Standard> -->
+			<!-- <Trigger> -->
+				<!-- <TriggerCondition> -->
+				  <!-- <Template>ConditionAlwaysTrue</Template> -->
+					<!-- <Values> -->
+						<!-- <Condition /> -->
+					<!-- </Values> -->
+				<!-- </TriggerCondition> -->
+				<!-- <TriggerActions> -->
+					<!-- <Item> -->
+						<!-- <TriggerAction> -->
+							<!-- <Template>ActionUnlockAsset</Template> -->
+							<!-- <Values> -->
+								<!-- <Action/> -->
+								<!-- <ActionUnlockAsset> -->
+									<!-- <UnlockAssets> -->
+										<!-- <Item> -->
+											<!-- <Asset>112706</Asset> -->
+										<!-- </Item> -->
+										<!-- <Item> -->
+											<!-- <Asset>117556</Asset> -->
+										<!-- </Item> -->
+										<!-- <Item> -->
+											<!-- <Asset>117559</Asset> -->
+										<!-- </Item> -->
+									<!-- </UnlockAssets> -->
+								<!-- </ActionUnlockAsset> -->
+							<!-- </Values> -->
+						<!-- </TriggerAction> -->
+					<!-- </Item> -->
+				<!-- </TriggerActions> -->
+		<!-- <ResetTrigger> -->
+			<!-- <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset> -->
+			<!-- <Values> -->
+				<!-- <EmptyAutoCreateValue/> -->
+			<!-- </Values> -->
+		<!-- </ResetTrigger> -->
+	<!-- </Trigger> -->
+	<!-- <TriggerSetup /> -->
+    <!-- </Values> -->
+    <!-- </Asset> -->
+  <!-- </ModOp> -->
+
+  <!-- <ModOp GUID="112706" Type="remove"  Path="/Values/Product/ProductionRegions/Item/RequiredDLCs"></ModOp> -->
+  <!-- <ModOp GUID="112706" Type="remove"  Path="/Values/Locked/DLCDependency"></ModOp> -->
+
+</ModOps>

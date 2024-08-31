@@ -1,0 +1,70 @@
+{
+  "Version": "2.4.2",
+  "ModID": "drink_works_2_kurila",
+  "DeprecateIds": [
+    "extended_rum_champagne_and_cognac_production_kurila",
+    "drink_production_2_kurila",
+    "Barrels"
+  ],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_cherry_sawmill_kurila",
+    "shared_TT_MenuInputOutputAmounts_Serp"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "shared_products_extended_kurila",
+    "Taludas_TheWholesomeHaciendaHaul",
+    "jakob_new_world_cities"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Drink Works 2 (Kurila)",
+    "English": "Drink Works 2 (Kurila)",
+    "French": "Drink Works 2 (Kurila)",
+    "German": "Drink Works 2 (Kurila)",
+    "Italian": "Drink Works 2 (Kurila)",
+    "Japanese": "Drink Works 2 (Kurila)",
+    "Korean": "Drink Works 2 (Kurila)",
+    "Polish": "Drink Works 2 (Kurila)",
+    "Russian": "Drink Works 2 (Kurila)",
+    "Spanish": "Drink Works 2 (Kurila)",
+    "Taiwanese": "Drink Works 2 (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "HighLife",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

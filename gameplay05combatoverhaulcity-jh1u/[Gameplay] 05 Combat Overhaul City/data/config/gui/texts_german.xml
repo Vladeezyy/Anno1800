@@ -1,0 +1,64 @@
+<ModOps> 
+
+
+  <ModOp Type="add" Path="TextExport/Texts">
+	<Text>
+		<GUID>6800049</GUID>
+		<Text>Zypresse</Text>
+	</Text>
+	<Text>
+		<GUID>6800048</GUID>
+		<Text>Kleiner Baum</Text>
+	</Text>
+	<Text>
+		<GUID>6800047</GUID>
+		<Text>Pappel</Text>
+	</Text>
+	<Text>
+		<GUID>6800046</GUID>
+		<Text>Pappel</Text>
+	</Text>
+	<Text>
+		<GUID>6800045</GUID>
+		<Text>Blumenbeet</Text>
+	</Text>
+	<Text>
+		<GUID>6800044</GUID>
+		<Text>Stein-​Blumenkübel</Text>
+	</Text>
+	<Text>
+		<GUID>6800043</GUID>
+		<Text>Großer Baum</Text>
+	</Text>
+	<Text>
+		<GUID>6800070</GUID>
+		<Text>Großer Baum (Züchtet Bäume)</Text>
+	</Text>
+	<Text>
+		<GUID>6800039</GUID>
+		<Text>Blühende Staude</Text>
+	</Text>
+	<Text>
+		<GUID>6800038</GUID>
+		<Text>Palme</Text>
+	</Text>
+	<Text>
+		<GUID>6800071</GUID>
+		<Text>Palme (Züchtet Bäume)</Text>
+	</Text>
+	<Text>
+		<GUID>6800037</GUID>
+		<Text>Kleine Palme</Text>
+	</Text>
+	<Text>
+		<GUID>6800036</GUID>
+		<Text>Blumenbeet</Text>
+	</Text>
+	<Text>
+		<GUID>6800072</GUID>
+		<Text>Blumenbeet (Züchtet Bäume)</Text>
+	</Text>
+  </ModOp>
+  
+  
+</ModOps>

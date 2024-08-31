@@ -1,0 +1,178 @@
+<ModOps>
+  <Group ModOpID="PotatoWorks">
+    <!-- New Population Input-->
+      <Group>
+        <!-- Farmer -->
+          <Group Condition="!@15000000/PopulationLevel7/PopulationInputs/Item[Product='1010195']">
+            <ModOp Type="addNextSibling" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010200']"><!-- Fish -->
+              <Item>
+                <Product>1010195</Product>
+                <Amount>0.0004166667</Amount>
+                <SupplyWeight>1</SupplyWeight>
+                <MoneyValue>10</MoneyValue>
+                <FullWeightPopulationCount>100</FullWeightPopulationCount>
+                <NoWeightPopulationCount>49</NoWeightPopulationCount>
+                <IsConsideredByAI>0</IsConsideredByAI>
+              </Item>
+            </ModOp>
+
+            <ModOp Type="replace" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010200']/SupplyWeight"><!-- Fish -->
+              <SupplyWeight>2</SupplyWeight>
+            </ModOp>
+
+            <ModOp Type="add" GUID="501995" Path="/Values/ProductList/List"><!-- Farmer Consumer Goods -->
+              <Item>
+                <Product>1010195</Product>
+              </Item>
+            </ModOp>
+
+            <ModOp Type="add" GUID="269409" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade"><!-- Palace Buff-->
+              <Item>
+                <ProvidedNeed>1010195</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Worker -->
+          <Group Condition="!@15000001/PopulationLevel7/PopulationInputs/Item[Product='1010195']">
+            <ModOp Type="addNextSibling" GUID="15000001" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010200']"><!-- Fish -->
+              <Item>
+                <Product>1010195</Product>
+                <Amount>0.0008333334</Amount>
+                <SupplyWeight>1</SupplyWeight>
+                <MoneyValue>10</MoneyValue>
+                <IsConsideredByAI>0</IsConsideredByAI>
+              </Item>
+            </ModOp>
+
+            <ModOp Type="replace" GUID="15000001" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010200']/SupplyWeight"><!-- Fish -->
+              <SupplyWeight>2</SupplyWeight>
+            </ModOp>
+
+            <ModOp Type="add" GUID="501996" Path="/Values/ProductList/List"><!-- Worker Consumer Goods -->
+              <Item>
+                <Product>1010195</Product>
+              </Item>
+            </ModOp>
+
+            <ModOp Type="addNextSibling" GUID="269408" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='1010200']"><!-- Palace Buff-->
+              <Item>
+                <ProvidedNeed>1010195</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Artisan -->
+          <Group Condition="!@15000002/PopulationLevel7/PopulationInputs/Item[Product='1010195']">
+            <ModOp Type="addPrevSibling" GUID="15000002" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010238']"><!-- Sausage  -->
+              <Item>
+                <Product>1010195</Product>
+                <Amount>0.0016666668</Amount>
+                <SupplyWeight>2</SupplyWeight>
+                <MoneyValue>20</MoneyValue>
+                <IsConsideredByAI>0</IsConsideredByAI>
+              </Item>
+            </ModOp>
+
+            <ModOp Type="replace" GUID="15000002" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010238']/SupplyWeight"><!-- Sausage  -->
+              <SupplyWeight>4</SupplyWeight>
+            </ModOp>
+
+            <ModOp Type="add" GUID="501997" Path="/Values/ProductList/List"><!-- Artisan Consumer Goods -->
+              <Item>
+                <Product>1010195</Product>
+              </Item>
+            </ModOp>
+
+            <ModOp Type="addPrevSibling" GUID="269177" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='1010238']"><!-- Palace Buff-->
+              <Item>
+                <ProvidedNeed>1010195</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Lists -->
+          <Group Condition="!@120057/ProductStorageList/ProductList/Item[Product='1010195']">
+            <ModOp Type="addNextSibling" GUID="120057" Path="/Values/ProductStorageList/ProductList/Item[Product='1010200']"><!-- Market Storage List -->
+              <Item>
+                <Product>1010195</Product>
+              </Item>
+            </ModOp>
+
+            <ModOp Type="add" GUID="501993" Path="/Values/ProductList/List"><!-- Basic Need Goods -->
+              <Item>
+                <Product>1010195</Product>
+              </Item>
+            </ModOp>
+          </Group>
+          <Group Condition="!@269407/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='1010195']">
+            <ModOp Type="addNextSibling" GUID="269407" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='1010200']"><!-- Palace Buff-->
+              <Item>
+                <ProvidedNeed>1010195</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+              </Item>
+            </ModOp>
+          </Group>
+
+      </Group>
+    <!-- Production Adjustments -->
+      <Group>
+        <!-- Additional Potatoes for Goulash -->
+          <Group>
+            <ModOp Type="add" GUID="500008,117268" Path="/Values/ProductionChain/Tier1/Item[Building='1010293']/Tier2">
+              <Item>
+                <Building>1010265</Building>
+              </Item>
+            </ModOp>
+            <ModOp Type="merge" GUID="1010293" Path="/Values">
+                <FactoryBase>
+                  <FactoryInputs>
+                    <Item>
+                      <Product>1010193</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>4</StorageAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010198</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>4</StorageAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010195</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>4</StorageAmount>
+                    </Item>
+                  </FactoryInputs>
+                  <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                  <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+            </ModOp>
+          </Group>
+      </Group>
+  </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Potato Works" Icon="data/ui/2kimages/main/3dicons/icon_potatoes.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="PotatoWorks" ExposeID="Disable/Enable Potato Works">
+    </ImyaExpose>
+
+    <ModOp Type="replace" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010195']/Amount"
+            Condition="!#early_game_kurila" ModOpID="Potatoes1" Skip="1">
+      <Amount>0.0004166667</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="Potatoes1" ExposeID="Potato consume of Farmer" Description="Default = 0.0004166667">
+    </ImyaExpose>
+
+    <ModOp Type="replace" GUID="15000001" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010195']/Amount"
+            Condition="!#early_game_kurila" ModOpID="Potatoes2" Skip="1">
+      <Amount>0.0008333334</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="Potatoes2" ExposeID="Potato consume of Worker" Description="Default = 0.0008333334">
+    </ImyaExpose>
+
+    <ModOp Type="replace" GUID="15000002" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010195']/Amount"
+            Condition="!#early_game_kurila" ModOpID="Potatoes3" Skip="1">
+      <Amount>0.0016666668</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="Potatoes3" ExposeID="Potato consume of Artisan" Description="Default = 0.0016666668">
+    </ImyaExpose>
+</ModOps>

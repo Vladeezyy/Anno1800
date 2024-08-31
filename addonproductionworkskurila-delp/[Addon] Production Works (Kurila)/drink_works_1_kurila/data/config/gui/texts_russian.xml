@@ -1,0 +1,17 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Extended InfoDescription -->
+      <Text>
+        <GUID>1500301100</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301101) Text]&#xD;&#xA;[AssetData(1500301102) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301101</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1010201) Icon]"/&gt; [AssetData(1010201) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301102</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1010241) Icon]"/&gt; [AssetData(1010241) Text]&lt;/font&gt;</Text>
+      </Text>
+  </ModOp>
+</ModOps>

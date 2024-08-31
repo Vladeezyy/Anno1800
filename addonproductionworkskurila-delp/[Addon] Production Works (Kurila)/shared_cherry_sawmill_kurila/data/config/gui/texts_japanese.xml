@@ -1,0 +1,87 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301320</GUID>
+        <Text>製材所: サクラの木</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301321</GUID>
+        <Text>チェリー材の材木は非常に高品質で、熟練した職人しか作れません。しかし、そこから作られるものは精巧なものです。</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301322</GUID>
+        <Text>チェリー材ボード</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301323</GUID>
+        <Text>製材所: サクラの木</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301324</GUID>
+        <Text>チェリー材ボード</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301325</GUID>
+        <Text>アドバンスドソーミル: サクラの木</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301326</GUID>
+        <Text>チェリー材ボード</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301327</GUID>
+        <Text>アドバンスドソーミル: サクラの木</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301328</GUID>
+        <Text>チェリー材ボード</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301329</GUID>
+        <Text>リバーソーミル: サクラの木</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301330</GUID>
+        <Text>チェリー材ボード</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301331</GUID>
+        <Text>リバーソーミル: サクラの木</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301332</GUID>
+        <Text>チェリー材ボード</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301344</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301352</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+  </ModOp>
+</ModOps>

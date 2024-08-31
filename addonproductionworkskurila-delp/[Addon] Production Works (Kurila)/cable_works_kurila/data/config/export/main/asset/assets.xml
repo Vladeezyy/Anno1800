@@ -1,0 +1,461 @@
+  <ModOps>
+  <Group ModOpID="CableWorks">
+    <!-- OW-Cable Factory -->
+      <Group>
+        <!-- New Entries -->
+          <ModOp GUID="6279" Type="addNextSibling">
+            <Asset>
+              <Template>FactoryBuilding7</Template>
+              <Values>
+                <Standard>
+                  <GUID>1500300077</GUID>
+                  <Name>Cable_Factory_OW</Name>
+                  <IconFilename>data/ui/2kimages/main/3dicons/scenario/goods/icon_electric_cable_3.png</IconFilename>
+                </Standard>
+                <Text>
+                  <TextOverride>6279</TextOverride>
+                </Text>
+                <Building>
+                  <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                  <AssociatedRegions>Moderate</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Cost>
+                  <Costs>
+                    <Item>
+                      <Ingredient>1010017</Ingredient>
+                      <Amount>30000</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010196</Ingredient>
+                      <Amount>8</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010205</Ingredient>
+                      <Amount>15</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010218</Ingredient>
+                      <Amount>12</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010207</Ingredient>
+                      <Amount>10</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010202</Ingredient>
+                      <Amount>10</Amount>
+                    </Item>
+                  </Costs>
+                </Cost>
+                <Object>
+                  <Variations>
+                    <Item>
+                      <Filename>data/kurila/cable/cables_ow.cfg</Filename>
+                    </Item>
+                  </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                  <OnSelection>
+                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                    <Values>
+                      <ActionList />
+                    </Values>
+                  </OnSelection>
+                  <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+                  <Colors>
+                    <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                  </Colors>
+                </Selection>
+                <Constructable />
+                <Locked>
+                  <DLCDependency>24963</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                  <ActiveSounds>
+                    <Item>
+                      <Sound>200802</Sound>
+                    </Item>
+                    <Item>
+                      <Sound>201621</Sound>
+                    </Item>
+                  </ActiveSounds>
+                  <IncidentSounds>
+                    <InfectedFire>
+                      <Item>
+                        <Sound>214659</Sound>
+                      </Item>
+                    </InfectedFire>
+                  </IncidentSounds>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                  <FactoryInputs>
+                    <Item>
+                      <Product>1010230</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>4</StorageAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010255</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>4</StorageAmount>
+                    </Item>
+                  </FactoryInputs>
+                  <FactoryOutputs>
+                    <Item>
+                      <Product>6280</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>2</StorageAmount>
+                    </Item>
+                  </FactoryOutputs>
+                  <CycleTime>60</CycleTime>
+                  <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <AmbientMoodProvider>
+                  <Murmur>Factory</Murmur>
+                  <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                  <Maintenances>
+                    <Item>
+                      <Product>1010017</Product>
+                      <Amount>725</Amount>
+                      <InactiveAmount>367</InactiveAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010117</Product>
+                      <Amount>150</Amount>
+                    </Item>
+                  </Maintenances>
+                </Maintenance>
+                <Attackable>
+                  <AttackableType>IslandBuilding</AttackableType>
+                  <MaximumHitPoints>4000</MaximumHitPoints>
+                  <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                  <Infectable>
+                    <Explosion>
+                      <Base>0</Base>
+                      <Escalated>0</Escalated>
+                    </Explosion>
+                  </Infectable>
+                  <Explosion>
+                    <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                  </Explosion>
+                  <IncidentInfectionChanceFactors>
+                    <Fire>
+                      <DensityDistance>20</DensityDistance>
+                      <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                      <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                    </Fire>
+                    <Riot>
+                      <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                      <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                      <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                      <HappinessThreshold>20</HappinessThreshold>
+                    </Riot>
+                    <Explosion>
+                      <BaseChance>4</BaseChance>
+                      <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                      <FactoryOvertimeFactor>0.1</FactoryOvertimeFactor>
+                      <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                    </Explosion>
+                  </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable />
+                <Culture>
+                  <CultureType>Culture</CultureType>
+                </Culture>
+                <QuestObject />
+                <Electrifiable />
+                <EcoSystemProvider />
+              </Values>
+            </Asset>
+            <Asset>
+              <Template>ProductionChain</Template>
+              <Values>
+                <Standard>
+                  <GUID>1500300078</GUID>
+                  <Name>Cable_Chain_OW</Name>
+                  <IconFilename>data/ui/2kimages/main/3dicons/scenario/goods/icon_electric_cable_3.png</IconFilename>
+                </Standard>
+                <Text>
+                  <TextOverride>6280</TextOverride>
+                </Text>
+                <ProductionChain>
+                  <Building>1500300077</Building>
+                  <Tier1>
+                    <Item>
+                      <Building>1010308</Building>
+                    </Item>
+                    <Item>
+                      <Building>1010333</Building>
+                    </Item>
+                  </Tier1>
+                </ProductionChain>
+                <Locked />
+              </Values>
+            </Asset>
+            <Asset>
+              <Template>Trigger</Template>
+              <Values>
+                <Standard>
+                  <GUID>1500300079</GUID>
+                  <Name>Unlock_1_Engineers</Name>
+                </Standard>
+                <Trigger>
+                  <TriggerCondition>
+                    <Template>ConditionPlayerCounter</Template>
+                    <Values>
+                      <Condition />
+                      <ConditionPlayerCounter>
+                        <PlayerCounter>PopulationByLevel</PlayerCounter>
+                        <Context>15000003</Context>
+                        <CounterAmount>1</CounterAmount>
+                      </ConditionPlayerCounter>
+                    </Values>
+                  </TriggerCondition>
+                  <TriggerActions>
+                    <Item>
+                      <TriggerAction>
+                        <Template>ActionUnlockAsset</Template>
+                        <Values>
+                          <Action />
+                          <ActionUnlockAsset>
+                            <UnlockAssets>
+                              <Item>
+                                <Asset>1500300077</Asset>
+                              </Item>
+                              <Item>
+                                <Asset>1500300078</Asset>
+                              </Item>
+                              <Item>
+                                <Asset>6280</Asset>
+                              </Item>
+                            </UnlockAssets>
+                          </ActionUnlockAsset>
+                        </Values>
+                      </TriggerAction>
+                    </Item>
+                  </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+              </Values>
+            </Asset>
+          </ModOp>
+        <!-- Adding to Pools/Buffs -->
+          <Group>
+            <!-- WorkforceMenu -->
+            <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+              <Item>
+                <Factory>1500300077</Factory>
+              </Item>
+            </ModOp>
+            <!-- Feedbacks -->
+            <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+              <Item>
+                <Building>1500300077</Building>
+              </Item>
+            </ModOp>
+            <!-- Pools -->
+            <Group>
+              <ModOp Type="add" GUID="368,193856,193875,6000018" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+                <Item>
+                  <GUID>1500300077</GUID>
+                </Item>
+              </ModOp>
+              <ModOp Type="add" GUID="1500300076" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="@1500300076">
+                <Item>
+                  <GUID>1500300077</GUID>
+                </Item>
+              </ModOp>
+            </Group>
+            <!-- Some Items -->
+            <ModOp Type="add" GUID="191355" Path="/Values/ItemEffect/EffectTargets">
+              <Item>
+                <GUID>1500300076</GUID>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Build Menu -->
+          <ModOp Type="addNextSibling" GUID="25000192,500943" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500016']">
+            <Item>
+              <Building>1500300078</Building>
+            </Item>
+          </ModOp>
+      </Group>
+    <!-- Factory Changes -->
+      <Group>
+        <!-- Graphic adjustment for Vanilla Cable Factory -->
+          <ModOp Type="replace" GUID='6279' Path="/Values/Object/Variations/Item/Filename">
+            <Filename>data/kurila/cable/cables_nw.cfg</Filename>
+          </ModOp>
+        <!-- Telephones -->
+          <Group>
+            <Group Condition="@118739/ProductionChain/Tier1/Item[Building='1404423040']">
+              <ModOp Type="remove" GUID="118739" Path="/Values/ProductionChain/Tier1/Item[Building='1010321']"></ModOp>
+              <ModOp Type="addNextsibling" GUID="118739" Path="/Values/ProductionChain/Tier1/Item[1]">
+                <Item>
+                  <Building>1500300077</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>1010308</Building>
+                    </Item>
+                    <Item>
+                      <Building>1010333</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+            </Group>
+            <Group Condition="!@118739/ProductionChain/Tier1/Item[Building='1404423040']">
+              <ModOp Type="replace" GUID="118739" Path="/Values/ProductionChain/Tier1/Item[Building='1010321']">
+                <Item>
+                  <Building>1500300077</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>1010308</Building>
+                    </Item>
+                    <Item>
+                      <Building>1010333</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+            </Group>
+            <ModOp Type="merge" GUID="118735" Path="/Values/FactoryBase/FactoryInputs/Item[Product='1010243']">
+              <Product>6280</Product>
+              <Amount>1</Amount>
+            </ModOp>
+          </Group>
+        <!-- Elevators -->
+          <Group>
+            <ModOp Type="addNextSibling" GUID="137602" Path="/Values/ProductionChain/Tier1/Item[1]">
+              <Item>
+                <Building>1500300077</Building>
+                <Tier2>
+                  <Item>
+                    <Building>1010308</Building>
+                  </Item>
+                  <Item>
+                    <Building>1010333</Building>
+                  </Item>
+                </Tier2>
+              </Item>
+            </ModOp>
+
+            <ModOp Type="remove" GUID="500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='137602']"></ModOp>
+            <ModOp Type="addNextSibling" GUID="500943" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500023']">
+              <Item>
+                <Building>137602</Building>
+              </Item>
+            </ModOp>
+
+            <ModOp Type="addNextSibling" GUID="134622" Path="/Values/FactoryBase/FactoryInputs/Item[Product='1010219']">
+              <Item>
+                <Product>6280</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </ModOp>
+            <ModOp Type="addNextSibling" GUID="2100115900" Path="/Values/FactoryBase/FactoryInputs/Item[Product='1010219']" Condition="@2100115900">
+              <Item>
+                <Product>6280</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Nates Crafting -->
+          <ModOp Type="replace" Path="//CraftableItem/CraftingCosts/Item[Product='1010243']/Product">
+            <Product>6280</Product>
+          </ModOp>
+
+        <!-- Monument Construction sites -->
+          <Group>
+            <ModOp Type="Remove" GUID='404,135709' Path="/Values/FactoryBase/FactoryInputs/Item[Product='1010196']"></ModOp>
+            <ModOp Type="add" GUID="404,135709,132766,118939" Path="Values/FactoryBase/FactoryInputs">
+              <Item>
+                <Product>6280</Product>
+                <Amount>5</Amount>
+                <StorageAmount>150</StorageAmount>
+              </Item>
+            </ModOp>
+            <ModOp Type="replace" GUID="1010491" Path="/Values/FactoryBase/FactoryInputs/Item[Product='1010243']">
+              <Item>
+                <Product>6280</Product>
+                <Amount>10</Amount>
+                <StorageAmount>300</StorageAmount>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Mandatory Electricity Factories -->
+          <Group>
+            <!-- Factories -->
+              <Group>
+                <ModOp Type="add" GUID="100780,117547,1010301,1010302,1010303,1010323,1010324,1010326,1010521,118735,118736,124737,124738,124739" Path="/Values/Cost/Costs">
+                  <Item>
+                    <Ingredient>6280</Ingredient>
+                    <Amount>10</Amount>
+                  </Item>
+                </ModOp>
+                <ModOp Type="add" GUID="1500010020,1500010033,1500010035" Path="/Values/Cost/Costs" Condition="#jakob-power-plants">
+                  <Item>
+                    <Ingredient>6280</Ingredient>
+                    <Amount>10</Amount>
+                  </Item>
+                </ModOp>
+                <ModOp Type="add" GUID="5164" Path="/Values/Cost/Costs">
+                  <Item>
+                    <Ingredient>6280</Ingredient>
+                    <Amount>10</Amount>
+                  </Item>
+                </ModOp>
+              </Group>
+            <!-- Malls / Multyfactories-->
+              <ModOp Type="add" GUID="135100,135103,135187,135188,135189,135190" Path="/Values/Cost/Costs"><!-- Departments -->
+                <Item>
+                  <Ingredient>6280</Ingredient>
+                  <Amount>30</Amount>
+                </Item>
+              </ModOp>
+              <ModOp Type="add" GUID="135099,135105,135121,135120,135122,135123" Path="/Values/Cost/Costs"><!-- Furnitures -->
+                <Item>
+                  <Ingredient>6280</Ingredient>
+                  <Amount>30</Amount>
+                </Item>
+              </ModOp>
+              <ModOp Type="add" GUID="134629,134631,135191,135192,135193,135194" Path="/Values/Cost/Costs"><!-- Drug Stores -->
+                <Item>
+                  <Ingredient>6280</Ingredient>
+                  <Amount>30</Amount>
+                </Item>
+              </ModOp>
+              <ModOp Type="add" GUID="134619,134622,135361,135148" Path="/Values/Cost/Costs"><!-- Assembly Lines -->
+                <Item>
+                  <Ingredient>6280</Ingredient>
+                  <Amount>30</Amount>
+                </Item>
+              </ModOp>
+              <ModOp Type="add" GUID="2100115900" Path="/Values/Cost/Costs" Condition="@2100115900">
+                <Item>
+                  <Ingredient>6280</Ingredient>
+                  <Amount>30</Amount>
+                </Item>
+              </ModOp>
+          </Group>
+      </Group>
+  </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Cable Works" Icon="data/ui/2kimages/main/3dicons/scenario/goods/icon_electric_cable_3.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="CableWorks" ExposeID="Disable/Enable Cable Works">
+    </ImyaExpose>
+</ModOps>

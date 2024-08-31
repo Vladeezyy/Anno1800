@@ -1,0 +1,39 @@
+<ModOps>
+  <!-- New Entries -->
+    <Group>
+      <ModOp Type="addNextSibling" GUID="23195">
+        <Asset>
+          <Template>Text</Template>
+          <Values>
+            <Standard>
+              <GUID>1500300044</GUID>
+              <Name>Chooseable_Input</Name>
+            </Standard>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>Text</Template>
+          <Values>
+            <Standard>
+              <GUID>1500300045</GUID>
+              <Name>Info_Description_Demand</Name>
+            </Standard>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>Text</Template>
+          <Values>
+            <Standard>
+              <GUID>1500300046</GUID>
+              <Name>Info_Description_Supply</Name>
+            </Standard>
+          </Values>
+        </Asset>
+      </ModOp>
+      <ModOp Type="merge" GUID="132783" Path="/Values">
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
+      </ModOp>
+    </Group>
+</ModOps>

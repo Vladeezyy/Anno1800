@@ -1,0 +1,31 @@
+<ModOps>
+  <ImyaTweaks Title = "Farmer" Description = "Adjust the Goods Consumption" Icon="data/ui/2kimages/main/3dicons/resident/icon_resident_farmer.png" />
+  <!-- Wood -->
+    <ModOp Type="replace" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='120008']/Amount"
+    Condition="@15000000/PopulationLevel7/PopulationInputs/Item[Product='120008']" ModOpID="Wood" Skip="1">
+      <Amount>0.0004166667</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="Wood" ExposeID="Wood" Description="Default = 0.0004166667">
+    </ImyaExpose>
+  <!-- Potatoes -->
+    <ModOp Type="replace" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010195']/Amount"
+    Condition="@15000000/PopulationLevel7/PopulationInputs/Item[Product='1010195']" ModOpID="Potatoes" Skip="1">
+      <Amount>0.0004166667</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="Potatoes" ExposeID="Potatoes" Description="Default = 0.0004166667">
+    </ImyaExpose>
+  <!-- Red Pepper -->
+    <ModOp Type="replace" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010198']/Amount"
+    Condition="@15000000/PopulationLevel7/PopulationInputs/Item[Product='1010198' and SupplyWeight]" ModOpID="Vegetables" Skip="1">
+      <Amount>0.0001041667</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="Vegetables" ExposeID="Vegetables" Description="Default = 0.0001041667">
+    </ImyaExpose>
+  <!-- Milk -->
+    <ModOp Type="replace" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='5385']/Amount"
+    Condition="@15000000/PopulationLevel7/PopulationInputs/Item[Product='5385']" ModOpID="Milk" Skip="1">
+      <Amount>0.0008333334</Amount>
+    </ModOp>
+    <ImyaExpose Path="self::Amount" ModOpID="Milk" ExposeID="Milk" Description="Default = 0.0008333334">
+    </ImyaExpose>
+</ModOps>

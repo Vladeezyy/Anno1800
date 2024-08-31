@@ -1,0 +1,36 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300957</GUID>
+      <Text>动物饲养</Text>
+    </Text>
+    <Text>
+      <GUID>1500300958</GUID>
+      <Text>饥饿的动物</Text>
+    </Text>
+    <Text>
+      <GUID>1404423061</GUID>
+      <Text>挤乳间</Text>
+    </Text>
+    <Text>
+      <GUID>1404423067</GUID>
+      <Text>消耗牛产生牛奶！由于不明原因影响，由于不明原因与操作，牛奶的生产需要消耗牛！</Text>
+    </Text>
+    <Text>
+      <GUID>1500300015</GUID>
+      <Text>存储饲料，促进生产。</Text>
+    </Text>
+    <Text>
+      <GUID>1404423065</GUID>
+      <Text>自动化养牛场</Text>
+    </Text>
+    <Text>
+      <GUID>1404423066</GUID>
+      <Text>先进牛棚</Text>
+    </Text>
+    <Text>
+      <GUID>1404423064</GUID>
+      <Text>筒仓 (牛饲料)</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,67 @@
+{
+  "Version": "1.1",
+  "ModID": "bread_works_kurila",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_TT_MenuInputOutputAmounts_Serp",
+    "advanced_bakery_kurila",
+    "advanced_mill_kurila",
+    "shared_salt_works_kurila"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "IndustrializedLowTierProduction",
+    "production-cans-and-suits-jakob",
+    "jakob_new_world_cities",
+    "soap_works_kurila",
+    "advanced_bakery_kurila",
+    "advanced_mill_kurila",
+    "city_bakery_aw"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Bread Works (Kurila)",
+    "English": "Bread Works (Kurila)",
+    "French": "Bread Works (Kurila)",
+    "German": "Bread Works (Kurila)",
+    "Italian": "Bread Works (Kurila)",
+    "Japanese": "Bread Works (Kurila)",
+    "Korean": "Bread Works (Kurila)",
+    "Polish": "Bread Works (Kurila)",
+    "Russian": "Bread Works (Kurila)",
+    "Spanish": "Bread Works (Kurila)",
+    "Taiwanese": "Bread Works (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

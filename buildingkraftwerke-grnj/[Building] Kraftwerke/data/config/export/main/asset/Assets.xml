@@ -1,0 +1,42 @@
+<ModOps>
+  <ImyaTweaks Title="Turn on or off entire features of the mod." Description="By default, all modules are enabled!" />
+  <Include File="Gaskraftwerk_NW.include.xml" ModOpID="GKWNW" />
+  <ImyaExpose Path="*" ModOpID="GKWNW" ExposeID="Gaspowerplant New World" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="Gaskraftwerk_ENB.include.xml" ModOpID="GKWEN" />
+  <ImyaExpose Path="*" ModOpID="GKWEN" ExposeID="Gaspowerplant Enbesa" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="Gaskraftwerk_ARK.include.xml" ModOpID="GKWARK" />
+  <ImyaExpose Path="*" ModOpID="GKWARK" ExposeID="Gaspowerplant ARCTIC" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="Fischoelkraftwerk_NW.include.xml" ModOpID="FKWNW" />
+  <ImyaExpose Path="*" ModOpID="FKWNW" ExposeID="Fishoilpowerplant New World" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="Holzkraftwerk_NW.include.xml" ModOpID="HKWNW" />
+  <ImyaExpose Path="*" ModOpID="HKWNW" ExposeID="Woodpowerplant New World" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="Holzkraftwerk_AW.include.xml" ModOpID="HKWAW" />
+  <ImyaExpose Path="*" ModOpID="HKWAW" ExposeID="Woodpowerplant Old World" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="Kohlekraftwerk_AW.include.xml" ModOpID="KKWAW" />
+  <ImyaExpose Path="*" ModOpID="KKWAW" ExposeID="Coalpowerplant Old World" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="Kohlekraftwerk_NW.include.xml" ModOpID="KKWNW" />
+  <ImyaExpose Path="*" ModOpID="KKWNW" ExposeID="Coalpowerplant New World" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="Kohlekraftwerk_ARK.include.xml" ModOpID="KKWARK" />
+  <ImyaExpose Path="*" ModOpID="KKWARK" ExposeID="Coalpowerplant Arctic" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="Atomkraftwerk.include.xml" ModOpID="AKW" />
+  <ImyaExpose Path="*" ModOpID="AKW" ExposeID="Nuclear Powerplant " Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="Oelkraftwerk_ENB.include.xml" ModOpID="OKWEN" />
+  <ImyaExpose Path="*" ModOpID="OKWEN" ExposeID="Oilpowerplant Enbesa" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <Include File="GKW_117559.include.xml" ModOpID="GKWAW" />
+  <ImyaExpose Path="*" ModOpID="GKWAW" ExposeID="Gaspowerplant Old World available with engineers" Kind="SkipToggle" InitState="True">
+  </ImyaExpose>
+  <!-- Führender Elektroingenieur etc-->
+  <Include File="Item_191376.include.xml" />
+  <Include File="Diverses.include.xml" />
+</ModOps>

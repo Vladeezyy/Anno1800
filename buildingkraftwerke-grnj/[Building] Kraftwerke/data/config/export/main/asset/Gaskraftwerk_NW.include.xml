@@ -1,0 +1,159 @@
+<ModOps>
+  <ModOp GUID="25000194" Type="addNextSibling">
+    <Asset>
+      <Template>PowerplantBuilding_WS</Template>
+      <Values>
+        <Standard>
+          <Comments />
+          <Version>main</Version>
+          <ID>GasPowerPlant</ID>
+          <GUID>2141010126</GUID>
+          <Name>Gasbetriebenes Kraftwerk NW</Name>
+          <IconFilename>data/modgraphics/icons/icon_gasbetriebenes_kraftwerk.png</IconFilename>
+          <InfoDescription>117550</InfoDescription>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc03/graphics/buildings/special/electricity_02/electricity_02.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Gas-Fired Power Plant</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <Localize>1</Localize>
+          <TextOverride>0</TextOverride>
+          <LineID>35861</LineID>
+        </Text>
+        <Constructable />
+		<Locked>
+			<DefaultLockedState>0</DefaultLockedState>
+		</Locked>
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <LogisticNode>
+          <TransporterAsset>1010104</TransporterAsset>
+          <TrainAsset>120025</TrainAsset>
+          <QueueConfiguration>
+            <ProcessingQueueParallelCount>10</ProcessingQueueParallelCount>
+            <LoadingTimeModifier>1</LoadingTimeModifier>
+            <UnloadingTimeModifier>1</UnloadingTimeModifier>
+          </QueueConfiguration>
+          <REMOVE_THIS_LATER_FeedbackUnitTier>Level1</REMOVE_THIS_LATER_FeedbackUnitTier>
+          <NeedsTransporterQueue>1</NeedsTransporterQueue>
+          <PathLayers>Street</PathLayers>
+          <TransporterCountMax>1</TransporterCountMax>
+        </LogisticNode>
+        <AmbientMoodProvider />
+        <Maintenance>
+          <ConsumerPriority>1</ConsumerPriority>
+          <MaintenanceAmountFactor>1</MaintenanceAmountFactor>
+          <WorkforceAmountFactor>1</WorkforceAmountFactor>
+          <IncomeCategory>ProductionBuildings</IncomeCategory>
+          <AdditionalWorkforceData />
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1200</Amount>
+              <InactiveAmount>600</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010367</Product>
+              <Amount>25</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable />
+        <Pausable />
+        <IncidentInfectable />
+        <Powerplant />
+        <FactoryBase />
+        <Culture />
+        <PublicService />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>75000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>60</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>60</Amount>
+            </Item>
+            <Item>
+              <Amount>40</Amount>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Amount>40</Amount>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+          <InfluenceCostType>None</InfluenceCostType>
+          <InfluenceCostPoints>1</InfluenceCostPoints>
+        </Cost>
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp GUID="25000194" Type="addNextSibling">
+		<Asset>
+		  <Template>ProductionChain</Template>
+		  <Values>
+			<Standard>
+			  <GUID>2141010127</GUID>
+			  <Name>Colony01</Name>					  
+			  <IconFilename>data/modgraphics/ui/2kimages/main/3dicons/icon_gasbetriebenes_kraftwerk.png</IconFilename>
+			</Standard>
+			<ProductionChain>
+			  <Building>2141010126</Building>
+			  <Tier1>
+				<Item><Building>112690</Building></Item>
+			  </Tier1>
+			</ProductionChain>
+			<Locked>
+				<DefaultLockedState>0</DefaultLockedState>
+			</Locked>
+		  </Values>
+		</Asset>
+  </ModOp>
+  <ModOp Type="add" GUID='130047' Path="/Values/AssetPool/AssetList">
+	<Item>
+	  <Asset>2141010126</Asset>
+	</Item>
+  </ModOp>
+  <ModOp Type="add" GUID="368,193864,190136,6000018" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <!-- Pool Lists -->
+    <Item>
+      <GUID>2141010126</GUID>
+    </Item>
+  </ModOp>
+	<ModOp Type="add" GUID='25000194,500137' Path="/Values/ConstructionCategory/BuildingList">
+		<Item>
+			<Building>2141010127</Building>
+		</Item>
+	</ModOp>
+</ModOps>

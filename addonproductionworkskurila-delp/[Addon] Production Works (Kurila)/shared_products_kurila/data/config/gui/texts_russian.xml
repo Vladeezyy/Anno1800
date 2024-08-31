@@ -1,0 +1,40 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404420032</GUID>
+      <Text>Яблоки</Text>
+    </Text>
+    <Text>
+      <GUID>1500301073</GUID>
+      <Text>Разноцветная плитка</Text>
+    </Text>
+    <Text>
+      <GUID>1500300040</GUID>
+      <Text>Ликёр</Text>
+    </Text>
+    <Text>
+      <GUID>1500300060</GUID>
+      <Text>Бутерброды</Text>
+    </Text>
+    <Text>
+      <GUID>1500300020</GUID>
+      <Text>Копчёная рыба</Text>
+    </Text>
+    <Text>
+      <GUID>1500010150</GUID>
+      <Text>Деревянные украшения</Text>
+    </Text>
+    <Text>
+      <GUID>1500301156</GUID>
+      <Text>Хром</Text>
+    </Text>
+    <Text>
+      <GUID>1500301160</GUID>
+      <Text>Пралине</Text>
+    </Text>
+    <Text>
+      <GUID>1500301162</GUID>
+      <Text>Резина</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,280 @@
+<ModOps>
+  <!-- # Buildings -->
+  <!-- Old World Huge Oil Depot -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='100783']"> <!--harbor_14a (Oil Harbor I)-->
+    <Asset>
+      <Template>HarborDepot</Template>
+      <Values>
+        <Standard>
+          <GUID>1337473011</GUID>
+          <Name>Huge Oil Depot (Old World)</Name>
+          <IconFilename>data/graphics/ui/2kimages/main/3dicons/icon_bigland_oil_storage.png</IconFilename>
+          <InfoDescription>10952</InfoDescription>
+        </Standard>
+        <Building>
+          <TerrainType>Terrain</TerrainType>
+          <BuildingCategoryName>11150</BuildingCategoryName>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+		  <SecondPartyRelevant>0</SecondPartyRelevant> <!-- tell AI to ignore this building -->
+        </Building>
+        <Blocking />
+        <Mesh />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/special/big_oiltank/big_oiltank_land.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <AmbientMoodProvider>
+          <Murmur>Harbor</Murmur>
+        </AmbientMoodProvider>
+        <Constructable />
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient> <!-- money -->
+              <Amount>48000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient> <!-- timber -->
+              <Amount>45</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient> <!-- bricks -->
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient> <!-- steel beams -->
+              <Amount>100</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient> <!-- concrete -->
+              <Amount>60</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Attackable>
+          <MaximumHitPoints>4000</MaximumHitPoints>
+          <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+          <SelfHealPerHealTick>5</SelfHealPerHealTick>
+          <DefenseByAIFactor>310</DefenseByAIFactor>
+          <TakeOverEffect>OnDeath</TakeOverEffect>
+          <MoralePower>50</MoralePower>
+          <IslandWarFlag>102303</IslandWarFlag>
+          <ExplosionEffectsMin>2</ExplosionEffectsMin>
+          <ExplosionEffectsMax>2</ExplosionEffectsMax>
+        </Attackable>
+        <Warehouse>
+          <WarehouseStorage>
+            <StorageMax>1200</StorageMax>
+          </WarehouseStorage>
+        </Warehouse>
+        <StorageBase>
+          <ProductStorageList>120056</ProductStorageList>
+        </StorageBase>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>350</Amount>
+              <InactiveAmount>350</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Pausable />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200896</Sound>
+            </Item>
+            <Item>
+              <Sound>200920</Sound>
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <BuildingRuined>
+            <Item>
+              <Sound>203848</Sound>
+            </Item>
+          </BuildingRuined>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <Infolayer />
+        <UpgradeList />
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+        </LogisticNode>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- New World Huge Oil Depot -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='101329']"> <!--harbor_colony01_14a (Oil Harbor I)-->
+    <Asset>
+      <Template>HarborDepot</Template>
+      <Values>
+        <Standard>
+          <GUID>1337473012</GUID>
+          <Name>Huge Oil Depot (New World)</Name>
+          <IconFilename>data/graphics/ui/2kimages/main/3dicons/icon_bigland_oil_storage.png</IconFilename>
+          <InfoDescription>10952</InfoDescription>
+        </Standard>
+        <Building>
+          <TerrainType>Terrain</TerrainType>
+          <BuildingCategoryName>11150</BuildingCategoryName>
+		  <AssociatedRegions>Colony01</AssociatedRegions>
+		  <SecondPartyRelevant>0</SecondPartyRelevant> <!-- tell AI to ignore this building -->
+        </Building>
+        <Blocking />
+        <Mesh />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/special/big_oiltank_colony01/big_oiltank_land_colony01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <AmbientMoodProvider>
+          <Murmur>Harbor</Murmur>
+        </AmbientMoodProvider>
+        <Constructable />
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient> <!-- money -->
+              <Amount>48000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient> <!-- timber -->
+              <Amount>45</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient> <!-- bricks -->
+              <Amount>40</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient> <!-- steel beams -->
+              <Amount>100</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient> <!-- concrete -->
+              <Amount>60</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Attackable>
+          <MaximumHitPoints>4000</MaximumHitPoints>
+          <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+          <SelfHealPerHealTick>5</SelfHealPerHealTick>
+          <DefenseByAIFactor>310</DefenseByAIFactor>
+          <TakeOverEffect>OnDeath</TakeOverEffect>
+          <MoralePower>50</MoralePower>
+          <IslandWarFlag>102303</IslandWarFlag>
+          <ExplosionEffectsMin>2</ExplosionEffectsMin>
+          <ExplosionEffectsMax>2</ExplosionEffectsMax>
+        </Attackable>
+        <Warehouse>
+          <WarehouseStorage>
+            <StorageMax>1200</StorageMax>
+          </WarehouseStorage>
+        </Warehouse>
+        <StorageBase>
+          <ProductStorageList>120056</ProductStorageList>
+        </StorageBase>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>350</Amount>
+              <InactiveAmount>350</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Pausable />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>200896</Sound>
+            </Item>
+            <Item>
+              <Sound>200920</Sound>
+            </Item>
+          </ActiveSounds>
+          <DestroySounds>
+            <Item>
+              <Sound>9818756</Sound>
+            </Item>
+          </DestroySounds>
+          <BuildingRuined>
+            <Item>
+              <Sound>203848</Sound>
+            </Item>
+          </BuildingRuined>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <Infolayer />
+        <UpgradeList />
+        <LogisticNode>
+          <TransporterCountMax>0</TransporterCountMax>
+        </LogisticNode>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # build menus, only add depots to tier 2 -->
+  <!-- Old World Electricity -->
+  <ModOp Type="add" GUID='500506' Path="/Values/ProductionChain/Tier1/Item/Tier2">
+    <Item>
+      <Building>1337473011</Building>
+    </Item>
+  </ModOp>
+  <!-- Old World Fuel -->
+  <ModOp Type="add" GUID='269756' Path="/Values/ProductionChain/Tier1/Item/Tier2">
+    <Item>
+      <Building>1337473011</Building>
+    </Item>
+  </ModOp>
+  
+  <!-- New World Electricity -->
+  <ModOp Type="add" GUID='500916' Path="/Values/ProductionChain/Tier1/Item/Tier2">
+    <Item>
+      <Building>1337473012</Building>
+    </Item>
+  </ModOp>
+  <!-- New World Fuel -->
+  <ModOp Type="add" GUID='269835' Path="/Values/ProductionChain/Tier1/Item/Tier2">
+    <Item>
+      <Building>1337473012</Building>
+    </Item>
+  </ModOp>
+  
+</ModOps>

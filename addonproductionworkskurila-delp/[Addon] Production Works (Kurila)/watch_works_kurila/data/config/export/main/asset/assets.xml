@@ -1,0 +1,270 @@
+<ModOps>
+  <Group ModOpID="WatchWorks">
+    <!-- New Entries -->
+      <Group>
+        <!-- Trigger -->
+          <ModOp GUID="1010219" Type="addNextSibling">
+            <Asset>
+              <Template>Trigger</Template>
+              <Values>
+                <Standard>
+                  <GUID>1500300970</GUID>
+                  <Name>Unhide_500_Artisans</Name>
+                </Standard>
+                <Trigger>
+                <TriggerCondition>
+                  <Template>ConditionPlayerCounter</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionPlayerCounter>
+                      <PlayerCounter>PopulationByLevel</PlayerCounter>
+                      <Context>15000002</Context>
+                      <CounterAmount>500</CounterAmount>
+                    </ConditionPlayerCounter>
+                  </Values>
+                </TriggerCondition>
+                  <TriggerActions>
+                    <Item>
+                      <TriggerAction>
+                        <Template>ActionUnlockAsset</Template>
+                        <Values>
+                          <Action />
+                          <ActionUnlockAsset>
+                            <UnhideAssets>
+                              <Item>
+                                <Asset>140042</Asset>
+                              </Item>
+                            </UnhideAssets>
+                          </ActionUnlockAsset>
+                        </Values>
+                      </TriggerAction>
+                    </Item>
+                  </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+              </Values>
+            </Asset>
+            <Asset>
+              <Template>Trigger</Template>
+              <Values>
+                <Standard>
+                  <GUID>1500300971</GUID>
+                  <Name>Unlock_900_Artisans</Name>
+                </Standard>
+                <Trigger>
+                <TriggerCondition>
+                  <Template>ConditionPlayerCounter</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionPlayerCounter>
+                      <PlayerCounter>PopulationByLevel</PlayerCounter>
+                      <Context>15000002</Context>
+                      <CounterAmount>900</CounterAmount>
+                    </ConditionPlayerCounter>
+                  </Values>
+                </TriggerCondition>
+                  <TriggerActions>
+                    <Item>
+                      <TriggerAction>
+                        <Template>ActionUnlockAsset</Template>
+                        <Values>
+                          <Action />
+                          <ActionUnlockAsset>
+                            <UnlockAssets>
+                              <Item>
+                                <Asset>1010304</Asset>
+                              </Item>
+                              <Item>
+                                <Asset>140042</Asset>
+                              </Item>
+                            </UnlockAssets>
+                          </ActionUnlockAsset>
+                        </Values>
+                      </TriggerAction>
+                    </Item>
+                  </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+              </Values>
+            </Asset>
+          </ModOp>
+      </Group>
+    <!-- Moving the production chain of Pocket Watches from Engineers to Artisan. For compatibility reasons, this is in the Mod Adjustments sub-mod -->
+      <Group Skip="1">
+        <ModOp Type="remove" GUID="25000192,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500015']"></ModOp>
+        <ModOp Type="addNextSibling" GUID="25000191,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500019']">
+          <Item>
+            <Building>500015</Building>
+          </Item>
+        </ModOp>
+        <ModOp Type="remove" GUID="130224" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='140042']"></ModOp>
+      </Group>
+    <!-- Production Adjustments -->
+      <Group>
+        <ModOp Type="merge" GUID="1010324" Path="/Values">
+          <Selection>
+            <ParticipantMessageArcheType>Resident_tier03_atWork</ParticipantMessageArcheType>
+          </Selection>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item />
+              <Item>
+                <Product>1010204</Product>
+              </Item>
+            </FactoryInputs>
+			      <CycleTime>60</CycleTime>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>500</Amount>
+                <InactiveAmount>225</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010116</Product>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Industrializable>
+            <MandatoryIndustrialization>0</MandatoryIndustrialization>
+          </Industrializable>
+        </ModOp>
+        <ModOp Type="remove" GUID="1010324,1010282,1010307,1010308" Path="/Values/Cost/Costs/Item[Ingredient='1010202']/Amount"></ModOp>
+        <ModOp Type="remove" GUID="1010324" Path="/Values/Cost/Costs/Item[Ingredient='6280']/Amount" Condition="#cable_works_kurila"></ModOp>
+        <ModOp Type="replace" GUID="500015" Path="/Values/ProductionChain/Tier1/Item[Building='1010327']">
+          <Item>
+            <Building>1010282</Building>
+            <Tier2>
+              <Item>
+                <Building>1010307</Building>
+              </Item>
+              <Item>
+                <Building>1010308</Building>
+              </Item>
+            </Tier2>
+          </Item>
+        </ModOp>
+        <ModOp Type="add" GUID="500015" Path="/Values/ProductionChain/Tier1/Item[Building= 1010282]/Tier2" Condition="#metal_works_kurila">
+          <Item>
+            <Building>1010304</Building>
+          </Item>
+        </ModOp>
+      </Group>
+    <!-- Item Adjustments -->
+      <Group>
+        <!-- Hans Klein, Old Grandfather Time -->
+          <Group>
+            <ModOp Type="merge" GUID="191324" Path="/Values">
+		          <FactoryUpgrade>
+                <AdditionalOutput>
+                  <Item>
+                    <Product>1010250</Product>
+                    <AdditionalOutputCycle>5</AdditionalOutputCycle>
+                    <Amount>1</Amount>
+                  </Item>
+                </AdditionalOutput>
+                <ReplaceInputs>
+                  <Item>
+                    <OldInput>1010204</OldInput>
+                    <NewInput>1010249</NewInput>
+                  </Item>
+                </ReplaceInputs>
+              </FactoryUpgrade>
+              <BuildingUpgrade>
+                <MaintenanceUpgrade>
+                  <Value>20</Value>
+                  <Percental>1</Percental>
+                </MaintenanceUpgrade>
+                <WorkforceAmountUpgrade>
+                  <Value>20</Value>
+                  <Percental>1</Percental>
+                </WorkforceAmountUpgrade>
+              </BuildingUpgrade>
+            </ModOp>
+            <ModOp Type="remove" GUID="191324" Path="/Values/BuildingUpgrade/ReplacingWorkforce"></ModOp>
+          </Group>
+        <!-- Susannah Brightwoman -->
+          <ModOp Type="remove" GUID='113799' Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010324']"></ModOp>
+        <!-- Chronometrist Chiara -->
+          <Group>
+            <ModOp Type="merge" GUID="191323" Path="/Values/FactoryUpgrade">
+              <ProductivityUpgrade>
+                <Value>40</Value>
+                <Percental>1</Percental>
+              </ProductivityUpgrade>
+            </ModOp>
+            <ModOp Type="replace" GUID="191323" Path="/Values/FactoryUpgrade/ReplaceInputs">
+              <AdditionalOutput>
+                <Item>
+                  <Product>1010204</Product>
+                  <AdditionalOutputCycle>5</AdditionalOutputCycle>
+                  <Amount>1</Amount>
+                </Item>
+              </AdditionalOutput>
+            </ModOp>
+          </Group>
+        <!-- Precision Horologist -->
+          <Group>
+            <ModOp Type="merge" GUID="191322" Path="/Values">
+              <FactoryUpgrade>
+                <AdditionalOutput>
+                  <Item>
+                    <Product>1010241</Product>
+                    <AdditionalOutputCycle>5</AdditionalOutputCycle>
+                    <Amount>1</Amount>
+                  </Item>
+                </AdditionalOutput>
+              </FactoryUpgrade>
+            </ModOp>
+          </Group>
+      </Group>
+    <!-- Pocker Watches as new Need-->
+      <Group>
+        <Group><!-- Workers -->
+          <ModOp Type="addPrevSibling" GUID="15000001" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010245']">
+            <Item>
+              <Product>1010246</Product>
+              <Amount>0.0001333333</Amount>
+              <SupplyWeight>2</SupplyWeight>
+              <MoneyValue>15</MoneyValue>
+              <AdditionalGlobalUnlockRequirement>
+                <Population>15000002</Population>
+                <MinPopulationAmount>900</MinPopulationAmount>
+              </AdditionalGlobalUnlockRequirement>
+              <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+              <IsBonusNeed>1</IsBonusNeed>
+            </Item>
+          </ModOp>
+          <ModOp Type="replace" GUID="15000001" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010245']/SupplyWeight">
+            <SupplyWeight>2</SupplyWeight>
+          </ModOp>
+          <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='6364']/Needs">
+            <Item>
+              <BonusNeed>1010246</BonusNeed>
+            </Item>
+          </ModOp>
+        </Group>
+        <Group><!-- Artisans -->
+          <ModOp Type="addNextSibling" GUID="15000002" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010247']">
+            <Item>
+              <Product>1010246</Product>
+              <Amount>0.00065359</Amount>
+              <HappinessValue>2</HappinessValue>
+              <MoneyValue>50</MoneyValue>
+              <FullWeightPopulationCount>1500</FullWeightPopulationCount>
+              <NoWeightPopulationCount>899</NoWeightPopulationCount>
+              <IsConsideredByAI>0</IsConsideredByAI>
+            </Item>
+          </ModOp>
+          <ModOp Type="replace" GUID="15000002" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010352']/HappinessValue">
+            <HappinessValue>4</HappinessValue>
+          </ModOp>
+        </Group>
+      </Group>
+  </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Watch Works" Icon="data/ui/2kimages/main/3dicons/icon_pocket_watch.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="WatchWorks" ExposeID="Disable/Enable Watch Works">
+    </ImyaExpose>
+</ModOps>

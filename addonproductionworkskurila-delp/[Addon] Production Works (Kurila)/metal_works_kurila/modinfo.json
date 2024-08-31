@@ -1,0 +1,72 @@
+{
+  "Version": "1.1",
+  "ModID": "metal_works_kurila",
+  "DeprecateIds": [
+    "extended_steel_works_kurila",
+    "steel_works_kurila"
+  ],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_TT_MenuInputOutputAmounts_Serp",
+    "advanced_furnance_kurila",
+    "advanced_steelworks_kurila"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "IndustrializedLowTierProduction",
+    "production-cans-and-suits-jakob",
+    "Taludas_HighLifeSouvenirs",
+    "drink_works_2_kurila",
+    "advanced_furnance_kurila",
+    "advanced_steelworks_kurila",
+    "jakob_new_world_cities",
+    "military_attention",
+    "Taludas_TheWholesomeHaciendaHaul",
+    "saltpetre_works_kurila"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Metal Works (Kurila)",
+    "English": "Metal Works (Kurila)",
+    "French": "Metal Works (Kurila)",
+    "German": "Metal Works (Kurila)",
+    "Italian": "Metal Works (Kurila)",
+    "Japanese": "Metal Works (Kurila)",
+    "Korean": "Metal Works (Kurila)",
+    "Polish": "Metal Works (Kurila)",
+    "Russian": "Metal Works (Kurila)",
+    "Spanish": "Metal Works (Kurila)",
+    "Taiwanese": "Metal Works (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

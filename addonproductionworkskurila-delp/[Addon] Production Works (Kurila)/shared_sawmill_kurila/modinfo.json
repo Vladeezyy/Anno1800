@@ -1,0 +1,48 @@
+{
+  "Version": "1.4",
+  "ModID": "shared_sawmill_kurila",
+  "DeprecateIds": [
+    "shared_recipe_building_sawmill_kurila"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Sawmill (Kurila)",
+    "Chinese": "Sawmill (Kurila)",
+    "French": "Sawmill (Kurila)",
+    "German": "Sawmill (Kurila)",
+    "Italian": "Sawmill (Kurila)",
+    "Japanese": "Sawmill (Kurila)",
+    "Korean": "Sawmill (Kurila)",
+    "Polish": "Sawmill (Kurila)",
+    "Russian": "Sawmill (Kurila)",
+    "Spanish": "Sawmill (Kurila)",
+    "Taiwanese": "Sawmill (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

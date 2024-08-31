@@ -1,0 +1,108 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302242</GUID>
+        <Text>皮革</Text>
+      </Text>
+      <Text>
+        <GUID>1500302243</GUID>
+        <Text>精炼工作坊：兽皮</Text>
+      </Text>
+      <Text>
+        <GUID>1500302244</GUID>
+        <Text />
+      </Text>
+      <Text>
+        <GUID>1500302245</GUID>
+        <Text>兽皮：猪 1吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500302247</GUID>
+        <Text />
+      </Text>
+      <Text>
+        <GUID>1500302248</GUID>
+        <Text>兽皮：牛 2吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500302250</GUID>
+        <Text />
+      </Text>
+      <Text>
+        <GUID>1500302251</GUID>
+        <Text>兽皮：桑加牛 3吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500302252</GUID>
+        <Text>人类自石器时代以来人类就将兽皮用于各种用途</Text>
+      </Text>
+      <Text>
+        <GUID>1500302254</GUID>
+        <Text>皮革厂：皮革</Text>
+      </Text>
+      <Text>
+        <GUID>1500302255</GUID>
+        <Text>大型精炼工作坊：兽皮</Text>
+      </Text>
+      <Text>
+        <GUID>1500302256</GUID>
+        <Text>兽皮：猪 4吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500302258</GUID>
+        <Text>兽皮：牛 8吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500302260</GUID>
+        <Text>兽皮：桑加牛 12吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500302262</GUID>
+        <Text>工业化皮革厂：皮革</Text>
+      </Text>
+      <Text>
+        <GUID>1500302263</GUID>
+        <Text>工业化皮革厂：毛皮</Text>
+      </Text>
+      <Text>
+        <GUID>1500302264</GUID>
+        <Text>所有皮革厂</Text>
+      </Text>
+      <Text>
+        <GUID>1500302272</GUID>
+        <Text>水力皮革厂：皮革</Text>
+      </Text>
+      <Text>
+        <GUID>1500302290</GUID>
+        <Text>协同生产：[AssetData(1500301152) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500302292</GUID>
+        <Text>协同生产：[AssetData(1010234) Text] ([AssetData(1010199) Text])</Text>
+      </Text>
+      <Text>
+        <GUID>1500302293</GUID>
+        <Text>协同生产：[AssetData(1010234) Text] ([AssetData(1404422300) Text])</Text>
+      </Text>
+      <Text>
+        <GUID>1500302294</GUID>
+        <Text>协同生产：[AssetData(1010234) Text] ([AssetData(114357) Text])</Text>
+      </Text>
+  </ModOp>
+  <!-- Rendering Works: Tallow -->
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1010312']/Text">: </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1010312']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+    </ModOp>
+  <!-- Industrial Rendering Works: Tallow -->
+    <Group Condition="/TextExport/Texts/Text[GUID='1500011271']">
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500011271']/Text">: </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500011271']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+      </ModOp>
+    </Group>
+  <!-- Advanced Rendering Works: Tallow -->
+    <Group Condition="/TextExport/Texts/Text[GUID='1404423051']">
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1404423051']/Text">: </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1404423051']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+      </ModOp>
+    </Group>
+</ModOps>

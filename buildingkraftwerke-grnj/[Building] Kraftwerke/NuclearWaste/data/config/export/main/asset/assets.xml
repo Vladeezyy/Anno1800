@@ -1,0 +1,6 @@
+<ModOps>
+            <ModOp  Type="remove" GUID="45,46,77,78,76,73,29,237,119051"
+			    	Path="/Values/Trader/Progression/*/OfferingGoods/Item/GoodSets/Item[Good = '2141010108']"
+			        Condition="#DisplayPassiveTradegoods_Serp">
+			</ModOp> 
+</ModOps>

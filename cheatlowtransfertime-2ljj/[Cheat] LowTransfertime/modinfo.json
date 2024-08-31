@@ -1,0 +1,51 @@
+{
+  "Version": "1.1",
+  "ModID": "Low Transfer Times",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": null,
+    "English": "Cheat",
+    "French": null,
+    "German": "Cheat",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "Low Transfer Times",
+    "French": null,
+    "German": "Low Transfer Times",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Reduces transfer times between sessions to 100ms.",
+    "French": null,
+    "German": "Reduziert die Transferzeiten zwischen den Sessions auf 100ms.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "schwubbe",
+  "CreatorContact": "https://discord.gg/4XQTznE",
+  "Image": null
+  
+}

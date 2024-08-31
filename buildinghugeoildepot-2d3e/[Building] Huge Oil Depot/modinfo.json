@@ -1,0 +1,16 @@
+{
+  "ModID": "Huge Oil Depot",
+  "Version": "1.0",
+  "ModName": {
+    "English": "Huge Oil Depot"
+  },
+  "Category": {
+    "English": "Building"
+  },
+  "LoadAfterIds": [],
+  "ModDependencies": [],
+  "IncompatibleIds": [],
+  "DeprecateIds": [],
+  "CreatorName": "Ac3s",
+  "CreatorContact": "add Ac3s as friend on Discord"
+}

@@ -1,0 +1,143 @@
+<ModOps>
+  <Group Condition="@1500302170">
+    <ModOp Type="addNextSibling" GUID="1010517" Condition="!@1500301389">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301389</GUID>
+            <Name>Condition Target</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+  <Group Condition="@1500302190">
+    <ModOp Type="addNextSibling" GUID="1010517" Condition="!@1500301389">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301389</GUID>
+            <Name>Condition Target</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+  <Group Condition="@1500302264">
+    <ModOp Type="addNextSibling" GUID="1010517" Condition="!@1500301389">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301389</GUID>
+            <Name>Condition Target</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+  <Group Condition="@1500301389">
+    <Group Condition="@1404423013">
+      <ModOp Type="remove" GUID="1404423057" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1404423055']"></ModOp>
+      <ModOp Type="remove" GUID="1404423057" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1404423056']"></ModOp>
+      <ModOp Type="remove" GUID="1404423059" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1404423058']"></ModOp>
+    </Group>
+    <ModOp GUID="1010316" Type="addNextSibling">
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301388</GUID>
+            <Name>Unlock_Trigger_1_Engineer</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <PlayerCounter>PopulationByLevel</PlayerCounter>
+                  <Context>15000003</Context>
+                  <CounterAmount>1</CounterAmount>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>1404423055</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1404423056</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1404423058</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="merge" GUID="1404423055" Path="/Values" Condition="@1404423055">
+      <Values>
+        <Standard>
+          <IconFilename>data/ui/2kimages/main/kurila/icon_pigs_2.png</IconFilename>
+        </Standard>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>4000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+              <Amount>5</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1010199</Product>
+              <Amount>4</Amount>
+              <StorageAmount>16</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+          <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+        </FactoryBase>
+      </Values>
+    </ModOp>
+  </Group>
+</ModOps>

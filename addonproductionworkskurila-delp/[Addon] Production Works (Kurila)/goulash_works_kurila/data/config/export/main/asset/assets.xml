@@ -1,0 +1,478 @@
+<ModOps>
+  <Group ModOpID="GoulashWorks">
+    <!-- Industrial Cattle Farm -->
+      <Group>
+        <Group>
+          <!-- Trigger -->
+            <Group Condition="@1404423063">
+              <ModOp Type="remove" GUID="1404423063" Path="/Values/Trigger/TriggerActions"></ModOp>
+            </Group>
+            <ModOp GUID="1010263" Type="addNextSibling">
+              <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                  <Standard>
+                    <GUID>1500302210</GUID>
+                    <Name>Unlock_Trigger_1_Engineer</Name>
+                  </Standard>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>1</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                      <Item>
+                        <TriggerAction>
+                          <Template>ActionUnlockAsset</Template>
+                          <Values>
+                            <Action />
+                            <ActionUnlockAsset>
+                              <UnlockAssets>
+                                <Item>
+                                  <Asset>1404423061</Asset>
+                                </Item>
+                                <Item>
+                                  <Asset>1404423065</Asset>
+                                </Item>
+                                <Item>
+                                  <Asset>1404423066</Asset>
+                                </Item>
+                                <Item>
+                                  <Asset>1404423064</Asset>
+                                </Item>
+                                <Item>
+                                  <Asset>1404422310</Asset>
+                                </Item>
+                              </UnlockAssets>
+                            </ActionUnlockAsset>
+                          </Values>
+                        </TriggerAction>
+                      </Item>
+                    </TriggerActions>
+                  </Trigger>
+                  <TriggerSetup />
+                </Values>
+              </Asset>
+            </ModOp>
+        </Group>
+      </Group>
+    <!-- AI Building / Chain -->
+      <ModOp Type="addNextSibling" GUID="1010293">
+        <Asset>
+          <BaseAssetGUID>1010293</BaseAssetGUID>
+          <Values>
+            <Standard>
+              <GUID>1500302211</GUID>
+              <Name>AI_Artisanal_Kitchen</Name>
+            </Standard>
+            <Text>
+              <TextOverride>1010293</TextOverride>
+            </Text>
+            <Building>
+              <SecondPartyRelevant>1</SecondPartyRelevant>
+            </Building>
+            <Object>
+              <Skins>
+                <DefaultSkinName>1500302211</DefaultSkinName>
+              </Skins>
+            </Object>
+            <Locked>
+              <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <FactoryBase>
+              <FactoryInputs>
+                <Item>
+                  <Product>1010193</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+                <Item>
+                  <Product>1010198</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+                <Item>
+                  <Product>1010195</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+              </FactoryInputs>
+              <FactoryOutputs>
+                <Item>
+                  <Product>1010215</Product>
+                  <Amount>2</Amount>
+                  <StorageAmount>8</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <CycleTime>110</CycleTime>
+              <IsMainFactory>0</IsMainFactory>
+            </FactoryBase>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>ProductionChain</Template>
+          <Values>
+            <Standard>
+              <GUID>1500302212</GUID>
+              <Name>AI_Canned_Food_Chain</Name>
+            </Standard>
+            <ProductionChain>
+              <Building>1010295</Building>
+                <Tier1>
+                  <Item>
+                    <Building>1010305</Building>
+                  </Item>
+                  <Item>
+                    <Building>1500302211</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1010263</Building>
+                      </Item>
+                      <Item>
+                        <Building>100654</Building>
+                      </Item>
+                      <Item>
+                        <Building>1010265</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </Tier1>
+              <InfoTipHeight>500</InfoTipHeight>
+            </ProductionChain>
+            <Locked />
+          </Values>
+        </Asset>
+      </ModOp>
+    <!-- Adjust "Cattle need to be butchered" -->
+      <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+          <GUID>1404422305</GUID>
+        </Item>
+      </ModOp>
+    <!-- Adjust Production  -->
+      <Group>
+        <!-- Canned Food -->
+          <Group>
+            <!-- Chain -->
+              <Group>
+                <ModOp Type="add" GUID="500008,117268" Path="/Values/ProductionChain/Tier1/Item[Building='1010293']/Tier2" Condition="!@500008/ProductionChain/Tier1/Item/Tier2/Item[Building='1010265']">
+                  <Item>
+                    <Building>1010265</Building>
+                  </Item>
+                </ModOp>
+                <ModOp Type="add" GUID="500008,117268" Path="/Values/ProductionChain/Tier1/Item[Building='1010293']/Tier2">
+                  <Item>
+                    <Building>1500302201</Building>
+                  </Item>
+                </ModOp>
+                <ModOp Type="addNextSibling" GUID="500008,117268" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1010263']" Condition="!/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1404423065']">
+                  <Item>
+                    <Building>1404423065</Building>
+                  </Item>
+                </ModOp>
+                <!-- AI Chain -->
+                  <ModOp Type="add" GUID="25000191,500945" Path="/Values/ConstructionCategory/BuildingList">
+                    <Item>
+                      <Building>1500302212</Building>
+                    </Item>
+                  </ModOp>
+              </Group>
+            <!-- Artisanal Kitchen / Red Pepper Farm / Cattle Farm / Advanced Cattle Farm  -->
+              <Group>
+                <ModOp Type="merge" GUID="1010293" Path="/Values">
+                  <FactoryBase>
+                    <FactoryInputs>
+                      <Item>
+                        <Product>1010193</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                      <Item>
+                        <Product>1010198</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                      <Item>
+                        <Product>1010195</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                      <Item>
+                        <Product>5383</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>1010215</Product>
+                        <Amount>2</Amount>
+                        <StorageAmount>8</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+                <ModOp Type="merge" GUID="100654,1010263" Path="/Values">
+                  <FactoryBase>
+                    <FactoryOutputs>
+                      <Item>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>60</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+                <ModOp Type="merge" GUID="1404423065" Path="/Values" Condition="@1404423065">
+                  <Standard>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_meat_raw_2.png</IconFilename>
+                  </Standard>
+                  <Cost>
+                    <Costs>
+                      <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>4000</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010205</Ingredient>
+                        <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010218</Ingredient>
+                        <Amount>5</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010207</Ingredient>
+                        <Amount>5</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010202</Ingredient>
+                        <Amount>5</Amount>
+                      </Item>
+                    </Costs>
+                  </Cost>
+                  <FactoryBase>
+                    <FactoryOutputs>
+                      <Item>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>60</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+                <ModOp Type="merge" GUID="1404423061" Path="/Values" Condition="@1404423061">
+                  <FactoryBase>
+                    <CycleTime>60</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+              </Group>
+          </Group>
+        <!-- Canned Fish -->
+          <Group Condition="@1500010121">
+            <Group Condition="!@1500300960">
+              <ModOp Type="add" GUID="1500010122" Path="/Values/ProductionChain/Tier1">
+                <Item>
+                  <Building>1500302201</Building>
+                </Item>
+              </ModOp>
+              <ModOp Type="add" GUID="1500010121" Path="/Values/FactoryBase/FactoryInputs">
+                <Item>
+                  <Product>5383</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+              </ModOp>
+            </Group>
+            <Group Condition="@1500300960">
+              <ModOp Type="addNextSibling" GUID="1500010122" Path="/Values/ProductionChain/Tier1/Item[Building='1500010107']">
+                <Item>
+                  <Building>1500302201</Building>
+                </Item>
+              </ModOp>
+              <ModOp Type="addNextSibling" GUID="1500010121" Path="/Values/FactoryBase/FactoryInputs/Item[Product='1500010105']">
+                <Item>
+                  <Product>5383</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+              </ModOp>
+            </Group>
+          </Group>
+        <!-- Seafood Stew -->
+          <Group>
+            <!-- Chain -->
+              <Group>
+                <ModOp Type="remove" GUID='114570,120287' Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='114452']" Condition="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='114452']"></ModOp>
+                <ModOp Type="add" GUID="114570,120287" Path="/Values/ProductionChain/Tier1" Condition="!/Values/ProductionChain/Tier1/Item[Building='114452']">
+                  <Item>
+                    <Building>1500302230</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>114452</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </ModOp>
+                <ModOp Type="replace" GUID="114570,120287" Path="/Values/ProductionChain/Tier1/Item[Building='114452']" Condition="/Values/ProductionChain/Tier1/Item[Building='114452']">
+                  <Item>
+                    <Building>1500302230</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>114452</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </ModOp>
+                <ModOp Type="addPrevSibling" GUID="114570,120287" Path="/Values/ProductionChain/Tier1/Item[Building='114459']">
+                  <Item>
+                    <Building>114440</Building>
+                  </Item>
+                </ModOp>
+              </Group>
+            <!-- Stew Kitchen / Teff Mill / Spiced Flour -->
+              <Group>
+                <ModOp Type="merge" GUID="114471" Path="/Values">
+                  <FactoryBase>
+                    <FactoryInputs>
+                      <Item>
+                        <Product>118728</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                      <Item>
+                        <Product>114358</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                      <Item>
+                        <Product>114408</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                      <Item>
+                        <Product>1500301148</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>114410</Product>
+                        <Amount>2</Amount>
+                        <StorageAmount>8</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>60</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+                <ModOp Type="remove" GUID='114459' Path="/Values/FactoryBase/FactoryInputs/Item[Product='114369']" Condition="/Values/FactoryBase/FactoryInputs/Item[Product='114369']"></ModOp>
+                <ModOp Type="addNextSibling" GUID="114408">
+                  <Asset>
+                    <Template>Text</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>1500301395</GUID>
+                        <Name>Teff Flour</Name>
+                      </Standard>
+                    </Values>
+                  </Asset>
+                </ModOp>
+                <ModOp Type="merge" GUID='114408' Path="/Values">
+                  <Text>
+                    <TextOverride>1500301395</TextOverride>
+                  </Text>
+                </ModOp>
+              </Group>
+          </Group>
+        <!-- Spice Mill -->
+          <Group Condition="@1337472608">
+            <ModOp Type="add" GUID="1500302230" Path="/Values/FactoryBase/FactoryInputs">
+              <Item>
+                <Product>133093</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </ModOp>
+            <ModOp Type="merge" GUID="1500302230" Path="/Values">
+              <FactoryBase>
+                <FactoryOutputs>
+                  <Item>
+                    <Amount>2</Amount>
+                    <StorageAmount>8</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+              </FactoryBase>
+            </ModOp>
+            <ModOp Type="add" GUID="114570,120287" Path="/Values/ProductionChain/Tier1/Item[Building='1500302230']/Tier2">
+              <Item>
+                <Building>1337472608</Building>
+              </Item>
+            </ModOp>
+          </Group>
+      </Group>
+    <!-- Adjust Items / Buffs -->
+      <Group>
+        <ModOp Type="merge" GUID="191406" Path="/Values">
+          <FactoryUpgrade>
+            <AdditionalOutput>
+              <Item>
+                <Product>1010217</Product>
+              </Item>
+            </AdditionalOutput>
+            <ReplaceInputs>
+              <Item>
+                <OldInput>1010215</OldInput>
+                <NewInput>114410</NewInput>
+              </Item>
+            </ReplaceInputs>
+          </FactoryUpgrade>
+        </ModOp>
+        <ModOp Type="merge" GUID="191406" Path="/Values/FactoryUpgrade/AdditionalOutput" Condition="//PopulationInputs/Item[Product='1500010120']">
+          <Item>
+            <Product>1500010120</Product>
+          </Item>
+        </ModOp>
+
+        <ModOp Type="merge" GUID="269177,269411" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='1010217']"><!-- Palace Buff-->
+          <ProvidedNeed>1010215</ProvidedNeed>
+        </ModOp>
+        <Group Condition="!@269407/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='1010215']">
+          <ModOp Type="addPrevSibling" GUID="269407" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade/Item[ProvidedNeed='1010217']"><!-- Palace Buff-->
+            <Item>
+              <ProvidedNeed>1010215</ProvidedNeed>
+              <AmountInPercent>-30</AmountInPercent>
+            </Item>
+          </ModOp>
+        </Group>
+      </Group>
+    <!-- Exchange Canned food with Goulash for Artisan and Engineers For compatibility reasons, this is in the Mod Adjustments sub-mod. -->
+      <ModOp Type="merge" GUID="15000002,15000003" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010217']" Skip="1">
+        <Product>1010215</Product>
+      </ModOp>
+  </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Goulash Works" Icon="data/ui/2kimages/main/3dicons/icon_goulash_01.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="GoulashWorks" ExposeID="Disable/Enable Goulash Works">
+    </ImyaExpose>
+</ModOps>

@@ -1,0 +1,69 @@
+{
+  "Version": "1.5",
+  "ModID": "cable_works_kurila",
+  "DeprecateIds": [
+    "Cables_Extended",
+    "extended_cables_kurila",
+    "extended_cable_works_kurila"
+  ],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_TT_MenuInputOutputAmounts_Serp"
+  ],
+  "LoadAfterIds": [
+    "shared-small-elevator-factory-lion053",
+    "shared-pools-and-definitions",
+    "metal_works_kurila",
+    "jakob-power-plants"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Cable Works (Kurila)",
+    "English": "Cable Works (Kurila)",
+    "French": "Cable Works (Kurila)",
+    "German": "Cable Works (Kurila)",
+    "Italian": "Cable Works (Kurila)",
+    "Japanese": "Cable Works (Kurila)",
+    "Korean": "Cable Works (Kurila)",
+    "Polish": "Cable Works (Kurila)",
+    "Russian": "Cable Works (Kurila)",
+    "Spanish": "Cable Works (Kurila)",
+    "Taiwanese": "Cable Works (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "Required"
+    }
+  ],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

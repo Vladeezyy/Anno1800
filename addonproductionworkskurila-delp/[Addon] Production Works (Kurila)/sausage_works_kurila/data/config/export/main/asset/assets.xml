@@ -1,0 +1,257 @@
+<ModOps>
+  <Group ModOpID="SausageWorks">
+      <!-- New Entries -->
+        <Group>
+          <!-- Trigger -->
+            <Group Condition="@1404423013">
+              <ModOp Type="remove" GUID="1404423013" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1404423035']"></ModOp>
+            </Group>
+            <ModOp GUID="1010316" Type="addNextSibling">
+              <Asset>
+                <Template>Trigger</Template>
+                <Values>
+                  <Standard>
+                    <GUID>1500302170</GUID>
+                    <Name>Unlock_Trigger_1_Engineer</Name>
+                  </Standard>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000003</Context>
+                          <CounterAmount>1</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                      <Item>
+                        <TriggerAction>
+                          <Template>ActionUnlockAsset</Template>
+                          <Values>
+                            <Action />
+                            <ActionUnlockAsset>
+                              <UnlockAssets>
+                                <Item>
+                                  <Asset>1404423035</Asset>
+                                </Item>
+                              </UnlockAssets>
+                            </ActionUnlockAsset>
+                          </Values>
+                        </TriggerAction>
+                      </Item>
+                    </TriggerActions>
+                  </Trigger>
+                  <TriggerSetup />
+                </Values>
+              </Asset>
+            </ModOp>
+        </Group>
+      <!-- Adjust Production  -->
+        <Group>
+          <!-- Sasusage Chain / Slaughterhouse -->
+            <Group>
+              <!-- Sasusage Chain -->
+                <ModOp Type="addNextsibling" GUID="25000244" Path="/Values/ProductionChain/Tier1/Item[Building='1010269']">
+                  <Item>
+                    <Building>1500302160</Building>
+                  </Item>
+                </ModOp>
+              <Group Condition="#IndustrializedLowTierProduction">
+                <ModOp Type="replace" GUID="25000244" Path="/Values/ProductionChain/Tier1/Item[Building='1404423035']" Condition="@25000244/ProductionChain/Tier1/Item[Building='1404423035']">
+                  <Item>
+                    <Building>1404423035</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1404423055</Building>
+                      </Item>
+                      <Item>
+                        <Building>1500302161</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </ModOp>
+              </Group>
+              <Group Condition="!#IndustrializedLowTierProduction">
+                <ModOp Type="add" GUID="25000244" Path="/Values/ProductionChain/Tier1">
+                  <Item>
+                    <Building>1404423035</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1404423055</Building>
+                      </Item>
+                      <Item>
+                        <Building>1500302161</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </ModOp>
+              </Group>
+              <!-- Slaughterhouse -->
+                <ModOp Type="merge" GUID="1010316" Path="/Values">
+                  <FactoryBase>
+                    <FactoryInputs>
+                      <Item>
+                        <Product>1010199</Product>
+                        <Amount>2</Amount>
+                        <StorageAmount>8</StorageAmount>
+                      </Item>
+                      <Item>
+                        <Product>114358</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>1010238</Product>
+                        <Amount>2</Amount>
+                        <StorageAmount>8</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>120</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                  <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                  </Industrializable>
+                </ModOp>
+            </Group>
+          <!-- City Sasusage Chain / Slaughterhouse -->
+            <Group Condition="@2122390031">
+              <!-- City Sasusage Chain -->
+                <ModOp Type="addNextsibling" GUID="2122390031" Path="/Values/ProductionChain/Tier1/Item[Building='1010269']">
+                  <Item>
+                    <Building>1500302160</Building>
+                  </Item>
+                </ModOp>
+              <!-- City Slaughterhouse -->
+                <ModOp Type="merge" GUID="2122390030" Path="/Values">
+                  <FactoryBase>
+                    <FactoryInputs>
+                      <Item>
+                        <Product>1010199</Product>
+                        <Amount>2</Amount>
+                        <StorageAmount>8</StorageAmount>
+                      </Item>
+                      <Item>
+                        <Product>114358</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>4</StorageAmount>
+                      </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>1010238</Product>
+                        <Amount>2</Amount>
+                        <StorageAmount>8</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>120</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                  <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                  </Industrializable>
+                </ModOp>
+            </Group>
+          <!-- Advanced Sasusage Chain / Advanced Slaughterhouse / Advanced Pig Farm -->
+            <Group>
+              <!-- Advanced Sasusage Chain -->
+                <ModOp Type="merge" GUID="1404423036" Path="/Values" Condition="@1404423036">
+                  <Values>
+                    <Standard>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_meat_sausage_2.png</IconFilename>
+                    </Standard>
+                    <ProductionChain>
+                      <Building>1404423035</Building>
+                      <Tier1>
+                        <Item>
+                          <Building>1404423055</Building>
+                        </Item>
+                        <Item>
+                          <Building>1500302161</Building>
+                        </Item>
+                      </Tier1>
+                    </ProductionChain>
+                  </Values>
+                </ModOp>
+              <!-- Advanced Slaughterhouse -->
+                <ModOp Type="merge" GUID="1404423035" Path="/Values" Condition="@1404423035">
+                  <Values>
+                    <Standard>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_meat_sausage_2.png</IconFilename>
+                    </Standard>
+                    <Cost>
+                      <Costs>
+                        <Item>
+                          <Ingredient>1010017</Ingredient>
+                          <Amount>4000</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010196</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010205</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010218</Ingredient>
+                          <Amount>5</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010207</Ingredient>
+                          <Amount>5</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010202</Ingredient>
+                          <Amount>5</Amount>
+                        </Item>
+                      </Costs>
+                    </Cost>
+                    <FactoryBase>
+                      <FactoryInputs>
+                        <Item>
+                          <Product>1010199</Product>
+                          <Amount>4</Amount>
+                          <StorageAmount>16</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>114358</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                      </FactoryInputs>
+                      <FactoryOutputs>
+                        <Item>
+                          <Product>1010238</Product>
+                          <Amount>4</Amount>
+                          <StorageAmount>16</StorageAmount>
+                        </Item>
+                      </FactoryOutputs>
+                      <CycleTime>60</CycleTime>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                      <WarehouseTransporterAsset>120028</WarehouseTransporterAsset>
+                    </FactoryBase>
+                    <LogisticNode>
+                      <TransporterAsset>120028</TransporterAsset>
+                    </LogisticNode>
+                    <Industrializable>
+                      <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                    </Industrializable>
+                  </Values>
+                </ModOp>
+            </Group>
+        </Group>
+  </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Sausage Works" Icon="data/ui/2kimages/main/3dicons/icon_meat_sausage.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="SausageWorks" ExposeID="Disable/Enable Sausage Works">
+    </ImyaExpose>
+</ModOps>

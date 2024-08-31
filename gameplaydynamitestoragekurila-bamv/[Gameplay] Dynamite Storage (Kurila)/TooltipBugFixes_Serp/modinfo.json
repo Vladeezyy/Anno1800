@@ -1,0 +1,53 @@
+{
+  "Version": "1.02",
+  "ModID": "TooltipBugFixes_Serp",
+  "DeprecateIds": [
+    "FixPopTooltip_Serp",
+    "FixTooltipGodlikePermitBuildCosts_Serp"
+  ],
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "LoadAfterIds": null,
+  "Category": {
+    "English": "Fix",
+    "German": "Fix",
+    "Chinese": "Fix",
+    "French": "Fix",
+    "Italian": "Fix",
+    "Japanese": "Fix",
+    "Korean": "Fix",
+    "Polish": "Fix",
+    "Russian": "Fix",
+    "Spanish": "Fix",
+    "Taiwanese": "Fix"
+  },
+  "ModName": {
+    "English": "TooltipBugFixes (Serp)",
+    "German": "TooltipBugFixes (Serp)",
+    "Chinese": "TooltipBugFixes (Serp)",
+    "French": "TooltipBugFixes (Serp)",
+    "Italian": "TooltipBugFixes (Serp)",
+    "Japanese": "TooltipBugFixes (Serp)",
+    "Korean": "TooltipBugFixes (Serp)",
+    "Polish": "TooltipBugFixes (Serp)",
+    "Russian": "TooltipBugFixes (Serp)",
+    "Spanish": "TooltipBugFixes (Serp)",
+    "Taiwanese": "TooltipBugFixes (Serp)"
+  },
+  "Description": {
+    "English": "Build costs of ships which need a godlike permit are not displayed on shipyard until you already own all required things. This mod fixes it.\n The DLC populations dont have the -next poluationlevel- tooltip when hovering over the population on the top bar left to the ressource icons. This mod adds them.\n Removes wrong -Build Warning- for permit buildings you can build.\n Items/Effects that uses more than 1 AdditionalOutput with ForceProductSameAsFactoryOutput and also normal ones, are now correctly displayed and the first one now has a text -In-house production-.",
+    "German": "Die Baukosten für Schiff die ein Godlike Permit benötigen werden in der Werft nicht angezeigt, sofern man nicht schon alle besitzt. Dieser Mod fixt das Problem. \n Die DLC Bevölkerungsstufen haben keinen -nächste Bevölkerungsstufe- Tooltip wenn man über das Bevölkerungssymbol oben in der leiste links neben den Ressourcen hovered. Dieser Mod fügt diese hinzu.\n Entfernt die falsche -Bau-Warnung- für Permit Gebäude die man bauen kann.\n Items/Effekte die mehr als 1 AdditionalOutput mit sowohl ForceProductSameAsFactoryOutput als auch normal zufügen, werden nun korrekt angezeigt und ersteres hat nun einen Text -Eigenproduktion-.",
+    "Chinese": "Build costs of ships which need a godlike permit are not displayed on shipyard until you already own all required things. This mod fixes it.\n The DLC populations dont have the -next poluationlevel- tooltip when hovering over the population on the top bar left to the ressource icons. This mod adds them.\n Removes wrong -Build Warning- for permit buildings you can build.\n Items/Effects that uses more than 1 AdditionalOutput with ForceProductSameAsFactoryOutput and also normal ones, are now correctly displayed and the first one now has a text -In-house production-.",
+    "French": "Build costs of ships which need a godlike permit are not displayed on shipyard until you already own all required things. This mod fixes it.\n The DLC populations dont have the -next poluationlevel- tooltip when hovering over the population on the top bar left to the ressource icons. This mod adds them.\n Removes wrong -Build Warning- for permit buildings you can build.\n Items/Effects that uses more than 1 AdditionalOutput with ForceProductSameAsFactoryOutput and also normal ones, are now correctly displayed and the first one now has a text -In-house production-.",
+    "Italian": "Build costs of ships which need a godlike permit are not displayed on shipyard until you already own all required things. This mod fixes it.\n The DLC populations dont have the -next poluationlevel- tooltip when hovering over the population on the top bar left to the ressource icons. This mod adds them.\n Removes wrong -Build Warning- for permit buildings you can build.\n Items/Effects that uses more than 1 AdditionalOutput with ForceProductSameAsFactoryOutput and also normal ones, are now correctly displayed and the first one now has a text -In-house production-.",
+    "Japanese": "Build costs of ships which need a godlike permit are not displayed on shipyard until you already own all required things. This mod fixes it.\n The DLC populations dont have the -next poluationlevel- tooltip when hovering over the population on the top bar left to the ressource icons. This mod adds them.\n Removes wrong -Build Warning- for permit buildings you can build.\n Items/Effects that uses more than 1 AdditionalOutput with ForceProductSameAsFactoryOutput and also normal ones, are now correctly displayed and the first one now has a text -In-house production-.",
+    "Korean": "Build costs of ships which need a godlike permit are not displayed on shipyard until you already own all required things. This mod fixes it.\n The DLC populations dont have the -next poluationlevel- tooltip when hovering over the population on the top bar left to the ressource icons. This mod adds them.\n Removes wrong -Build Warning- for permit buildings you can build.\n Items/Effects that uses more than 1 AdditionalOutput with ForceProductSameAsFactoryOutput and also normal ones, are now correctly displayed and the first one now has a text -In-house production-.",
+    "Polish": "Build costs of ships which need a godlike permit are not displayed on shipyard until you already own all required things. This mod fixes it.\n The DLC populations dont have the -next poluationlevel- tooltip when hovering over the population on the top bar left to the ressource icons. This mod adds them.\n Removes wrong -Build Warning- for permit buildings you can build.\n Items/Effects that uses more than 1 AdditionalOutput with ForceProductSameAsFactoryOutput and also normal ones, are now correctly displayed and the first one now has a text -In-house production-.",
+    "Russian": "Build costs of ships which need a godlike permit are not displayed on shipyard until you already own all required things. This mod fixes it.\n The DLC populations dont have the -next poluationlevel- tooltip when hovering over the population on the top bar left to the ressource icons. This mod adds them.\n Removes wrong -Build Warning- for permit buildings you can build.\n Items/Effects that uses more than 1 AdditionalOutput with ForceProductSameAsFactoryOutput and also normal ones, are now correctly displayed and the first one now has a text -In-house production-.",
+    "Spanish": "Build costs of ships which need a godlike permit are not displayed on shipyard until you already own all required things. This mod fixes it.\n The DLC populations dont have the -next poluationlevel- tooltip when hovering over the population on the top bar left to the ressource icons. This mod adds them.\n Removes wrong -Build Warning- for permit buildings you can build.\n Items/Effects that uses more than 1 AdditionalOutput with ForceProductSameAsFactoryOutput and also normal ones, are now correctly displayed and the first one now has a text -In-house production-.",
+    "Taiwanese": "Build costs of ships which need a godlike permit are not displayed on shipyard until you already own all required things. This mod fixes it.\n The DLC populations dont have the -next poluationlevel- tooltip when hovering over the population on the top bar left to the ressource icons. This mod adds them.\n Removes wrong -Build Warning- for permit buildings you can build.\n Items/Effects that uses more than 1 AdditionalOutput with ForceProductSameAsFactoryOutput and also normal ones, are now correctly displayed and the first one now has a text -In-house production-."
+  },
+  "DLCDependencies": null,
+  "CreatorName": "Serp",
+  "CreatorContact": "https://github.com/Serpens66"
+}

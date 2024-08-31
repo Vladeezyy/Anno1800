@@ -1,0 +1,2885 @@
+<ModOps>
+  <Group ModOpID="Woodworking">
+    <!-- Extended Marquetry Workshops-->
+      <Group>
+        <!-- New Entries -->
+          <Group>
+            <!-- Marquetry_Workshop_Blank_OW -->
+              <ModOp GUID="1010320" Type="addNextSibling">
+                <Asset>
+                  <Template>FactoryBuilding7</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301292</GUID>
+                      <Name>Marquetry_Workshop_Blank_OW</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_inlay.png</IconFilename>
+                    </Standard>
+                    <Building>
+                      <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                      <AssociatedRegions>Moderate</AssociatedRegions>
+                    </Building>
+                    <Blocking />
+                    <Cost>
+                      <Costs>
+                        <Item>
+                          <Ingredient>1010017</Ingredient>
+                          <Amount>22000</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010196</Ingredient>
+                          <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010205</Ingredient>
+                          <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010218</Ingredient>
+                          <Amount>16</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010207</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010202</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                      </Costs>
+                    </Cost>
+                    <Object>
+                      <Variations>
+                        <Item>
+                          <Filename>data/graphics/buildings/production/processing_07/processing_07.cfg</Filename>
+                        </Item>
+                      </Variations>
+                      <Skins>
+                        <DefaultSkinName>1500301292</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                      </Skins>
+                    </Object>
+                    <Mesh />
+                    <Selection>
+                      <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <ActionList />
+                        </Values>
+                      </OnSelection>
+                      <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+                      <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                      </Colors>
+                    </Selection>
+                    <Constructable />
+                    <Locked>
+                      <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
+                    <SoundEmitter>
+                      <ActiveSounds>
+                        <Item>
+                          <Sound>216883</Sound>
+                        </Item>
+                        <Item>
+                          <Sound>235835</Sound>
+                        </Item>
+                      </ActiveSounds>
+                      <IncidentSounds>
+                        <InfectedFire>
+                          <Item>
+                            <Sound>214659</Sound>
+                          </Item>
+                        </InfectedFire>
+                      </IncidentSounds>
+                    </SoundEmitter>
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                      <FactoryInputs>
+                        <Item>
+                          <Product>1010196</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>0</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>1500301307</Product>
+                          <Amount>1</Amount>
+                          <StorageAmount>0</StorageAmount>
+                        </Item>
+                      </FactoryInputs>
+                      <FactoryOutputs>
+                        <Item>
+                          <Product>1500301312</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>1500301313</Product>
+                          <Amount>4</Amount>
+                          <StorageAmount>16</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>1500301314</Product>
+                          <Amount>6</Amount>
+                          <StorageAmount>24</StorageAmount>
+                        </Item>
+                      </FactoryOutputs>
+                      <CycleTime>120</CycleTime>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                      <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <AmbientMoodProvider>
+                      <Murmur>Factory</Murmur>
+                      <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                    </AmbientMoodProvider>
+                    <Maintenance>
+                      <Maintenances>
+                        <Item>
+                          <Product>1010017</Product>
+                          <Amount>750</Amount>
+                          <InactiveAmount>375</InactiveAmount>
+                        </Item>
+                        <Item>
+                          <Product>1010117</Product>
+                          <Amount>150</Amount>
+                        </Item>
+                      </Maintenances>
+                    </Maintenance>
+                    <Attackable>
+                      <AttackableType>IslandBuilding</AttackableType>
+                      <MaximumHitPoints>3500</MaximumHitPoints>
+                      <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                    </Attackable>
+                    <Pausable />
+                    <IncidentInfectable>
+                      <Infectable>
+                        <Explosion>
+                          <Base>0</Base>
+                          <Escalated>0</Escalated>
+                        </Explosion>
+                      </Infectable>
+                      <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                      </Explosion>
+                      <IncidentInfectionChanceFactors>
+                        <Fire>
+                          <DensityDistance>20</DensityDistance>
+                          <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                          <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                          <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                          <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                          <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                          <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                      </IncidentInfectionChanceFactors>
+                    </IncidentInfectable>
+                    <Industrializable />
+                    <Culture>
+                      <CultureType>Culture</CultureType>
+                    </Culture>
+                    <QuestObject />
+                    <Electrifiable />
+                    <EcoSystemProvider />
+                    <RecipeBuilding>
+                      <RecipeList>1500300848</RecipeList>
+                      <IsBlank>1</IsBlank>
+                    </RecipeBuilding>
+                  </Values>
+                </Asset>
+              </ModOp>
+            <!-- Marquetry_Workshop_Cherry_Wood_OW -->
+              <ModOp GUID="1010320" Type="addNextSibling">
+                <Asset>
+                  <Template>FactoryBuilding7</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301293</GUID>
+                      <Name>Marquetry_Workshop_Cherry_Wood_OW</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_cherry_wood.png</IconFilename>
+                    </Standard>
+                    <Building>
+                      <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                      <AssociatedRegions>Moderate</AssociatedRegions>
+                    </Building>
+                    <Blocking />
+                    <Cost>
+                      <Costs>
+                        <Item>
+                          <Ingredient>1010017</Ingredient>
+                          <Amount>22000</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010196</Ingredient>
+                          <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010205</Ingredient>
+                          <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010218</Ingredient>
+                          <Amount>16</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010207</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010202</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                      </Costs>
+                    </Cost>
+                    <Object>
+                      <Variations>
+                        <Item>
+                          <Filename>data/graphics/buildings/production/processing_07/processing_07.cfg</Filename>
+                        </Item>
+                      </Variations>
+                      <Skins>
+                        <DefaultSkinName>1500301293</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                      </Skins>
+                    </Object>
+                    <Mesh />
+                    <Selection>
+                      <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <ActionList />
+                        </Values>
+                      </OnSelection>
+                      <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+                      <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                      </Colors>
+                    </Selection>
+                    <Constructable />
+                    <Locked>
+                      <DefaultLockedState>0</DefaultLockedState>
+                      <DLCDependency>410085</DLCDependency>
+                    </Locked>
+                    <SoundEmitter>
+                      <ActiveSounds>
+                        <Item>
+                          <Sound>216883</Sound>
+                        </Item>
+                        <Item>
+                          <Sound>235835</Sound>
+                        </Item>
+                      </ActiveSounds>
+                      <IncidentSounds>
+                        <InfectedFire>
+                          <Item>
+                            <Sound>214659</Sound>
+                          </Item>
+                        </InfectedFire>
+                      </IncidentSounds>
+                    </SoundEmitter>
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                      <FactoryInputs>
+                        <Item>
+                          <Product>1010196</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>135087</Product>
+                          <Amount>1</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                      </FactoryInputs>
+                      <FactoryOutputs>
+                        <Item>
+                          <Product>1010242</Product>
+                          <Amount>4</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                      </FactoryOutputs>
+                      <CycleTime>120</CycleTime>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                      <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <AmbientMoodProvider>
+                      <Murmur>Factory</Murmur>
+                      <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                    </AmbientMoodProvider>
+                    <Maintenance>
+                      <Maintenances>
+                        <Item>
+                          <Product>1010017</Product>
+                          <Amount>750</Amount>
+                          <InactiveAmount>375</InactiveAmount>
+                        </Item>
+                        <Item>
+                          <Product>1010117</Product>
+                          <Amount>150</Amount>
+                        </Item>
+                      </Maintenances>
+                    </Maintenance>
+                    <Attackable>
+                      <AttackableType>IslandBuilding</AttackableType>
+                      <MaximumHitPoints>3500</MaximumHitPoints>
+                      <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                    </Attackable>
+                    <Pausable />
+                    <IncidentInfectable>
+                      <Infectable>
+                        <Explosion>
+                          <Base>0</Base>
+                          <Escalated>0</Escalated>
+                        </Explosion>
+                      </Infectable>
+                      <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                      </Explosion>
+                      <IncidentInfectionChanceFactors>
+                        <Fire>
+                          <DensityDistance>20</DensityDistance>
+                          <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                          <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                          <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                          <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                          <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                          <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                      </IncidentInfectionChanceFactors>
+                    </IncidentInfectable>
+                    <Industrializable />
+                    <Culture>
+                      <CultureType>Culture</CultureType>
+                    </Culture>
+                    <QuestObject />
+                    <Electrifiable />
+                    <EcoSystemProvider />
+                    <RecipeBuilding>
+                      <RecipeList>1500300848</RecipeList>
+                    </RecipeBuilding>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301294</GUID>
+                      <Name>Recipe_Desc_Veneered_Wood_Cherry_Wood</Name>
+                    </Standard>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Recipe</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301295</GUID>
+                      <Name>Recipe_Veneered_Wood_Cherry_Wood_OW</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_cherry_wood.png</IconFilename>
+                    </Standard>
+                    <Recipe>
+                      <RecipeBuilding>1500301293</RecipeBuilding>
+                      <RecipeDescriptionText>1500301294</RecipeDescriptionText>
+                      <RecipeImage>data/ui/2kimages/main/kurila/icon_inlay_sketch.png</RecipeImage>
+                      <RecipeIngredientUIData>
+                        <Item>
+                          <PosX>0</PosX>
+                          <PosY>0</PosY>
+                          <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                          <PosX>0</PosX>
+                          <PosY>350</PosY>
+                          <UICirclePointer>East</UICirclePointer>
+                        </Item>
+                      </RecipeIngredientUIData>
+                    </Recipe>
+                    <Locked>
+                      <DefaultLockedState>1</DefaultLockedState>
+                      <DLCDependency>410085</DLCDependency>
+                    </Locked>
+                  </Values>
+                </Asset>
+              </ModOp>
+            <!-- Marquetry_Workshop_Wanza_Wood_OW -->
+              <ModOp GUID="1010320" Type="addNextSibling">
+                <Asset>
+                  <Template>FactoryBuilding7</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301296</GUID>
+                      <Name>Marquetry_Workshop_Wanza_Wood_OW</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_wanza_wood.png</IconFilename>
+                    </Standard>
+                    <Building>
+                      <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                      <AssociatedRegions>Moderate</AssociatedRegions>
+                    </Building>
+                    <Blocking />
+                    <Cost>
+                      <Costs>
+                        <Item>
+                          <Ingredient>1010017</Ingredient>
+                          <Amount>22000</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010196</Ingredient>
+                          <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010205</Ingredient>
+                          <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010218</Ingredient>
+                          <Amount>16</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010207</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010202</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                      </Costs>
+                    </Cost>
+                    <Object>
+                      <Variations>
+                        <Item>
+                          <Filename>data/graphics/buildings/production/processing_07/processing_07.cfg</Filename>
+                        </Item>
+                      </Variations>
+                      <Skins>
+                        <DefaultSkinName>1500301296</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                      </Skins>
+                    </Object>
+                    <Mesh />
+                    <Selection>
+                      <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <ActionList />
+                        </Values>
+                      </OnSelection>
+                      <ParticipantMessageArcheType>Resident_tier04_atWork</ParticipantMessageArcheType>
+                      <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                      </Colors>
+                    </Selection>
+                    <Constructable />
+                    <Locked>
+                      <DefaultLockedState>0</DefaultLockedState>
+                      <DLCDependency>410071</DLCDependency>
+                    </Locked>
+                    <SoundEmitter>
+                      <ActiveSounds>
+                        <Item>
+                          <Sound>216883</Sound>
+                        </Item>
+                        <Item>
+                          <Sound>235835</Sound>
+                        </Item>
+                      </ActiveSounds>
+                      <IncidentSounds>
+                        <InfectedFire>
+                          <Item>
+                            <Sound>214659</Sound>
+                          </Item>
+                        </InfectedFire>
+                      </IncidentSounds>
+                    </SoundEmitter>
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                      <FactoryInputs>
+                        <Item>
+                          <Product>1010196</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>1500301150</Product>
+                          <Amount>1</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                      </FactoryInputs>
+                      <FactoryOutputs>
+                        <Item>
+                          <Product>1010242</Product>
+                          <Amount>6</Amount>
+                          <StorageAmount>18</StorageAmount>
+                        </Item>
+                      </FactoryOutputs>
+                      <CycleTime>120</CycleTime>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                      <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <AmbientMoodProvider>
+                      <Murmur>Factory</Murmur>
+                      <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                    </AmbientMoodProvider>
+                    <Maintenance>
+                      <Maintenances>
+                        <Item>
+                          <Product>1010017</Product>
+                          <Amount>750</Amount>
+                          <InactiveAmount>375</InactiveAmount>
+                        </Item>
+                        <Item>
+                          <Product>1010117</Product>
+                          <Amount>150</Amount>
+                        </Item>
+                      </Maintenances>
+                    </Maintenance>
+                    <Attackable>
+                      <AttackableType>IslandBuilding</AttackableType>
+                      <MaximumHitPoints>3500</MaximumHitPoints>
+                      <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                    </Attackable>
+                    <Pausable />
+                    <IncidentInfectable>
+                      <Infectable>
+                        <Explosion>
+                          <Base>0</Base>
+                          <Escalated>0</Escalated>
+                        </Explosion>
+                      </Infectable>
+                      <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                      </Explosion>
+                      <IncidentInfectionChanceFactors>
+                        <Fire>
+                          <DensityDistance>20</DensityDistance>
+                          <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                          <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                          <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                          <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                          <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                          <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                      </IncidentInfectionChanceFactors>
+                    </IncidentInfectable>
+                    <Industrializable />
+                    <Culture>
+                      <CultureType>Culture</CultureType>
+                    </Culture>
+                    <QuestObject />
+                    <Electrifiable />
+                    <EcoSystemProvider />
+                    <RecipeBuilding>
+                      <RecipeList>1500300848</RecipeList>
+                    </RecipeBuilding>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301297</GUID>
+                      <Name>Recipe_Desc_Veneered_Wood_Wanza_Wood</Name>
+                    </Standard>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Recipe</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301298</GUID>
+                      <Name>Recipe_Veneered_Wood_Wanza_Wood_OW</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_wanza_wood.png</IconFilename>
+                    </Standard>
+                    <Recipe>
+                      <RecipeBuilding>1500301296</RecipeBuilding>
+                      <RecipeDescriptionText>1500301297</RecipeDescriptionText>
+                      <RecipeImage>data/ui/2kimages/main/kurila/icon_inlay_sketch.png</RecipeImage>
+                      <RecipeIngredientUIData>
+                        <Item>
+                          <PosX>0</PosX>
+                          <PosY>0</PosY>
+                          <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                          <PosX>0</PosX>
+                          <PosY>350</PosY>
+                          <UICirclePointer>East</UICirclePointer>
+                        </Item>
+                      </RecipeIngredientUIData>
+                    </Recipe>
+                    <Locked>
+                      <DefaultLockedState>1</DefaultLockedState>
+                      <DLCDependency>410071</DLCDependency>
+                    </Locked>
+                  </Values>
+                </Asset>
+              </ModOp>
+            <!-- Marquetry_Workshop_Blank_NW -->
+              <ModOp GUID="1010320" Type="addNextSibling">
+                <Asset>
+                  <BaseAssetGUID>1010320</BaseAssetGUID>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301299</GUID>
+                      <Name>Marquetry_Workshop_Blank_NW</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_inlay.png</IconFilename>
+                    </Standard>
+                    <Building>
+                      <AssociatedRegions>Colony01</AssociatedRegions>
+                    </Building>
+                    <Blocking />
+                    <Cost>
+                      <Costs>
+                        <Item>
+                          <VectorElement>
+                            <InheritedIndex>0</InheritedIndex>
+                            <InheritanceMapV2>
+                              <Entry>
+                                <TemplateName>FactoryBuilding7</TemplateName>
+                                <Index>0</Index>
+                              </Entry>
+                            </InheritanceMapV2>
+                          </VectorElement>
+                          <Amount>2500</Amount>
+                        </Item>
+                        <Item>
+                          <VectorElement>
+                            <InheritedIndex>1</InheritedIndex>
+                            <InheritanceMapV2>
+                              <Entry>
+                                <TemplateName>FactoryBuilding7</TemplateName>
+                                <Index>1</Index>
+                              </Entry>
+                            </InheritanceMapV2>
+                          </VectorElement>
+                        </Item>
+                        <Item>
+                          <VectorElement>
+                            <InheritedIndex>2</InheritedIndex>
+                            <InheritanceMapV2>
+                              <Entry>
+                                <TemplateName>FactoryBuilding7</TemplateName>
+                                <Index>2</Index>
+                              </Entry>
+                            </InheritanceMapV2>
+                          </VectorElement>
+                        </Item>
+                        <Item>
+                          <VectorElement>
+                            <InheritedIndex>3</InheritedIndex>
+                            <InheritanceMapV2>
+                              <Entry>
+                                <TemplateName>FactoryBuilding7</TemplateName>
+                                <Index>3</Index>
+                              </Entry>
+                            </InheritanceMapV2>
+                          </VectorElement>
+                          <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                          <VectorElement>
+                            <InheritedIndex>4</InheritedIndex>
+                            <InheritanceMapV2>
+                              <Entry>
+                                <TemplateName>FactoryBuilding7</TemplateName>
+                                <Index>4</Index>
+                              </Entry>
+                            </InheritanceMapV2>
+                          </VectorElement>
+                          <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                          <VectorElement>
+                            <InheritedIndex>5</InheritedIndex>
+                            <InheritanceMapV2>
+                              <Entry>
+                                <TemplateName>FactoryBuilding7</TemplateName>
+                                <Index>5</Index>
+                              </Entry>
+                            </InheritanceMapV2>
+                          </VectorElement>
+                          <Amount>0</Amount>
+                        </Item>
+                      </Costs>
+                    </Cost>
+                    <Object>
+                      <Variations>
+                        <Item>
+                          <VectorElement>
+                            <InheritedIndex>0</InheritedIndex>
+                            <InheritanceMapV2>
+                              <Entry>
+                                <TemplateName>FactoryBuilding7</TemplateName>
+                                <Index>0</Index>
+                              </Entry>
+                            </InheritanceMapV2>
+                          </VectorElement>
+                          <Filename>data/graphics/buildings/production/processing_colony01_03/processing_colony01_03.cfg</Filename>
+                        </Item>
+                      </Variations>
+                    </Object>
+                    <Mesh />
+                    <Selection>
+                      <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <ActionList />
+                        </Values>
+                      </OnSelection>
+                      <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+                    </Selection>
+                    <Text>
+                      <LineID>8493</LineID>
+                    </Text>
+                    <Constructable />
+                    <Locked>
+                      <DefaultLockedState>0</DefaultLockedState>
+                    </Locked>
+                    <SoundEmitter>
+                      <ActiveSounds>
+                        <Item>
+                          <Sound>200815</Sound>
+                        </Item>
+                        <Item>
+                          <Sound>200621</Sound>
+                        </Item>
+                      </ActiveSounds>
+                    </SoundEmitter>
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                      <FactoryInputs>
+                        <Item>
+                          <Product>1010196</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>0</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>1500301307</Product>
+                          <Amount>1</Amount>
+                          <StorageAmount>0</StorageAmount>
+                        </Item>
+                      </FactoryInputs>
+                      <FactoryOutputs>
+                        <Item>
+                          <Product>1500301312</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>1500301313</Product>
+                          <Amount>4</Amount>
+                          <StorageAmount>16</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>1500301314</Product>
+                          <Amount>6</Amount>
+                          <StorageAmount>24</StorageAmount>
+                        </Item>
+                      </FactoryOutputs>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                      <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <AmbientMoodProvider />
+                    <Maintenance>
+                      <Maintenances>
+                        <Item>
+                          <VectorElement>
+                            <InheritedIndex>0</InheritedIndex>
+                            <InheritanceMapV2>
+                              <Entry>
+                                <TemplateName>FactoryBuilding7</TemplateName>
+                                <Index>0</Index>
+                              </Entry>
+                            </InheritanceMapV2>
+                          </VectorElement>
+                          <Amount>100</Amount>
+                          <InactiveAmount>50</InactiveAmount>
+                        </Item>
+                        <Item>
+                          <VectorElement>
+                            <InheritedIndex>1</InheritedIndex>
+                            <InheritanceMapV2>
+                              <Entry>
+                                <TemplateName>FactoryBuilding7</TemplateName>
+                                <Index>1</Index>
+                              </Entry>
+                            </InheritanceMapV2>
+                          </VectorElement>
+                          <Product>1010367</Product>
+                          <Amount>100</Amount>
+                        </Item>
+                      </Maintenances>
+                    </Maintenance>
+                    <Attackable />
+                    <Pausable />
+                    <IncidentInfectable />
+                    <Industrializable />
+                    <Culture />
+                    <QuestObject />
+                    <Electrifiable>
+                      <ElectrifiedEffect>0</ElectrifiedEffect>
+                    </Electrifiable>
+                    <EcoSystemProvider />
+                    <RecipeBuilding>
+                      <RecipeList>1500300849</RecipeList>
+                      <IsBlank>1</IsBlank>
+                    </RecipeBuilding>
+                  </Values>
+                </Asset>
+              </ModOp>
+            <!-- Marquetry_Workshop_Cherry_Wood_NW -->
+              <ModOp GUID="1010320" Type="addNextSibling">
+                <Asset>
+                  <BaseAssetGUID>1010320</BaseAssetGUID>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301300</GUID>
+                      <Name>Marquetry_Workshop_Cherry_Wood_NW</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_cherry_wood.png</IconFilename>
+                    </Standard>
+                    <Building>
+                      <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                      <AssociatedRegions>Colony01</AssociatedRegions>
+                    </Building>
+                    <Blocking />
+                    <Cost>
+                      <Costs>
+                        <Item>
+                          <Ingredient>1010017</Ingredient>
+                          <Amount>22000</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010196</Ingredient>
+                          <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010205</Ingredient>
+                          <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010218</Ingredient>
+                          <Amount>16</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010207</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010202</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                      </Costs>
+                    </Cost>
+                    <Object>
+                      <Variations>
+                        <Item>
+                          <Filename>data/graphics/buildings/production/processing_colony01_03/processing_colony01_03.cfg</Filename>
+                        </Item>
+                      </Variations>
+                      <Skins>
+                        <DefaultSkinName>1500301300</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                      </Skins>
+                    </Object>
+                    <Mesh />
+                    <Selection>
+                      <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <ActionList />
+                        </Values>
+                      </OnSelection>
+                      <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+                      <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                      </Colors>
+                    </Selection>
+                    <Constructable />
+                    <Locked>
+                      <DefaultLockedState>0</DefaultLockedState>
+                      <DLCDependency>410085</DLCDependency>
+                    </Locked>
+                    <SoundEmitter>
+                      <ActiveSounds>
+                        <Item>
+                          <Sound>216883</Sound>
+                        </Item>
+                        <Item>
+                          <Sound>235835</Sound>
+                        </Item>
+                      </ActiveSounds>
+                      <IncidentSounds>
+                        <InfectedFire>
+                          <Item>
+                            <Sound>214659</Sound>
+                          </Item>
+                        </InfectedFire>
+                      </IncidentSounds>
+                    </SoundEmitter>
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                      <FactoryInputs>
+                        <Item>
+                          <Product>1010196</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>135087</Product>
+                          <Amount>1</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                      </FactoryInputs>
+                      <FactoryOutputs>
+                        <Item>
+                          <Product>1010242</Product>
+                          <Amount>4</Amount>
+                          <StorageAmount>12</StorageAmount>
+                        </Item>
+                      </FactoryOutputs>
+                      <CycleTime>120</CycleTime>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                      <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <AmbientMoodProvider>
+                      <Murmur>Factory</Murmur>
+                      <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                    </AmbientMoodProvider>
+                    <Maintenance>
+                      <Maintenances>
+                        <Item>
+                          <Product>1010017</Product>
+                          <Amount>100</Amount>
+                          <InactiveAmount>50</InactiveAmount>
+                        </Item>
+                        <Item>
+                          <Product>1010367</Product>
+                          <Amount>100</Amount>
+                        </Item>
+                      </Maintenances>
+                    </Maintenance>
+                    <Attackable>
+                      <AttackableType>IslandBuilding</AttackableType>
+                      <MaximumHitPoints>3500</MaximumHitPoints>
+                      <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                    </Attackable>
+                    <Pausable />
+                    <IncidentInfectable>
+                      <Infectable>
+                        <Explosion>
+                          <Base>0</Base>
+                          <Escalated>0</Escalated>
+                        </Explosion>
+                      </Infectable>
+                      <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                      </Explosion>
+                      <IncidentInfectionChanceFactors>
+                        <Fire>
+                          <DensityDistance>20</DensityDistance>
+                          <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                          <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                          <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                          <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                          <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                          <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                      </IncidentInfectionChanceFactors>
+                    </IncidentInfectable>
+                    <Industrializable />
+                    <Culture>
+                      <CultureType>Culture</CultureType>
+                    </Culture>
+                    <QuestObject />
+                    <Electrifiable />
+                    <EcoSystemProvider />
+                    <RecipeBuilding>
+                      <RecipeList>1500300849</RecipeList>
+                    </RecipeBuilding>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Recipe</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301301</GUID>
+                      <Name>Recipe_Veneered_Wood_Cherry_Wood_NW</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_cherry_wood.png</IconFilename>
+                    </Standard>
+                    <Recipe>
+                      <RecipeBuilding>1500301300</RecipeBuilding>
+                      <RecipeDescriptionText>1500301294</RecipeDescriptionText>
+                      <RecipeImage>data/ui/2kimages/main/kurila/icon_inlay_sketch.png</RecipeImage>
+                      <RecipeIngredientUIData>
+                        <Item>
+                          <PosX>0</PosX>
+                          <PosY>0</PosY>
+                          <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                          <PosX>0</PosX>
+                          <PosY>350</PosY>
+                          <UICirclePointer>East</UICirclePointer>
+                        </Item>
+                      </RecipeIngredientUIData>
+                    </Recipe>
+                    <Locked>
+                      <DefaultLockedState>1</DefaultLockedState>
+                      <DLCDependency>410085</DLCDependency>
+                    </Locked>
+                  </Values>
+                </Asset>
+              </ModOp>
+            <!-- Marquetry_Workshop_Wanza_Wood_NW -->
+              <ModOp GUID="1010320" Type="addNextSibling">
+                <Asset>
+                  <BaseAssetGUID>1010320</BaseAssetGUID>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301302</GUID>
+                      <Name>Marquetry_Workshop_Wanza_Wood_NW</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_wanza_wood.png</IconFilename>
+                    </Standard>
+                    <Building>
+                      <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                      <AssociatedRegions>Colony01</AssociatedRegions>
+                    </Building>
+                    <Blocking />
+                    <Cost>
+                      <Costs>
+                        <Item>
+                          <Ingredient>1010017</Ingredient>
+                          <Amount>22000</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010196</Ingredient>
+                          <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010205</Ingredient>
+                          <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010218</Ingredient>
+                          <Amount>16</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010207</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                          <Ingredient>1010202</Ingredient>
+                          <Amount>15</Amount>
+                        </Item>
+                      </Costs>
+                    </Cost>
+                    <Object>
+                      <Variations>
+                        <Item>
+                          <Filename>data/graphics/buildings/production/processing_colony01_03/processing_colony01_03.cfg</Filename>
+                        </Item>
+                      </Variations>
+                      <Skins>
+                        <DefaultSkinName>1500301302</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                      </Skins>
+                    </Object>
+                    <Mesh />
+                    <Selection>
+                      <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <ActionList />
+                        </Values>
+                      </OnSelection>
+                      <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+                      <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                      </Colors>
+                    </Selection>
+                    <Constructable />
+                    <Locked>
+                      <DefaultLockedState>0</DefaultLockedState>
+                      <DLCDependency>410071</DLCDependency>
+                    </Locked>
+                    <SoundEmitter>
+                      <ActiveSounds>
+                        <Item>
+                          <Sound>216883</Sound>
+                        </Item>
+                        <Item>
+                          <Sound>235835</Sound>
+                        </Item>
+                      </ActiveSounds>
+                      <IncidentSounds>
+                        <InfectedFire>
+                          <Item>
+                            <Sound>214659</Sound>
+                          </Item>
+                        </InfectedFire>
+                      </IncidentSounds>
+                    </SoundEmitter>
+                    <FeedbackController />
+                    <Infolayer />
+                    <UpgradeList />
+                    <Factory7 />
+                    <FactoryBase>
+                      <FactoryInputs>
+                        <Item>
+                          <Product>1010196</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>1500301150</Product>
+                          <Amount>1</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                      </FactoryInputs>
+                      <FactoryOutputs>
+                        <Item>
+                          <Product>1010242</Product>
+                          <Amount>6</Amount>
+                          <StorageAmount>18</StorageAmount>
+                        </Item>
+                      </FactoryOutputs>
+                      <CycleTime>120</CycleTime>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                      <IsMainFactory>0</IsMainFactory>
+                    </FactoryBase>
+                    <LogisticNode />
+                    <AmbientMoodProvider>
+                      <Murmur>Factory</Murmur>
+                      <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                    </AmbientMoodProvider>
+                    <Maintenance>
+                      <Maintenances>
+                        <Item>
+                          <Product>1010017</Product>
+                          <Amount>100</Amount>
+                          <InactiveAmount>50</InactiveAmount>
+                        </Item>
+                        <Item>
+                          <Product>1010367</Product>
+                          <Amount>100</Amount>
+                        </Item>
+                      </Maintenances>
+                    </Maintenance>
+                    <Attackable>
+                      <AttackableType>IslandBuilding</AttackableType>
+                      <MaximumHitPoints>3500</MaximumHitPoints>
+                      <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                    </Attackable>
+                    <Pausable />
+                    <IncidentInfectable>
+                      <Infectable>
+                        <Explosion>
+                          <Base>0</Base>
+                          <Escalated>0</Escalated>
+                        </Explosion>
+                      </Infectable>
+                      <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                      </Explosion>
+                      <IncidentInfectionChanceFactors>
+                        <Fire>
+                          <DensityDistance>20</DensityDistance>
+                          <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                          <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                          <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                          <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                          <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                          <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                      </IncidentInfectionChanceFactors>
+                    </IncidentInfectable>
+                    <Industrializable />
+                    <Culture>
+                      <CultureType>Culture</CultureType>
+                    </Culture>
+                    <QuestObject />
+                    <Electrifiable />
+                    <EcoSystemProvider />
+                    <RecipeBuilding>
+                      <RecipeList>1500300849</RecipeList>
+                    </RecipeBuilding>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Recipe</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301303</GUID>
+                      <Name>Recipe_Veneered_Wood_Wanza_Wood_NW</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_wanza_wood.png</IconFilename>
+                    </Standard>
+                    <Recipe>
+                      <RecipeBuilding>1500301302</RecipeBuilding>
+                      <RecipeDescriptionText>1500301297</RecipeDescriptionText>
+                      <RecipeImage>data/ui/2kimages/main/kurila/icon_inlay_sketch.png</RecipeImage>
+                      <RecipeIngredientUIData>
+                        <Item>
+                          <PosX>0</PosX>
+                          <PosY>0</PosY>
+                          <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                          <PosX>0</PosX>
+                          <PosY>350</PosY>
+                          <UICirclePointer>East</UICirclePointer>
+                        </Item>
+                      </RecipeIngredientUIData>
+                    </Recipe>
+                    <Locked>
+                      <DefaultLockedState>1</DefaultLockedState>
+                      <DLCDependency>410071</DLCDependency>
+                    </Locked>
+                  </Values>
+                </Asset>
+              </ModOp>
+            <!-- Extended InfoDesciption -->
+              <ModOp GUID="1010278" Type="addNextSibling">
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301307</GUID>
+                      <Name>Chooseable_Input_Woods</Name>
+                      <IconFilename>data/ui/2kimages/main/icons/icon_resource_health.png</IconFilename>
+                    </Standard>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301309</GUID>
+                      <Name>Demand_Wood</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/icon_wood_log.png</IconFilename>
+                    </Standard>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301310</GUID>
+                      <Name>Demand_Cherry_Wood</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_wood_2.png</IconFilename>
+                    </Standard>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301311</GUID>
+                      <Name>Demand_Wanza_Wood</Name>
+                      <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_wansa_wood.png</IconFilename>
+                    </Standard>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301312</GUID>
+                      <Name>Supply_Wood</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_wood.png</IconFilename>
+                    </Standard>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301313</GUID>
+                      <Name>Supply_Cherry_Wood</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_cherry_wood.png</IconFilename>
+                    </Standard>
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Text</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301314</GUID>
+                      <Name>Supply_Wanza_Wood</Name>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_wanza_wood.png</IconFilename>
+                    </Standard>
+                  </Values>
+                </Asset>
+              </ModOp>
+            <!-- Trigger -->
+              <Group Condition="@1404423013">
+                <ModOp Type="remove" GUID="1404423013" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1404423025']"></ModOp>
+                <ModOp Type="remove" GUID="1404423013" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1404423027']"></ModOp>
+                <ModOp Type="remove" GUID="1500302225" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1500302220']"></ModOp>
+                <ModOp Type="remove" GUID="1500302225" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1500302221']"></ModOp>
+              </Group>
+              <ModOp GUID="1010320" Type="addNextSibling">
+                <Asset>
+                  <Template>Trigger</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500302229</GUID><!-- 1500301338 -->
+                      <Name>Unlock_Trigger_1_Engineer</Name>
+                    </Standard>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                          <Condition />
+                          <ConditionPlayerCounter>
+                            <PlayerCounter>PopulationByLevel</PlayerCounter>
+                            <Context>15000003</Context>
+                            <CounterAmount>1</CounterAmount>
+                          </ConditionPlayerCounter>
+                        </Values>
+                      </TriggerCondition>
+                      <TriggerActions>
+                        <Item>
+                          <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                              <Action />
+                              <ActionUnlockAsset>
+                                <UnlockAssets>
+                                  <Item>
+                                    <Asset>1404423025</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500302220</Asset>
+                                  </Item>
+                                </UnlockAssets>
+                              </ActionUnlockAsset>
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+                      </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Trigger</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301315</GUID>
+                      <Name>Unhide_Trigger_1_Investors</Name>
+                    </Standard>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                          <Condition />
+                          <ConditionPlayerCounter>
+                            <PlayerCounter>PopulationByLevel</PlayerCounter>
+                            <Context>15000004</Context>
+                            <CounterAmount>1</CounterAmount>
+                          </ConditionPlayerCounter>
+                        </Values>
+                      </TriggerCondition>
+                      <TriggerActions>
+                        <Item>
+                          <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                              <Action />
+                              <ActionUnlockAsset>
+                                <UnhideAssets>
+                                  <Item>
+                                    <Asset>1500301295</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301298</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301301</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301303</Asset>
+                                  </Item>
+                                </UnhideAssets>
+                                <UnlockAssets>
+                                  <Item>
+                                    <Asset>1500301150</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301151</Asset>
+                                  </Item>
+                                </UnlockAssets>
+                              </ActionUnlockAsset>
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+                      </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Trigger</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500302228</GUID><!-- 1500301308 -->
+                      <Name>Unlock_Trigger_1000_Obrero</Name>
+                    </Standard>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                          <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                              <PlayerCounter>PopulationByLevel</PlayerCounter>
+                              <Context>15000006</Context>
+                              <CounterAmount>1000</CounterAmount>
+                            </ConditionPlayerCounter>
+                          </Values>
+                      </TriggerCondition>
+                      <TriggerActions>
+                        <Item>
+                          <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                              <Action />
+                              <ActionUnlockAsset>
+                                <UnlockAssets>
+                                  <Item>
+                                    <Asset>1500302221</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1404423027</Asset>
+                                  </Item>
+                                </UnlockAssets>
+                              </ActionUnlockAsset>
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+                      </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Trigger</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301316</GUID>
+                      <Name>Unlock_Recipe_Cherry_Wood_1_Skyscraper_Level_1</Name>
+                      <IconFilename>data/ui/2kimages/main/profiles/3rdparty_unknown.png</IconFilename>
+                    </Standard>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionIsDLCActive</Template>
+                        <Values>
+                          <Condition>
+                            <SubConditionCompletionOrder>MutuallyExclusive</SubConditionCompletionOrder>
+                          </Condition>
+                          <ConditionIsDLCActive>
+                            <DLCAssetList>
+                              <Item>
+                                <DLCAsset>410085</DLCAsset>
+                              </Item>
+                            </DLCAssetList>
+                          </ConditionIsDLCActive>
+                          <ConditionPropsNegatable />
+                        </Values>
+                      </TriggerCondition>
+                      <TriggerActions>
+                        <Item>
+                          <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                              <Action />
+                              <ActionUnlockAsset>
+                                <UnlockAssets>
+                                  <Item>
+                                    <Asset>1500301151</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301295</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301301</Asset>
+                                  </Item>
+                                </UnlockAssets>
+                              </ActionUnlockAsset>
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+                      </TriggerActions>
+                      <SubTriggers>
+                        <Item>
+                          <SubTrigger>
+                            <Template>AutoCreateTrigger</Template>
+                            <Values>
+                              <Trigger>
+                                <TriggerCondition>
+                                  <Template>ConditionPlayerCounter</Template>
+                                  <Values>
+                                    <Condition />
+                                    <ConditionPlayerCounter>
+                                      <Context>601882</Context>
+                                      <CounterAmount>1</CounterAmount>
+                                    </ConditionPlayerCounter>
+                                  </Values>
+                                </TriggerCondition>
+                              </Trigger>
+                            </Values>
+                          </SubTrigger>
+                        </Item>
+                        <Item>
+                          <SubTrigger>
+                            <Template>AutoCreateTrigger</Template>
+                            <Values>
+                              <Trigger>
+                                <TriggerCondition>
+                                  <Template>ConditionPlayerCounter</Template>
+                                  <Values>
+                                    <Condition />
+                                    <ConditionPlayerCounter>
+                                      <Context>601888</Context>
+                                      <CounterAmount>1</CounterAmount>
+                                    </ConditionPlayerCounter>
+                                  </Values>
+                                </TriggerCondition>
+                              </Trigger>
+                            </Values>
+                          </SubTrigger>
+                        </Item>
+                      </SubTriggers>
+                      <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <EmptyAutoCreateValue />
+                        </Values>
+                      </ResetTrigger>
+                    </Trigger>
+                    <TriggerSetup />
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Trigger</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301317</GUID>
+                      <Name>Unlock_Recipe_Wanza_Wood_1_Shepherds</Name>
+                    </Standard>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                          <Condition />
+                          <ConditionPlayerCounter>
+                            <PlayerCounter>PopulationByLevel</PlayerCounter>
+                            <Context>114329</Context>
+                            <CounterAmount>1</CounterAmount>
+                          </ConditionPlayerCounter>
+                        </Values>
+                      </TriggerCondition>
+                      <TriggerActions>
+                        <Item>
+                          <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                              <Action />
+                              <ActionUnlockAsset>
+                                <UnlockAssets>
+                                  <Item>
+                                    <Asset>1500301150</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301298</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301303</Asset>
+                                  </Item>
+                                </UnlockAssets>
+                              </ActionUnlockAsset>
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+                      </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Trigger</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301339</GUID><!-- 1500301318 -->
+                      <Name>Unlock_Creative_Mode</Name>
+                    </Standard>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Values>
+                          <ConditionPropsNegatable />
+                          <Condition />
+                          <ConditionIsCreativeMode />
+                        </Values>
+                        <Template>ConditionIsCreativeMode</Template>
+                      </TriggerCondition>
+                      <TriggerActions>
+                        <Item>
+                          <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                              <Action />
+                              <ActionUnlockAsset>
+                                <UnlockAssets>
+                                  <Item>
+                                    <Asset>1500301295</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301298</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301301</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301303</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301150</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1500301151</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>135087</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>135088</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>135090</Asset>
+                                  </Item>
+                                </UnlockAssets>
+                              </ActionUnlockAsset>
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+                      </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Trigger</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301337</GUID>
+                      <Name>Unlock_Windown_Chain</Name>
+                    </Standard>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                          <Condition />
+                          <ConditionPlayerCounter>
+                            <PlayerCounter>PopulationByLevel</PlayerCounter>
+                            <Context>15000002</Context>
+                            <CounterAmount>2</CounterAmount>
+                          </ConditionPlayerCounter>
+                        </Values>
+                      </TriggerCondition>
+                      <TriggerActions>
+                        <Item>
+                          <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                              <Action />
+                              <ActionUnlockAsset>
+                                <UnlockAssets>
+                                  <Item>
+                                    <Asset>140037</Asset>
+                                  </Item>
+                                </UnlockAssets>
+                              </ActionUnlockAsset>
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+                      </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                  </Values>
+                </Asset>
+              </ModOp>
+              <Group Condition="!@1500301250">
+                <ModOp GUID="135087" Type="addNextSibling" Condition="!@1500301319">
+                  <Asset>
+                    <Template>Trigger</Template>
+                    <Values>
+                      <Standard>
+                        <GUID>1500301250</GUID>
+                        <Name>Unlock_Cherry_Wood_1_Skyscraper_Level_1</Name>
+                        <IconFilename>data/ui/2kimages/main/profiles/3rdparty_unknown.png</IconFilename>
+                      </Standard>
+                      <Trigger>
+                        <TriggerCondition>
+                          <Template>ConditionIsDLCActive</Template>
+                          <Values>
+                            <Condition>
+                              <SubConditionCompletionOrder>MutuallyExclusive</SubConditionCompletionOrder>
+                            </Condition>
+                            <ConditionIsDLCActive>
+                              <DLCAssetList>
+                                <Item>
+                                  <DLCAsset>410085</DLCAsset>
+                                </Item>
+                              </DLCAssetList>
+                            </ConditionIsDLCActive>
+                            <ConditionPropsNegatable />
+                          </Values>
+                        </TriggerCondition>
+                        <TriggerActions>
+                          <Item>
+                            <TriggerAction>
+                              <Template>ActionUnlockAsset</Template>
+                              <Values>
+                                <Action />
+                                <ActionUnlockAsset>
+                                  <UnlockAssets>
+                                    <Item>
+                                      <Asset>135087</Asset>
+                                    </Item>
+                                    <Item>
+                                      <Asset>135088</Asset>
+                                    </Item>
+                                    <Item>
+                                      <Asset>135090</Asset>
+                                    </Item>
+                                  </UnlockAssets>
+                                </ActionUnlockAsset>
+                              </Values>
+                            </TriggerAction>
+                          </Item>
+                        </TriggerActions>
+                        <SubTriggers>
+                          <Item>
+                            <SubTrigger>
+                              <Template>AutoCreateTrigger</Template>
+                              <Values>
+                                <Trigger>
+                                  <TriggerCondition>
+                                    <Template>ConditionPlayerCounter</Template>
+                                    <Values>
+                                      <Condition />
+                                      <ConditionPlayerCounter>
+                                        <Context>601882</Context>
+                                        <CounterAmount>1</CounterAmount>
+                                      </ConditionPlayerCounter>
+                                    </Values>
+                                  </TriggerCondition>
+                                </Trigger>
+                              </Values>
+                            </SubTrigger>
+                          </Item>
+                          <Item>
+                            <SubTrigger>
+                              <Template>AutoCreateTrigger</Template>
+                              <Values>
+                                <Trigger>
+                                  <TriggerCondition>
+                                    <Template>ConditionPlayerCounter</Template>
+                                    <Values>
+                                      <Condition />
+                                      <ConditionPlayerCounter>
+                                        <Context>601888</Context>
+                                        <CounterAmount>1</CounterAmount>
+                                      </ConditionPlayerCounter>
+                                    </Values>
+                                  </TriggerCondition>
+                                </Trigger>
+                              </Values>
+                            </SubTrigger>
+                          </Item>
+                        </SubTriggers>
+                        <ResetTrigger>
+                          <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                          <Values>
+                            <EmptyAutoCreateValue />
+                          </Values>
+                        </ResetTrigger>
+                      </Trigger>
+                      <TriggerSetup />
+                    </Values>
+                  </Asset>
+                </ModOp>
+                <ModOp Type="remove" GUID='136067' Path="/Values/AssetPool/AssetList/Item[Asset='135087']"></ModOp>
+                <ModOp Type="remove" GUID='136067' Path="/Values/AssetPool/AssetList/Item[Asset='135088']"></ModOp>
+                <ModOp Type="remove" GUID='136067' Path="/Values/AssetPool/AssetList/Item[Asset='135090']"></ModOp>
+              </Group>
+          </Group>
+        <!-- Adding to Pools/Buffs/Lists -->
+          <Group>
+            <!-- WorkforceMenu -->
+              <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+                <Item>
+                  <Factory>1500301293</Factory>
+                </Item>
+                <Item>
+                  <Factory>1500301296</Factory>
+                </Item>
+                <Item>
+                  <Factory>1500301300</Factory>
+                </Item>
+                <Item>
+                  <Factory>1500301302</Factory>
+                </Item>
+              </ModOp>
+            <!-- Feedbacks -->
+              <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+                <Item>
+                  <Building>1500301293</Building>
+                </Item>
+                <Item>
+                  <Building>1500301296</Building>
+                </Item>
+                <Item>
+                  <Building>1500301300</Building>
+                </Item>
+                <Item>
+                  <Building>1500301301</Building>
+                </Item>
+              </ModOp>
+            <!-- Effect Pools -->
+              <Group>
+                <ModOp Type="add" GUID="6000018,193856,193875,368,190914" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+                  <Item>
+                    <GUID>1500301292</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>1500301293</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>1500301296</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>1500301299</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>1500301300</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>1500301301</GUID>
+                  </Item>
+                </ModOp>
+
+                <ModOp Type="add" GUID="1500300914" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="@1500300914">
+                  <Item>
+                    <GUID>1500301292</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>1500301293</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>1500301296</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>1500301299</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>1500301300</GUID>
+                  </Item>
+                  <Item>
+                    <GUID>1500301301</GUID>
+                  </Item>
+                </ModOp>
+                <ModOp Type="remove" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='100451']"></ModOp>
+              </Group>
+            <!-- RecipeList  -->
+              <Group>
+                <ModOp Type="add" GUID="1500300848" Path="/Values/RecipeList/Recipes" Condition="@1500300848">
+                  <Item>
+                    <Recipe>1500301295</Recipe>
+                  </Item>
+                  <Item>
+                    <Recipe>1500301298</Recipe>
+                  </Item>
+                </ModOp>
+
+                <ModOp Type="add" GUID="1500300849" Path="/Values/RecipeList/Recipes" Condition="@1500300849">
+                  <Item>
+                    <Recipe>1500301301</Recipe>
+                  </Item>
+                  <Item>
+                    <Recipe>1500301303</Recipe>
+                  </Item>
+                </ModOp>
+              </Group>
+          </Group>
+        <!-- Adjust Recipes / Buildings / Icons -->
+          <Group>
+            <ModOp Type="add" GUID="1500300845,1500300846" Path="/Values/Recipe/RecipeIngredientUIData" Condition="@1500300845">
+              <Item>
+                <PosX>0</PosX>
+                <PosY>350</PosY>
+                <UICirclePointer>East</UICirclePointer>
+              </Item>
+            </ModOp>
+
+            <ModOp Type="merge" GUID="1500300845" Path="/Values" Condition="@1500300845">
+              <Text>
+                <TextOverride>1500300845</TextOverride>
+              </Text>
+            </ModOp>
+
+            <ModOp Type="merge" GUID="1500300846" Path="/Values" Condition="@1500300845">
+              <Text>
+                <TextOverride>1500300846</TextOverride>
+              </Text>
+            </ModOp>
+
+            <ModOp Type="merge" GUID="1010320,101296" Path="/Values">
+              <Values>
+                <Standard>
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_wood.png</IconFilename>
+                </Standard>
+              </Values>
+            </ModOp>
+
+            <ModOp Type="replace" GUID="1500300845,1500300846" Path="/Values/Standard/IconFilename" Condition="@1500300845">
+              <IconFilename>data/ui/2kimages/main/kurila/icon_inlay_wood.png</IconFilename>
+            </ModOp>
+
+            <ModOp Type="replace" GUID="1500301000" Path="/Values/Standard/IconFilename" Condition="@1500301000">
+              <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks_3.png</IconFilename>
+            </ModOp>
+
+            <ModOp Type="replace" GUID="1500301001" Path="/Values/Standard/IconFilename" Condition="@1500301001">
+              <IconFilename>data/ui/2kimages/main/kurila/icon_wanza_planks_2.png</IconFilename>
+            </ModOp>
+
+          </Group>
+        <!-- Text Changes -->
+          <ModOp Type="merge" GUID="1829" Path="/Values">
+            <Text>
+              <TextOverride>25756</TextOverride>
+            </Text>
+          </ModOp>
+      </Group>
+    <!-- Adjust Woodworkings -->
+      <Group>
+        <!-- Old World -->
+          <Group>
+            <!-- Sawmills -->
+              <ModOp Type="merge" GUID="100451" Path="/Values">
+                <Industrializable>
+                  <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
+              </ModOp>
+            <!-- Advanced Sawmills -->
+              <Group>
+                <ModOp Type="merge" GUID="1404423025" Path="/Values" Condition="@1404423025">
+                  <Standard>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_wooden_planks_2.png</IconFilename>
+                  </Standard>
+                  <Cost>
+                    <Costs>
+                      <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>4000</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010205</Ingredient>
+                        <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010218</Ingredient>
+                        <Amount>5</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010207</Ingredient>
+                        <Amount>5</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010202</Ingredient>
+                        <Amount>5</Amount>
+                      </Item>
+                    </Costs>
+                  </Cost>
+                  <FactoryBase>
+                    <FactoryInputs>
+                      <Item>
+                        <Product>120008</Product>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>1010196</Product>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>30</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                    <WarehouseTransporterAsset>120028</WarehouseTransporterAsset>
+                  </FactoryBase>
+                  <LogisticNode>
+                    <TransporterAsset>120028</TransporterAsset>
+                  </LogisticNode>
+                  <Maintenance>
+                    <Maintenances>
+                    <Item>
+                      <Product>1010017</Product>
+                      <Amount>50</Amount>
+                      <InactiveAmount>25</InactiveAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010115</Product>
+                      <Amount>50</Amount>
+                    </Item>
+                    </Maintenances>
+                  </Maintenance>
+                  <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                  </Industrializable>
+                </ModOp>
+                <ModOp Type="merge" GUID="1404423027" Path="/Values" Condition="@1404423027">
+                  <Standard>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_wooden_planks_2.png</IconFilename>
+                  </Standard>
+                  <Cost>
+                    <Costs>
+                      <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>4000</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010205</Ingredient>
+                        <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010218</Ingredient>
+                        <Amount>0</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010207</Ingredient>
+                        <Amount>0</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010202</Ingredient>
+                        <Amount>0</Amount>
+                      </Item>
+                    </Costs>
+                  </Cost>
+                  <Selection>
+                    <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+                  </Selection>
+                  <FactoryBase>
+                    <FactoryInputs>
+                      <Item>
+                        <Product>120008</Product>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>1010196</Product>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>15</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                  <Maintenance>
+                    <Maintenances>
+                    <Item>
+                      <Product>1010017</Product>
+                      <Amount>50</Amount>
+                      <InactiveAmount>25</InactiveAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010367</Product>
+                      <Amount>50</Amount>
+                    </Item>
+                    </Maintenances>
+                  </Maintenance>
+                </ModOp>
+                <ModOp Type="merge" GUID="1500301325" Path="/Values" Condition="@1500301325">
+                  <Standard>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks_2.png</IconFilename>
+                  </Standard>
+                  <Cost>
+                    <Costs>
+                      <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>4000</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010205</Ingredient>
+                        <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010218</Ingredient>
+                        <Amount>5</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010207</Ingredient>
+                        <Amount>5</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010202</Ingredient>
+                        <Amount>5</Amount>
+                      </Item>
+                    </Costs>
+                  </Cost>
+                  <FactoryBase>
+                    <FactoryInputs>
+                      <Item>
+                        <Product>135087</Product>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>1500301151</Product>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>60</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                    <WarehouseTransporterAsset>120028</WarehouseTransporterAsset>
+                  </FactoryBase>
+                  <LogisticNode>
+                    <TransporterAsset>120028</TransporterAsset>
+                  </LogisticNode>
+                  <Maintenance>
+                    <Maintenances>
+                    <Item>
+                      <Product>1010017</Product>
+                      <Amount>50</Amount>
+                      <InactiveAmount>25</InactiveAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010115</Product>
+                      <Amount>50</Amount>
+                    </Item>
+                    </Maintenances>
+                  </Maintenance>
+                  <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                  </Industrializable>
+                </ModOp>
+                <ModOp Type="merge" GUID="1500301327" Path="/Values" Condition="@1500301327">
+                  <Standard>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks_2.png</IconFilename>
+                  </Standard>
+                  <Cost>
+                    <Costs>
+                      <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>4000</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010205</Ingredient>
+                        <Amount>15</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010218</Ingredient>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010207</Ingredient>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010202</Ingredient>
+                      </Item>
+                    </Costs>
+                  </Cost>
+                  <FactoryBase>
+                    <FactoryInputs>
+                      <Item>
+                        <Product>135087</Product>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>1500301151</Product>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>30</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                  <Maintenance>
+                    <Maintenances>
+                    <Item>
+                      <Product>1010017</Product>
+                      <Amount>50</Amount>
+                      <InactiveAmount>25</InactiveAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010367</Product>
+                      <Amount>50</Amount>
+                    </Item>
+                    </Maintenances>
+                  </Maintenance>
+                </ModOp>
+                <ModOp Type="merge" GUID="1404423026,1404423028" Path="/Values" Condition="@1404423026">
+                  <Standard>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_wooden_planks_2.png</IconFilename>
+                  </Standard>
+                </ModOp>
+              </Group>
+            <!-- Advanced Lumberjacks -->
+              <Group>
+                <ModOp Type="merge" GUID="1500302220" Path="/Values" Condition="@1500302220">
+                  <Standard>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_wood_log_2.png</IconFilename>
+                  </Standard>
+                  <Cost>
+                    <Costs>
+                      <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>1000</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010196</Ingredient>
+                          <Amount>10</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010205</Ingredient>
+                            <Amount>5</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010218</Ingredient>
+                            <Amount>5</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010207</Ingredient>
+                            <Amount>5</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010202</Ingredient>
+                            <Amount>5</Amount>
+                      </Item>
+                    </Costs>
+                  </Cost>
+                  <FactoryBase>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>120008</Product>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>30</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                    <WarehouseTransporterAsset>120028</WarehouseTransporterAsset>
+                  </FactoryBase>
+                  <LogisticNode>
+                    <TransporterAsset>120028</TransporterAsset>
+                  </LogisticNode>
+                  <Electrifiable/>
+                  <Industrializable>
+                    <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                  </Industrializable>
+                </ModOp>
+                <ModOp Type="merge" GUID="1500302221" Path="/Values" Condition="@1500302221">
+                  <Standard>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_wood_log_2.png</IconFilename>
+                  </Standard>
+                  <Cost>
+                    <Costs>
+                      <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>1000</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>10</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010205</Ingredient>
+                        <Amount>5</Amount>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010218</Ingredient>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010207</Ingredient>
+                      </Item>
+                      <Item>
+                        <Ingredient>1010202</Ingredient>
+                      </Item>
+                    </Costs>
+                  </Cost>
+                  <FactoryBase>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>120008</Product>
+                        <Amount>4</Amount>
+                        <StorageAmount>16</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>15</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+              </Group>
+            <!-- Timber -->
+              <Group Condition="#IndustrializedLowTierProduction">
+                <ModOp Type="replace" GUID="500091" Path="/Values/ProductionChain/Tier1/Item[Building='1404423025']" Condition="/Values/ProductionChain/Tier1/Item[Building='1404423025']">
+                  <Item>
+                    <Building>1404423025</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1500302220</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </ModOp>
+              </Group>
+              <Group Condition="!#IndustrializedLowTierProduction">
+                <ModOp Type="add" GUID="500091" Path="/Values/ProductionChain/Tier1">
+                  <Item>
+                    <Building>1404423025</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1500302220</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </ModOp>
+              </Group>
+            <!-- Cherry Timber -->
+              <ModOp Type="add" GUID="1500301336" Path="/Values/ProductionChain/Tier1" Condition="@1500301336">
+                <Item>
+                  <Building>1500301325</Building>
+                </Item>
+              </ModOp>
+            <!-- Sewing Machines / Windows -->
+              <Group>
+                <ModOp Type="replace" GUID="500003,500010" Path="/Values/ProductionChain/Tier1/Item[Building='1010266']">
+                  <Item>
+                    <Building>100451</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1010266</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </ModOp>
+                <ModOp Type="replace" GUID="1010284,1010285" Path="/Values/FactoryBase/FactoryInputs/Item[Product='120008']/Product">
+                  <Product>1010196</Product>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500010600" Path="/Values/FactoryBase/FactoryInputs/Item[Product='120008']/Product" Condition="@1500010600">
+                  <Product>1010196</Product>
+                </ModOp>
+                <ModOp Type="replace" GUID="1010285" Path="/Values/Object/Variations/Item/Filename">
+                  <Filename>data/kurila/window_factory/window_factory.cfg</Filename>
+                </ModOp>
+              </Group>
+            <!-- Weapon Factory -->
+              <Group>
+                <Group Condition="!#military_attention">
+                  <ModOp Type="addNextSibling" GUID="500145" Path="/Values/ProductionChain/Tier1/Item[Building='1010297']">
+                    <Item>
+                      <Building>100451</Building>
+                      <Tier2>
+                        <Item>
+                          <Building>1010266</Building>
+                        </Item>
+                      </Tier2>
+                    </Item>
+                  </ModOp>
+                  <ModOp Type="addNextSibling" GUID="1010299" Path="/Values/FactoryBase/FactoryInputs/Item[Product='1010219']">
+                    <Item>
+                      <Product>1010196</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>4</StorageAmount>
+                    </Item>
+                  </ModOp>
+                  <Group Condition="@1500302335">
+                    <ModOp Type="merge" GUID="1010299" Path="/Values/FactoryBase/FactoryInputs/Item[Product='1010196']">
+                        <Product>1010196</Product>
+                        <Amount>2</Amount>
+                        <StorageAmount>8</StorageAmount>
+                    </ModOp>
+                  </Group>
+                </Group>
+                <Group Condition="#military_attention">
+                  <ModOp Type="replace" GUID="500145" Path="/Values/ProductionChain/Tier1/Item[Building='1010266']">
+                    <Item>
+                      <Building>100451</Building>
+                      <Tier2>
+                        <Item>
+                          <Building>1010266</Building>
+                        </Item>
+                      </Tier2>
+                    </Item>
+                  </ModOp>
+                  <ModOp Type="replace" GUID="1010299" Path="/Values/FactoryBase/FactoryInputs/Item[Product='120008']/Product">
+                    <Product>1010196</Product>
+                  </ModOp>
+                </Group>
+              </Group>
+            <!-- Steam Carriages -->
+              <ModOp Type="replace" GUID="500021" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1010266']">
+                <Item>
+                  <Building>1404423025</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1500302220</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+              </ModOp>
+              <ModOp Type="replace" GUID="1010289" Path="/Values/FactoryBase/FactoryInputs/Item[Product='120008']/Product">
+                <Product>1010196</Product>
+              </ModOp>
+            <!-- Tools -->
+              <ModOp Type="replace" GUID="1500010155" Path="/Values/ProductionChain/Tier1/Item[Building='1010266']" Condition="@1500010155">
+                <Item>
+                  <Building>100451</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>1010266</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+              <ModOp Type="replace" GUID="1500010155" Path="/Values/ProductionChain/Tier1/Item[Building='1010266']" Condition="@1500010155">
+                <Item>
+                  <Building>100451</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>1010266</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+              <ModOp Type="replace" GUID="1500010154" Path="/Values/FactoryBase/FactoryInputs/Item[Product='120008']/Product" Condition="@1500010154">
+                <Product>1010196</Product>
+              </ModOp>
+            <!-- Cigars / Gramophones / Telephones / Elevators -->
+              <ModOp Type="replace" GUID='500018,500020,118739,137602' Path="/Values/ProductionChain/Tier1/Item[Building='1010320']">
+                <Item>
+                  <Building>1500301292</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>1404423025</Building>
+                      <Tier3>
+                        <Item>
+                          <Building>1500302220</Building>
+                        </Item>
+                      </Tier3>
+                    </Item>
+                    <Item>
+                      <Building>1500302220</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+              <ModOp Type="remove" GUID='137602' Path="/Values/ProductionChain/Tier1/Item[Building='1500301292']/Tier2/Item[Building='1500302220']" Condition="@1500302354">
+                <Item>
+                  <Building>1500301292</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>1404423025</Building>
+                      <Tier3>
+                        <Item>
+                          <Building>1500302220</Building>
+                        </Item>
+                      </Tier3>
+                    </Item>
+                    <Item>
+                      <Building>1500302220</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+              <ModOp Type="merge" GUID="1010320" Path="/Values/FactoryBase">
+                <FactoryBase>
+                  <FactoryInputs>
+                    <Item>
+                      <Product>1010196</Product>
+                      <Amount>2</Amount>
+                      <StorageAmount>8</StorageAmount>
+                    </Item>
+                    <Item>
+                      <Product>120008</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>8</StorageAmount>
+                    </Item>
+                  </FactoryInputs>
+                  <FactoryOutputs>
+                    <Item>
+                      <Product>1010242</Product>
+                      <Amount>2</Amount>
+                      <StorageAmount>8</StorageAmount>
+                    </Item>
+                  </FactoryOutputs>
+                  <CycleTime>120</CycleTime>
+                  <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                  <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+              </ModOp>
+            <!-- Billiard Tables / Violins / Furniture Stores -->
+              <ModOp Type="replace" GUID="137597,137598" Path="/Values/ProductionChain/Tier1/Item[Building='135088']">
+                <Item>
+                  <Building>1500301325</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>135088</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+              <ModOp Type="replace" GUID="135397,135407,135121,135122" Path="/Values/FactoryBase/FactoryInputs/Item[Product='135087']/Product">
+                <Product>1500301151</Product>
+              </ModOp>
+            <!-- Cognac -->
+              <ModOp Type="replace" GUID="137599" Path="/Values/ProductionChain/Tier1/Item[Building='135088']" Condition="!@1500301340">
+                <Item>
+                  <Building>1500301325</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>135088</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+              <ModOp Type="replace" GUID="135418" Path="/Values/FactoryBase/FactoryInputs/Item[Product='135087']/Product" Condition="!@1500301340">
+                <Product>1500301151</Product>
+              </ModOp>
+            <!-- Mod Jewelry Workshops -->
+              <Group Condition="@1500301002">
+                <ModOp Type="replace" GUID="1500301002" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1010266']">
+                  <Item>
+                    <Building>100451</Building>
+                    <Tier3>
+                      <Item>
+                        <Building>1010266</Building>
+                      </Item>
+                    </Tier3>
+                  </Item>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500301002" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='135088']">
+                  <Item>
+                    <Building>1500301320</Building>
+                    <Tier3>
+                      <Item>
+                        <Building>135088</Building>
+                      </Item>
+                    </Tier3>
+                  </Item>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500301002" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='122963']">
+                  <Item>
+                    <Building>1500301290</Building>
+                    <Tier3>
+                      <Item>
+                        <Building>122963</Building>
+                      </Item>
+                    </Tier3>
+                  </Item>
+                </ModOp>
+              </Group>
+              <Group Condition="@1500300980">
+                <ModOp Type="replace" GUID="1500300981" Path="/Values/FactoryBase/FactoryInputs/Item[Product='120008']/Product">
+                  <Product>1010196</Product>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500300984" Path="/Values/FactoryBase/FactoryInputs/Item[Product='135087']/Product">
+                  <Product>1500301151</Product>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500300987" Path="/Values/FactoryBase/FactoryInputs/Item[Product='1500301150']/Product">
+                  <Product>114356</Product>
+                </ModOp>
+                <ModOp Type="merge" GUID="1500300980" Path="/Values">
+                    <FactoryBase>
+                      <FactoryInputs>
+                        <Item>
+                          <Product>1500301379</Product>
+                        </Item>
+                      </FactoryInputs>
+                      <FactoryOutputs>
+                        <Item>
+                          <Product>1500301376</Product>
+                        </Item>
+                        <Item>
+                          <Product>1500301377</Product>
+                        </Item>
+                        <Item>
+                          <Product>1500301378</Product>
+                        </Item>
+                      </FactoryOutputs>
+                    </FactoryBase>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500300981,1500300984,1500300984" Path="/Values/Object/Variations/Item/Filename">
+                  <Filename>data/kurila/jewelry_workshop/jewelry_workshop_2.cfg</Filename>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500300981" Path="/Values/Standard/IconFilename">
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_wooden_ring_wood_2.png</IconFilename>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500300983" Path="/Values/Standard/IconFilename">
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_wooden_ring_wood_2.png</IconFilename>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500300984" Path="/Values/Standard/IconFilename">
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_wooden_ring_cherry_wood_2.png</IconFilename>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500300986" Path="/Values/Standard/IconFilename">
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_wooden_ring_cherry_wood_2.png</IconFilename>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500300987" Path="/Values/Standard/IconFilename">
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_wooden_ring_wanza_wood_2.png</IconFilename>
+                </ModOp>
+                <ModOp Type="replace" GUID="1500300989" Path="/Values/Standard/IconFilename">
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_wooden_ring_wanza_wood_2.png</IconFilename>
+                </ModOp>
+              </Group>
+            <!-- Mod Winery -->
+              <Group Condition="@1999002310">
+                <ModOp Type="replace" GUID="1999002310" Path="/Values/FactoryBase/FactoryInputs/Item[Product='135087']/Product" Condition="!@1500301340">
+                  <Product>1500301151</Product>
+                </ModOp>
+              </Group>
+          </Group>
+        <!-- New World -->
+          <Group>
+            <!-- Timber -->
+              <Group Condition="#IndustrializedLowTierProduction">
+                <ModOp Type="replace" GUID="500904" Path="/Values/ProductionChain/Tier1/Item[Building='1404423027']" Condition="/Values/ProductionChain/Tier1/Item[Building='1404423027']">
+                  <Item>
+                    <Building>1404423027</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1500302221</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </ModOp>
+              </Group>
+              <Group Condition="!#IndustrializedLowTierProduction">
+                <ModOp Type="add" GUID="500904" Path="/Values/ProductionChain/Tier1" Condition="!/Values/ProductionChain/Tier1/Item[Building='1404423027']">
+                  <Item>
+                    <Building>1404423027</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1500302221</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </ModOp>
+              </Group>
+            <!-- Police Equipment -->
+              <ModOp Type="replace" GUID="7301" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='101260']">
+                <Item>
+                  <Building>1404423027</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1500302221</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+              </ModOp>
+              <ModOp Type="replace" GUID="6630" Path="/Values/FactoryBase/FactoryInputs/Item[Product='120008']/Product">
+                <Product>1010196</Product>
+              </ModOp>
+            <!-- Sewing Machines Alu -->
+              <ModOp Type="replace" GUID="6623" Path="/Values/ProductionChain/Tier1/Item[Building='101260']">
+                <Item>
+                  <Building>1404423027</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>1500302221</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+              <ModOp Type="replace" GUID="6083" Path="/Values/FactoryBase/FactoryInputs/Item[Product='120008']/Product">
+                <Product>1010196</Product>
+              </ModOp>
+            <!-- Windows Jakob -->
+              <ModOp Type="replace" GUID="1500010704" Path="/Values/ProductionChain/Tier1/Item[Building='101260']" Condition="@1500010704">
+                <Item>
+                  <Building>1404423027</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>1500302221</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+              <ModOp Type="replace" GUID="1500010701" Path="/Values/FactoryBase/FactoryInputs/Item[Product='120008']/Product" Condition="@1500010701">
+                <Product>1010196</Product>
+              </ModOp>
+              <ModOp Type="replace" GUID="1500010701" Path="/Values/Object/Variations/Item/Filename" Condition="@1500010701">
+                <Filename>data/kurila/window_factory/window_factory_nw.cfg</Filename>
+              </ModOp>
+            <!-- Cigars -->
+              <ModOp Type="replace" GUID='500914' Path="/Values/ProductionChain/Tier1/Item[Building='101296']">
+                <Item>
+                  <Building>1500301299</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>1404423027</Building>
+                      <Tier3>
+                        <Item>
+                          <Building>1500302221</Building>
+                        </Item>
+                      </Tier3>
+                    </Item>
+                    <Item>
+                      <Building>1500302221</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+            <!-- Violins Taludas -->
+              <ModOp Type="replace" GUID="1999002124" Path="/Values/ProductionChain/Tier1/Item[Building='135088']" Condition="@1999002124">
+                <Item>
+                  <Building>1500301327</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>135088</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+              <ModOp Type="replace" GUID="1999002123" Path="/Values/FactoryBase/FactoryInputs/Item[Product='135087']/Product" Condition="@1999002123">
+                <Product>1500301151</Product>
+              </ModOp>
+          </Group>
+        <!-- Arctic -->
+          <Group>
+            <!-- Husky Sleds -->
+            <ModOp Type="replace" GUID="112714" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='114703']">
+              <Item>
+                <Building>114704</Building>
+                <Tier3>
+                <Item>
+                  <Building>114703</Building>
+                </Item>
+                </Tier3>
+              </Item>
+            </ModOp>
+            <ModOp Type="replace" GUID="1500300097" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='114703']" Condition="@1500300097">
+              <Item>
+                <Building>114704</Building>
+                <Tier3>
+                <Item>
+                  <Building>114703</Building>
+                </Item>
+                </Tier3>
+              </Item>
+            </ModOp>
+            <ModOp Type="replace" GUID="112681" Path="/Values/FactoryBase/FactoryInputs/Item[Product='120008']/Product">
+              <Product>1010196</Product>
+            </ModOp>
+          </Group>
+        <!-- Enbesa -->
+          <Group>
+            <!-- Clay Pipes -->
+            <Group>
+              <ModOp Type="addNextSibling" GUID="114619,120289" Path="/Values/ProductionChain/Tier1/Item[Building='117743']">
+                <Item>
+                  <Building>1500301290</Building>
+                  <Tier2>
+                    <Item>
+                      <Building>122963</Building>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+              <ModOp Type="addNextSibling" GUID="114472" Path="/Values/FactoryBase/FactoryInputs/Item[Product='1010201']">
+                <Item>
+                  <Product>114356</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+              </ModOp>
+              <ModOp Type="merge" GUID="114472" Path="/Values/FactoryBase">
+                <FactoryInputs>
+                  <Item>
+                    <StorageAmount>4</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+                <FactoryOutputs>
+                  <Item>
+                    <StorageAmount>4</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+              </ModOp>
+            </Group>
+          </Group>
+      </Group>
+  </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Woodworking" Icon="data/ui/2kimages/main/3dicons/icon_wooden_planks.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="Woodworking" ExposeID="Disable/Enable Woodworking">
+    </ImyaExpose>
+</ModOps>

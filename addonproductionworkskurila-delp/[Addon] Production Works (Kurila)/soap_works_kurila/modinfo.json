@@ -1,0 +1,73 @@
+{
+  "Version": "1.0",
+  "ModID": "soap_works_kurila",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_TT_MenuInputOutputAmounts_Serp",
+    "shared_salt_works_kurila",
+    "advanced_soap_factory_kurila",
+    "advanced_pig_farm_kurila",
+    "advanced_rendering_works_kurila",
+    "shared_soda_factory_kurila",
+    "Taludas_sharedproduct_soda",
+    "Taludas_sharedgood_potash"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "IndustrializedLowTierProduction",
+    "sausage_works_kurila",
+    "Taludas_SlipperySoap",
+    "jakob-modular-factories",
+    "advanced_soap_factory_kurila",
+    "advanced_rendering_works_kurila",
+    "production-olive-soap-jakob",
+    "military_attention",
+    "shared_dynamite_storage_kurila"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Soap Works (Kurila)",
+    "English": "Soap Works (Kurila)",
+    "French": "Soap Works (Kurila)",
+    "German": "Soap Works (Kurila)",
+    "Italian": "Soap Works (Kurila)",
+    "Japanese": "Soap Works (Kurila)",
+    "Korean": "Soap Works (Kurila)",
+    "Polish": "Soap Works (Kurila)",
+    "Russian": "Soap Works (Kurila)",
+    "Spanish": "Soap Works (Kurila)",
+    "Taiwanese": "Soap Works (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

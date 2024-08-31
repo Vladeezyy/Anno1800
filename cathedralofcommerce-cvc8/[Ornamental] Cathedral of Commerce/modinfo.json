@@ -1,0 +1,16 @@
+{
+  "ModID": "cathedral_of_commerce",
+  "Version": "1.0",
+  "Category": {
+    "English": "Skin"
+  },
+  "ModName": {
+    "English": "Cathedral of Commerce"
+  },
+  "Description": {
+    "English": "Tired of the same old bank? Feel like it's not big enough? This mod adds new bank visual variations guaranteed to define your skyline!"
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "jje1000"
+}

@@ -1,0 +1,25 @@
+<ModOps>
+    <!-- Gaskraftwerk -->
+    <ModOp Type="add" GUID="25000192" Path="/Values/ConstructionCategory/BuildingList">
+         <Item><Building>117559</Building></Item>
+    </ModOp>
+	<ModOp Type="remove" GUID='500447' Path="/Values/ConstructionCategory/BuildingList/Item[Building='117559']">
+    </ModOp>
+	<ModOp Type="merge" GUID="117559" Path="/Values/Locked">
+		<DefaultLockedState>0</DefaultLockedState>
+	</ModOp>
+	<ModOp Type="replace" GUID="117553" Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/Context">
+		<Context>15000003</Context>
+	</ModOp>
+	<!-- <ModOp Type="replace" GUID="117553" Path="/Values"> -->
+		<!-- <TriggerSetup> -->
+			<!-- <AutoRegisterTrigger>0</AutoRegisterTrigger> -->
+			<!-- <UsedBySecondParties>0</UsedBySecondParties> -->
+		<!-- </TriggerSetup> -->
+	<!-- </ModOp> -->
+
+   <ModOp GUID="112706" Type="replace"  Path="/Values/Product/ProductionRegions/Item/RegionType">
+		<RegionType>Moderate,Arctic,Colony01,Africa</RegionType>
+	</ModOp>
+
+</ModOps>

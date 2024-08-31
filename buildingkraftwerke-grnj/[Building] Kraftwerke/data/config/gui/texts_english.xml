@@ -1,0 +1,154 @@
+<ModOps>
+  <ModOp               Type="replace" Path="/TextExport/Texts/Text[GUID = '112706']">
+  	<Text>
+	  	<GUID>112706</GUID>
+		  <Text>Gas</Text>
+	  </Text>
+  </ModOp>  
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2141010101</GUID>
+      <Text>Needs uranium to produce electricity</Text>
+    </Text>
+    <Text>
+      <GUID>2141010102</GUID>
+      <Text>Nuclear Power Plant Old World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010103</GUID>
+      <Text>Nuclear Power Plant New World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010104</GUID>
+      <Text>Uranium open pit</Text>
+    </Text>
+    <Text>
+      <GUID>2141010105</GUID>
+      <Text>Uranium open pit</Text>
+    </Text>
+    <Text>
+      <GUID>2141010106</GUID>
+      <Text>Uranium</Text>
+    </Text>
+    <Text>
+      <GUID>2141010107</GUID>
+      <Text>Weird green ore, it's warm and I'm shining</Text>
+    </Text>
+    <Text>
+      <GUID>2141010108</GUID>
+      <Text>Nuclear waste</Text>
+    </Text>
+    <Text>
+      <GUID>2141010109</GUID>
+      <Text>What remained of the uranium, what now?</Text>
+    </Text>
+    <Text>
+      <GUID>2141010110</GUID>
+      <Text>Nuclear Power Plant New World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010111</GUID>
+      <Text>Nuclear Power Plant </Text>
+    </Text>
+    <Text>
+      <GUID>2141010112</GUID>
+      <Text>Fischoil powerplant</Text>
+    </Text>
+    <Text>
+      <GUID>2141010113</GUID>
+      <Text>Needs fishoil to produce electricity</Text>
+    </Text>
+    <Text>
+      <GUID>2141010114</GUID>
+      <Text>Fishoil powerplant</Text>
+    </Text>
+    <Text>
+      <GUID>2141010115</GUID>
+      <Text>Fishoil powerplant</Text>
+    </Text>
+    <Text>
+      <GUID>2141010116</GUID>
+      <Text>Woodpowerplant Old World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010117</GUID>
+      <Text>Needs wood to produce electricity</Text>
+    </Text>
+    <Text>
+      <GUID>2141010118</GUID>
+      <Text>Woodpowerplant Old World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010120</GUID>
+      <Text>Woodpowerplant New World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010121</GUID>
+      <Text>Woodpowerplant New World</Text>
+    </Text>
+    <Text>
+      <GUID>214101012</GUID>
+      <Text>Coalpowerplant New World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010123</GUID>
+      <Text>Coalpowerplant Old World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010124</GUID>
+      <Text>Coalpowerplant Old World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010125</GUID>
+      <Text>Coalpowerplant New World</Text>
+    </Text>
+     <Text>
+      <GUID>2141010126</GUID>
+      <Text>Gaspowerplant New World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010127</GUID>
+      <Text>Gaspowerplant New World</Text>
+    </Text>
+    <Text>
+      <GUID>2141010129</GUID>
+      <Text>Gaspowerplant Enbesa</Text>
+    </Text>
+    <Text>
+      <GUID>2141010130</GUID>
+      <Text>Gaspowerplant Enbesa</Text>
+    </Text>
+    <Text>
+      <GUID>2141010133</GUID>
+      <Text>Oil powerplant Enbesa</Text>
+    </Text>
+    <Text>
+      <GUID>2141010135</GUID>
+      <Text>Oil powerplant Enbesa</Text>
+    </Text>
+    <Text>
+      <GUID>2141010136</GUID>
+      <Text>Oil powerplant Arctic</Text>
+    </Text>
+    <Text>
+      <GUID>2141010137</GUID>
+      <Text>Gas powerplant Arctic</Text>
+    </Text>
+    <Text>
+      <GUID>2141010138</GUID>
+      <Text>Coal powerplant Arctic</Text>
+    </Text>
+    <Text>
+      <GUID>2141010139</GUID>
+      <Text>Oil powerplant Arctic</Text>
+    </Text>
+    <Text>
+      <GUID>2141010140</GUID>
+      <Text>Gas powerplant Arctic</Text>
+    </Text>
+    <Text>
+      <GUID>2141010141</GUID>
+      <Text>Coal powerplant Arctic</Text>
+    </Text>
+ </ModOp>
+</ModOps>

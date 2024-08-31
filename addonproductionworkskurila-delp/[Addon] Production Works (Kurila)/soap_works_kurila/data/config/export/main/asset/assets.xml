@@ -1,0 +1,568 @@
+<ModOps>
+  <Group ModOpID="SoupWorks">
+      <!-- New Entries -->
+        <Group>
+          <!-- Trigger -->
+            <Group>
+              <Group Condition="@1404423013">
+                <ModOp Type="remove" GUID="1404423053" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1404423050']"></ModOp>
+                <ModOp Type="remove" GUID="1404423053" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1404423051']"></ModOp>
+              </Group>
+              <ModOp GUID="1010316" Type="addNextSibling">
+                <Asset>
+                  <Template>Trigger</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500302191</GUID>
+                      <Name>Unlock_Trigger_500_Worker</Name>
+                    </Standard>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                          <Condition />
+                          <ConditionPlayerCounter>
+                            <PlayerCounter>PopulationByLevel</PlayerCounter>
+                            <Context>15000001</Context>
+                            <CounterAmount>300</CounterAmount>
+                          </ConditionPlayerCounter>
+                        </Values>
+                      </TriggerCondition>
+                      <TriggerActions>
+                        <Item>
+                          <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                              <Action />
+                              <ActionUnlockAsset>
+                                <UnlockAssets>
+                                  <Item>
+                                    <Asset>1999002211</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1999002232</Asset>
+                                  </Item>
+                                </UnlockAssets>
+                              </ActionUnlockAsset>
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+                      </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                  </Values>
+                </Asset>
+                <Asset>
+                  <Template>Trigger</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500302190</GUID>
+                      <Name>Unlock_Trigger_1_Engineer</Name>
+                    </Standard>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                          <Condition />
+                          <ConditionPlayerCounter>
+                            <PlayerCounter>PopulationByLevel</PlayerCounter>
+                            <Context>15000003</Context>
+                            <CounterAmount>1</CounterAmount>
+                          </ConditionPlayerCounter>
+                        </Values>
+                      </TriggerCondition>
+                      <TriggerActions>
+                        <Item>
+                          <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                              <Action />
+                              <ActionUnlockAsset>
+                                <UnlockAssets>
+                                  <Item>
+                                    <Asset>1404423050</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>1404423051</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>2100115090</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>2100115089</Asset>
+                                  </Item>
+                                </UnlockAssets>
+                              </ActionUnlockAsset>
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+                      </TriggerActions>
+                    </Trigger>
+                    <TriggerSetup />
+                  </Values>
+                </Asset>
+              </ModOp>
+            </Group>
+        </Group>
+      <!-- Adjust Productions  -->
+        <Group>
+          <!-- Soap-->
+            <Group>
+              <!-- Chain -->
+                <Group>
+                  <Group Condition="!#Taludas_SlipperySoap">
+                    <ModOp Type="addNextSibling" GUID="25000220" Path="/Values/ProductionChain/Tier1/Item[Building='1010312']">
+                      <Item>
+                        <Building>1999002232</Building>
+                        <Tier2>
+                          <Item>
+                            <Building>1010266</Building>
+                          </Item>
+                        </Tier2>
+                      </Item>
+                    </ModOp>
+                  </Group>
+                  <Group Condition="#IndustrializedLowTierProduction">
+                    <ModOp Type="replace" GUID="25000220" Path="/Values/ProductionChain/Tier1/Item[Building='1404423050']" Condition="/Values/ProductionChain/Tier1/Item[Building='1404423050']">
+                      <Item>
+                        <Building>1404423050</Building>
+                        <Tier2>
+                          <Item>
+                            <Building>1404423051</Building>
+                            <Tier3>
+                              <Item>
+                                <Building>1404423055</Building>
+                              </Item>
+                            </Tier3>
+                          </Item>
+                          <Item>
+                            <Building>1500302310</Building>
+                            <Tier3>
+                              <Item>
+                                <Building>1500302161</Building>
+                              </Item>
+                              <Item>
+                                <Building>1010309</Building>
+                              </Item>
+                              <Item>
+                                <Building>2100115090</Building>
+                              </Item>
+                              <Item>
+                                <Building>1010304</Building>
+                              </Item>
+                            </Tier3>
+                          </Item>
+                        </Tier2>
+                      </Item>
+                    </ModOp>
+                  </Group>
+                  <Group Condition="!#IndustrializedLowTierProduction">
+                    <ModOp Type="add" GUID="25000220" Path="/Values/ProductionChain/Tier1">
+                      <Item>
+                        <Building>1404423050</Building>
+                        <Tier2>
+                          <Item>
+                            <Building>1404423051</Building>
+                            <Tier3>
+                              <Item>
+                                <Building>1404423055</Building>
+                              </Item>
+                            </Tier3>
+                          </Item>
+                          <Item>
+                            <Building>1500302310</Building>
+                            <Tier3>
+                              <Item>
+                                <Building>1500302161</Building>
+                              </Item>
+                              <Item>
+                                <Building>1010309</Building>
+                              </Item>
+                              <Item>
+                                <Building>2100115090</Building>
+                              </Item>
+                              <Item>
+                                <Building>1010304</Building>
+                              </Item>
+                            </Tier3>
+                          </Item>
+                        </Tier2>
+                      </Item>
+                    </ModOp>
+                  </Group>
+                </Group>
+              <!-- Factory -->
+                <Group>
+                  <ModOp Type="merge" GUID="1010281" Path="/Values">
+                    <FactoryBase>
+                      <FactoryInputs>
+                        <Item>
+                          <Product>1010234</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>1999002211</Product>
+                          <Amount>1</Amount>
+                          <StorageAmount>4</StorageAmount>
+                        </Item>
+                      </FactoryInputs>
+                      <FactoryOutputs>
+                        <Item>
+                          <Product>1010203</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                      </FactoryOutputs>
+                      <CycleTime>60</CycleTime>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                    </FactoryBase>
+                    <Industrializable>
+                      <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    </Industrializable>
+                  </ModOp>
+                </Group>
+            </Group>
+          <!-- Olive Soap-->
+            <Group Condition="#production-olive-soap-jakob">
+              <!-- Chain -->
+                <Group>
+                  <ModOp Type="add" GUID="1500010191" Path="/Values/ProductionChain/Tier1" Condition="!/Values/ProductionChain/Tier1/Item[Building='1999002232']">
+                    <Item>
+                      <Building>1999002232</Building>
+                      <Tier2>
+                        <Item>
+                          <Building>1010266</Building>
+                        </Item>
+                      </Tier2>
+                    </Item>
+                  </ModOp>
+                </Group>
+              <!-- Factory -->
+                <Group>
+                  <ModOp Type="merge" GUID="1500010108" Path="/Values">
+                    <FactoryBase>
+                      <FactoryInputs>
+                        <Item>
+                          <Product>1500010105</Product>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                        <Item>
+                          <Product>1999002211</Product>
+                          <Amount>1</Amount>
+                          <StorageAmount>4</StorageAmount>
+                        </Item>
+                      </FactoryInputs>
+                      <FactoryOutputs>
+                        <Item>
+                          <Amount>2</Amount>
+                          <StorageAmount>8</StorageAmount>
+                        </Item>
+                      </FactoryOutputs>
+                      <CycleTime>60</CycleTime>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                    </FactoryBase>
+                    <Industrializable>
+                      <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    </Industrializable>
+                  </ModOp>
+                </Group>
+            </Group>
+          <!-- Advanced Soap -->
+            <Group>
+              <!-- Chain -->
+                <Group Condition="@1404423052">
+                  <ModOp Type="merge" GUID="1404423052" Path="/Values">
+                    <Standard>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_soap_3.png</IconFilename>
+                    </Standard>
+                  </ModOp>
+                  <ModOp Type="merge" GUID="1404423052" Path="/Values/ProductionChain">
+                    <ProductionChain>
+                      <Building>1404423050</Building>
+                      <Tier1>
+                        <Item>
+                          <Building>1404423051</Building>
+                          <Tier2>
+                            <Item>
+                              <Building>1404423055</Building>
+                            </Item>
+                          </Tier2>
+                        </Item>
+                        <Item>
+                          <Building>1500302310</Building>
+                          <Tier2>
+                            <Item>
+                              <Building>1500302161</Building>
+                            </Item>
+                            <Item>
+                              <Building>1010309</Building>
+                            </Item>
+                            <Item>
+                              <Building>2100115090</Building>
+                              <Tier3>
+                                <Item>
+                                  <Building>1010304</Building>
+                                </Item>
+                              </Tier3>
+                            </Item>
+                            <Item>
+                              <Building>1010304</Building>
+                            </Item>
+                          </Tier2>
+                        </Item>
+                      </Tier1>
+                    </ProductionChain>
+                  </ModOp>
+                </Group>
+              <!-- Factory -->
+                <Group Condition="@1404423050">
+                  <ModOp Type="merge" GUID="1404423050" Path="/Values">
+                    <Values>
+                      <Standard>
+                        <IconFilename>data/ui/2kimages/main/kurila/icon_soap_3.png</IconFilename>
+                      </Standard>
+                      <Cost>
+                        <Costs>
+                          <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>4000</Amount>
+                          </Item>
+                          <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>15</Amount>
+                          </Item>
+                          <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <Amount>15</Amount>
+                          </Item>
+                          <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>5</Amount>
+                          </Item>
+                          <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <Amount>5</Amount>
+                          </Item>
+                          <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <Amount>5</Amount>
+                          </Item>
+                        </Costs>
+                      </Cost>
+                      <FactoryBase>
+                        <FactoryInputs>
+                          <Item>
+                            <Product>1010234</Product>
+                            <Amount>4</Amount>
+                            <StorageAmount>16</StorageAmount>
+                          </Item>
+                          <Item>
+                            <Product>1999002300</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                          </Item>
+                        </FactoryInputs>
+                        <FactoryOutputs>
+                          <Item>
+                            <Product>1010203</Product>
+                            <Amount>4</Amount>
+                            <StorageAmount>16</StorageAmount>
+                          </Item>
+                        </FactoryOutputs>
+                        <CycleTime>60</CycleTime>
+                        <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                        <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                        <WarehouseTransporterAsset>120028</WarehouseTransporterAsset>
+                      </FactoryBase>
+                      <LogisticNode>
+                        <TransporterAsset>120028</TransporterAsset>
+                      </LogisticNode>
+                      <Industrializable>
+                        <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                      </Industrializable>
+                    </Values>
+                  </ModOp>
+                </Group>
+            </Group>
+          <!-- Industrial Soap -->
+            <Group>
+              <!-- Chain -->
+                <Group>
+                  <Group Condition="#jakob-modular-factories">
+                    <ModOp Type="add" GUID="1500011273" Path="/Values/ProductionChain/Tier1">
+                      <Item>
+                        <Building>1999002232</Building>
+                        <Tier2>
+                          <Item>
+                            <Building>1010266</Building>
+                          </Item>
+                        </Tier2>
+                      </Item>
+                    </ModOp>
+                  </Group>
+                </Group>
+              <!-- Factory -->
+                <Group>
+                  <ModOp Type="add" GUID="1500011270" Path="/Values/FactoryBase/FactoryInputs" Condition="@1500011270">
+                    <Item>
+                      <Product>1999002211</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>4</StorageAmount>
+                    </Item>
+                  </ModOp>
+                </Group>
+            </Group>
+          <!-- Shampoo -->
+            <Group>
+              <!-- Chain -->
+                <Group>
+                  <ModOp Type="replace" GUID="137608" Path="/Values/ProductionChain/Tier1/Item[Building='1010281']">
+                    <Item>
+                      <Building>1404423050</Building>
+                      <Tier2>
+                        <Item>
+                          <Building>1404423051</Building>
+                          <Tier3>
+                            <Item>
+                              <Building>1404423055</Building>
+                            </Item>
+                          </Tier3>
+                        </Item>
+                        <Item>
+                          <Building>1500302310</Building>
+                          <Tier3>
+                            <Item>
+                              <Building>1500302161</Building>
+                            </Item>
+                            <Item>
+                              <Building>1010309</Building>
+                            </Item>
+                            <Item>
+                              <Building>2100115090</Building>
+                            </Item>
+                            <Item>
+                              <Building>1010304</Building>
+                            </Item>
+                          </Tier3>
+                        </Item>
+                      </Tier2>
+                    </Item>
+                  </ModOp>
+                </Group>
+            </Group>
+          <!-- Dynamite -->
+            <Group>
+              <!-- Chain -->
+                <Group>
+                  <ModOp Type="replace" GUID="500029" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1010312']">
+                    <Item>
+                      <Building>1404423051</Building>
+                      <Tier3>
+                        <Item>
+                          <Building>1404423055</Building>
+                        </Item>
+                      </Tier3>
+                    </Item>
+                  </ModOp>
+                  <ModOp Type="replace" GUID="1500302372" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1010312']" Condition="#shared_dynamite_storage_kurila">
+                    <Item>
+                      <Building>1404423051</Building>
+                      <Tier3>
+                        <Item>
+                          <Building>1404423055</Building>
+                        </Item>
+                      </Tier3>
+                    </Item>
+                  </ModOp>
+                </Group>
+            </Group>
+          <!-- Mod Military Attention -->
+            <Group Condition="#military_attention">
+              <ModOp Type="replace" GUID="1742100303" Path="/Values/ProductionChain/Tier1/Item[Building='1010300']/Tier2/Item[Building='1010312']">
+                <Item>
+                  <Building>1404423051</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1404423055</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+              </ModOp>
+            </Group>
+          <!-- Rendering Works -->
+            <ModOp Type="merge" GUID="1010312" Path="/Values">
+              <Industrializable>
+                <BoostedByIndustrialization>0</BoostedByIndustrialization>
+              </Industrializable>
+            </ModOp>
+          <!-- Advanced Rendering Works -->
+            <ModOp Type="merge" GUID="1404423051" Path="/Values" Condition="@1404423051">
+              <Standard>
+                <IconFilename>data/ui/2kimages/main/kurila/icon_tallow_2.png</IconFilename>
+              </Standard>
+              <Cost>
+                <Costs>
+                  <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>4000</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010196</Ingredient>
+                    <Amount>15</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>15</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010218</Ingredient>
+                    <Amount>5</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010207</Ingredient>
+                    <Amount>5</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010202</Ingredient>
+                    <Amount>5</Amount>
+                  </Item>
+                </Costs>
+              </Cost>
+              <FactoryBase>
+                <FactoryInputs>
+                  <Item>
+                    <Product>1010199</Product>
+                    <Amount>4</Amount>
+                    <StorageAmount>16</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1010234</Product>
+                    <Amount>4</Amount>
+                    <StorageAmount>16</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <CycleTime>120</CycleTime>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                <WarehouseTransporterAsset>120028</WarehouseTransporterAsset>
+              </FactoryBase>
+              <LogisticNode>
+                <TransporterAsset>120028</TransporterAsset>
+              </LogisticNode>
+              <Industrializable>
+                <MandatoryIndustrialization>1</MandatoryIndustrialization>
+              </Industrializable>
+            </ModOp>
+        </Group>
+  </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Soup Works" Icon="data/ui/2kimages/main/3dicons/icon_soap_2.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="SoupWorks" ExposeID="Disable/Enable Soup Works">
+    </ImyaExpose>
+</ModOps>

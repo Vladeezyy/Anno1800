@@ -1,0 +1,52 @@
+{
+  "Version":"1.1.0",
+  "ModID":"glacialpigeon69_aio_buildings_affect_whole_island",
+  "IncompatibleIds":null,
+  "ModDependencies":null,
+  "Category":{
+    "Chinese":null,
+    "English":"Gameplay",
+    "French":null,
+    "German":null,
+    "Italian":null,
+    "Japanese":null,
+    "Korean":null,
+    "Polish":null,
+    "Russian":null,
+    "Spanish":null,
+    "Taiwanese":null,
+    "Czech":null
+  },
+  "ModName":{
+    "Chinese":null,
+    "English":"AIO - Buildings Affect Whole Island",
+    "French":null,
+    "German":null,
+    "Italian":null,
+    "Japanese":null,
+    "Korean":null,
+    "Polish":null,
+    "Russian":null,
+    "Spanish":null,
+    "Taiwanese":null,
+    "Czech":null
+  },
+  "KnownIssues":null,
+  "DLCDependencies":null,
+  "CreatorName":"GlacialPigeon69",
+  "CreatorContact":"https://next.nexusmods.com/profile/GlacialPigeon69/mods",
+  "Description":{
+    "Chinese":null,
+    "English":"One building per island fulfills the basic and luxury need of population tier in Old World, Cape Trelawney, New World, Enbesa and Artic region.\n\nList of buildings:\n\nArtic region\n- Canteen\n- Arctic Heater\n- Post Office\n\nEnbesa\n- Marketplace\n- Musician's Court\n- Monastery\n\nOld World and Cape Trelawney\n- Palace\n- Marketplace\n- Pub\n- Church\n- School\n- Variety Theatre\n- University\n- Bank\n- Members Club\n- Radio Tower\n- Oil Power Plant\n- Gas Power Plant\n- Post Office\n- Department Store\n- Furniture Store\n- Drug Store\n- Bar\n- Bus Stop\n- Cafe\n- The Iron Tower\n- Restaurant\n\nNew World\n- Marketplace\n- Chapel\n- Dam\n- Fuel Power Plant\n- Power Station\n- Post Office\n- Hacienda\n- Chapel\n- Samba School\n- Beach\n- Cinema\n- Boxing Arena",
+    "French":null,
+    "German":null,
+    "Italian":null,
+    "Japanese":null,
+    "Korean":null,
+    "Polish":null,
+    "Russian":null,
+    "Spanish":null,
+    "Taiwanese":null,
+    "Czech":null
+  }
+}

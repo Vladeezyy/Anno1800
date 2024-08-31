@@ -1,0 +1,323 @@
+<ModOps>
+  <Group ModOpID="CheeseWorks">
+    <!-- Trigger -->
+      <Group>
+        <Group Condition="@1500302342">
+          <ModOp Type="remove" GUID="1500302342" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1500302340']"></ModOp>
+        </Group>
+        <ModOp GUID="1010316" Type="addNextSibling">
+          <Asset>
+            <Template>Trigger</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302344</GUID>
+                <Name>Unlock_Trigger_1_Engineer</Name>
+              </Standard>
+              <Trigger>
+                <TriggerCondition>
+                  <Template>ConditionPlayerCounter</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionPlayerCounter>
+                      <PlayerCounter>PopulationByLevel</PlayerCounter>
+                      <Context>15000003</Context>
+                      <CounterAmount>1</CounterAmount>
+                    </ConditionPlayerCounter>
+                  </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                  <Item>
+                    <TriggerAction>
+                      <Template>ActionUnlockAsset</Template>
+                      <Values>
+                        <Action />
+                        <ActionUnlockAsset>
+                          <UnlockAssets>
+                            <Item>
+                              <Asset>1500302340</Asset>
+                            </Item>
+                          </UnlockAssets>
+                        </ActionUnlockAsset>
+                      </Values>
+                    </TriggerAction>
+                  </Item>
+                </TriggerActions>
+              </Trigger>
+              <TriggerSetup />
+            </Values>
+          </Asset>
+        </ModOp>
+      </Group>
+    <!-- Adjust Production -->
+      <Group>
+        <Group Condition="#production-vegetables-and-cheese-jakob">
+          <!-- Chain -->
+            <ModOp Type="add" GUID="1500010111" Path="/Values/ProductionChain/Tier1">
+              <Item>
+                <Building>1500302160</Building>
+              </Item>
+            </ModOp>
+          <!-- Cheese Dairy -->
+            <Group>
+              <ModOp Type="merge" GUID="1500010103" Path="/Values">
+                <FactoryBase>
+                  <FactoryInputs>
+                    <Item>
+                      <Product>5385</Product>
+                      <Amount>2</Amount>
+                      <StorageAmount>8</StorageAmount>
+                    </Item>
+                    <Item>
+                      <Product>114358</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>4</StorageAmount>
+                    </Item>
+                  </FactoryInputs>
+                  <FactoryOutputs>
+                    <Item>
+                      <Product>1500010102</Product>
+                      <Amount>2</Amount>
+                      <StorageAmount>8</StorageAmount>
+                    </Item>
+                  </FactoryOutputs>
+                  <CycleTime>120</CycleTime>
+                  <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                  <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+                <Industrializable>
+                  <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
+              </ModOp>
+              <ModOp Type="remove" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1500010103']"></ModOp>
+            </Group>
+        </Group>
+        <Group Condition="#advanced_cheese_dairy_kurila">
+          <!-- Chain -->
+            <ModOp Type="addNextSibling" GUID='5385'>
+              <Asset>
+                <Template>Icon</Template>
+                <Values>
+                  <Standard>
+                    <GUID>1500302343</GUID>
+                    <Name>Milk_Icon_2</Name>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_milk_2.png</IconFilename>
+                  </Standard>
+                </Values>
+              </Asset>
+            </ModOp>
+            <Group Condition="@1500302341">
+              <ModOp Type="add" GUID="1500302341" Path="/Values/ProductionChain/Tier1">
+                <Item>
+                  <Building>1500302161</Building>
+                </Item>
+              </ModOp>
+              <ModOp Type="merge" GUID="1500302341" Path="/Values">
+                <Standard>
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_cheese_2.png</IconFilename>
+                </Standard>
+              </ModOp>
+              <ModOp Type="merge" GUID="1500302341" Path="/Values/ProductionChain/Tier1/Item/ForceIcon">
+                <ForceIcon>1500302343</ForceIcon>
+              </ModOp>
+            </Group>
+            <Group Condition="@1500010111">
+              <ModOp Type="add" GUID="1500010111" Path="/Values/ProductionChain/Tier1/Item[Building='1500302340']/Tier2" Condition="/Values/ProductionChain/Tier1/Item[Building='1500302340']">
+                <Item>
+                  <Building>1500302161</Building>
+                </Item>
+              </ModOp>
+          </Group>
+          <!-- Cheese Factory -->
+            <ModOp Type="merge" GUID="1500302340" Path="/Values">
+              <Standard>
+                <IconFilename>data/ui/2kimages/main/kurila/icon_cheese_2.png</IconFilename>
+              </Standard>
+              <Cost>
+                <Costs>
+                  <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>4000</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010196</Ingredient>
+                    <Amount>15</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>15</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010218</Ingredient>
+                    <Amount>5</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010207</Ingredient>
+                    <Amount>5</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010202</Ingredient>
+                    <Amount>5</Amount>
+                  </Item>
+                </Costs>
+              </Cost>
+              <FactoryBase>
+                <FactoryInputs>
+                  <Item>
+                    <Product>5385</Product>
+                    <Amount>4</Amount>
+                    <StorageAmount>16</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>114358</Product>
+                    <Amount>2</Amount>
+                    <StorageAmount>8</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1500010102</Product>
+                    <Amount>4</Amount>
+                    <StorageAmount>16</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <CycleTime>60</CycleTime>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                <WarehouseTransporterAsset>120028</WarehouseTransporterAsset>
+              </FactoryBase>
+              <LogisticNode>
+                <TransporterAsset>120028</TransporterAsset>
+              </LogisticNode>
+              <Industrializable>
+                <MandatoryIndustrialization>1</MandatoryIndustrialization>
+              </Industrializable>
+            </ModOp>
+        </Group>
+        <Group Condition="#jakob_new_world_cities">
+          <!-- Chain -->
+            <ModOp Type="add" GUID="1500011238" Path="/Values/ProductionChain/Tier1">
+              <Item>
+                <Building>1500302162</Building>
+              </Item>
+            </ModOp>
+          <!-- Cheese Dairy -->
+            <ModOp Type="merge" GUID="1500011237" Path="/Values">
+              <FactoryBase>
+                <FactoryInputs>
+                  <Item>
+                    <Product>5385</Product>
+                    <Amount>2</Amount>
+                    <StorageAmount>8</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>114358</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1500010102</Product>
+                    <Amount>2</Amount>
+                    <StorageAmount>8</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <CycleTime>60</CycleTime>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+              </FactoryBase>
+            </ModOp>
+        </Group>
+        <Group Condition="#advanced_cattle_farm_kurila">
+          <!-- Milking Module -->
+            <ModOp Type="merge" GUID="1404423061" Path="/Values">
+              <FactoryBase>
+                <FactoryOutputs>
+                  <Item>
+                    <Amount>4</Amount>
+                    <StorageAmount>16</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <CycleTime>60</CycleTime>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+              </FactoryBase>
+            </ModOp>
+            <Group Condition="#shared-milk-from-cattle-farm-lion053">
+                <ModOp Type="merge" GUID="1404423065" Path="/Values">
+                  <FactoryBase>
+                    <ProductionOutputInfotip>2100118207</ProductionOutputInfotip>
+                  </FactoryBase>
+                  <ModuleOwner>
+                    <AddModuleLimit>4</AddModuleLimit>
+                  </ModuleOwner>
+                </ModOp>
+                <ModOp Type="replace" GUID="1404423066" Path="/Template">
+                  <Template>lion053_PastureFactoryModule</Template>
+                </ModOp>
+                <ModOp Type="merge" GUID="1404423066" Path="/Values">
+                  <Standard>
+                    <InfoDescription>2100118209</InfoDescription>
+                  </Standard>
+                  <FactoryBase>
+                    <FactoryInputs>
+                      <Item>
+                        <Product>2100118203</Product> <!-- visible fake input needed for pasture icon instead of cultivation icon -->
+                      </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                      <Item>
+                        <Product>5385</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>1</StorageAmount>
+                      </Item>
+                    </FactoryOutputs>
+                    <CycleTime>120</CycleTime>
+                    <WarehouseTransporterAsset>0</WarehouseTransporterAsset>
+                    <ClampedMaxTransporterLogisticCost>0.1</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                  <LogisticNode>
+                    <TransporterCountMax>0</TransporterCountMax>
+                    <NeedsTransporterQueue>0</NeedsTransporterQueue>
+                  </LogisticNode>
+                  <Factory7>
+                    <IsAgriculture>1</IsAgriculture>
+                  </Factory7>
+                  <BuildingModule>
+                    <PlazaSize>20</PlazaSize>
+                  </BuildingModule>
+                  <AmbientMoodProvider>
+                    <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+                  </AmbientMoodProvider>
+                  <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                  </Attackable>
+                  <Pausable>
+                    <CanPauseManually>1</CanPauseManually>
+                  </Pausable>
+                  <Warehouse /> <!-- to avoid missing warehouse icons above the pastures due to fake input -->
+                  <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ElectrifiedEffect>0</ElectrifiedEffect>
+                  </Electrifiable>
+                  <Industrializable>
+                    <MandatoryIndustrialization>0</MandatoryIndustrialization>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                  </Industrializable>
+                </ModOp>
+                <ModOp Type="merge" GUID="1010271" Path="/Values">
+                  <FactoryBase>
+                    <CycleTime>60</CycleTime>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+            </Group>
+        </Group>
+      </Group>
+  </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Cheese Works" Icon="data/ui/2kimages/main/3dicons/icon_sheep_cheese.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="CheeseWorks" ExposeID="Disable/Enable Cheese Works">
+    </ImyaExpose>
+</ModOps>

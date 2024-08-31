@@ -1,0 +1,94 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Jewelry_Workshop_Blank -->
+      <Text>
+        <GUID>1500300980</GUID>
+        <Text>珠宝工坊</Text>
+      </Text>
+    <!-- Jewelry_Workshop_Wood -->
+      <Text>
+        <GUID>1500300981</GUID>
+        <Text>珠宝工坊：木材珠宝</Text>
+      </Text>
+      <Text>
+        <GUID>1500300982</GUID>
+        <Text>木材珠宝可以作为很好的装饰品。无论是低调还是张扬，每个人都能找到适合自己的。</Text>
+      </Text>
+      <Text>
+        <GUID>1500300983</GUID>
+        <Text>木材珠宝 1吨</Text>
+      </Text>
+    <!-- Jewelry_Workshop_Cherry_Wood -->
+      <Text>
+        <GUID>1500300984</GUID>
+        <Text>珠宝工坊：樱桃木珠宝</Text>
+      </Text>
+      <Text>
+        <GUID>1500300985</GUID>
+        <Text>樱桃木珠宝可以作为很好的装饰品。无论是低调还是张扬，每个人都能找到适合自己的。</Text>
+      </Text>
+      <Text>
+        <GUID>1500300986</GUID>
+        <Text>樱桃木珠宝 2吨</Text>
+      </Text>
+    <!-- Jewelry_Workshop_Wanza_Wood -->
+      <Text>
+        <GUID>1500300987</GUID>
+        <Text>珠宝工坊：万扎木珠宝</Text>
+      </Text>
+      <Text>
+        <GUID>1500300988</GUID>
+        <Text>万扎木珠宝可以作为很好的装饰品。无论是低调还是张扬，每个人都能找到适合自己的。</Text>
+      </Text>
+      <Text>
+        <GUID>1500300989</GUID>
+        <Text>万扎木珠宝 3吨</Text>
+      </Text>
+    <!-- RecipeList / Pools / Icons / Chains / Buffs / FakeInput -->
+      <Text>
+        <GUID>1500300997</GUID>
+        <Text>珠宝工坊用各种各样的木料为每个人制作廉价的珠宝。</Text>
+      </Text>
+      <Text>
+        <GUID>1500300999</GUID>
+        <Text>珠宝工坊</Text>
+      </Text>
+      <Text>
+        <GUID>1500301002</GUID>
+        <Text>木材珠宝</Text>
+      </Text>
+      <Text>
+        <GUID>1500301008</GUID>
+        <Text>可选： [AssetData(1010241) Text].&#xD;&#xA;物品： [AssetData(191426) Text]</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500300990</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500300991) Text]&#xD;&#xA;[AssetData(1500300992) Text]&#xD;&#xA;[AssetData(1500300993) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500300991</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt; [AssetData(120008) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500300992</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt; [AssetData(135087) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500300993</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt; [AssetData(1500301150) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500300994</GUID>
+        <Text>[AssetData(1500010150) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500300995</GUID>
+        <Text>[AssetData(1500010150) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500300996</GUID>
+        <Text>[AssetData(1500010150) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+  </ModOp>
+</ModOps>

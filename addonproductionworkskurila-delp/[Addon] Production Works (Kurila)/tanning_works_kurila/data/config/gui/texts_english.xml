@@ -1,0 +1,111 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302242</GUID>
+        <Text>Leather</Text>
+      </Text>
+      <Text>
+        <GUID>1500302243</GUID>
+        <Text>Rendering Works: Hides</Text>
+      </Text>
+      <Text>
+        <GUID>1500302244</GUID>
+        <Text></Text>
+      </Text>
+      <Text>
+        <GUID>1500302245</GUID>
+        <Text>Hides: Pigs 1t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302247</GUID>
+        <Text></Text>
+      </Text>
+      <Text>
+        <GUID>1500302248</GUID>
+        <Text>Hides: Cattle 2t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302250</GUID>
+        <Text></Text>
+      </Text>
+      <Text>
+        <GUID>1500302251</GUID>
+        <Text>Hides: Sanga 3t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302252</GUID>
+        <Text>Animal hides have been used by humans for a wide variety of things since the Stone Age.</Text>
+      </Text>
+      <Text>
+        <GUID>1500302254</GUID>
+        <Text>Tannery: Leather</Text>
+      </Text>
+      <Text>
+        <GUID>1500302255</GUID>
+        <Text>Large Rendering Works: Hides</Text>
+      </Text>
+      <Text>
+        <GUID>1500302256</GUID>
+        <Text>Hides: Pigs 4t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302258</GUID>
+        <Text>Hides: Cattle 8t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302260</GUID>
+        <Text>Hides: Sanga 12t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302262</GUID>
+        <Text>Industrial Tannery: Leather</Text>
+      </Text>
+      <Text>
+        <GUID>1500302263</GUID>
+        <Text>Industrial Tannery: Furs</Text>
+      </Text>
+      <Text>
+        <GUID>1500302264</GUID>
+        <Text>All Tanneries</Text>
+      </Text>
+      <Text>
+        <GUID>1500302272</GUID>
+        <Text>River Tannery: Leather</Text>
+      </Text>
+      <Text>
+        <GUID>1500302290</GUID>
+        <Text>Co-operation: [AssetData(1500301152) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500302292</GUID>
+        <Text>Co-operation: [AssetData(1010234) Text] ([AssetData(1010199) Text])</Text>
+      </Text>
+      <Text>
+        <GUID>1500302293</GUID>
+        <Text>Co-operation: [AssetData(1010234) Text] ([AssetData(1404422300) Text])</Text>
+      </Text>
+      <Text>
+        <GUID>1500302294</GUID>
+        <Text>Co-operation: [AssetData(1010234) Text] ([AssetData(114357) Text])</Text>
+      </Text>
+  </ModOp>
+  <!-- Rendering Works: Tallow -->
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1010312']/Text">: </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1010312']/Text"
+      Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+    </ModOp>
+  <!-- Industrial Rendering Works: Tallow -->
+    <Group Condition="/TextExport/Texts/Text[GUID='1500011271']">
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500011271']/Text">: </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500011271']/Text"
+        Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+      </ModOp>
+    </Group>
+  <!-- Advanced Rendering Works: Tallow -->
+    <Group Condition="/TextExport/Texts/Text[GUID='1404423051']">
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1404423051']/Text">: </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1404423051']/Text"
+        Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+      </ModOp>
+    </Group>
+</ModOps>

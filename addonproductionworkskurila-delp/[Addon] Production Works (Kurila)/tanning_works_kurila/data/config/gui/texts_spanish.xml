@@ -1,0 +1,108 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302242</GUID>
+        <Text>Cuero</Text>
+      </Text>
+      <Text>
+        <GUID>1500302243</GUID>
+        <Text>Planta de Procesamiento: Pieles</Text>
+      </Text>
+      <Text>
+        <GUID>1500302244</GUID>
+        <Text />
+      </Text>
+      <Text>
+        <GUID>1500302245</GUID>
+        <Text>Pieles: Cerdos 1t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302247</GUID>
+        <Text />
+      </Text>
+      <Text>
+        <GUID>1500302248</GUID>
+        <Text>Pieles: Bovino 2t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302250</GUID>
+        <Text />
+      </Text>
+      <Text>
+        <GUID>1500302251</GUID>
+        <Text>Pieles: Sanga 3t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302252</GUID>
+        <Text>Los humanos han utilizado las pieles de animales para una amplia variedad de cosas desde la Edad de Piedra.</Text>
+      </Text>
+      <Text>
+        <GUID>1500302254</GUID>
+        <Text>Curtiembre: Cuero</Text>
+      </Text>
+      <Text>
+        <GUID>1500302255</GUID>
+        <Text>Planta de Procesamiento Grande: Pieles</Text>
+      </Text>
+      <Text>
+        <GUID>1500302256</GUID>
+        <Text>Pieles: Pieles 4t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302258</GUID>
+        <Text>Pieles: Bovino 8t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302260</GUID>
+        <Text>Pieles: Sanga 12t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302262</GUID>
+        <Text>Curtiembre Industrial: Cuero</Text>
+      </Text>
+      <Text>
+        <GUID>1500302263</GUID>
+        <Text>Curtiduría Industrial: Pieles</Text>
+      </Text>
+      <Text>
+        <GUID>1500302264</GUID>
+        <Text>Todas las curtidurías</Text>
+      </Text>
+      <Text>
+        <GUID>1500302272</GUID>
+        <Text>Curtiduría de Río: Cuero</Text>
+      </Text>
+      <Text>
+        <GUID>1500302290</GUID>
+        <Text>Co-operation: [AssetData(1500301152) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500302292</GUID>
+        <Text>Co-operation: [AssetData(1010234) Text] ([AssetData(1010199) Text])</Text>
+      </Text>
+      <Text>
+        <GUID>1500302293</GUID>
+        <Text>Co-operation: [AssetData(1010234) Text] ([AssetData(1404422300) Text])</Text>
+      </Text>
+      <Text>
+        <GUID>1500302294</GUID>
+        <Text>Co-operation: [AssetData(1010234) Text] ([AssetData(114357) Text])</Text>
+      </Text>
+  </ModOp>
+  <!-- Rendering Works: Tallow -->
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1010312']/Text">: </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1010312']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+    </ModOp>
+  <!-- Industrial Rendering Works: Tallow -->
+    <Group Condition="/TextExport/Texts/Text[GUID='1500011271']">
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500011271']/Text">: </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500011271']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+      </ModOp>
+    </Group>
+  <!-- Advanced Rendering Works: Tallow -->
+    <Group Condition="/TextExport/Texts/Text[GUID='1404423051']">
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1404423051']/Text">: </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1404423051']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+      </ModOp>
+    </Group>
+</ModOps>

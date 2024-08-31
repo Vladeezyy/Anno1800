@@ -1,0 +1,87 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301320</GUID>
+        <Text>Scierie: Bois de cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301321</GUID>
+        <Text>Les bois de cerisier sont de très haute qualité et ne sont fabriqués que par des artisans expérimentés. Mais ce qui est fait à partir de ces bois est exquis.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301322</GUID>
+        <Text>Planches en cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301323</GUID>
+        <Text>Scierie: Bois de cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301324</GUID>
+        <Text>Planches en cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301325</GUID>
+        <Text>Scierie avancée: Bois de cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301326</GUID>
+        <Text>Planches en cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301327</GUID>
+        <Text>Scierie avancée: Bois de cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301328</GUID>
+        <Text>Planches en cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301329</GUID>
+        <Text>Scierie de la rivière: Bois de cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301330</GUID>
+        <Text>Planches en cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301331</GUID>
+        <Text>Scierie de la rivière: Bois de cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301332</GUID>
+        <Text>Planches en cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301344</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301352</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,94 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Jewelry_Workshop_Blank -->
+      <Text>
+        <GUID>1500300980</GUID>
+        <Text>Ювелирная мастерская</Text>
+      </Text>
+    <!-- Jewelry_Workshop_Wood -->
+      <Text>
+        <GUID>1500300981</GUID>
+        <Text>Ювелирная мастерская: Древисина</Text>
+      </Text>
+      <Text>
+        <GUID>1500300982</GUID>
+        <Text>Украшения из дерева подчеркивают любой образ.&lt;br/&gt;Сдержанные или показные, здесь найдется что-то для каждого.</Text>
+      </Text>
+      <Text>
+        <GUID>1500300983</GUID>
+        <Text>Деревянные украшения: 1t</Text>
+      </Text>
+    <!-- Jewelry_Workshop_Cherry_Wood -->
+      <Text>
+        <GUID>1500300984</GUID>
+        <Text>Ювелирная мастерская: Древесина вишневого дерева</Text>
+      </Text>
+      <Text>
+        <GUID>1500300985</GUID>
+        <Text>Украшения из вишневого дерева подчеркивают любой образ.&lt;br/&gt;Сдержанные или показные, здесь найдется что-то для каждого.</Text>
+      </Text>
+      <Text>
+        <GUID>1500300986</GUID>
+        <Text>Украшения из вишнёвой древисины: 2t</Text>
+      </Text>
+    <!-- Jewelry_Workshop_Wanza_Wood -->
+      <Text>
+        <GUID>1500300987</GUID>
+        <Text>Ювелирная мастерская: Древисина кордии</Text>
+      </Text>
+      <Text>
+        <GUID>1500300988</GUID>
+        <Text>Украшения древисины кордии подчеркивают любой образ.&lt;br/&gt;Сдержанные или показные, здесь найдется что-то для каждого.</Text>
+      </Text>
+      <Text>
+        <GUID>1500300989</GUID>
+        <Text>Украшения из древисины кордии: 3t</Text>
+      </Text>
+    <!-- RecipeList / Pools / Icons / Chains / Buffs / FakeInput -->
+      <Text>
+        <GUID>1500300997</GUID>
+        <Text>Ювелирные мастерские изготавливают недорогие украшения для всех желающих из самых разных материалов.</Text>
+      </Text>
+      <Text>
+        <GUID>1500300999</GUID>
+        <Text>Все ювелирные мастерские</Text>
+      </Text>
+      <Text>
+        <GUID>1500301002</GUID>
+        <Text>Деревянные украшения</Text>
+      </Text>
+      <Text>
+        <GUID>1500301008</GUID>
+        <Text>Опционально: [AssetData(1010241) Text].&#xD;&#xA;Предмет: [AssetData(191426) Text]</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500300990</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500300991) Text]&#xD;&#xA;[AssetData(1500300992) Text]&#xD;&#xA;[AssetData(1500300993) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500300991</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt; [AssetData(120008) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500300992</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt; [AssetData(135087) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500300993</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt; [AssetData(1500301150) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500300994</GUID>
+        <Text>[AssetData(1500010150) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500300995</GUID>
+        <Text>[AssetData(1500010150) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500300996</GUID>
+        <Text>[AssetData(1500010150) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+  </ModOp>
+</ModOps>

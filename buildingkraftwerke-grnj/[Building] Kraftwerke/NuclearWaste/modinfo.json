@@ -1,0 +1,69 @@
+{
+  "Version": "1.0.0",
+  "ModID": "NuclearWaste_Wolfman",
+  "IncompatibleIds": null,
+  "ModDependencies": ["Diverse Kraftwerke"],
+  "LoadAfterIds": [
+	"*",
+	"Diverse Kraftwerke",
+	"DisplayPassiveTradegoods_Serp"
+	],
+  "Category": {
+    "Chinese": "Building",
+    "English": "Building",
+    "French": "Building",
+    "German": "Gebäude",
+    "Italian": "Building",
+    "Korean": "Building",
+    "Polish": "Building",
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
+  },
+  "ModName": {
+    "Chinese": "Different powerplants",
+    "English": "Different powerplants",
+    "French": "Different powerplants",
+    "German": "Diverse Kraftwerke",
+    "Italian": "Different powerplants",
+    "Korean": "Different powerplants",
+    "Polish": "Different powerplants",
+    "Russian": "Different powerplants",
+    "Spanish": "Different powerplants",
+    "Taiwanese": "Different powerplants"
+  },
+  "Description": {
+    "Chinese": "Offers different powerplants.",
+    "English": "Offers different powerplants.",
+    "French": "Offers different powerplants.",
+    "German": "Stellt verschiedene Kraftwerke zur Verfuegung.",
+    "Italian": "Offers different powerplants.",
+    "Korean": "Offers different powerplants.",
+    "Polish": "Offers different powerplants.",
+    "Russian": "Offers different powerplants.",
+    "Spanish": "Offers different powerplants.",
+    "Taiwanese": "Offers different powerplants."
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+	"DLCDependencies": [
+		{
+			"DLC": "The Passage",
+			"Dependent": "partly"
+		}
+	],	
+  "CreatorName": "Wolfman",
+  "CreatorContact": null
+}

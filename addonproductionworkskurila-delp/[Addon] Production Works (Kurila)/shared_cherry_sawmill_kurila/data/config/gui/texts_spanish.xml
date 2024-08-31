@@ -1,0 +1,87 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301320</GUID>
+        <Text>Serrería: Madera de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301321</GUID>
+        <Text>Las maderas de cerezo son de muy alta calidad, sólo las fabrican artesanos experimentados. Pero lo que se hace con ellas es exquisito.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301322</GUID>
+        <Text>Tablones de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301323</GUID>
+        <Text>Serrería: Madera de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301324</GUID>
+        <Text>Tablones de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301325</GUID>
+        <Text>Serrería avanzada: Madera de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301326</GUID>
+        <Text>Tablones de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301327</GUID>
+        <Text>Serrería avanzada: Madera de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301328</GUID>
+        <Text>Tablones de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301329</GUID>
+        <Text>Serrería del río: Madera de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301330</GUID>
+        <Text>Tablones de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301331</GUID>
+        <Text>Serrería del río: Madera de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301332</GUID>
+        <Text>Tablones de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301344</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301352</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+  </ModOp>
+</ModOps>

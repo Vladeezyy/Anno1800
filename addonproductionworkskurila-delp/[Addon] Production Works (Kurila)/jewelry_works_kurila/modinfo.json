@@ -1,0 +1,62 @@
+{
+  "Version": "1.2.2",
+  "ModID": "jewelry_works_kurila",
+  "DeprecateIds": [
+    "extended_jewelry_works_kurila"
+  ],
+  "IncompatibleIds": [],
+  "LoadAfterIds": [
+    "liqueur_kurila",
+    "early_game_kurila"
+  ],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_products_kurila",
+    "shared_wanza_sawmill_kurila",
+    "shared_info_parts_kurila"
+  ],
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Jewelry Works (Kurila)",
+    "English": "Jewelry Works (Kurila)",
+    "French": "Jewelry Works (Kurila)",
+    "German": "Jewelry Works (Kurila)",
+    "Italian": "Jewelry Works (Kurila)",
+    "Japanese": "Jewelry Works (Kurila)",
+    "Korean": "Jewelry Works (Kurila)",
+    "Polish": "Jewelry Works (Kurila)",
+    "Russian": "Jewelry Works (Kurila)",
+    "Spanish": "Jewelry Works (Kurila)",
+    "Taiwanese": "Jewelry Works (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

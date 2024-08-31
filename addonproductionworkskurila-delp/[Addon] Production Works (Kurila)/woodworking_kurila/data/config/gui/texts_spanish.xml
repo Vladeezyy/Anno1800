@@ -1,0 +1,131 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Vanilla Changes -->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1010242</GUID>
+        <Text>Madera chapada</Text>
+      </Text>
+  	<!-- Extended Marquetry Workshops-->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300844</GUID>
+        <Text>La madera chapada es una alternativa asequible a la madera maciza. A pesar de su carácter sencillo, es bonita a la vista.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300845</GUID>
+        <Text>Madera chapada: 2t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300846</GUID>
+        <Text>Madera chapada: 2t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301292</GUID>
+        <Text>Taller de marquetería</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1010320</GUID>
+        <Text>Taller de marquetería: Madera</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>101296</GUID>
+        <Text>Taller de marquetería: Madera</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301293</GUID>
+        <Text>Taller de marquetería: Madera de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301294</GUID>
+        <Text>El cerezo chapado es una buena alternativa a la madera maciza. El veteado pronunciado cobra aquí todo su protagonismo.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301295</GUID>
+        <Text>Madera de cerezo chapada: 4t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301296</GUID>
+        <Text>Taller de marquetería: Madera de wanza</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301297</GUID>
+        <Text>La madera de Wanza chapada es una alternativa asequible a la madera maciza. Su inusual color y veteado atraen todas las miradas.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301298</GUID>
+        <Text>Madera de Wanza chapada: 6t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301299</GUID>
+        <Text>Taller de marquetería</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301300</GUID>
+        <Text>Taller de marquetería: Madera de cerezo</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301301</GUID>
+        <Text>Madera de cerezo chapada: 4t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301302</GUID>
+        <Text>Taller de marquetería: Madera de wanza</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301303</GUID>
+        <Text>Madera de Wanza chapada: 6t</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500301307</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301309) Text]&#xD;&#xA;[AssetData(1500301310) Text]&#xD;&#xA;[AssetData(1500301311) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301309</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt; [AssetData(120008) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301310</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt; [AssetData(135087) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301311</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt; [AssetData(1500301150) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301312</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301313</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301314</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+    <!-- Old Content -->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300051</GUID>
+        <Text>carpintero con experiencia</Text>
+      </Text>
+  </ModOp>
+</ModOps>

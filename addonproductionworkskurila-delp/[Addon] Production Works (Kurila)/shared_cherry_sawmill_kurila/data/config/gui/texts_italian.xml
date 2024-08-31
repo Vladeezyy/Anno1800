@@ -1,0 +1,87 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301320</GUID>
+        <Text>Segheria: Legno di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301321</GUID>
+        <Text>I legni di ciliegio sono di altissima qualità e vengono realizzati solo da artigiani esperti. Ma ciò che se ne ricava è squisito.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301322</GUID>
+        <Text>Legname di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301323</GUID>
+        <Text>Segheria: Legno di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301324</GUID>
+        <Text>Legname di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301325</GUID>
+        <Text>Segheria avanzata: Legno di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301326</GUID>
+        <Text>Legname di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301327</GUID>
+        <Text>Segheria avanzata: Legno di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301328</GUID>
+        <Text>Legname di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301329</GUID>
+        <Text>Segheria del fiume: Legno di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301330</GUID>
+        <Text>Legname di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301331</GUID>
+        <Text>Segheria del fiume: Legno di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301332</GUID>
+        <Text>Legname di ciliegio</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301344</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301352</GUID>
+        <Text>Cooperage: Cherry Timber</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+  </ModOp>
+</ModOps>

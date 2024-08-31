@@ -1,0 +1,373 @@
+<ModOps>
+  <Group ModOpID="SaltpetreWorks">
+    <!-- Trigger -->
+      <Group>
+        <ModOp GUID="1010316" Type="addNextSibling">
+          <Asset>
+            <Template>Trigger</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302335</GUID>
+                <Name>Unlock_Trigger_1_Worker</Name>
+              </Standard>
+              <Trigger>
+                <TriggerCondition>
+                  <Template>ConditionPlayerCounter</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionPlayerCounter>
+                      <PlayerCounter>PopulationByLevel</PlayerCounter>
+                      <Context>15000001</Context>
+                      <CounterAmount>1</CounterAmount>
+                    </ConditionPlayerCounter>
+                  </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                  <Item>
+                    <TriggerAction>
+                      <Template>ActionUnlockAsset</Template>
+                      <Values>
+                        <Action />
+                        <ActionUnlockAsset>
+                          <UnlockAssets>
+                            <Item>
+                              <Asset>1742100293</Asset>
+                            </Item>
+                            <Item>
+                              <Asset>1742100291</Asset>
+                            </Item>
+                          </UnlockAssets>
+                        </ActionUnlockAsset>
+                      </Values>
+                    </TriggerAction>
+                  </Item>
+                </TriggerActions>
+              </Trigger>
+              <TriggerSetup />
+            </Values>
+          </Asset>
+        </ModOp>
+      </Group>
+    <!-- Adjust Productions  -->
+      <Group>
+        <!-- Alpaca Farm -->
+          <Group>
+            <ModOp Type="replace" GUID="101272" Path="/Template">
+              <Template>FarmBuilding</Template>
+            </ModOp>
+            <ModOp Type="remove" GUID="101272" Path="/Values/Industrializable"></ModOp>
+            <ModOp Type="remove" GUID="101272" Path="/Values/Electrifiable"></ModOp>
+            <ModOp Type="remove" GUID="101272" Path="/Values/ModuleOwner/AddModuleLimit"></ModOp>
+            <ModOp Type="remove" GUID="410027" Path="/Values/DlcController/ReplaceBuildingsWhenDLCisActive/Item[NormalBuilding='101283']"></ModOp>
+          </Group>
+        <!-- Salpetre Works -->
+          <ModOp Type="merge" GUID="1010310" Path="/Values">
+            <Standard>
+              <IconFilename>data/ui/2kimages/main/kurila/icon_niter_2.png</IconFilename>
+            </Standard>
+            <Factory7>
+              <NeededFertility>0</NeededFertility>
+            </Factory7>
+            <FactoryBase>
+              <CycleTime>60</CycleTime>
+              <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+              <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+              <WarehouseTransporterAsset>120028</WarehouseTransporterAsset>
+            </FactoryBase>
+            <LogisticNode>
+              <TransporterAsset>120028</TransporterAsset>
+            </LogisticNode>
+            <Industrializable>
+              <MandatoryIndustrialization>1</MandatoryIndustrialization>
+            </Industrializable>
+            <Maintenance>
+              <Maintenances>
+                <Item>
+                  <Product>1010017</Product>
+                  <Amount>500</Amount>
+                  <InactiveAmount>250</InactiveAmount>
+                </Item>
+                <Item>
+                  <Product>1010117</Product>
+                  <Amount>50</Amount>
+                </Item>
+              </Maintenances>
+            </Maintenance>
+          </ModOp>
+        <!-- Salpetre Pit -->
+          <Group Condition="#shared_saltpetre_works_kurila">
+            <ModOp Type="merge" GUID="1500302330" Path="/Values">
+              <Factory7>
+                <NeededFertility>120017</NeededFertility>
+              </Factory7>
+            </ModOp>
+            <ModOp Type="merge" GUID="1500302330" Condition="#jakob_new_world_cities">
+              <Costs>
+                <Item>
+                  <Ingredient>1010017</Ingredient>
+                  <Amount>2500</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010196</Ingredient>
+                  <Amount>15</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010205</Ingredient>
+                  <Amount>10</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010218</Ingredient>
+                  <Amount>5</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010207</Ingredient>
+                </Item>
+                <Item>
+                  <Ingredient>1010202</Ingredient>
+                  <Amount>5</Amount>
+                </Item>
+              </Costs>
+            </ModOp>
+          </Group>
+        <!-- Gunpowder Factory-->
+          <Group Condition="!#military_attention">
+            <ModOp Type="merge" GUID="1742100291" Path="/Values">
+              <FactoryBase>
+                <CycleTime>60</CycleTime>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+              </FactoryBase>
+            </ModOp>
+            <ModOp Type="add" GUID="1742100291" Path="/Values/Cost/Costs">
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>5</Amount>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Limestne Quarry -->
+          <Group>
+            <ModOp Type="merge" GUID="1010309" Path="/Values">
+              <Cost>
+                <Costs>
+                  <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>2000</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010196</Ingredient>
+                    <Amount>15</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>10</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010218</Ingredient>
+                    <Amount>5</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010207</Ingredient>
+                    <Amount>0</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010202</Ingredient>
+                    <Amount>0</Amount>
+                  </Item>
+                </Costs>
+              </Cost>
+              <FactoryBase>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+              </FactoryBase>
+              <Maintenance>
+                <Maintenances>
+                  <Item>
+                    <Product>1010017</Product>
+                    <Amount>100</Amount>
+                    <InactiveAmount>50</InactiveAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010115</Product>
+                    <Amount>25</Amount>
+                  </Item>
+                </Maintenances>
+              </Maintenance>
+            </ModOp>
+          </Group>
+        <!-- Weapon Factory-->
+          <Group Condition="!#military_attention">
+            <ModOp Type="merge" GUID="1010299" Path="/Values">
+              <FactoryBase>
+                <FactoryInputs>
+                  <Item>
+                    <Product>1010219</Product>
+                    <Amount>2</Amount>
+                    <StorageAmount>8</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>1742100293</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+                <FactoryOutputs>
+                  <Item>
+                    <Amount>2</Amount>
+                    <StorageAmount>8</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <CycleTime>180</CycleTime>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+              </FactoryBase>
+            </ModOp>
+            <ModOp Type="add" GUID="500145" Path="/Values/ProductionChain/Tier1">
+              <Item>
+                <Building>1742100291</Building>
+                <Tier2>
+                  <Item>
+                    <Building>1010298</Building>
+                  </Item>
+                  <Item>
+                    <Building>1500302333</Building>
+                    <Tier3>
+                      <Item>
+                        <Building>1010267</Building>
+                        <ForceIcon>24807</ForceIcon>
+                      </Item>
+                      <Item>
+                        <Building>1010309</Building>
+                      </Item>
+                      <Item>
+                        <Building>1999002232</Building>
+                      </Item>
+                    </Tier3>
+                  </Item>
+                </Tier2>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Pigments -->
+          <Group>
+            <ModOp Type="replace" GUID="5940,5823" Path="/Values/ProductionChain//Item[Building='101272' and ForceIcon]" Condition="/Values/ProductionChain//Item[Building='101272' and ForceIcon]">
+              <Item>
+                <Building>1500302330</Building>
+              </Item>
+            </ModOp>
+            <Group Condition="@1500302132">
+              <ModOp Type="replace" GUID="1500302132" Path="/Values/ProductionChain//Item[Building='101272' and ForceIcon]" Condition="/Values/ProductionChain//Item[Building='101272' and ForceIcon]">
+                <Item>
+                  <Building>1500302330</Building>
+                </Item>
+              </ModOp>
+            </Group>
+          </Group>
+        <!-- Lacquer -->
+          <Group>
+            <ModOp Type="add" GUID="137603" Path="/Values/ProductionChain/Tier1">
+              <Item>
+                <Building>1010310</Building>
+              </Item>
+            </ModOp>
+            <ModOp Type="add" GUID="137596,137598,137600" Path="/Values/ProductionChain/Tier1/Item[Building='135133']/Tier2">
+              <Item>
+                <Building>1010310</Building>
+              </Item>
+            </ModOp>
+            <ModOp Type="add" GUID="135133" Path="/Values/FactoryBase/FactoryInputs">
+              <Item>
+                <Product>1010232</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </ModOp>
+            <Group Condition="@1500302521">
+              <ModOp Type="add" GUID="1500302521" Path="/Values/ProductionChain/Tier1">
+                <Item>
+                  <Building>1500302330</Building>
+                </Item>
+              </ModOp>
+              <ModOp Type="add" GUID="5462" Path="/Values/FactoryBase/FactoryInputs">
+                <Item>
+                  <Product>1010232</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+              </ModOp>
+            </Group>
+            <Group Condition="@1999002117">
+              <ModOp Type="add" GUID="1999002124" Path="/Values/ProductionChain/Tier1/Item[Building='1999002117']/Tier2">
+                <Item>
+                  <Building>1500302330</Building>
+                </Item>
+              </ModOp>
+              <ModOp Type="add" GUID="1999002117" Path="/Values/FactoryBase/FactoryInputs">
+                <Item>
+                  <Product>1010232</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+              </ModOp>
+              <ModOp Type="merge" GUID="1999002118" Path="/Values/Recipe">
+                <RecipeIngredientUIData>
+                  <Item>
+                    <PosY>20</PosY>
+                    <UICirclePointer>SouthEast</UICirclePointer>
+                  </Item>
+                  <Item>
+                    <PosX>145</PosX>
+                    <PosY>5</PosY>
+                    <UICirclePointer>South</UICirclePointer>
+                  </Item>
+                  <Item>
+                    <PosX>300</PosX>
+                    <PosY>-20</PosY>
+                    <UICirclePointer>South</UICirclePointer>
+                  </Item>
+                  <Item>
+                    <PosX>400</PosX>
+                    <PosY>100</PosY>
+                    <UICirclePointer>SouthWest</UICirclePointer>
+                  </Item>
+                </RecipeIngredientUIData>
+              </ModOp>
+            </Group>
+          </Group>
+        <!-- Film Reels -->
+          <ModOp Type="replace" GUID="5939" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='101272']">
+            <Item>
+              <Building>1500302330</Building>
+            </Item>
+          </ModOp>
+        <!-- Industrial Lubricant -->
+          <ModOp Type="replace" GUID="1361" Path="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='1010310']">
+            <Item>
+              <Building>1500302330</Building>
+            </Item>
+          </ModOp>
+      </Group>
+    <!-- Adjust Fertillities -->
+      <Group>
+        <ModOp Type="remove" Path="//Values/FertilitySet/Fertilities/Item[Fertility='120017']"></ModOp>
+        <ModOp Type="remove" GUID="5000000" Path="/Values/Region/AllowedFertilities/Item[Fertility='120017']"></ModOp>
+        <ModOp Type="add" Path="//Values[ResourceSetCondition/AllowedRegion='Colony01']/FertilitySet/Fertilities[not(Item/Fertility='120018')]">
+          <Item>
+            <Fertility>120017</Fertility>
+          </Item>
+        </ModOp>
+        <ModOp Type="add" GUID="5000001" Path="/Values/Region/AllowedFertilities">
+          <Item>
+            <Fertility>120017</Fertility>
+          </Item>
+        </ModOp>
+      </Group>
+    <!-- Adjust Items -->
+      <Group>
+      </Group>
+  </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Saltpetre Works" Icon="data/ui/2kimages/main/3dicons/icon_niter.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="SaltpetreWorks" ExposeID="Disable/Enable Saltpetre Works">
+    </ImyaExpose>
+</ModOps>

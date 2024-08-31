@@ -1,0 +1,63 @@
+{
+  "Version": "1.0",
+  "ModID": "sausage_works_kurila",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_TT_MenuInputOutputAmounts_Serp",
+    "shared_salt_works_kurila",
+    "advanced_pig_farm_kurila",
+    "advanced_slaughterhouse_kurila"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "IndustrializedLowTierProduction",
+    "advanced_slaughterhouse_kurila",
+    "city_butcher"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Sausage Works (Kurila)",
+    "English": "Sausage Works (Kurila)",
+    "French": "Sausage Works (Kurila)",
+    "German": "Sausage Works (Kurila)",
+    "Italian": "Sausage Works (Kurila)",
+    "Japanese": "Sausage Works (Kurila)",
+    "Korean": "Sausage Works (Kurila)",
+    "Polish": "Sausage Works (Kurila)",
+    "Russian": "Sausage Works (Kurila)",
+    "Spanish": "Sausage Works (Kurila)",
+    "Taiwanese": "Sausage Works (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

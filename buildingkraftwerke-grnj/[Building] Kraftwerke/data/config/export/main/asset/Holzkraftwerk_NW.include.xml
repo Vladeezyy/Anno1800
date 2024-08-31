@@ -1,0 +1,131 @@
+<ModOps>
+  <ModOp GUID="25000194" Type="addNextSibling">
+	<Asset>
+	  <Template>PowerplantBuilding_WS</Template>
+	  <Values>
+		<Standard>
+		   <GUID>2141010120</GUID>
+			<Name>woodpower</Name>
+		   <IconFilename>data/modgraphics/ui/2kimages/main/3dicons/icon_electric_works_wood.png</IconFilename>
+		  <InfoDescription>2141010117</InfoDescription>
+		</Standard>
+		<Building>
+		  <AssociatedRegions>Colony01</AssociatedRegions>
+		</Building>
+		<Blocking />
+		<Cost>
+		  <Costs>
+			<Item>
+			  <Ingredient>1010017</Ingredient>
+			  <Amount>5000</Amount>
+			</Item>
+			<Item>
+			  <Ingredient>1010196</Ingredient>
+			  <Amount>80</Amount>
+			</Item>
+			<Item>
+			  <Ingredient>1010205</Ingredient>
+			  <Amount>50</Amount>
+			</Item>
+		  </Costs>
+		</Cost>
+		<Object>
+		  <Variations>
+			<Item>
+			  <Filename>data/modgraphics/graphics/buildings/special/electricity/electricity_02.cfg</Filename>
+			</Item>
+		  </Variations>
+		</Object>
+		<Mesh />
+		<Selection>
+		  <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+		</Selection>
+		<Constructable />
+		<Locked>
+			<DefaultLockedState>0</DefaultLockedState>
+		</Locked>
+		<SoundEmitter />
+		<FeedbackController />
+		<Infolayer />
+		<UpgradeList />
+		<LogisticNode>
+		  <TransporterCountMax>1</TransporterCountMax>
+		  <PathLayers>Street</PathLayers>
+		</LogisticNode>
+		<AmbientMoodProvider />
+		<Maintenance>
+		  <Maintenances>
+			<Item>
+			  <Product>1010017</Product>
+			  <Amount>150</Amount>
+			  <InactiveAmount>75</InactiveAmount>
+			</Item>
+			<Item>
+			  <Product>1010367</Product>
+			  <Amount>25</Amount>
+			  <ShutdownThreshold>0.5</ShutdownThreshold>
+			</Item>
+		  </Maintenances>
+		</Maintenance>
+		<Attackable />
+		<Pausable />
+		<IncidentInfectable />
+		<Powerplant>
+		  <IndustrializationDistance>20</IndustrializationDistance>
+		  <ElectricityDistance>20</ElectricityDistance>
+		</Powerplant>
+		<FactoryBase>
+		  <FactoryInputs>
+			<Item>
+			  <Product>120008</Product>
+			  <Amount>1</Amount>
+			  <StorageAmount>100</StorageAmount>
+			</Item>
+		  </FactoryInputs>
+		  <CycleTime>7</CycleTime>
+		</FactoryBase>
+		<Culture />
+		<PublicService>
+		  <FullSatisfactionDistance>20</FullSatisfactionDistance>
+		  <NoSatisfactionDistance>20</NoSatisfactionDistance>
+		</PublicService>
+	  </Values>
+	</Asset>
+  </ModOp>
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='500021']">
+	<Asset>
+	  <Template>ProductionChain</Template>
+	  <Values>
+		<Standard>
+		  <GUID>2141010121</GUID>
+			<Name>colony</Name>
+		  <IconFilename>data/modgraphics/ui/2kimages/main/3dicons/icon_electric_works_wood.png</IconFilename>
+		</Standard>
+		<ProductionChain>
+		  <Building>2141010120</Building>
+		  <Tier1>
+			<Item><Building>101260</Building></Item>
+		  </Tier1>
+		</ProductionChain>
+		<Locked>
+			<DefaultLockedState>0</DefaultLockedState>
+		</Locked>
+	  </Values>
+	</Asset>
+  </ModOp>
+    <ModOp Type="add" GUID='25000193,500137' Path="/Values/ConstructionCategory/BuildingList">
+        <Item>
+            <Building>2141010121</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID='193864,190136,6000018,368' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+		  <GUID>2141010120</GUID>
+		</Item>
+    </ModOp>
+	<ModOp Type="add" GUID='130047' Path="/Values/AssetPool/AssetList">
+		<Item>
+		  <Asset>2141010120</Asset>
+		</Item>
+	</ModOp>
+</ModOps>

@@ -1,0 +1,10 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  	<!-- Enbesa Sawmill -->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301290</GUID>
+        <Text>Serrería de wanza</Text>
+      </Text>
+  </ModOp>
+</ModOps>

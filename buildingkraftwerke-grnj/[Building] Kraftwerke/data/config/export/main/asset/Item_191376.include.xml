@@ -1,0 +1,41 @@
+<ModOps>
+   <!-- Führender Elektroingenieur, Magnetiker, Leitungsmonteur-->
+  <ModOp GUID="269460,191377,191376,191375,191373" Type="Add" Path="/Values/ItemEffect/EffectTargets">
+            <Item>
+              <GUID>2141010102</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010103</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010112</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010116</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010120</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010123</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010126</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010129</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010135</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010136</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010137</GUID>
+            </Item>
+            <Item>
+              <GUID>2141010138</GUID>
+            </Item>
+  </ModOp>
+</ModOps>

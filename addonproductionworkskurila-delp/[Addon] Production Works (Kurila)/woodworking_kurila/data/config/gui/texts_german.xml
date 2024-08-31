@@ -1,0 +1,112 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Vanilla Changes -->
+      <Text>
+        <GUID>1010242</GUID>
+        <Text>Furniertes Holz</Text>
+      </Text>
+  	<!-- Extended Marquetry Workshops-->
+      <Text>
+        <GUID>1500300844</GUID>
+        <Text>Furniertes Holz ist eine günstige Alternative zu Vollholz. Trotz seines einfachen charakters ist es schön anzusehen.</Text>
+      </Text>
+      <Text>
+        <GUID>1500300845</GUID>
+        <Text>Furniertes Holz: 2t</Text>
+      </Text>
+      <Text>
+        <GUID>1500300846</GUID>
+        <Text>Furniertes Holz: 2t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301292</GUID>
+        <Text>Kunstschreinerei</Text>
+      </Text>
+      <Text>
+        <GUID>1010320</GUID>
+        <Text>Kunstschreinerei: Holz</Text>
+      </Text>
+      <Text>
+        <GUID>101296</GUID>
+        <Text>Kunstschreinerei: Holz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301293</GUID>
+        <Text>Kunstschreinerei: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301294</GUID>
+        <Text>Furniertes Kirschholz ist eine günstige Alternative zu Vollholz. Die ausgeprägte Maserung kommt hier gut zu geltung.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301295</GUID>
+        <Text>Furniertes Kirschholz: 4t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301296</GUID>
+        <Text>Kunstschreinerei: Wanza-Holz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301297</GUID>
+        <Text>Furniertes Wanza Holz ist eine günstige Alternative zu Vollholz. Die ungewöhnliche Farbe und Maserung sind ein wahrer hingucker.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301298</GUID>
+        <Text>Furniertes Wanza-Holz: 6t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301299</GUID>
+        <Text>Kunstschreinerei</Text>
+      </Text>
+      <Text>
+        <GUID>1500301300</GUID>
+        <Text>Kunstschreinerei: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301301</GUID>
+        <Text>Furniertes Kirschholz: 4t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301302</GUID>
+        <Text>Kunstschreinerei: Wanza-Holz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301303</GUID>
+        <Text>Furniertes Wanza-Holz: 6t</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500301307</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301309) Text]&#xD;&#xA;[AssetData(1500301310) Text]&#xD;&#xA;[AssetData(1500301311) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301309</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt; [AssetData(120008) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301310</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt; [AssetData(135087) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301311</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt; [AssetData(1500301150) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301312</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301313</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301314</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+    <!-- Old Content -->
+      <Text>
+        <GUID>1500300051</GUID>
+        <Text>Erfahrene Schreinerin</Text>
+      </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,49 @@
+{
+	"Version": "1.0.4",
+	"ModID": "AdvancedGameStart",
+	"IncompatibleIds": null,
+	"ModDependencies": null,
+	"Category": {
+		"Chinese": "调整",
+		"English": "Adjustments",
+		"French": null,
+		"German": "Anpassung",
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": "Nastawienie",
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	},
+	"ModName": {
+		"Chinese": "AdvancedGameStart",
+		"English": "AdvancedGameStart",
+		"French": "AdvancedGameStart",
+		"German": "AdvancedGameStart",
+		"Italian": "AdvancedGameStart",
+		"Japanese": "AdvancedGameStart",
+		"Korean": "AdvancedGameStart",
+		"Polish": "AdvancedGameStart",
+		"Russian": "AdvancedGameStart",
+		"Spanish": "AdvancedGameStart",
+		"Taiwanese": "AdvancedGameStart"
+	},
+	"Description": {
+		"Chinese": "Start the Game with an advanced Fleet",
+		"English": "Start the Game with an advanced Fleet",
+		"French": "Start the Game with an advanced Fleet",
+		"German": "Start the Game with an advanced Fleet",
+		"Italian": "Start the Game with an advanced Fleet",
+		"Japanese": "Start the Game with an advanced Fleet",
+		"Korean": "Start the Game with an advanced Fleet",
+		"Polish": "Start the Game with an advanced Fleet",
+		"Russian": "Start the Game with an advanced Fleet",
+		"Spanish": "Start the Game with an advanced Fleet",
+		"Taiwanese": "Start the Game with an advanced Fleet"
+	},
+	"KnownIssues": null,
+	"DLCDependencies": null,
+	"CreatorName": "Senfdeckel98",
+	"CreatorContact": "Senfdeckel98"
+}

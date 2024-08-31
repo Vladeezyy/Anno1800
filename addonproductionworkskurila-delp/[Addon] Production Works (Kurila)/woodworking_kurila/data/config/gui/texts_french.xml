@@ -1,0 +1,125 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Vanilla Changes -->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1010242</GUID>
+        <Text>Bois plaqué</Text>
+      </Text>
+  	<!-- Extended Marquetry Workshops-->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300844</GUID>
+        <Text>Le bois plaqué est une alternative abordable au bois massif. Malgré son caractère simple, il est beau à regarder.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300845</GUID>
+        <Text>Bois plaqué: 2t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300846</GUID>
+        <Text>Bois plaqué: 2t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301292</GUID>
+        <Text>Atelier de marqueterie</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1010320</GUID>
+        <Text>Atelier de marqueterie: Bois</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>101296</GUID>
+        <Text>Atelier de marqueterie: Bois</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301293</GUID>
+        <Text>Atelier de marqueterie: Bois de cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301294</GUID>
+        <Text>Le cerisier plaqué est une alternative intéressante au bois massif. La veinure prononcée est ici mise en valeur.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301295</GUID>
+        <Text>Bois de cerisier plaqué: 4t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301296</GUID>
+        <Text>Atelier de marqueterie: Bois de Wanza</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301297</GUID>
+        <Text>Le bois Wanza plaqué est une alternative abordable au bois massif. La couleur et le grain inhabituels attirent l'attention.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301298</GUID>
+        <Text>Bois de Wanza plaqué: 6t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301299</GUID>
+        <Text>Atelier de marqueterie</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301300</GUID>
+        <Text>Atelier de marqueterie: Bois de cerisier</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301301</GUID>
+        <Text>Bois de cerisier plaqué: 4t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301302</GUID>
+        <Text>Atelier de marqueterie: Bois de Wanza</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301303</GUID>
+        <Text>Bois de Wanza plaqué: 6t</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500301307</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301309) Text]&#xD;&#xA;[AssetData(1500301310) Text]&#xD;&#xA;[AssetData(1500301311) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301309</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt; [AssetData(120008) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301310</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt; [AssetData(135087) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301311</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt; [AssetData(1500301150) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301312</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301313</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301314</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+  </ModOp>
+</ModOps>

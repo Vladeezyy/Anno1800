@@ -1,0 +1,64 @@
+<ModOps> 
+
+
+  <ModOp Type="add" Path="TextExport/Texts">
+	<Text>
+		<GUID>6800049</GUID>
+		<Text>Кипарис</Text>
+	</Text>
+	<Text>
+		<GUID>6800048</GUID>
+		<Text>Небольшое дерево</Text>
+	</Text>
+	<Text>
+		<GUID>6800047</GUID>
+		<Text>Тополь</Text>
+	</Text>
+	<Text>
+		<GUID>6800046</GUID>
+		<Text>Тополиная роща</Text>
+	</Text>
+	<Text>
+		<GUID>6800045</GUID>
+		<Text>Цветочная поляна</Text>
+	</Text>
+	<Text>
+		<GUID>6800044</GUID>
+		<Text>Каменная ваза для цветов</Text>
+	</Text>
+	<Text>
+		<GUID>6800043</GUID>
+		<Text>Взрослое дерево</Text>
+	</Text>
+	<Text>
+		<GUID>6800070</GUID>
+		<Text>Взрослое дерево (выращивает деревья)</Text>
+	</Text>
+	<Text>
+		<GUID>6800039</GUID>
+		<Text>Цветущий кустарник</Text>
+	</Text>
+	<Text>
+		<GUID>6800038</GUID>
+		<Text>Пальма</Text>
+	</Text>
+	<Text>
+		<GUID>6800071</GUID>
+		<Text>Пальма (выращивает деревья)</Text>
+	</Text>
+	<Text>
+		<GUID>6800037</GUID>
+		<Text>Маленькая пальма</Text>
+	</Text>
+	<Text>
+		<GUID>6800036</GUID>
+		<Text>Цветочная поляна</Text>
+	</Text>
+	<Text>
+		<GUID>6800072</GUID>
+		<Text>Цветочная поляна (выращивает деревья)</Text>
+	</Text>
+  </ModOp>
+  
+  
+</ModOps>

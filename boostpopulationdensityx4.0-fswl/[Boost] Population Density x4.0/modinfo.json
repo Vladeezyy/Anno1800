@@ -1,0 +1,52 @@
+{
+  "Version": "1",
+  "ModID": "Population Density x4.0.0",
+  "DeprecateIds": [],
+  "LoadAfterIds": [],
+  "IncompatibleIds": null,
+  "ModDependencies": [],
+  "Category": {
+    "English": "Boost",
+    "Chinese": "Boost",
+    "French": "Boost",
+    "German": "Boost",
+    "Italian": "Boost",
+    "Japanese": "Boost",
+    "Korean": "Boost",
+    "Polish": "Boost",
+    "Russian": "Boost",
+    "Spanish": "Boost",
+    "Taiwanese": "Boost"
+  },
+  "ModName": {
+    "Chinese": "Population Density x4.0",
+    "English": "Population Density x4.0",
+    "French": "Population Density x4.0",
+    "German": "Population Density x4.0",
+    "Italian": "Population Density x4.0",
+    "Japanese": "Population Density x4.0",
+    "Korean": "Population Density x4.0",
+    "Polish": "Population Density x4.0",
+    "Russian": "Population Density x4.0",
+    "Spanish": "Population Density x4.0",
+    "Taiwanese": "Population Density x4.0"
+  },
+  "Description": {
+    "English": null,
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Larry Bambel",
+  "CreatorContact": "",
+  "Image": null
+}

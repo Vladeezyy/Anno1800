@@ -1,0 +1,125 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Vanilla Changes -->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1010242</GUID>
+        <Text>베니어 목재</Text>
+      </Text>
+  	<!-- Extended Marquetry Workshops-->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300844</GUID>
+        <Text>무늬목은 원목에 대한 저렴한 대안입니다. 단순한 특성에도 불구하고 보기에도 아름답습니다.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300845</GUID>
+        <Text>베니어 목재: 2t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500300846</GUID>
+        <Text>베니어 목재: 2t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301292</GUID>
+        <Text>고급 가구 제작소</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1010320</GUID>
+        <Text>고급 가구 제작소: 나무</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>101296</GUID>
+        <Text>고급 가구 제작소: 나무</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301293</GUID>
+        <Text>고급 가구 제작소: 체리 나무</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301294</GUID>
+        <Text>베니어 체리 우드는 원목의 대안으로 선호되는 목재입니다. 나뭇결이 뚜렷한 나뭇결이 돋보입니다.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301295</GUID>
+        <Text>베니어 체리 우드: 4t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301296</GUID>
+        <Text>고급 가구 제작소: 완자 나무</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301297</GUID>
+        <Text>무늬목 완자 원목은 원목에 대한 합리적인 가격의 대안입니다. 특이한 색상과 나뭇결이 눈길을 사로잡습니다.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301298</GUID>
+        <Text>베니어 완자 목재: 6t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301299</GUID>
+        <Text>고급 가구 제작소</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301300</GUID>
+        <Text>고급 가구 제작소: 체리 나무</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301301</GUID>
+        <Text>베니어 체리 우드: 4t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301302</GUID>
+        <Text>고급 가구 제작소: 완자 나무</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301303</GUID>
+        <Text>베니어 완자 목재: 6t</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500301307</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301309) Text]&#xD;&#xA;[AssetData(1500301310) Text]&#xD;&#xA;[AssetData(1500301311) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301309</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt; [AssetData(120008) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301310</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt; [AssetData(135087) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301311</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt; [AssetData(1500301150) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301312</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301313</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301314</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+  </ModOp>
+</ModOps>

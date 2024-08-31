@@ -1,0 +1,107 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Vanilla Changes -->
+      <Text>
+        <GUID>1010242</GUID>
+        <Text>Veneered wood</Text>
+      </Text>
+  	<!-- Extended Marquetry Workshops-->
+      <Text>
+        <GUID>1500300844</GUID>
+        <Text>Veneered wood is an affordable alternative to solid wood. Despite its simple character, it is beautiful to look at.</Text>
+      </Text>
+      <Text>
+        <GUID>1500300845</GUID>
+        <Text>Veneered wood: 2t</Text>
+      </Text>
+      <Text>
+        <GUID>1500300846</GUID>
+        <Text>Veneered wood: 2t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301292</GUID>
+        <Text>Marquetry Workshop</Text>
+      </Text>
+      <Text>
+        <GUID>1010320</GUID>
+        <Text>Marquetry Workshop: Wood</Text>
+      </Text>
+      <Text>
+        <GUID>101296</GUID>
+        <Text>Marquetry Workshop: Wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301293</GUID>
+        <Text>Marquetry Workshop: Cherry Wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301294</GUID>
+        <Text>Veneered cherry wood is a favourable alternative to solid wood. The pronounced grain comes into its own here.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301295</GUID>
+        <Text>Veneered cherry wood: 4t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301296</GUID>
+        <Text>Marquetry Workshop: Wanza wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301297</GUID>
+        <Text>Veneered Wanza wood is an affordable alternative to solid wood. The unusual colour and grain are a real eye-catcher.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301298</GUID>
+        <Text>Veneered Wanza wood: 6t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301299</GUID>
+        <Text>Marquetry Workshop</Text>
+      </Text>
+      <Text>
+        <GUID>1500301300</GUID>
+        <Text>Marquetry Workshop: Cherry Wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301301</GUID>
+        <Text>Veneered cherry wood: 4t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301302</GUID>
+        <Text>Marquetry Workshop: Wanza wood</Text>
+      </Text>
+      <Text>
+        <GUID>1500301303</GUID>
+        <Text>Veneered Wanza wood: 6t</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500301307</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301309) Text]&#xD;&#xA;[AssetData(1500301310) Text]&#xD;&#xA;[AssetData(1500301311) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301309</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt; [AssetData(120008) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301310</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt; [AssetData(135087) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301311</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt; [AssetData(1500301150) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301312</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(120008) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301313</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(135087) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301314</GUID>
+        <Text>[AssetData(1010242) Text] &lt;b&gt;(&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301150) Icon]"/&gt;&lt;b&gt;)&lt;/b&gt;</Text>
+      </Text>
+  </ModOp>
+</ModOps>

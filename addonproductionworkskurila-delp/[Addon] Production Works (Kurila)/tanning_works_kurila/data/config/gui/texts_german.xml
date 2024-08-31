@@ -1,0 +1,100 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302242</GUID>
+        <Text>Leder</Text>
+      </Text>
+      <Text>
+        <GUID>1500302243</GUID>
+        <Text>Wasenmeisterei: Häute</Text>
+      </Text>
+      <Text>
+        <GUID>1500302244</GUID>
+        <Text />
+      </Text>
+      <Text>
+        <GUID>1500302245</GUID>
+        <Text>Häute: Pigs 1t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302247</GUID>
+        <Text />
+      </Text>
+      <Text>
+        <GUID>1500302248</GUID>
+        <Text>Häute: Cattle 2t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302250</GUID>
+        <Text />
+      </Text>
+      <Text>
+        <GUID>1500302251</GUID>
+        <Text>Häute: Sanga 3t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302252</GUID>
+        <Text>Tierhäute werden schon seit der Steinzeit von Menschen für die Unterschiedlichsten Dinge verwendet.</Text>
+      </Text>
+      <Text>
+        <GUID>1500302254</GUID>
+        <Text>Gerberei: Leder</Text>
+      </Text>
+      <Text>
+        <GUID>1500302255</GUID>
+        <Text>Große Wasenmeisterei: Häute</Text>
+      </Text>
+      <Text>
+        <GUID>1500302256</GUID>
+        <Text>Häute: Schweine 4t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302258</GUID>
+        <Text>Häute: Rinder 8t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302260</GUID>
+        <Text>Häute: Sanga 12t</Text>
+      </Text>
+      <Text>
+        <GUID>1500302262</GUID>
+        <Text>Industrielle Gerberei: Leder</Text>
+      </Text>
+      <Text>
+        <GUID>1500302263</GUID>
+        <Text>Industrielle Gerberei: Felle</Text>
+      </Text>
+      <Text>
+        <GUID>1500302264</GUID>
+        <Text>Gerberei</Text>
+      </Text>
+      <Text>
+        <GUID>1500302272</GUID>
+        <Text>Flussgerberei: Leder</Text>
+      </Text>
+      <Text>
+        <GUID>1500302290</GUID>
+        <Text>Kooperation: [AssetData(1500301152) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500302292</GUID>
+        <Text>Kooperation: [AssetData(1010234) Text]</Text>
+      </Text>
+  </ModOp>
+  <!-- Rendering Works: Tallow -->
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1010312']/Text">: </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1010312']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+    </ModOp>
+  <!-- Industrial Rendering Works: Tallow -->
+    <Group Condition="/TextExport/Texts/Text[GUID='1500011271']">
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500011271']/Text">: </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500011271']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+      </ModOp>
+    </Group>
+  <!-- Advanced Rendering Works: Tallow -->
+    <Group Condition="/TextExport/Texts/Text[GUID='1404423051']">
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1404423051']/Text">: </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1404423051']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+      </ModOp>
+    </Group>
+</ModOps>

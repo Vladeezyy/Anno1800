@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300864</GUID>
+      <Text>Aus Kartoffeln gebrannter Schnapps. Er ist für weite Teile der Bevölkerung ein regelmässiger Genuss, aber er ist mit Vorsicht zu geniesen um ihm nicht zu verfallen.</Text>
+    </Text>
+    <Text>
+      <GUID>1500300866</GUID>
+      <Text>Schnappsbrennereien sind überall zu finden, ob in kleinen Dörfern oder großen Städten, sie stellen hochprozentigen Schnapps für die Bevökerung her.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

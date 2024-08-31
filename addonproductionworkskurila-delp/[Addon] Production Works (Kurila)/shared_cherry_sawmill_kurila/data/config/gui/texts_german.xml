@@ -1,0 +1,72 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500301320</GUID>
+        <Text>Sägewerk: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301321</GUID>
+        <Text>Kirschbretter sind sehr hochwertig, sie werden nur von erfahrenen Handwerkern hergestellt. Aber was aus ihnen hergestellt wird ist Exquisit.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301322</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301323</GUID>
+        <Text>Sägewerk: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301324</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301325</GUID>
+        <Text>Großes Sägewerk: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301326</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301327</GUID>
+        <Text>Großes Sägewerk: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301328</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301329</GUID>
+        <Text>Flusssägemühle: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301330</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301331</GUID>
+        <Text>Flusssägemühle: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301332</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301344</GUID>
+        <Text>Küferei: Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301352</GUID>
+        <Text>Küferei: Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+  </ModOp>
+</ModOps>

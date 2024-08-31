@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300872</GUID>
+      <Text>没有啤酒的庆典是不可想象的。它酒体醇厚，美味可口，能舒缓心情，但你不应该喝得太多……</Text>
+    </Text>
+    <Text>
+      <GUID>1500300874</GUID>
+      <Text>酿酒厂自古以来就存在，是许多文化不可分割的一部分。今天，几乎没有一个地区没有自己的啤酒厂。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

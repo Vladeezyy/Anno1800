@@ -1,0 +1,200 @@
+<ModOps>
+  <ModOp GUID="114341" Type="addNextSibling">
+   <Asset>
+	<Template>PowerplantBuilding</Template>
+	<Values>
+		<Standard>
+			<GUID>2141010136</GUID>
+			<Name>electricity_02 (Oil Power Plant)</Name>
+			<IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_oil.png</IconFilename>
+			<ID>OilPowerPlant Arctic</ID>
+			<InfoDescription>10946</InfoDescription>
+			<!--Electricity Oil Infocorner-->
+		</Standard>
+		<Building>
+			<BuildingCategoryName>11169</BuildingCategoryName>
+			<!--Electricity-->
+			<BuildModeRandomRotation>90</BuildModeRandomRotation>
+			<AssociatedRegions>Arctic</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+		</Building>
+		<Blocking>
+			<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+		</Blocking>
+		<Cost>
+			<Costs>
+				<Item>
+					<Ingredient>1010017</Ingredient>
+					<!--Money-->
+					<Amount>75000</Amount>
+				</Item>
+				<Item>
+					<Ingredient>1010196</Ingredient>
+					<!--Holz-->
+					<Amount>30</Amount>
+				</Item>
+				<Item>
+					<Ingredient>1010205</Ingredient>
+					<!--Ziegel-->
+					<Amount>50</Amount>
+				</Item>
+				<Item>
+					<Ingredient>1010218</Ingredient>
+					<!--beams-->
+					<Amount>40</Amount>
+				</Item>
+			</Costs>
+		</Cost>
+		<Object>
+			<Variations>
+				<Item>
+					<Filename>data/graphics/buildings/public/electricity_01/electricity_01.cfg</Filename>
+				</Item>
+			</Variations>
+			<Skins>
+				<DefaultSkinName>100780</DefaultSkinName>
+				<DefaultSkinDescription>23853</DefaultSkinDescription>
+				<!--ChangeBuildingSkin_toDefaultSkinDesc-->
+				<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+				<!--Classic-->
+			</Skins>
+		</Object>
+		<Mesh/>
+		<Selection>
+			<OnSelection>
+				<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+				<Values>
+					<ActionList/>
+				</Values>
+			</OnSelection>
+			<ParticipantMessageArcheType>Arctic_Resident_tier02_atWork</ParticipantMessageArcheType>
+		</Selection>
+		<Constructable/>
+		<Locked>
+			<DefaultLockedState>0</DefaultLockedState>
+		</Locked>
+		<SoundEmitter />
+		<FeedbackController/>
+		<Infolayer/>
+		<UpgradeList/>
+		<LogisticNode/>
+		<AmbientMoodProvider/>
+		<Maintenance>
+			<Maintenances>
+				<Item>
+					<Product>1010017</Product>
+					<!--Money-->
+					<Amount>400</Amount>
+					<InactiveAmount>200</InactiveAmount>
+				</Item>
+				<Item>
+					<Product>112654</Product>
+					<!--Technicians-->
+					<Amount>25</Amount>
+				</Item>
+			</Maintenances>
+		</Maintenance>
+		<Attackable>
+			<AttackableType>IslandBuilding</AttackableType>
+			<MaximumHitPoints>3500</MaximumHitPoints>
+			<SelfHealPerHealTick>4</SelfHealPerHealTick>
+		</Attackable>
+		<Pausable/>
+		<IncidentInfectable>
+			<Infectable>
+				<Fire>
+					<Base>1</Base>
+				</Fire>
+			</Infectable>
+			<Explosion>
+				<DamageExplosionChance>40</DamageExplosionChance>
+			</Explosion>
+			<IncidentInfectionChanceFactors>
+				<Fire>
+					<DensityDistance>15</DensityDistance>
+					<FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+					<FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+				</Fire>
+				<Explosion>
+					<BaseChance>4</BaseChance>
+				</Explosion>
+			</IncidentInfectionChanceFactors>
+		</IncidentInfectable>
+		<Powerplant>
+			<IndustrializationDistance>35</IndustrializationDistance>
+		</Powerplant>
+		<FactoryBase>
+			<FactoryInputs>
+				<Item>
+					<Product>1010566</Product>
+					<!--oil-->
+					<Amount>1</Amount>
+					<StorageAmount>100</StorageAmount>
+				</Item>
+			</FactoryInputs>
+			<CycleTime>5</CycleTime>
+			<ProductivityTimeMultiplier>30</ProductivityTimeMultiplier>
+			<ProductivityPoints>1</ProductivityPoints>
+			<WarehouseTransporterAsset>120025</WarehouseTransporterAsset>
+			<!--TrainTransporter-->
+		</FactoryBase>
+		<Culture/>
+		<PublicService/>
+	</Values>
+</Asset>
+  </ModOp>
+  <ModOp GUID="112791" Type="addNextSibling" >
+   <Asset>
+	<Template>ProductionChain</Template>
+	<Values>
+		<Standard>
+			<GUID>2141010139</GUID>
+			<Name>Arctic electricity oil chain </Name>
+			<IconFilename>data/ui/2kimages/main/3dicons/icon_electric_works_oil.png</IconFilename>
+		</Standard>
+		<ProductionChain>
+		<Building>2141010136</Building>
+			<Tier1>
+				<Item>
+					<Building>119031</Building>
+					<!--harbor_africa_14a (Oil Harbor I)-->
+					<Tier2>
+						<Item>
+							<Building>119035</Building>
+							<!--AF | Rails-->
+							<Tier3>
+								<Item>
+									<Building>101331</Building>
+									<!--heavy_10 (Oil Heavy Industry)-->
+								</Item>
+							</Tier3>
+						</Item>
+						<Item>
+							<Building>119034</Building>
+							<!--harbor_africa_15 (Oil Storage)-->
+						</Item>
+					</Tier2>
+				</Item>
+			</Tier1>
+		</ProductionChain>
+		<Locked>
+			<DefaultLockedState>0</DefaultLockedState>
+			<DLCDependency>410070</DLCDependency>
+			<!--Anno 1800 DLC - Bright Harvest-->
+		</Locked>
+	</Values>
+   </Asset>
+  </ModOp>
+  <ModOp Type="add" GUID="112791,116343" Path="/Values/ConstructionCategory/BuildingList">
+    <!-- Build Menu -->
+    <Item>
+      <Building>2141010133</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="368,193864,190136,6000018" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <!-- Pool Lists -->
+    <Item>
+      <GUID>2141010135</GUID>
+    </Item>
+  </ModOp>
+</ModOps>  

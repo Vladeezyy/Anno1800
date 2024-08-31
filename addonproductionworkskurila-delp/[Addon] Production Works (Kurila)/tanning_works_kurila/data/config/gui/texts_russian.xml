@@ -1,0 +1,108 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302242</GUID>
+        <Text>Кожа</Text>
+      </Text>
+      <Text>
+        <GUID>1500302243</GUID>
+        <Text>Кожевенник: Шкуры</Text>
+      </Text>
+      <Text>
+        <GUID>1500302244</GUID>
+        <Text></Text>
+      </Text>
+      <Text>
+        <GUID>1500302245</GUID>
+        <Text>Шкуры: Свиньи 1т</Text>
+      </Text>
+      <Text>
+        <GUID>1500302247</GUID>
+        <Text></Text>
+      </Text>
+      <Text>
+        <GUID>1500302248</GUID>
+        <Text>Шкуры: Коровы 2т</Text>
+      </Text>
+      <Text>
+        <GUID>1500302250</GUID>
+        <Text></Text>
+      </Text>
+      <Text>
+        <GUID>1500302251</GUID>
+        <Text>Шкуры: Санга 3т</Text>
+      </Text>
+      <Text>
+        <GUID>1500302252</GUID>
+        <Text>Шкуры животных использовались людьми для самых разных целей начиная с каменного века.</Text>
+      </Text>
+      <Text>
+        <GUID>1500302254</GUID>
+        <Text>Дубильня: Кожа</Text>
+      </Text>
+      <Text>
+        <GUID>1500302255</GUID>
+        <Text>Кожевенный завод: Шкуры</Text>
+      </Text>
+      <Text>
+        <GUID>1500302256</GUID>
+        <Text>Шкуры: Свиньи 4т</Text>
+      </Text>
+      <Text>
+        <GUID>1500302258</GUID>
+        <Text>Шкуры: Коровы 8т</Text>
+      </Text>
+      <Text>
+        <GUID>1500302260</GUID>
+        <Text>Шкуры: Санга 12т</Text>
+      </Text>
+      <Text>
+        <GUID>1500302262</GUID>
+        <Text>Дубильный завод: Кожа</Text>
+      </Text>
+      <Text>
+        <GUID>1500302263</GUID>
+        <Text>Дубильный завод: Меха</Text>
+      </Text>
+      <Text>
+        <GUID>1500302264</GUID>
+        <Text>Все дубильни</Text>
+      </Text>
+      <Text>
+        <GUID>1500302272</GUID>
+        <Text>Речная дубильня: Кожа</Text>
+      </Text>
+      <Text>
+        <GUID>1500302290</GUID>
+        <Text>Кооперация: [AssetData(1500301152) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500302292</GUID>
+        <Text>Кооперация: [AssetData(1010234) Text] ([AssetData(1010199) Text])</Text>
+      </Text>
+      <Text>
+        <GUID>1500302293</GUID>
+        <Text>Кооперация: [AssetData(1010234) Text] ([AssetData(1404422300) Text])</Text>
+      </Text>
+      <Text>
+        <GUID>1500302294</GUID>
+        <Text>Кооперация: [AssetData(1010234) Text] ([AssetData(114357) Text])</Text>
+      </Text>
+  </ModOp>
+  <!-- Rendering Works: Tallow -->
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1010312']/Text">: </ModOp>
+    <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1010312']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+    </ModOp>
+  <!-- Industrial Rendering Works: Tallow -->
+    <Group Condition="/TextExport/Texts/Text[GUID='1500011271']">
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500011271']/Text">: </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500011271']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+      </ModOp>
+    </Group>
+  <!-- Advanced Rendering Works: Tallow -->
+    <Group Condition="/TextExport/Texts/Text[GUID='1404423051']">
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1404423051']/Text">: </ModOp>
+      <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1404423051']/Text" Content="/TextExport/Texts/Text[GUID='1010234']/Text/text()">
+      </ModOp>
+    </Group>
+</ModOps>

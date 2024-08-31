@@ -1,0 +1,69 @@
+{
+  "Version": "1.2",
+  "ModID": "glass_works_kurila",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_TT_MenuInputOutputAmounts_Serp",
+    "shared_salt_works_kurila",
+    "shared_soda_factory_kurila",
+    "advanced_glassmaker_kurila",
+    "Taludas_sharedproduct_soda",
+    "Taludas_sharedgood_potash"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "advanced_glassmaker_kurila",
+    "drink_works_1_kurila",
+    "drink_works_2_kurila",
+    "watch_works_kurila",
+    "Taludas_HighLifeSouvenirs",
+    "IndustrializedLowTierProduction",
+    "TaludasKurilaLordys_TrueJamExperience"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Glass Works (Kurila)",
+    "English": "Glass Works (Kurila)",
+    "French": "Glass Works (Kurila)",
+    "German": "Glass Works (Kurila)",
+    "Italian": "Glass Works (Kurila)",
+    "Japanese": "Glass Works (Kurila)",
+    "Korean": "Glass Works (Kurila)",
+    "Polish": "Glass Works (Kurila)",
+    "Russian": "Glass Works (Kurila)",
+    "Spanish": "Glass Works (Kurila)",
+    "Taiwanese": "Glass Works (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

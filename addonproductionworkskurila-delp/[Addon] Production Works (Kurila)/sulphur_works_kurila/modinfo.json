@@ -1,0 +1,61 @@
+{
+  "Version": "1.1.2",
+  "ModID": "sulphur_works_kurila",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared-sulfur-production-lion053"
+  ],
+  "LoadAfterIds": [
+    "cable_works_kurila",
+    "saltpetre_works_kurila",
+    "military_attention",
+    "shared-sulfur-production-lion053",
+    "shared_dynamite_storage_kurila",
+    "HacknerTradeUnionOverhaul"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Sulphur Works (Kurila)",
+    "English": "Sulphur Works (Kurila)",
+    "French": "Sulphur Works (Kurila)",
+    "German": "Sulphur Works (Kurila)",
+    "Italian": "Sulphur Works (Kurila)",
+    "Japanese": "Sulphur Works (Kurila)",
+    "Korean": "Sulphur Works (Kurila)",
+    "Polish": "Sulphur Works (Kurila)",
+    "Russian": "Sulphur Works (Kurila)",
+    "Spanish": "Sulphur Works (Kurila)",
+    "Taiwanese": "Sulphur Works (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

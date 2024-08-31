@@ -1,0 +1,66 @@
+{
+  "ModID": "[Gameplay] 01 Combat Overhaul Ships",
+  "Version": "17.2.1.7",
+  "ModName": {
+    "English": "01 Combat Overhaul Ships"
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "LoadAfterIds": [],
+  "ModDependencies": [],
+  "IncompatibleIds": [
+    "ArishipRebalancing",
+    "[Gameplay] AJs Flame Tower overhaul",
+    "Moon_CustomizableShipCapacity",
+    "Spice_EnbesaTraders",
+    "Spice_Charter",
+    "InstantShipBuild",
+    "AirShip Capacity",
+    "Landflak",
+    "Nerf_Towers_Serp",
+    "Spice_Ruins",
+    "ShipsPreItemsTrade",
+    "ShipsPreItemsWar",
+    "Spice_Shipcapacity",
+    "InfluenceSpeedBuffAllShips_Serp",
+    "Stronger_Steamships_Serp"
+  ],
+  "DeprecateIds": [
+    "ArishipRebalancing",
+    "[Gameplay] AJs Flame Tower overhaul",
+    "Moon_CustomizableShipCapacity",
+    "Spice_EnbesaTraders",
+    "Spice_Charter",
+    "InstantShipBuild",
+    "AirShip Capacity",
+    "Landflak",
+    "Nerf_Towers_Serp",
+    "Spice_Ruins",
+    "ShipsPreItemsTrade",
+    "ShipsPreItemsWar",
+    "Spice_Shipcapacity",
+    "InfluenceSpeedBuffAllShips_Serp",
+    "Stronger_Steamships_Serp"
+  ],
+  "KnownIssues": [
+    {"English": "In order to preserve stability, CO disables a few mods due to imbalance, incompatibility or bug-causing issues"},
+    {"English": "ModName: AirshipRebalancing (LoadSpeed and Slots ajustments     ModID: ArishipRebalancing                      mod.io/g/anno-1800/m/airshiprebalancing-loadspeed-and-slots-ajustments     reason: unbalances airships"},
+    {"English": "ModName: AJs Flame Tower overhaul                               ModID: [Gameplay] AJs Flame Tower overhaul     mod.io/g/anno-1800/m/ajs-flame-tower-overhaul                              reason: CO does something similar"},
+    {"English": "ModName: Customizable Ship Capacity                             ModID: Moon_CustomizableShipCapacity           mod.io/g/anno-1800/m/cheat-customizable-ship-capacity                      reason: unbalances ships, also does not apply to any new ships from mods"},
+    {"English": "ModName: Enbesa Traders [Spice It Up]                           ModID: Spice_EnbesaTraders                     mod.io/g/anno-1800/m/enbesa-traders                                        reason: causes game crashing for countless people"},
+    {"English": "ModName: Improved Charter Routes [Spice It Up]                  ModID: Spice_Charter                           mod.io/g/anno-1800/m/improved-charter-routes-spice-it-up                   reason: CO does something similar"},
+    {"English": "ModName: InstantShipBuild                                       ModID: InstantShipBuild                        mod.io/g/anno-1800/m/instantshipbuild                                      reason: also affects AI which can lead to issues"},
+    {"English": "ModName: Luftschiff mit 100 t Kapazität                         ModID: AirShip Capacity                        mod.io/g/anno-1800/m/luftschiff                                            reason: unbalances airships"},
+    {"English": "ModName: Landflak                                               ModID: Landflak                                mod.io/g/anno-1800/m/landflak                                              reason: AIs will get bugged. Anno 1800 is a sea-battle game, anything on land will cause issues as game mechanics simply do not allow it"},
+    {"English": "ModName: Nerf Flame-Armor-Towers (Serp)                         ModID: Nerf_Towers_Serp                        mod.io/g/anno-1800/m/nerf-flame-armor-towers-serp                          reason: CO does something similar"},
+    {"English": "ModName: Ruins on Takeover [Spice it Up]                        ModID: Spice_Ruins                             mod.io/g/anno-1800/m/ruins-on-takeover-spice-it-up                         reason: bugs out the AI, AI can not build over or demolish ruins, it stops their building patterns, which can even stop them from developing completely"},
+    {"English": "ModName: Ship Building with preconfigured Items - TradeShip     ModID: ShipsPreItemsTrade                      mod.io/g/anno-1800/m/ship-building-with-preconfigured-items                reason: unbalances combat and economics, causes tons of flotsam in battles since AIs also get these items, player can just pick up everything and sell for millions"},
+    {"English": "ModName: Ship Building with preconfigured Items - WarShip       ModID: ShipsPreItemsWar                        mod.io/g/anno-1800/m/ship-building-with-preconfigured-items-warship        reason: unbalances combat and economics, causes tons of flotsam in battles since AIs also get these items, player can just pick up everything and sell for millions"},
+    {"English": "ModName: Ship Capacity [Spice It Up]                            ModID: Spice_Shipcapacity                      mod.io/g/anno-1800/m/ship-capacity                                         reason: unbalances ships, also does not apply to any new ships from mods"},
+    {"English": "ModName: Speed Buff All Ships (Serp)                            ModID: InfluenceSpeedBuffAllShips_Serp         mod.io/g/anno-1800/m/speed-buff-all-ships-serp                             reason: unbalances ships, CO specifically lowers this buff"},
+    {"English": "ModName: Stronger Steamships (Serp)                             ModID: Stronger_Steamships_Serp                mod.io/g/anno-1800/m/stronger-steamships-serp                              reason: CO does the same, but in a different way, allowing this mod would give a cumulative effect on steam ships making them completely overpowered"}
+    ],
+  "CreatorName": "Ac3s",
+  "CreatorContact": "add Ac3s as friend on Discord"
+}

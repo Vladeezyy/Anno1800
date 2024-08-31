@@ -1,0 +1,9 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  	<!-- Enbesa Sawmill -->
+      <Text>
+        <GUID>1500301290</GUID>
+        <Text>Wanza-Sägewerk</Text>
+      </Text>
+  </ModOp>
+</ModOps>

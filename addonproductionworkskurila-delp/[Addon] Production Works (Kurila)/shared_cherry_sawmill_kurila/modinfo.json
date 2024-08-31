@@ -1,0 +1,65 @@
+{
+  "Version": "1.6.1",
+  "ModID": "shared_cherry_sawmill_kurila",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared_products_extended_kurila",
+    "shared_sawmill_kurila",
+    "shared_sawmill_river_kurila",
+    "shared_sawmill_industrial_kurila"
+  ],
+  "LoadAfterIds": [
+    "shared_sawmill_kurila",
+    "shared_sawmill_river_kurila",
+    "shared_sawmill_industrial_kurila"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Cherry Sawmill (Kurila)",
+    "English": "Cherry Sawmill (Kurila)",
+    "French": "Cherry Sawmill (Kurila)",
+    "German": "Cherry Sawmill (Kurila)",
+    "Italian": "Cherry Sawmill (Kurila)",
+    "Japanese": "Cherry Sawmill (Kurila)",
+    "Korean": "Cherry Sawmill (Kurila)",
+    "Polish": "Cherry Sawmill (Kurila)",
+    "Russian": "Cherry Sawmill (Kurila)",
+    "Spanish": "Cherry Sawmill (Kurila)",
+    "Taiwanese": "Cherry Sawmill (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "HighLife",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

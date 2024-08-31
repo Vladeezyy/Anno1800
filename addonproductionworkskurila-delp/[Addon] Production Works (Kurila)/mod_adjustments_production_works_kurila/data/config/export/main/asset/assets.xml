@@ -1,0 +1,483 @@
+<ModOps>
+  <Group Condition="@500008/ProductionChain/Tier1/Item[Building='1010297']">
+    <ModOp Type="replace" GUID="500008" Path="/Values/ProductionChain/Tier1/Item[Building='1500010121']/Tier2/Item[Building='1010305']"
+      Condition="@500008/ProductionChain/Tier1/Item[Building='1500010121']">
+      <Item>
+        <Building>1010297</Building>
+        <Tier3>
+          <Item>
+            <Building>1010305</Building>
+          </Item>
+          <Item>
+            <Building>1010304</Building>
+          </Item>
+        </Tier3>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group Condition="@500003/ProductionChain/Tier1/Item[Building='100451']">
+    <ModOp Type="replace" GUID="500003" Path="/Values/ProductionChain/Tier1/Item[Building='1500010154']/Tier2/Item[Building='1010266']"
+      Condition="/Values/ProductionChain/Tier1/Item[Building='1500010154']/Tier2/Item[Building='1010266']">
+      <Item>
+        <Building>100451</Building>
+        <Tier3>
+          <Item>
+            <Building>1010266</Building>
+          </Item>
+        </Tier3>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- Remove the production chain for Jakob's "Suits" when no one consumes the Suits -->
+    <Group Condition="!//PopulationInputs/Item[Product='1500010127']">
+      <Group Condition="!//FactoryInputs/Item[Product='1500010127']">
+        <ModOp Type="remove" Path="//ConstructionCategory/BuildingList/Item[Building='1500010129']"
+          Condition="//ConstructionCategory/BuildingList/Item[Building='1500010129']"></ModOp>
+      </Group>
+    </Group>
+  <!-- Remove the production chain for Jakob's "Sardines" when no one consumes the Sardines -->
+    <Group Condition="!//PopulationInputs/Item[Product='1500010120']">
+      <Group Condition="!//FactoryInputs/Item[Product='1500010120']">
+        <ModOp Type="remove" Path="//ConstructionCategory/BuildingList/Item[Building='1500010122']"
+          Condition="//ConstructionCategory/BuildingList/Item[Building='1500010122']"></ModOp>
+      </Group>
+    </Group>
+  <!-- Remove the production chain for "Cheese" when no one consumes the Cheese -->
+    <Group Condition="!//PopulationInputs/Item[Product='1500010102']">
+      <Group Condition="!//FactoryInputs/Item[Product='1500010102']">
+        <ModOp Type="remove" Path="//ConstructionCategory/BuildingList/Item[Building='1500010111']"
+          Condition="//ConstructionCategory/BuildingList/Item[Building='1500010111']"></ModOp>
+        <ModOp Type="remove" Path="//ConstructionCategory/BuildingList/Item[Building='1500302341']"
+          Condition="//ConstructionCategory/BuildingList/Item[Building='1500302341']"></ModOp>
+      </Group>
+    </Group>
+  <!-- Remove Vegetable Farm if no one consume Vegetables -->
+    <Group Condition="!//PopulationInputs/Item[Product='1500010836']">
+      <Group Condition="!//FactoryInputs/Item[Product='1500010836']">
+        <ModOp Type="remove" GUID="25000189,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1500010830']"
+          Condition="/Values/ConstructionCategory/BuildingList/Item[Building='1500010830']"></ModOp>
+      </Group>
+    </Group>
+  <!-- Productions Works -->
+    <Group>
+      <!-- Bread Works -->
+        <Group Condition="@1500302180">
+          <!-- River Buildings -->
+            <Group Condition="@500004/ProductionChain/Tier1/Item[Building='1999003206']">
+              <ModOp Type="remove" GUID="500004" Path="/Values/ProductionChain/Tier1/Item[Building='1999003206']"></ModOp>
+              <ModOp Type="addPrevSibling" GUID="500004" Path="/Values/ProductionChain/Tier1/Item[Building='1010313']">
+                <Item>
+                  <Building>1999003206</Building>
+                </Item>
+              </ModOp>
+            </Group>
+        </Group>
+      <!-- Metal Works -->
+        <Group Condition="@1500300960">
+          <!-- Adjust Integrated Canned Fish -->
+            <Group Condition="@500008/ProductionChain/Tier1/Item[Building='1500010121']">
+              <ModOp Type="replace" GUID="500008" Path="/Values/ProductionChain/Tier1/Item[Building='1500010121']">
+                <Item>
+                  <Building>1500010121</Building>
+                  <ForceIcon>1500010951</ForceIcon>
+                  <Tier2>
+                    <Item>
+                      <Building>1010278</Building>
+                    </Item>
+                    <Item>
+                      <Building>1500010107</Building>
+                    </Item>
+                    <Item>
+                      <Building>1010297</Building>
+                      <Tier3>
+                        <Item>
+                          <Building>1010305</Building>
+                        </Item>
+                        <Item>
+                          <Building>1010304</Building>
+                        </Item>
+                      </Tier3>
+                    </Item>
+                  </Tier2>
+                </Item>
+              </ModOp>
+            </Group>
+        </Group>
+      <!-- Goulash Works -->
+        <Group Condition="@1500302210">
+          <!-- Milk from Cattle Farm -->
+            <Group Condition="#shared-milk-from-cattle-farm-lion053">
+              <ModOp Type="merge" GUID="2100118242" Path="/Values">
+                <FactoryBase>
+                  <CycleTime>50</CycleTime>
+                </FactoryBase>
+              </ModOp>
+            </Group>
+          <!-- Cattle need to be butchered -->
+            <Group Condition="#Cattle Needs to be butchered">
+              <ModOp Type="remove" GUID="1404422307" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='1404422310']"></ModOp>
+              <ModOp Type="merge" GUID="1404422310" Path="/Values">
+                <Standard>
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_meat_raw_2.png</IconFilename>
+                </Standard>
+                <Cost>
+                  <Costs>
+                    <Item>
+                      <Ingredient>1010017</Ingredient>
+                      <Amount>4000</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010196</Ingredient>
+                      <Amount>15</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010205</Ingredient>
+                      <Amount>15</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010218</Ingredient>
+                      <Amount>5</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010207</Ingredient>
+                      <Amount>5</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010202</Ingredient>
+                      <Amount>5</Amount>
+                    </Item>
+                  </Costs>
+                </Cost>
+                <FactoryBase>
+                  <FactoryInputs>
+                    <Item>
+                      <Amount>4</Amount>
+                      <StorageAmount>16</StorageAmount>
+                    </Item>
+                  </FactoryInputs>
+                  <FactoryOutputs>
+                    <Item>
+                      <Amount>4</Amount>
+                      <StorageAmount>16</StorageAmount>
+                    </Item>
+                  </FactoryOutputs>
+                  <CycleTime>60</CycleTime>
+                  <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                  <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  <WarehouseTransporterAsset>120028</WarehouseTransporterAsset>
+                </FactoryBase>
+                <LogisticNode>
+                  <TransporterAsset>120028</TransporterAsset>
+                </LogisticNode>
+                <Industrializable>
+                  <MandatoryIndustrialization>1</MandatoryIndustrialization>
+                </Industrializable>
+              </ModOp>
+              <ModOp Type="merge" GUID="1404422305" Path="/Values">
+                <FactoryBase>
+                  <CycleTime>60</CycleTime>
+                </FactoryBase>
+                <Industrializable>
+                  <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
+              </ModOp>
+              <ModOp Type="merge" GUID="1404423065" Path="/Values">
+                <Standard>
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_cattle_3.png</IconFilename>
+                </Standard>
+              </ModOp>
+            </Group>
+          <!-- Exchange Canned food with Goulash for Artisan and Engineers -->
+            <ModOp Type="merge" GUID="15000002,15000003" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010217']">
+              <Product>1010215</Product>
+            </ModOp>
+          <!-- Adjust Integrated Canned Fish -->
+          <Group Condition="@500008/ProductionChain/Tier1/Item[Building='1500010121']">
+            <Group Condition="!@1500300960">
+              <ModOp Type="add" GUID="500008" Path="/Values/ProductionChain/Tier1/Item[Building='1500010121']/Tier2">
+                <Item>
+                  <Building>1500302201</Building>
+                </Item>
+              </ModOp>
+            </Group>
+            <Group Condition="@1500300960">
+            <ModOp Type="replace" GUID="500008" Path="/Values/ProductionChain/Tier1/Item[Building='1500010121']">
+              <Item>
+                <Building>1500010121</Building>
+                <ForceIcon>1500010951</ForceIcon>
+                <Tier2>
+                  <Item>
+                    <Building>1010278</Building>
+                  </Item>
+                  <Item>
+                    <Building>1500010107</Building>
+                  </Item>
+                </Tier2>
+              </Item>
+            </ModOp>
+            </Group>
+          </Group>
+        </Group>
+      <!-- Watch Works -->
+        <Group Condition="@1500300971">
+          <!-- Moving the production chain of Pocket Watches from Engineers to Artisan -->
+            <Group>
+              <ModOp Type="remove" GUID="25000192,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500015']"></ModOp>
+              <ModOp Type="addNextSibling" GUID="25000191,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500019']">
+                <Item>
+                  <Building>500015</Building>
+                </Item>
+              </ModOp>
+              <ModOp Type="remove" GUID="130224" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets/Item[Asset='140042']"></ModOp>
+            </Group>
+        </Group>
+      <!-- Cloth Works -->
+        <Group Condition="@1500302130">
+          <!-- Moving the production chain of Work Cloth from Farmer to Worker -->
+            <Group>
+              <ModOp Type="replace" GUID="25000189" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500505']">
+                <Item>
+                  <Building>1010267</Building>
+                </Item>
+              </ModOp>
+              <ModOp Type="merge" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010237']">
+                <Product>1010197</Product>
+              </ModOp>
+              <ModOp Type="addNextSibling" GUID="25000190" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500024']">
+                <Item>
+                  <Building>500505</Building>
+                </Item>
+              </ModOp>
+            </Group>
+          <!-- Moving the advanced production chain of Work Cloth from Farmer to Worker -->
+            <Group Condition="@25000189/ConstructionCategory/BuildingList/Item[Building='1404423016']">
+              <ModOp Type="remove" GUID="25000189" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1404423016']"></ModOp>
+              <ModOp Type="addNextSibling" GUID="25000190" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500505']">
+                <Item>
+                  <Building>1404423016</Building>
+                </Item>
+              </ModOp>
+            </Group>
+          <!-- Moving the production chain of Fur Coats from Artisans to Engineers -->
+            <Group>
+              <ModOp Type="remove" GUID="25000191,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500019']"></ModOp>
+              <ModOp Type="addPrevSibling" GUID="25000192,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500901']">
+                <Item>
+                  <Building>500019</Building>
+                </Item>
+              </ModOp>
+              <ModOp Type="remove" GUID="15000002" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010247']"></ModOp>
+            </Group>
+          <!-- Adjustments for Alternativ Needs Integrated Chains -->
+            <Group Condition="@500019/ProductionChain/Tier1/Item[Building='1500011150']">
+              <ModOp Type="replace" GUID="500019" Path="/Values/ProductionChain/Tier1/Item[Building='1500011150']/Tier2/Item[Building='1010267']">
+                <Item>
+                  <Building>1500302136</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1010267</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+                <Item>
+                  <Building>1500302134</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1010267</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+              </ModOp>
+            </Group>
+          <!-- Replace Jakobs Linen Maker with New Linen Mill -->
+            <ModOp Type="merge" Path="//ProductionChain//Item[Building='1500010126']/Building">
+              <Building>1500302138</Building>
+            </ModOp>
+        </Group>
+      <!-- Jewelry Works -->
+        <Group Condition="@1500301003">
+          <!-- Moving the production chain of Jewelry from Investor to Engineers -->
+            <Group>
+              <ModOp Type="remove" GUID="130229,130230" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset//Item[Asset='140048']"></ModOp>
+              <ModOp Type="remove" GUID="500447,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500022']"></ModOp>
+            </Group>
+        </Group>
+      <!-- Cheese Works -->
+        <Group Condition="@1500302344">
+          <Group Condition="!@500945/ConstructionCategory/BuildingList/Item[Building='1500010111']">
+            <ModOp Type="add" GUID="25000244" Path="/Values/ProductionChain/Tier1">
+              <Item>
+                <Building>1500302340</Building>
+                <Tier2>
+                  <Item>
+                    <Building>1404423065</Building>
+                    <ForceIcon>1500302343</ForceIcon>
+                  </Item>
+                  <Item>
+                    <Building>1500302161</Building>
+                  </Item>
+                </Tier2>
+              </Item>
+            </ModOp>
+          </Group>
+        </Group>
+      <!-- Tanning Works -->
+        <Group Condition="@1500302264">
+          <Group Condition="!@1500302130">
+            <!-- Moving the production chain of Work Cloth from Farmer to Worker -->
+              <Group>
+                <ModOp Type="replace" GUID="25000189" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500505']">
+                  <Item>
+                    <Building>1010267</Building>
+                  </Item>
+                </ModOp>
+                <ModOp Type="merge" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010237']">
+                  <Product>1010197</Product>
+                </ModOp>
+                <ModOp Type="addNextSibling" GUID="25000190" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500024']">
+                  <Item>
+                    <Building>500505</Building>
+                  </Item>
+                </ModOp>
+              </Group>
+            <!-- Moving the production chain of Fur Coats from Artisans to Engineers -->
+              <Group>
+                <ModOp Type="remove" GUID="25000191,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500019']"></ModOp>
+                <ModOp Type="addNextSibling" GUID="25000192,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500017']">
+                  <Item>
+                    <Building>500019</Building>
+                  </Item>
+                </ModOp>
+                <ModOp Type="remove" GUID="15000002" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010247']"></ModOp>
+                <ModOp Type="remove" GUID="15000003" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010247']"></ModOp>
+                <ModOp Type="addNextSibling" GUID="15000003" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010208']">
+                  <Item>
+                    <Product>1010247</Product>
+                    <Amount>0.000444444</Amount>
+                    <SupplyWeight>6</SupplyWeight>
+                    <MoneyValue>120</MoneyValue>
+                    <FullWeightPopulationCount>3000</FullWeightPopulationCount>
+                    <NoWeightPopulationCount>1749</NoWeightPopulationCount>
+                    <IsConsideredByAI>1</IsConsideredByAI>
+                  </Item>
+                </ModOp>
+              </Group>
+          </Group>
+          <Group Condition="@1500302130">
+            <!-- Moving the production chain of Fur Coats at Engineers -->
+              <Group>
+                <ModOp Type="remove" GUID="25000192,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500019']"></ModOp>
+                <ModOp Type="addNextSibling" GUID="25000192,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500017']">
+                  <Item>
+                    <Building>500019</Building>
+                  </Item>
+                </ModOp>
+                <ModOp Type="remove" GUID="15000003" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010247']"></ModOp>
+                <ModOp Type="addNextSibling" GUID="15000003" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010208']">
+                  <Item>
+                    <Product>1010247</Product>
+                    <Amount>0.000444444</Amount>
+                    <SupplyWeight>6</SupplyWeight>
+                    <MoneyValue>120</MoneyValue>
+                    <FullWeightPopulationCount>3000</FullWeightPopulationCount>
+                    <NoWeightPopulationCount>1749</NoWeightPopulationCount>
+                    <IsConsideredByAI>1</IsConsideredByAI>
+                  </Item>
+                </ModOp>
+              </Group>
+          </Group>
+          <!-- River Buildings -->
+            <Group>
+              <ModOp Type="addPrevSibling" GUID="1999003232" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999003206']" Condition="#Taludas_VanillaRiverSlotBuildingsOW">
+                <Item>
+                  <Building>1500302272</Building>
+                </Item>
+              </ModOp>
+              <ModOp Type="addNextSibling" GUID="1999003233" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1999003201']" Condition="#Taludas_VanillaRiverSlotBuildingsNW">
+                <Item>
+                  <Building>1500302274</Building>
+                </Item>
+              </ModOp>
+            </Group>
+          <ModOp Type="replace" Path="//Values/Standard[IconFilename='data/ui/2kimages/main/3dicons/icon_working_cloth.png']/IconFilename">
+            <IconFilename>data/ui/2kimages/main/3dicons/scenario/goods/icon_working_cloth_ggj.png</IconFilename>
+          </ModOp>
+        </Group>
+      <!-- Glass Works -->
+        <Group Condition="@1500302322">
+            <Group Condition="!#Taludas_ForestGlass">
+              <ModOp Type="addNextSibling" Path="//Item[Building = '1010319']/*/Item[Building = '1010560']">
+                <Item>
+                  <Building>1010304</Building>
+                </Item>
+                <Item>
+                  <Building>1999002232</Building>
+                  <Tier3>
+                    <Item>
+                      <Building>1010266</Building>
+                    </Item>
+                  </Tier3>
+                </Item>
+              </ModOp>
+            </Group>
+          <!-- Forest Glass -->
+            <Group Condition="#Taludas_ForestGlass">
+              <ModOp Type="addNextSibling" Path="//Item[Building = '1010319']/*/Item[Building = '1010560']">
+                <Item>
+                  <Building>1010304</Building>
+                </Item>
+              </ModOp>
+            </Group>
+        </Group>
+      <!-- Saltpetre Works -->
+        <Group Condition="@1500302330">
+          <ModOp Type="merge" Path="//Values[FactoryUpgrade/AddedFertility='120017' and ItemEffect/EffectTargets/Item/GUID='1010310']" Condition="//Values[FactoryUpgrade/AddedFertility='120017' and ItemEffect/EffectTargets/Item/GUID='1010310']">
+            <Item>
+              <Allocation>GuildHouse</Allocation>
+            </Item>
+            <ItemEffect>
+              <EffectTargets>
+                <Item>
+                  <GUID>1500302330</GUID>
+                </Item>
+              </EffectTargets>
+            </ItemEffect>
+          </ModOp>
+        </Group>
+      <!-- Chocolate Works -->
+        <Group Condition="@1500302510">
+          <!-- Replace Chocolate Chain with content of Interim Chocolate Chain. -->
+            <ModOp Type="replace" GUID="500014" Path="/Values/ProductionChain"
+              Content="@1500302511/ProductionChain">
+            </ModOp>
+          <!-- Pralines instead of Chocolate for Investor. -->
+            <Group>
+              <ModOp Type="merge" GUID="15000004" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010258']">
+                <Product>1500301160</Product>
+              </ModOp>
+            </Group>
+        </Group>
+      <!-- Laquer Works -->
+        <Group Condition="@1500302520">
+          <ModOp Type="replace" GUID="2224" Path="/Values/FactoryUpgrade/AdditionalOutput/Item[Product='5400']" Condition="@2224/FactoryUpgrade/AdditionalOutput/Item[AdditionalOutputCycle='5']">
+            <Item>
+              <Product>5400</Product>
+              <AdditionalOutputCycle>5</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </ModOp>
+          <ModOp Type="replace" Path="//Item[Product='5398']/Product">
+            <Product>5400</Product>
+          </ModOp>
+          <ModOp Type="remove" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='5398']" Condition="/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='5398']"></ModOp>
+        </Group>
+      <!-- Sulphur Works -->
+        <Group Condition="@1500302354">
+          <ModOp Type="add" GUID="112371,112372,112373" Path="/Values/ItemEffect/EffectTargets" Condition="Values/ItemEffect/EffectTargets/Item[GUID='1500301028']">
+            <Item>
+              <GUID>1500302357</GUID>
+            </Item>
+          </ModOp>
+        </Group>
+    </Group>
+</ModOps>
