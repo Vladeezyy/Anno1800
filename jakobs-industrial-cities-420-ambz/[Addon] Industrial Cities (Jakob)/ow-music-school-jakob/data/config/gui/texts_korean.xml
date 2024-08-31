@@ -1,8 +1,0 @@
-<ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1500010800</GUID>
-      <Text>음악 학교</Text>
-    </Text>
-  </ModOp>
-</ModOps>

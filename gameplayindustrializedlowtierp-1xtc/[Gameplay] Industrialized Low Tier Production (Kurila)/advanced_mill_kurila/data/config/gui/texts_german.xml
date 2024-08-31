@@ -1,8 +1,0 @@
-<ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1404423010</GUID>
-      <Text>Elektrische Mühle</Text>
-    </Text>
-  </ModOp>
-</ModOps>

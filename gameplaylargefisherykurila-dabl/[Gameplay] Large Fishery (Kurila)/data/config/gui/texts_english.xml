@@ -1,8 +1,0 @@
-<ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1404423000</GUID>
-      <Text>Large Fishery</Text>
-    </Text>
-  </ModOp>
-</ModOps>

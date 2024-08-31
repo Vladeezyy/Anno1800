@@ -1,8 +1,0 @@
-<ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1404423040</GUID>
-      <Text>Großer Hochofen</Text>
-    </Text>
-  </ModOp>
-</ModOps>

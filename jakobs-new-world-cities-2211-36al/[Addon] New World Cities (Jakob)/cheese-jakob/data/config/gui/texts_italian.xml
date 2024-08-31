@@ -1,8 +1,0 @@
-<ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1500010102</GUID>
-      <Text>Formaggio</Text>
-    </Text>
-  </ModOp>
-</ModOps>

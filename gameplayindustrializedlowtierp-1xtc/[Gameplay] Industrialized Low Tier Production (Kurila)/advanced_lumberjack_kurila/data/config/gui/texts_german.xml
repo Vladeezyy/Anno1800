@@ -1,8 +1,0 @@
-<ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1500302220</GUID>
-      <Text>Holzfällerlager</Text>
-    </Text>
-  </ModOp>
-</ModOps>

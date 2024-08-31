@@ -1,8 +1,0 @@
-<ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1404423015</GUID>
-      <Text>Zakłady włókiennicze</Text>
-    </Text>
-  </ModOp>
-</ModOps>
