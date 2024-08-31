@@ -1,0 +1,62 @@
+{
+  "Version": "1.0",
+  "ModID": "street_quay_kurila",
+  "DeprecateIds": [],
+  "LoadAfterIds": [
+    "land_quay_street_kurila",
+    "Streets_Related_MU",
+    "JDG_10_quay_streets",
+    "JDG_06_quay_system_fc"
+  ],
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "English": "Ornamental",
+    "Chinese": "Ornamental",
+    "French": "Ornamental",
+    "German": "Ornamental",
+    "Italian": "Ornamental",
+    "Japanese": "Ornamental",
+    "Korean": "Ornamental",
+    "Polish": "Ornamental",
+    "Russian": "Ornamental",
+    "Spanish": "Ornamental",
+    "Taiwanese": "Ornamental"
+  },
+  "ModName": {
+    "Chinese": "Street Quay (Kurila)",
+    "English": "Street Quay (Kurila)",
+    "French": "Street Quay (Kurila)",
+    "German": "Street Quay (Kurila)",
+    "Italian": "Street Quay (Kurila)",
+    "Japanese": "Street Quay (Kurila)",
+    "Korean": "Street Quay (Kurila)",
+    "Polish": "Street Quay (Kurila)",
+    "Russian": "Street Quay (Kurila)",
+    "Spanish": "Street Quay (Kurila)",
+    "Taiwanese": "Street Quay (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "Docklands",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

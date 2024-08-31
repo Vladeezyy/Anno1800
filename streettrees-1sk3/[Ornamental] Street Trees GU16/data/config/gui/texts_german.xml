@@ -1,0 +1,130 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1339473007</GUID>
+      			<Text>Stadtbäume</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473001</GUID>
+      			<Text>Großer Plazabaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473002</GUID>
+      			<Text>Espe</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473003</GUID>
+      			<Text>Ulme</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473004</GUID>
+      			<Text>Buchsbaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473005</GUID>
+      			<Text>Palme</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473006</GUID>
+      			<Text>Pinie</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473009</GUID>
+      			<Text>Parkpinie</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473010</GUID>
+      			<Text>Zypresse</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473011</GUID>
+      			<Text>Parkzypresse</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473012</GUID>
+      			<Text>Parkpalme</Text>
+		</Text>
+
+		
+		<Text>
+     			<GUID>1339473013</GUID>
+      			<Text>Jacarandabaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473014</GUID>
+      			<Text>Lapachobaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473015</GUID>
+      			<Text>Tipubaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473016</GUID>
+      			<Text>Flammenbaum</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>1339473023</GUID>
+      			<Text>Park-Jacarandabaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473024</GUID>
+      			<Text>Park-Lapachobaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473025</GUID>
+      			<Text>Park-Tipubaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473026</GUID>
+      			<Text>Park-Flammenbaum</Text>
+		</Text>		
+		
+		
+		<Text>
+     			<GUID>1339473017</GUID>
+      			<Text>Pappel</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473018</GUID>
+      			<Text>Birnbaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473019</GUID>
+      			<Text>Großer Herbstplatzbaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473020</GUID>
+      			<Text>Herbst-Espe</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473021</GUID>
+      			<Text>Herbst-Ulme</Text>
+		</Text>		
+	
+		<Text>
+     			<GUID>1339473027</GUID>
+      			<Text>Park-Pappel</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473028</GUID>
+      			<Text>Park-Birnbaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473029</GUID>
+      			<Text>Großer Herbstparkbaum</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473030</GUID>
+      			<Text>Park Herbst-Espe</Text>
+		</Text>
+				<Text>
+     			<GUID>1339473031</GUID>
+      			<Text>Park Herbst-Ulme</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473032</GUID>
+      			<Text>Gemäßigter Herbsthain</Text>
+		</Text>		
+	</ModOp>
+</ModOps>

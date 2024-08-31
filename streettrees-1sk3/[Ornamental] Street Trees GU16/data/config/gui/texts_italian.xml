@@ -1,0 +1,130 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1339473007</GUID>
+      			<Text>Alberi di strada</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473001</GUID>
+      			<Text>Acero (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473002</GUID>
+      			<Text>Pioppo tremulo (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473003</GUID>
+      			<Text>Olmo (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473004</GUID>
+      			<Text>Siepe (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473005</GUID>
+      			<Text>Palma (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473006</GUID>
+      			<Text>Pino Cembro (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473009</GUID>
+      			<Text>Pino Cembro (Parco)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473010</GUID>
+      			<Text>Cipresso (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473011</GUID>
+      			<Text>Cipresso (Parco)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473012</GUID>
+      			<Text>Palma (Parco)</Text>
+		</Text>
+
+		
+		<Text>
+     			<GUID>1339473013</GUID>
+      			<Text>Albero di jacaranda (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473014</GUID>
+      			<Text>Albero di lapacho (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473015</GUID>
+      			<Text>Albero di tipuana (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473016</GUID>
+      			<Text>Albero di fuoco (Strada)</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>1339473023</GUID>
+      			<Text>Albero di jacaranda (Parco)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473024</GUID>
+      			<Text>Albero di lapacho (Parco)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473025</GUID>
+      			<Text>Albero di tipuana (Parco)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473026</GUID>
+      			<Text>Albero di fuoco (Parco)</Text>
+		</Text>		
+		
+		
+		<Text>
+     			<GUID>1339473017</GUID>
+      			<Text>Pioppo (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473018</GUID>
+      			<Text>Pero (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473019</GUID>
+      			<Text>Acero autunnale (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473020</GUID>
+      			<Text>Pioppo tremulo autunnale (Strada)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473021</GUID>
+      			<Text>Olmo autunnale (Strada)</Text>
+		</Text>		
+	
+		<Text>
+     			<GUID>1339473027</GUID>
+      			<Text>Pioppo (Parco)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473028</GUID>
+      			<Text>Pero (Parco)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473029</GUID>
+      			<Text>Acero autunnale (Parco)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473030</GUID>
+      			<Text>Pioppo tremulo autunnale (Parco)</Text>
+		</Text>
+				<Text>
+     			<GUID>1339473031</GUID>
+      			<Text>Olmo autunnale (Parco)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473032</GUID>
+      			<Text>Boschetto d'autunno temperato</Text>
+		</Text>		
+	</ModOp>
+</ModOps>

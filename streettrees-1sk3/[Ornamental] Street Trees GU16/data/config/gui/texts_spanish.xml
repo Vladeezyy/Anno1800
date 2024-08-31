@@ -1,0 +1,129 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1339473007</GUID>
+      			<Text>árboles de la calle</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473001</GUID>
+      			<Text>Árbol maduro (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473002</GUID>
+      			<Text>Álamo temblón (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473003</GUID>
+      			<Text>Olmo (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473004</GUID>
+      			<Text>Cobertura (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473005</GUID>
+      			<Text>Palmera (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473006</GUID>
+      			<Text>Pino piñonero (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473009</GUID>
+      			<Text>Pino piñonero (Parque)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473010</GUID>
+      			<Text>Ciprés (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473011</GUID>
+      			<Text>Ciprés (Parque)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473012</GUID>
+      			<Text>Palmera (Parque)</Text>
+		</Text>
+
+		
+		<Text>
+     			<GUID>1339473013</GUID>
+      			<Text>Jacaranda (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473014</GUID>
+      			<Text>Lapacho (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473015</GUID>
+      			<Text>Tipuana (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473016</GUID>
+      			<Text>Framboyán (Calle)</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>1339473023</GUID>
+      			<Text>Jacaranda (Parque)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473024</GUID>
+      			<Text>Lapacho (Parque)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473025</GUID>
+      			<Text>Tipuana (Parque)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473026</GUID>
+      			<Text>Framboyán (Parque)</Text>
+		</Text>		
+		
+		
+		<Text>
+     			<GUID>1339473017</GUID>
+      			<Text>Álamo (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473018</GUID>
+      			<Text>Peral (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473019</GUID>
+      			<Text>Árbol maduro de otoño (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473020</GUID>
+      			<Text>Álamo temblón de otoño (Calle)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473021</GUID>
+      			<Text>Olmo de otoño (Calle)</Text>
+		</Text>		
+	
+		<Text>
+     			<GUID>1339473027</GUID>
+      			<Text>Álamo (Parque)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473028</GUID>
+      			<Text>Peral (Parque)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473029</GUID>
+      			<Text>Árbol maduro de otoño (Parque)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473030</GUID>
+      			<Text>Álamo temblón de otoño (Parque)</Text>
+		</Text>
+				<Text>
+      			<Text>Olmo de otoño (Parque)</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473032</GUID>
+      			<Text>Arboleda templada de otoño</Text>
+		</Text>		
+	</ModOp>
+</ModOps>

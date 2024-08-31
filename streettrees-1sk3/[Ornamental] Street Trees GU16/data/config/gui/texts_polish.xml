@@ -1,0 +1,130 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1339473007</GUID>
+      			<Text>Drzewa Uliczne</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473001</GUID>
+      			<Text>Dojrzałe drzewo uliczne</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473002</GUID>
+      			<Text>Uliczne osikowe drzewo</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473003</GUID>
+      			<Text>Uliczny Wiąz</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473004</GUID>
+      			<Text>Żywopłot uliczny</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473005</GUID>
+      			<Text>Uliczna palma</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473006</GUID>
+      			<Text>Uliczna kamienna sosna</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473009</GUID>
+      			<Text>Parkowa kamienna sosna</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473010</GUID>
+      			<Text>Cyprysowe drzewo uliczne</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473011</GUID>
+      			<Text>Cyprysowe drzewo parkowe</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473012</GUID>
+      			<Text>Parkowa palma</Text>
+		</Text>
+
+		
+		<Text>
+     			<GUID>1339473013</GUID>
+      			<Text>Drzewo ulicy Jacaranda</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473014</GUID>
+      			<Text>Drzewo uliczne Lapacho</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473015</GUID>
+      			<Text>Drzewo ulicy Tipa</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473016</GUID>
+      			<Text>Drzewo uliczne wianowłostka królewska</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>1339473023</GUID>
+      			<Text>Parkowe drzewo Jakarandy</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473024</GUID>
+      			<Text>Parkowe drzewo Lapacho</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473025</GUID>
+      			<Text>Parkowe drzewo Tipa</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473026</GUID>
+      			<Text>Parkowe drzewo wianowłostka królewska</Text>
+		</Text>		
+		
+		
+		<Text>
+     			<GUID>1339473017</GUID>
+      			<Text>Topola uliczna</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473018</GUID>
+      			<Text>Uliczna grusza</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473019</GUID>
+      			<Text>Uliczne dojrzałe drzewo jesieni</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473020</GUID>
+      			<Text>Uliczne drzewo osikowe jesienne</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473021</GUID>
+      			<Text>Uliczny wiąz jesienny</Text>
+		</Text>		
+	
+		<Text>
+     			<GUID>1339473027</GUID>
+      			<Text>Parkowa Topoli</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473028</GUID>
+      			<Text>Parkowa grusza</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473029</GUID>
+      			<Text>Parkowe dojrzałe drzewo jesieni</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473030</GUID>
+      			<Text>Parkowe osikowe drzewo jesieni</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473031</GUID>
+      			<Text>Parkowy wiąz jesienny</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473032</GUID>
+      			<Text>Umiarkowany jesienny gaj</Text>
+		</Text>		
+	</ModOp>
+</ModOps>

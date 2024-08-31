@@ -1,0 +1,3 @@
+Update Notes 1.0.4
+
+	- Mod is now compatible with GU16 (no crashes anymore)

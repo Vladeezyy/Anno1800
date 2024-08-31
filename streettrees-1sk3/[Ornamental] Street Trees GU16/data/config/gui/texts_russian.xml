@@ -1,0 +1,130 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1339473007</GUID>
+      			<Text>Дерево улицы</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473001</GUID>
+      			<Text>Взрослое дерево на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473002</GUID>
+      			<Text>Осина на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473003</GUID>
+      			<Text>Вяз на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473004</GUID>
+      			<Text>Изгородь улицы</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473005</GUID>
+      			<Text>Пальма улицы</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473006</GUID>
+      			<Text>Каменная сосна на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473009</GUID>
+      			<Text>Каменная сосна в парке</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473010</GUID>
+      			<Text>Кипарис на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473011</GUID>
+      			<Text>Кипарис в парке</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473012</GUID>
+      			<Text>Пальма в парке</Text>
+		</Text>
+
+		
+		<Text>
+     			<GUID>1339473013</GUID>
+      			<Text>Дерево жаккаранда на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473014</GUID>
+      			<Text>Дерево муравьиное дерево на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473015</GUID>
+      			<Text>Дерево Типуана на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473016</GUID>
+      			<Text>Дерево óгненное де́рево на улице</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>1339473023</GUID>
+      			<Text>Дерево жаккаранда в парке</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473024</GUID>
+      			<Text>Дерево муравьиное дерево в парке</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473025</GUID>
+      			<Text>Дерево Типуана в парке</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473026</GUID>
+      			<Text>О́гненное де́рево в парке</Text>
+		</Text>		
+		
+		
+		<Text>
+     			<GUID>1339473017</GUID>
+      			<Text>Тополь на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473018</GUID>
+      			<Text>Груша на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473019</GUID>
+      			<Text>Осеннее взрослое дерево на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473020</GUID>
+      			<Text>Осенняя осина на улице</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473021</GUID>
+      			<Text>Осенний вяз на улице</Text>
+		</Text>		
+	
+		<Text>
+     			<GUID>1339473027</GUID>
+      			<Text>Тополь в парке</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473028</GUID>
+      			<Text>Груша в парке</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473029</GUID>
+      			<Text>Осеннее взрослое дерево в парке</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473030</GUID>
+      			<Text>Осенняя осина в парке</Text>
+		</Text>
+				<Text>
+     			<GUID>1339473031</GUID>
+      			<Text>Осенний вяз в парке</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473032</GUID>
+      			<Text>Умеренная осенняя роща</Text>
+		</Text>		
+	</ModOp>
+</ModOps>

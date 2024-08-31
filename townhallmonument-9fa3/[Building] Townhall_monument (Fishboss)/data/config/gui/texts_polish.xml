@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>850026</GUID>
+      <Text>Monument ratusza</Text>
+    </Text>
+    <Text>
+      <GUID>850027</GUID>
+      <Text>Monument ratusza</Text>
+    </Text>
+    <Text>
+      <GUID>850028</GUID>
+      <Text>Monument ratusza</Text>
+    </Text>
+    <Text>
+      <GUID>850029</GUID>
+      <Text>Monument ratusza to jaśniejący gmach. Zbudowany etapowo, zapewni miejsce wielu specjalistom o większym zasięgu działania dla twojego miasta.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,440 @@
+<ModOps>
+  <!-- Old World -->
+  <Group>
+    <!-- Quays -->
+    <Group>
+      <ModOp Type="merge" GUID="1010567" Path="/Values/Street">
+        <Street>
+          <IsLogicRoad>1</IsLogicRoad>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="2077060001" Path="/Values/Street" Condition="@2077060001">
+        <Street>
+          <IsLogicRoad>1</IsLogicRoad>
+          <SpeedFactor>1.5</SpeedFactor>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+    </Group>
+    <!-- Quay Streets -->
+    <Group>
+      <ModOp Type="merge" GUID="601443" Path="/Values/Street" ModOpID="QuayStreet" Skip="1">
+        <Street>
+          <CfgFileName>data/graphics/buildings/special/quay_system_01/props/quay_system_01.cfg</CfgFileName>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="1500301410" Path="/Values/Street" Condition="@1500301410" ModOpID="LandQuayStreet" Skip="1">
+        <Street>
+          <CfgFileName>data/kurila/quay/quay_system_01_01.cfg</CfgFileName>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+    </Group>
+  </Group>
+  <!-- New World -->
+  <Group>
+    <!-- Quays -->
+    <Group>
+      <ModOp Type="merge" GUID="101339" Path="/Values/Street">
+        <Street>
+          <IsLogicRoad>1</IsLogicRoad>
+          <SpeedFactor>1.5</SpeedFactor>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="2077061001" Path="/Values/Street" Condition="@2077061001">
+        <Street>
+          <IsLogicRoad>1</IsLogicRoad>
+          <SpeedFactor>1.5</SpeedFactor>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+    </Group>
+    <!-- Quay Streets -->
+    <Group>
+      <ModOp Type="merge" GUID="131865" Path="/Values/Street" ModOpID="QuayStreet" Skip="1">
+        <Street>
+          <CfgFileName>data/graphics/buildings/special/quay_system_colony01_01/props/quay_system_colony01_01.cfg</CfgFileName>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="1500301411" Path="/Values/Street" Condition="@1500301411" ModOpID="LandQuayStreet" Skip="1">
+        <Street>
+          <CfgFileName>data/kurila/quay/quay_system_colony01_01_01.cfg</CfgFileName>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+    </Group>
+  </Group>
+  <!-- Arctic-->
+  <Group>
+    <!-- Quays -->
+    <Group>
+      <ModOp Type="merge" GUID="8857106" Path="/Values/Street" Condition="@8857106">
+        <Street>
+          <IsLogicRoad>1</IsLogicRoad>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="2077063001" Path="/Values/Street" Condition="@2077063001">
+        <Street>
+          <IsLogicRoad>1</IsLogicRoad>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+    </Group>
+    <!-- Quay Streets -->
+    <Group>
+      <ModOp Type="merge" GUID="1337501046" Path="/Values/Street" Condition="@1337501046" ModOpID="QuayStreet" Skip="1">
+        <Street>
+          <CfgFileName>data/dlc03/graphics/buildings/special/quay_system_colony03_01/props/quay_system_colony03_01.cfg</CfgFileName>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="2077103023" Path="/Values/Street" Condition="@2077103023" ModOpID="QuayStreet" Skip="1">
+        <Street>
+          <CfgFileName>data/dlc03/graphics/buildings/special/quay_system_colony03_01/props/quay_system_colony03_01.cfg</CfgFileName>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="1500301412" Path="/Values/Street" Condition="@1500301412" ModOpID="LandQuayStreet" Skip="1">
+        <Street>
+          <CfgFileName>data/kurila/quay/quay_system_arctic_01_01.cfg</CfgFileName>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+    </Group>
+  </Group>
+  <!-- Enbesa -->
+  <Group>
+    <!-- Quays -->
+    <Group>
+      <ModOp Type="merge" GUID="117729" Path="/Values/Street">
+        <Street>
+          <IsLogicRoad>1</IsLogicRoad>
+          <SpeedFactor>1.5</SpeedFactor>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="2077062001" Path="/Values/Street" Condition="@2077062001">
+        <Street>
+          <IsLogicRoad>1</IsLogicRoad>
+          <SpeedFactor>1.5</SpeedFactor>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+    </Group>
+    <!-- Quay Streets -->
+    <Group>
+      <ModOp Type="merge" GUID="1337501047" Path="/Values/Street" Condition="@1337501047" ModOpID="QuayStreet" Skip="1">
+        <Street>
+          <CfgFileName>data/dlc06/graphics/buildings/special/quay_system_01/props/quay_system_01.cfg</CfgFileName>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="2077102023" Path="/Values/Street" Condition="@2077102023" ModOpID="QuayStreet" Skip="1">
+        <Street>
+          <CfgFileName>data/dlc06/graphics/buildings/special/quay_system_01/props/quay_system_01.cfg</CfgFileName>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="1500301413" Path="/Values/Street" Condition="@1500301413" ModOpID="LandQuayStreet" Skip="1">
+        <Street>
+          <CfgFileName>data/kurila/quay/quay_system_enbesa_01_01.cfg</CfgFileName>
+          <AdaptToNeighbors>
+            <NeighborsThatMakeUsAdapt>Quay_And_QuaySpecial;QuayStreet;Street</NeighborsThatMakeUsAdapt>
+          </AdaptToNeighbors>
+        </Street>
+      </ModOp>
+    </Group>
+  </Group>
+  <!-- Quays as fast Streets -->
+  <Group ModOpID="FastQuay" Skip="1">
+    <!-- Quays -->
+    <Group>
+      <ModOp Type="merge" GUID="1010567,101339" Path="/Values">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="8857106" Path="/Values" Condition="@8857106">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="117729" Path="/Values">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+    </Group>
+    <!-- Full Corner Quays -->
+    <Group Condition="#JDG_06_quay_system_fc">
+      <ModOp Type="merge" GUID="2077060001,2077061001" Path="/Values">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="2077063001" Path="/Values">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="2077062001" Path="/Values">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+    </Group>
+  </Group>
+  <!-- Quay Streets as fast Streets -->
+  <Group ModOpID="FastQuayStreet" Skip="1">
+    <ModOp Type="merge" GUID="601443,131865" Path="/Values">
+      <Cost>
+        <Costs>
+          <Item />
+          <Item>
+            <Ingredient>1010205</Ingredient>
+            <Amount>1</Amount>
+          </Item>
+        </Costs>
+        <ItemsPerCost>4</ItemsPerCost>
+      </Cost>
+      <Street>
+        <SpeedFactor>1.5</SpeedFactor>
+      </Street>
+    </ModOp>
+    <ModOp Type="merge" GUID="1337501046" Path="/Values" Condition="@1337501046">
+      <Cost>
+        <Costs>
+          <Item />
+          <Item>
+            <Ingredient>1010196</Ingredient>
+            <Amount>1</Amount>
+          </Item>
+        </Costs>
+        <ItemsPerCost>4</ItemsPerCost>
+      </Cost>
+      <Street>
+        <SpeedFactor>1.5</SpeedFactor>
+      </Street>
+    </ModOp>
+    <ModOp Type="merge" GUID="2077103023" Path="/Values" Condition="@2077103023">
+      <Cost>
+        <Costs>
+          <Item />
+          <Item>
+            <Ingredient>1010196</Ingredient>
+            <Amount>1</Amount>
+          </Item>
+        </Costs>
+        <ItemsPerCost>4</ItemsPerCost>
+      </Cost>
+      <Street>
+        <SpeedFactor>1.5</SpeedFactor>
+      </Street>
+    </ModOp>
+    <ModOp Type="merge" GUID="1337501047" Path="/Values" Condition="@1337501047">
+      <Cost>
+        <Costs>
+          <Item />
+          <Item>
+            <Ingredient>114402</Ingredient>
+            <Amount>1</Amount>
+          </Item>
+        </Costs>
+        <ItemsPerCost>4</ItemsPerCost>
+      </Cost>
+      <Street>
+        <SpeedFactor>1.5</SpeedFactor>
+      </Street>
+    </ModOp>
+    <ModOp Type="merge" GUID="2077102023" Path="/Values" Condition="@2077102023">
+      <Cost>
+        <Costs>
+          <Item />
+          <Item>
+            <Ingredient>114402</Ingredient>
+            <Amount>1</Amount>
+          </Item>
+        </Costs>
+        <ItemsPerCost>4</ItemsPerCost>
+      </Cost>
+      <Street>
+        <SpeedFactor>1.5</SpeedFactor>
+      </Street>
+    </ModOp>
+  </Group>
+  <!-- Land Quay Streets as fast Streets -->
+  <Group ModOpID="FastLandQuayStreet" Skip="1">
+    <ModOp Type="merge" GUID="1500301410" Path="/Values" Condition="@1500301410">
+      <Cost>
+        <Costs>
+          <Item />
+          <Item>
+            <Ingredient>1010205</Ingredient>
+            <Amount>1</Amount>
+          </Item>
+        </Costs>
+        <ItemsPerCost>4</ItemsPerCost>
+      </Cost>
+      <Street>
+        <SpeedFactor>1.5</SpeedFactor>
+      </Street>
+    </ModOp>
+    <ModOp Type="merge" GUID="1500301411" Path="/Values" Condition="@1500301411">
+      <Cost>
+        <Costs>
+          <Item />
+          <Item>
+            <Ingredient>1010205</Ingredient>
+            <Amount>1</Amount>
+          </Item>
+        </Costs>
+        <ItemsPerCost>4</ItemsPerCost>
+      </Cost>
+      <Street>
+        <SpeedFactor>1.5</SpeedFactor>
+      </Street>
+    </ModOp>
+    <ModOp Type="merge" GUID="1500301412" Path="/Values" Condition="@1500301412">
+      <Cost>
+        <Costs>
+          <Item />
+          <Item>
+            <Ingredient>1010196</Ingredient>
+            <Amount>1</Amount>
+          </Item>
+        </Costs>
+        <ItemsPerCost>4</ItemsPerCost>
+      </Cost>
+      <Street>
+        <SpeedFactor>1.5</SpeedFactor>
+      </Street>
+    </ModOp>
+    <ModOp Type="merge" GUID="1500301413" Path="/Values" Condition="@1500301413">
+      <Cost>
+        <Costs>
+          <Item />
+          <Item>
+            <Ingredient>114402</Ingredient>
+            <Amount>1</Amount>
+          </Item>
+        </Costs>
+        <ItemsPerCost>4</ItemsPerCost>
+      </Cost>
+      <Street>
+        <SpeedFactor>1.5</SpeedFactor>
+      </Street>
+    </ModOp>
+  </Group>
+  <!-- Imya Tweaks -->
+  <ImyaTweaks Title="Features of Street Quay" Icon="data/ui/2kimages/main/3dicons/icon_quay.png" />
+  <ImyaExpose Path="*" Kind="SkipToggle" ModOpID="QuayStreet" ExposeID="Disable/Enable quay streets change" Description="Changing the appearance of the quay streets&#xD;&#xA;Off= Street &#xD;&#xA;On= Quay">
+  </ImyaExpose>
+  <ImyaExpose Path="*" Kind="SkipToggle" ModOpID="LandQuayStreet" ExposeID="Disable/Enable land quay streets change" Description="Changing the appearance of the land quay streets&#xD;&#xA;Off= Street &#xD;&#xA;On= Quay">
+  </ImyaExpose>
+  <ImyaExpose Path="*" Kind="SkipToggle" ModOpID="FastQuay" ExposeID="Disable/Enable fast land quay streets" Description="The quays now function as fast streets, but they also cost building materials.&#xD;&#xA;Off= Slow (Without building materials)&#xD;&#xA;On= Fast (With building materials)">
+  </ImyaExpose>
+  <ImyaExpose Path="*" Kind="SkipToggle" ModOpID="FastQuayStreet" ExposeID="Disable/Enable fast quay streets" Description="The quay streets now function as fast streets, but they also cost building materials.&#xD;&#xA;Off= Slow (Without building materials)&#xD;&#xA;On= Fast (With building materials)">
+  </ImyaExpose>
+  <ImyaExpose Path="*" Kind="SkipToggle" ModOpID="FastLandQuayStreet" ExposeID="Disable/Enable fast land quay streets" Description="The land quay streets now function as fast streets, but they also cost building materials.&#xD;&#xA;Off= Slow (Without building materials)&#xD;&#xA;On= Fast (With building materials)">
+  </ImyaExpose>
+  <Include File="./assets.imyatweak.include.xml" />
+</ModOps>

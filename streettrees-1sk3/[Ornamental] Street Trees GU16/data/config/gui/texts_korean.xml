@@ -1,0 +1,130 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1339473007</GUID>
+      			<Text>가로수</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473001</GUID>
+      			<Text>성숙한 가로수</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473002</GUID>
+      			<Text>거리사시나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473003</GUID>
+      			<Text>거리 느릅나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473004</GUID>
+      			<Text>스트리트 헤지</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473005</GUID>
+      			<Text>거리에 야자수</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473006</GUID>
+      			<Text>거리에 돌 소나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473009</GUID>
+      			<Text>공원에 있는 돌 소나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473010</GUID>
+      			<Text>거리의 사이프러스 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473011</GUID>
+      			<Text>공원의 사이프러스 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473012</GUID>
+      			<Text>공원에서 야자수</Text>
+		</Text>
+
+		
+		<Text>
+     			<GUID>1339473013</GUID>
+      			<Text>거리의 자카란다 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473014</GUID>
+      			<Text>거리의 라파초 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473015</GUID>
+      			<Text>거리의 티푸아나 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473016</GUID>
+      			<Text>거리의 포인시아나 나무</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>1339473023</GUID>
+      			<Text>공원의 자카란다 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473024</GUID>
+      			<Text>공원의 라파초 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473025</GUID>
+      			<Text>공원의 티푸아나 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473026</GUID>
+      			<Text>공원의 포인시아나 나무</Text>
+		</Text>		
+		
+		
+		<Text>
+     			<GUID>1339473017</GUID>
+      			<Text>거리의 포플러 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473018</GUID>
+      			<Text>거리의 배나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473019</GUID>
+      			<Text>거리에 가을 성숙한 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473020</GUID>
+      			<Text>거리에 가을 아스펜 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473021</GUID>
+      			<Text>거리의 가을 느릅나무</Text>
+		</Text>		
+	
+		<Text>
+     			<GUID>1339473027</GUID>
+      			<Text>공원의 포플러 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473028</GUID>
+      			<Text>공원의 배나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473029</GUID>
+      			<Text>공원의 가을에 성숙한 나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473030</GUID>
+      			<Text>공원에서 가을 아스펜 나무</Text>
+		</Text>
+				<Text>
+     			<GUID>1339473031</GUID>
+      			<Text>공원의 가을 느릅나무</Text>
+		</Text>
+		<Text>
+     			<GUID>1339473032</GUID>
+      			<Text>온대적 가을 숲</Text>
+		</Text>			
+	</ModOp>
+</ModOps>

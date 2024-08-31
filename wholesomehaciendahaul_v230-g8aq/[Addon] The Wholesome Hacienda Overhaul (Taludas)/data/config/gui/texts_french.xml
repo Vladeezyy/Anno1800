@@ -1,0 +1,498 @@
+<ModOps>
+
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+            <GUID>1999002001</GUID>
+            <Text>Plantation de bananes (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002002</GUID>
+            <Text>Plantains</Text>
+        </Text>
+        <Text>
+            <GUID>1999002003</GUID>
+            <Text>Selon d'anciennes traditions, vos Jornaleros préfèrent ces bananes à cuire vertes et jaunes à l'état pâteux aux bananes douces domestiquées que l'on trouve sur les étagères. Ne les jugez pas, ces pauvres types ne savent pas ce qu'ils manquent !</Text>
+        </Text>
+        <Text>
+            <GUID>1999002004</GUID>
+            <Text>Plantation de coton (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002005</GUID>
+            <Text>Coton</Text>
+        </Text>
+        <Text>
+            <GUID>1999002006</GUID>
+            <Text>Une fibre douce et duveteuse qui pousse sur une plante ! Pouvez-vous imaginer que nous nous promenions dans des vêtements en laine de mouton ? Assez parlé de cela, apportez ce tissu blanc et lisse ici, tout de suite !</Text>
+        </Text>
+        <Text>
+            <GUID>1999002007</GUID>
+            <Text>Plantation de tabac (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002008</GUID>
+            <Text>Tabac</Text>
+        </Text>
+        <Text>
+            <GUID>1999002009</GUID>
+            <Text>Des feuilles brunes séchées et puantes, coupées en morceaux et mises dans des sacs pour l'exportation. Oh, ces pauvres âmes ne savent pas ce qu'elles font subir à leur corps. C'est une addiction moderne et perfide et, malheureusement, ils s'y adonnent dans mon restaurant !</Text>
+        </Text>
+        <Text>
+            <GUID>1999002010</GUID>
+            <Text>Vignoble (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002011</GUID>
+            <Text>Raisins</Text>
+        </Text>
+        <Text>
+            <GUID>1999002012</GUID>
+            <Text>Des raisins rouges et violets juteux, mûris au soleil. Ces récents millésimes du Nouveau Monde raviront l'âme de vos investisseurs choyés ! Il ne reste plus qu'à espérer qu'après avoir goûté à cette explosion de goûts et de saveurs, ils accepteront le brassage boueux et fétide que nous appelons le vin !</Text>
+        </Text>
+        <Text>
+            <GUID>1999002013</GUID>
+            <Text>Vignes</Text>
+        </Text>
+        <Text>
+            <GUID>1999002015</GUID>
+            <Text>Fermes de l'Ancien Monde (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>24794</GUID>
+            <Text>Fermes du Nouveau Monde (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>24795</GUID>
+            <Text>Hacienda Almanac for New World Farms</Text>
+        </Text>
+        <Text>
+            <GUID>1999002014</GUID>
+            <Text>Hacienda Almanac for Old World Farms</Text>
+        </Text>
+        <Text>
+            <GUID>25178</GUID>
+            <Text>Hacienda Ornaments</Text>
+        </Text>
+        <Text>
+            <GUID>19564</GUID>
+            <Text>Ornaments with Hacienda Paving</Text>
+        </Text>
+        <Text>
+            <GUID>1999002017</GUID>
+            <Text>Hacienda</Text>
+        </Text>
+        <Text>
+            <GUID>1999002020</GUID>
+            <Text>Hacienda</Text>
+        </Text>
+        <Text>
+            <GUID>1999002021</GUID>
+            <Text>Fermes du Nouveau Monde (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002022</GUID>
+            <Text></Text>
+        </Text>
+        <Text>
+            <GUID>1999002023</GUID>
+            <Text>Fermes de l'Ancien Monde (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002024</GUID>
+            <Text></Text>
+        </Text>
+        <Text>
+            <GUID>1999002025</GUID>
+            <Text>Brasseries (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002026</GUID>
+            <Text>Overview of the available Hacienda Breweries</Text>
+        </Text>
+        <Text>
+            <GUID>24775</GUID>
+            <Text>Entrepôt (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002028</GUID>
+            <Text>Accepte et distribue les marchandises en provenance et à destination de vos bâtiments de production. Il offre également un espace de stockage supplémentaire..</Text>
+        </Text>
+        <Text>
+            <GUID>1999002030</GUID>
+            <Text>Augmente l'efficacité et l'attractivité des cabanes de bûcherons. Vos bûcherons planteront désormais occasionnellement de luxueuses essences de bois étrangères.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002031</GUID>
+            <Text>Décret sur l'enseignement du bûcheronnage</Text>
+        </Text>
+        <Text>
+            <GUID>1999002032</GUID>
+            <Text>"Oh, et une dernière chose : l'arbre tombera vers l'entaille que vous avez pratiquée - je vous conseille de vous placer ailleurs."</Text>
+        </Text>
+        <Text>
+            <GUID>1999002033</GUID>
+            <Text>Décret sur l'enseignement du bûcheronnage</Text>
+        </Text>
+        <Text>
+            <GUID>1999002034</GUID>
+            <Text>"Oh, et une dernière chose : l'arbre tombera vers l'entaille que vous avez pratiquée - je vous conseille de vous placer ailleurs."</Text>
+        </Text>
+        <Text>
+            <GUID>1999002038</GUID>
+            <Text>Réduit considérablement l'impact environnemental des industries lourdes afin de limiter les risques de catastrophes naturelles tout en maintenant une bonne efficacité.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002039</GUID>
+            <Text>Règlement sur la propreté de l'environnement</Text>
+        </Text>
+        <Text>
+            <GUID>1999002040</GUID>
+            <Text>La sécurité de vos travailleurs, de vos habitants et de l'état de l'écosystème environnant est votre première priorité en tant que Gouverneur avisé.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002041</GUID>
+            <Text>Règlement sur la propreté de l'environnement</Text>
+        </Text>
+        <Text>
+            <GUID>1999002042</GUID>
+            <Text>La sécurité de vos travailleurs, de vos habitants et de l'état de l'écosystème environnant est votre première priorité en tant que Gouverneur avisé.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002043</GUID>
+            <Text>Toutes les industries lourdes, les mines, les carrières, les usines chimiques et les brasseries</Text>
+        </Text>
+        <Text>
+            <GUID>1999002044</GUID>
+            <Text>Réduction de la consommation de biens tout en maintenant une bonne productivité pour certaines branches industrielles.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002045</GUID>
+            <Text>Réglementation locale des magasins d'usine</Text>
+        </Text>
+        <Text>
+            <GUID>1999002046</GUID>
+            <Text>La force de l'Hacienda réside dans le marché local. Afin de renforcer la position des petites entreprises locales, des magasins d'usine ont été mis en place. Ces activités ont pour effet de réduire la consommation de certains produits, d'accroître le bonheur général des habitants et, par conséquent, d'augmenter la productivité.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002047</GUID>
+            <Text>Réglementation locale des magasins d'usine</Text>
+        </Text>
+        <Text>
+            <GUID>1999002048</GUID>
+            <Text>La force de l'Hacienda réside dans le marché local. Afin de renforcer la position des petites entreprises locales, des magasins d'usine ont été mis en place. Ces activités ont pour effet de réduire la consommation de certains produits, d'accroître le bonheur général des habitants et, par conséquent, d'augmenter la productivité.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002049</GUID>
+            <Text>Soutenez vos artisans locaux pour que votre colonie devienne une région viticole influente.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002050</GUID>
+            <Text>Loi sur la promotion des vignobles</Text>
+        </Text>
+        <Text>
+            <GUID>1999002051</GUID>
+            <Text>Un jour, un voyageur étranger visitant les vastes terres de votre hacienda a apporté une bouteille d'un liquide d'un violet profond. Émerveillé par sa saveur unique, vous décidez de lancer un marché d'exportation avec le meilleur vin, longuement mûri, provenant des caves de votre hacienda.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002052</GUID>
+            <Text>Loi sur la promotion des vignobles</Text>
+        </Text>
+        <Text>
+            <GUID>1999002053</GUID>
+            <Text>Un jour, un voyageur étranger visitant les vastes terres de votre hacienda a apporté une bouteille d'un liquide d'un violet profond. Émerveillé par sa saveur unique, vous décidez de lancer un marché d'exportation avec le meilleur vin, longuement mûri, provenant des caves de votre hacienda.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002054</GUID>
+            <Text>Réduit la quantité de biens modernes consommés par vos habitants.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002055</GUID>
+            <Text>Loi sur la conservation culturelle</Text>
+        </Text>
+        <Text>
+            <GUID>1999002056</GUID>
+            <Text>L'assemblée locale a décidé d'interdire les gadgets électroniques récemment inventés afin de se concentrer sur l'héritage culturel traditionnel du Nouveau Monde.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002057</GUID>
+            <Text>Loi sur la conservation culturelle</Text>
+        </Text>
+        <Text>
+            <GUID>1999002058</GUID>
+            <Text>L'assemblée locale a décidé d'interdire les gadgets électroniques récemment inventés afin de se concentrer sur l'héritage culturel traditionnel du Nouveau Monde.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002066</GUID>
+            <Text>Toutes les usines de vêtements, tous les producteurs de biens intermédiaires, les torréfacteurs de café, les fabricants de cigares, les fabricants de scooters et les fabricants de ventilateurs.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002067</GUID>
+            <Text>Réglementation locale des magasins d'usine</Text>
+        </Text>
+        <Text>
+            <GUID>1999002068</GUID>
+            <Text>La force de l'Hacienda réside dans le marché local. Afin de renforcer la position des petites entreprises locales, des magasins d'usine ont été mis en place. Ces activités ont pour effet de réduire la consommation de certains produits, d'accroître le bonheur général des habitants et, par conséquent, d'augmenter la productivité.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002069</GUID>
+            <Text>Réglementation locale des magasins d'usine</Text>
+        </Text>
+        <Text>
+            <GUID>1999002070</GUID>
+            <Text>Hacienda</Text>
+        </Text>
+        <Text>
+            <GUID>1999002072</GUID>
+            <Text>Chewing Gum</Text>
+        </Text>
+        <Text>
+            <GUID>1999002074</GUID>
+            <Text>Chapelle (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002075</GUID>
+            <Text>Poste de police (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002076</GUID>
+            <Text>Corporation (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002077</GUID>
+            <Text>Mur d'hacienda (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002078</GUID>
+            <Text>Petit marché (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002081</GUID>
+            <Text>Grand portail d'hacienda (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002082</GUID>
+            <Text>Petit portail d'hacienda (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002083</GUID>
+            <Text>Mur d'hacienda sans fenêtres (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002084</GUID>
+            <Text>Mur d'hacienda avec fenêtres (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002085</GUID>
+            <Text>Mur d'angle d'hacienda (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002086</GUID>
+            <Text>Mur de fin d'angle d'hacienda (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002087</GUID>
+            <Text>Mur de coin gauche d'hacienda (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002088</GUID>
+            <Text>Mur de coin droit d'hacienda (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002089</GUID>
+            <Text>Mur d'intersection d'hacienda (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002090</GUID>
+            <Text>Mur d'angle d'hacienda (bordure)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002091</GUID>
+            <Text>Petite résidence de Jornalero (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002092</GUID>
+            <Text>Petite résidence d'Obrero (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002093</GUID>
+            <Text>Résidences (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002098</GUID>
+            <Text>Caserne de pompiers (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002099</GUID>
+            <Text>Services publics (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002100</GUID>
+            <Text>Hopital (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002103</GUID>
+            <Text>Hôtel de ville (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002104</GUID>
+            <Text>Services publics (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002106</GUID>
+            <Text>Administration</Text>
+        </Text>
+        <Text>
+            <GUID>1999002107</GUID>
+            <Text>Ornaments</Text>
+        </Text>
+        <Text>
+            <GUID>1999002108</GUID>
+            <Text>Residences</Text>
+        </Text>
+        <Text>
+            <GUID>1999002109</GUID>
+            <Text>Service d'urgence</Text>
+        </Text>
+        <Text>
+            <GUID>1999002110</GUID>
+            <Text>Hacienda Street</Text>
+        </Text>
+        <Text>
+            <GUID>1999002111</GUID>
+            <Text>Hacienda Street Bridge</Text>
+        </Text>
+        <Text>
+            <GUID>1999002112</GUID>
+            <Text>Hacienda Pathway</Text>
+        </Text>
+        <Text>
+            <GUID>1999002113</GUID>
+            <Text>Hacienda Pathway Bridge</Text>
+        </Text>
+        <Text>
+            <GUID>1999002115</GUID>
+            <Text>Sand Mine</Text>
+        </Text>
+        <Text>
+            <GUID>1999002116</GUID>
+            <Text>all Sand Mines</Text>
+        </Text>
+        <Text>
+            <GUID>1999002117</GUID>
+            <Text>Usine de produits chimiques : Laque</Text>
+        </Text>
+        <Text>
+            <GUID>1999002118</GUID>
+            <Text>Laque</Text>
+        </Text>
+        <Text>
+            <GUID>1999002119</GUID>
+            <Text>Mine de fer</Text>
+        </Text>
+        <Text>
+            <GUID>1999002120</GUID>
+            <Text>Toutes les mines de fer</Text>
+        </Text>
+        <Text>
+            <GUID>1999002121</GUID>
+            <Text>Fourneau</Text>
+        </Text>
+        <Text>
+            <GUID>1999002122</GUID>
+            <Text>Tous les fourneaux</Text>
+        </Text>
+        <Text>
+            <GUID>1999002123</GUID>
+            <Text>Manufacture de violons</Text>
+        </Text>
+        <Text>
+            <GUID>1999002124</GUID>
+            <Text>Violons</Text>
+        </Text>
+        <Text>
+            <GUID>1999002128</GUID>
+            <Text>Toutes les charbonnières</Text>
+        </Text>
+        <Text>
+            <GUID>1999002145</GUID>
+            <Text>QG des forces de police (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002146</GUID>
+            <Text>Caserne de pompiers (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002147</GUID>
+            <Text>Hopital municipal (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002139</GUID>
+            <Text>Petite résidence d'artistes (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002310</GUID>
+            <Text>Cave à vin (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002311</GUID>
+            <Text>Recette de vin</Text>
+        </Text>
+        <Text>
+            <GUID>1999002312</GUID>
+            <Text>La popularité croissante de votre hacienda, qui ne cesse de s'agrandir, a attiré de nombreux amateurs de vin sur votre île. La saveur intense des raisins mûris au soleil, combinée à un soupçon de cannelle, produit un bouquet unique. Le fait de laisser mûrir le jeune vin dans des fûts exclusifs en bois de cerisier affine encore son goût.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002149</GUID>
+            <Text>Loi sur la promotion des vignobles</Text>
+        </Text>
+        <Text>
+            <GUID>1999002150</GUID>
+            <Text>Your residents enjoy the taste of a matured wine from one of your aspiring local Hacienda Wineries.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002151</GUID>
+            <Text>Toutes les résidences d'artistes</Text>
+        </Text>
+        <Text>
+            <GUID>1999002152</GUID>
+            <Text>Loi sur la promotion des vignobles</Text>
+        </Text>
+        <Text>
+            <GUID>1999002153</GUID>
+            <Text>Un jour, un voyageur étranger visitant les vastes terres de votre hacienda a apporté une bouteille d'un liquide d'un violet profond. Émerveillé par sa saveur unique, vous décidez de lancer un marché d'exportation avec le meilleur vin, longuement mûri, provenant des caves de votre hacienda.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002164</GUID>
+            <Text>Jardin de plantes (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002165</GUID>
+            <Text>Plantes</Text>
+        </Text>
+        <Text>
+            <GUID>1999002166</GUID>
+            <Text>Une variété d'herbes est cultivée dans cette ferme pour leurs belles couleurs et leur parfum aromatique ! Un ingrédient merveilleux pour compléter n'importe quel plat ! À ne pas oublier dans toutes les cuisines.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002169</GUID>
+            <Text>Ferme d'orchidées (hacienda)</Text>
+        </Text>
+        <Text>
+            <GUID>1999002170</GUID>
+            <Text>Orchidées</Text>
+        </Text>
+        <Text>
+            <GUID>1999002171</GUID>
+            <Text>Les orchidées sont des plantes mystérieuses depuis leur découverte et leur première culture. Leur symétrie, la variété de leurs fleurs et de leurs couleurs sont très appréciées de vos investisseurs ! Mais attention : Vos investisseurs peuvent être atteints d'Orchidelirium, c'est-à-dire qu'ils deviennent incapables de contrôler leur passion de collectionneur !</Text>
+        </Text>
+        <Text>
+            <GUID>1999002178</GUID>
+            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Désactivé lors de l'utilisation de ce mod : True Hacienda Streets&lt;/font&gt;</Text>
+        </Text>
+        <Text>
+            <GUID>1999002179</GUID>
+            <Text>&lt;font overrideTextColor="true" color='#f50000'&gt;Désactivé lors de l'utilisation de ce mod : True Hacienda Streets&lt;/font&gt;</Text>
+        </Text>
+    </ModOp>
+
+</ModOps>

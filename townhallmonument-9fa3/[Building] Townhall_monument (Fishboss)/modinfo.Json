@@ -1,0 +1,77 @@
+{
+  "Version": "1.0.5",
+  "ModID": "Townhall_Monument",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": null,
+    "English": "Buildings",
+    "French": null,
+    "German": "Gebäude",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "Townhall Monument",
+    "French": null,
+    "German": "Townhall Monument",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This mod adds a new Townhall, which is bigger and has 6 slots. This building is a monument and has 3 stages",
+    "French": null,
+    "German": "Dieser mod fügt ein neues Rathaus hinzu, welches größer ist und 6 Itemplätze besitzt. Dieses Gebäude ist ein Monument mit 3 Ausbaustufen",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": "to use every one of the 6 slots, items must be placed via drag and drop",
+      "French": null,
+      "German": "um alle 6 der zur Verfügung stehenden slots zu verwenden, muss die drag and drop Methode angewandt werden",
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": null,
+  "CreatorName": "Fishboss",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image" : null
+}

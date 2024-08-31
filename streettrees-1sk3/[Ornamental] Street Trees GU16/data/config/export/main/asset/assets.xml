@@ -1,0 +1,2518 @@
+ <!-- Street Trees -->
+<ModOps>
+
+<!-- UNHIDE -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1339473008</GUID>
+          <Name>intermediate moderate 4.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000000</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets />
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>1339473001</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473002</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473003</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473005</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473006</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473010</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473004</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473012</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473009</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473011</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473013</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473014</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473015</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473016</Asset>
+                      </Item>				  
+                      <Item>
+                        <Asset>1339473017</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473018</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473019</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473020</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473021</Asset>
+                      </Item>					  
+                      <Item>
+                        <Asset>1339473023</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473024</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473025</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473026</Asset>
+                      </Item>						  
+                      <Item>
+                        <Asset>1339473027</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473028</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473029</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473030</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473031</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1339473032</Asset>
+                      </Item>						  
+                    </UnhideAssets>
+                    <AdditionalParticipants>Third_party_02_Blake;Third_party_03_Pirate_Harlow;Third_party_04_Pirate_LaFortune;Third_party_05_Sarmento;Third_party_07_Jailor_Bleakworth;Third_party_08_Kahina</AdditionalParticipants>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Menu -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='501486']">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>1339473007</GUID>
+          <Name>Street Trees</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_aspen.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>1339473001</Building>
+            </Item>
+            <Item>
+              <Building>1339473002</Building>
+            </Item>		
+            <Item>
+              <Building>1339473003</Building>
+            </Item>
+            <Item>
+              <Building>1339473005</Building>
+            </Item>
+            <Item>
+              <Building>1339473006</Building>
+            </Item>
+            <Item>
+              <Building>1339473010</Building>
+            </Item>
+            <Item>
+              <Building>1339473004</Building>
+            </Item>
+            <Item>
+              <Building>1339473012</Building>
+            </Item>
+            <Item>
+              <Building>1339473009</Building>
+            </Item>
+            <Item>
+              <Building>1339473011</Building>
+            </Item>
+			
+            <Item>
+              <Building>1339473013</Building>
+            </Item>
+            <Item>
+              <Building>1339473014</Building>
+            </Item>
+            <Item>
+              <Building>1339473015</Building>
+            </Item>
+            <Item>
+              <Building>1339473016</Building>
+            </Item>
+            <Item>
+              <Building>1339473023</Building>
+            </Item>
+            <Item>
+              <Building>1339473024</Building>
+            </Item>
+            <Item>
+              <Building>1339473025</Building>
+            </Item>
+            <Item>
+              <Building>1339473026</Building>
+            </Item>				
+			
+            <Item>
+              <Building>1339473017</Building>
+            </Item>	
+            <Item>
+              <Building>1339473018</Building>
+            </Item>
+            <Item>
+              <Building>1339473019</Building>
+            </Item>	
+            <Item>
+              <Building>1339473020</Building>
+            </Item>
+            <Item>
+              <Building>1339473021</Building>
+            </Item>			
+            <Item>
+              <Building>1339473027</Building>
+            </Item>	
+            <Item>
+              <Building>1339473028</Building>
+            </Item>
+            <Item>
+              <Building>1339473029</Building>
+            </Item>	
+            <Item>
+              <Building>1339473030</Building>
+            </Item>
+            <Item>
+              <Building>1339473031</Building>
+            </Item>	
+            <Item>
+              <Building>1339473032</Building>
+            </Item>				
+          </BuildingList>
+          <CategoryDescription>100003</CategoryDescription>
+        </ConstructionCategory>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Elaborate Esplanade</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>27170</LineID>
+        </Text>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+ 
+ <!-- Menu Location OW Pop Tier --> 
+  <!-- <ModOp Type="addNextSibling" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='502166']">
+    <Item>
+      <Building>1339473007</Building>
+    </Item>
+  </ModOp> -->
+  
+   <!-- Menu Location OW Building Type -->   
+   <ModOp Type="addNextSibling" GUID='500069,500068' Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
+    <Item>
+      <Building>1339473007</Building>
+    </Item>
+  </ModOp> 
+  
+   <!-- Menu Location NW Pop Tier --> 
+  <!-- <ModOp Type="addNextSibling" GUID='25000193' Path="/Values/ConstructionCategory/BuildingList/Item[Building='501942']">
+    <Item>
+      <Building>1339473007</Building>
+    </Item>
+  </ModOp> -->
+  
+   <!-- Menu Location NW Building Type -->   
+   <ModOp Type="addNextSibling" GUID='500055,500079' Path="/Values/ConstructionCategory/BuildingList/Item[last()]">
+    <Item>
+      <Building>1339473007</Building>
+    </Item>
+  </ModOp> 
+
+ <!-- Street Trees -->
+  <ModOp Type="addNextSibling" GUID='1010347'>
+
+ <!-- Mature Street Tree -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473001</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_mature.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_mature1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_mature2.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_mature3.cfg</Filename>
+                        </Item>								
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- Street Aspen -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473002</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_aspen.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_aspen1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_aspen2.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+		
+ <!-- Street Elm -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473003</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_elm.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_elm1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_elm2.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- Street Hedge -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473004</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_hedge.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_streethedge.cfg</Filename>
+                        </Item>					
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- Street Palm -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473005</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_palm.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_palm1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_palm2.cfg</Filename>
+                        </Item>	
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_palm3.cfg</Filename>
+                        </Item>		
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_palm3short.cfg</Filename>
+                        </Item>						
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- Street Stone Pine -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473006</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_stonepine.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_pine1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_pine2.cfg</Filename>
+                        </Item>								
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+  <!-- Park Stone Pine -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473009</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_stonepinegrass.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>
+				</Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_pine1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_pine2.cfg</Filename>
+                        </Item>								
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+<!-- Street Cypress -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473010</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_cypress.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_cypress1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_cypress2.cfg</Filename>
+                        </Item>								
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+<!-- Park Cypress -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473011</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_cypresspark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_cypress1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_cypress2.cfg</Filename>
+                        </Item>								
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- Park Palm -->
+		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473012</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_palmpark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_palm1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_palm2.cfg</Filename>
+                        </Item>	
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_palm3.cfg</Filename>
+                        </Item>		
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_palm3short.cfg</Filename>
+                        </Item>						
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- NW Street Jacaranda -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473013</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_jacaranda.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_jacaranda_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_jacaranda_02.cfg</Filename>
+                        </Item>	
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_jacaranda_03.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- NW Street La Pacho -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473014</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_lapacho.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_lapacho_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_lapacho_02.cfg</Filename>
+                        </Item>	
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_lapacho_03.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- NW Street La Tipa -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473015</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_latipa.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_la_tipa_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_la_tipa_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_la_tipa_03.cfg</Filename>
+                        </Item>						
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- NW Street Flamboyan -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473016</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_flamboyan.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_flamboyan_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_flamboyan_02.cfg</Filename>
+                        </Item>	
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_flamboyan_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/streettree_props_1x1_flamboyan_04.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- OW Street Poplar -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473017</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_poplar.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_poplar1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_poplar2.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- OW Street Pear -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473018</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_pear.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_pear1.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- OW Street Fall Mature Tree -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473019</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_fallmature.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_fall_mature1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_fall_mature2.cfg</Filename>
+                        </Item>	
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_fall_mature3.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- OW Street Fall Aspen -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473020</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_fallaspen.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_fallaspen1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_fallaspen2.cfg</Filename>
+                        </Item>						
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- OW Street Fall Elm -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473021</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_fallelm.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_fallelm1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/streettree_props_1x1_fallelm2.cfg</Filename>
+                        </Item>						
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+
+ <!-- NW Park Jacaranda -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473023</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_jacarandapark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>					
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_jacaranda_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_jacaranda_02.cfg</Filename>
+                        </Item>	
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_jacaranda_03.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- NW Park La Pacho -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473024</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_lapachopark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>					
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_lapacho_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_lapacho_02.cfg</Filename>
+                        </Item>	
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_lapacho_03.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- NW Park La Tipa -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473025</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_latipapark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>					
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_la_tipa_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_la_tipa_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_la_tipa_03.cfg</Filename>
+                        </Item>						
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- NW Park Flamboyan -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473026</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_flamboyanpark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>					
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_flamboyan_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_flamboyan_02.cfg</Filename>
+                        </Item>	
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_flamboyan_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees_nw/parktree_props_1x1_flamboyan_04.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- OW Park Poplar -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473027</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_poplarpark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>					
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_poplar1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_poplar2.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- OW Park Pear -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473028</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_pearpark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>					
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_pear1.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- OW Park Fall Mature Tree -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473029</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_fallmaturepark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>					
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fall_mature1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fall_mature2.cfg</Filename>
+                        </Item>	
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fall_mature3.cfg</Filename>
+                        </Item>							
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- OW Park Fall Aspen -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473030</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_fallaspenpark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>					
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fallaspen1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fallaspen2.cfg</Filename>
+                        </Item>						
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>		
+
+ <!-- OW Park Fall Elm -->
+
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473031</GUID>
+                    <Name>Street Tree</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_fallelmpark.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fallelm1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fallelm2.cfg</Filename>
+                        </Item>						
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset>
+
+ <!-- OW Temperate Fall Grove -->
+ 
+ 		<Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1339473032</GUID>
+                    <Name>Street Tree</Name>
+                                  <IconFilename>data/ui/2kimages/main/3dicons/ornaments/streetree_props_1x1_falltemperategrove.png</IconFilename>
+                </Standard>
+                <Blocking>
+                    <HidePropsRadius>0</HidePropsRadius>
+                    <DeletePropsRadius>0</DeletePropsRadius>
+                </Blocking>
+                <Building>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+					<AlternativeGrassColorAvailable>1</AlternativeGrassColorAvailable>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <GUIType>Generic</GUIType>
+                </Selection>
+                <Object>
+                    <Variations>
+                                    <Item>
+                                      <Filename>data/graphics/buildings/ornamental/park_props_system/park_props_system_1x1/park_props_system_1x1_01.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/graphics/buildings/ornamental/park_props_system/park_props_system_1x1/park_props_system_1x1_18.cfg</Filename>
+                                    </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fall_mature1.cfg</Filename>
+                        </Item>									
+                                    <Item>
+                                      <Filename>data/graphics/buildings/ornamental/park_props_system/park_props_system_1x1/park_props_system_1x1_24.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/graphics/buildings/ornamental/park_props_system/park_props_system_1x1/park_props_system_1x1_25.cfg</Filename>
+                                    </Item>
+                                    <Item>
+                                      <Filename>data/graphics/buildings/ornamental/park_props_system/park_props_system_1x1/park_props_system_1x1_26.cfg</Filename>
+                                    </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fall_mature2.cfg</Filename>
+                        </Item>																				
+                                    <Item>
+                                      <Filename>data/graphics/buildings/ornamental/park_props_system/park_props_system_1x1/park_props_system_1x1_37.cfg</Filename>
+                                    </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fallelm1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fallelm2.cfg</Filename>
+                        </Item>								
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fall_mature3.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fallaspen2.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fallcornertree1.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fallcornertree2.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/moddinggraphics_2/buildings/ornamental/street_trees/parktree_props_1x1_fallcornertree3.cfg</Filename>
+                        </Item>						
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>OrnamentalBuilding</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </DestroySounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <FeedbackController />
+                <Ornament>
+                    <OrnamentUnit>1</OrnamentUnit>
+                    <OrnamentIconInfotip>500276</OrnamentIconInfotip>
+                    <OrnamentDescritpion>3041</OrnamentDescritpion>
+                </Ornament>
+                <AmbientMoodProvider />
+                <Pausable />
+                <Infolayer />
+            </Values>
+        </Asset> 
+		
+	</ModOp>   
+</ModOps>

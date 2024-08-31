@@ -1,0 +1,53 @@
+{
+  "Version": "1.1.7",
+  "ModID": "production-cans-and-suits-jakob",
+  "ModDependencies": [
+    "shared-ground-textures-industry-jakob",
+    "shared-products-jakob"
+  ],
+  "LoadAfterIds": [
+    "[Gameplay] Cattle needs to be butchered",
+    "Cattle Needs to be butchered"
+  ],
+  "Category": {
+    "English": "Production",
+    "Chinese": "Production",
+    "French": "Production",
+    "German": "Production",
+    "Italian": "Production",
+    "Japanese": "Production",
+    "Korean": "Production",
+    "Polish": "Production",
+    "Russian": "Production",
+    "Spanish": "Production",
+    "Taiwanese": "Production"
+  },
+  "ModName": {
+    "English": "Cans and Suits (Jakob)",
+    "Chinese": "Cans and Suits (Jakob)",
+    "French": "Cans and Suits (Jakob)",
+    "German": "Cans and Suits (Jakob)",
+    "Italian": "Cans and Suits (Jakob)",
+    "Japanese": "Cans and Suits (Jakob)",
+    "Korean": "Cans and Suits (Jakob)",
+    "Polish": "Cans and Suits (Jakob)",
+    "Russian": "Cans and Suits (Jakob)",
+    "Spanish": "Cans and Suits (Jakob)",
+    "Taiwanese": "Cans and Suits (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno-1800-jakobs-mods",
+  "Description": {
+    "English": "README.md",
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

@@ -1,0 +1,386 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="1010263">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360020</GUID>
+          <Name>Old Town Extended Cattlefarm</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360020</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\farmskins\cattlefarm_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010263" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="1010263" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360020</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="100655">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360021</GUID>
+          <Name>Old Town Extended Grapefarm</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360021</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\farmskins\grapefarm_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="100655" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="100655" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360021</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010264">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360022</GUID>
+          <Name>Old Town Extended Hopfarm</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360022</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\farmskins\hopsfarm_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010264" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="1010264" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360022</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="100654">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360023</GUID>
+          <Name>Old Town Extended Pepperfarm</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360023</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\farmskins\pepperfarm_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="100654" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="100654" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360023</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010269">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360024</GUID>
+          <Name>Old Town Extended Pigfarm</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360024</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\farmskins\pigfarm_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010269" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="1010269" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360024</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010265">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360025</GUID>
+          <Name>Old Town Extended Potatofarm</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360025</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\farmskins\potatofarm_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010265" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="1010265" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360025</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010267">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360026</GUID>
+          <Name>Old Town Extended Sheepfarm</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360026</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\farmskins\sheepfarm_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010267" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="1010267" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360026</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010262">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360027</GUID>
+          <Name>Old Town Extended Wheatfarm</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360027</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\farmskins\wheatfarm_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010262" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="1010262" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360027</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010291">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360028</GUID>
+          <Name>Old Town Extended Bakery</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360028</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\foodskins\bakery_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010291" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="1010291" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360028</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010316">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360029</GUID>
+          <Name>Old Town Extended Sausage</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360029</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\foodskins\sausage_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010316" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="1010316" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360029</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010292">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360030</GUID>
+          <Name>Old Town Extended Brewery</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360030</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\productionskins\brewery_beer_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010292" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="1010292" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360030</SkinAssetGuid>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="1010294">
+    <Asset>
+      <Template>Skin</Template>
+      <Values>
+        <Standard>
+          <GUID>2122360031</GUID>
+          <Name>Old Town Extended Brewery Schnapps</Name>
+          <IconFilename>data/ricky/ui/icons/icon_cdlc_09_old_town_0.png</IconFilename>
+        </Standard>
+        <Skin>
+          <SkinName>2122360031</SkinName>
+          <SkinVariations>
+            <Item>
+              <FileName>data\ricky\buildings\productionskins\brewery_schnapps_var1.cfg</FileName>
+            </Item>
+          </SkinVariations>
+        </Skin>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <ModOp Type="merge" GUID="1010294" Path="/Values/Object/Skins">
+    <SkinList />
+  </ModOp>
+  <ModOp Type="add" GUID="1010294" Path="/Values/Object/Skins/SkinList">
+    <Item>
+      <SkinAssetGuid>2122360031</SkinAssetGuid>
+    </Item>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,4 @@
+Update Notes 1.0.5
+
+	- due to copy and paste mistake -> radius and slots were reduced -> this bug has been fixed
+	- Polish translation has been added

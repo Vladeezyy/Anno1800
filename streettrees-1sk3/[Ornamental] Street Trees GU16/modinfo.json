@@ -1,0 +1,16 @@
+{
+  "ModID": "street_trees_and_mediterranean_foliage",
+  "Version": "1.2",
+  "Category": {
+    "English": "Ornamental"
+  },
+  "ModName": {
+    "English": "Street Trees and Mediterranean Foliage"
+  },
+  "Description": {
+    "English": "This simple stand-alone mod adds a variety of default & Mediterranean-inspired street trees for your cities."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "jje1000"
+}

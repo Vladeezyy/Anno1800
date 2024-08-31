@@ -1,0 +1,411 @@
+<ModOps>
+  <!-- General -->
+    <ModOp Type="merge" GUID="140346" Path="/Values/StreetFeature/OverbuildableBy/GoodStreet/QuayStreet">
+      <QuayStreet>1</QuayStreet>
+    </ModOp>
+    <ModOp Type="merge" GUID="140346" Path="/Values/StreetFeature/OverbuildableBy/BadStreet/QuayStreet">
+      <QuayStreet>1</QuayStreet>
+    </ModOp>
+  <!-- Old World -->
+    <Group>
+      <ModOp Type="addNextSibling" GUID="601443">
+        <Asset>
+          <BaseAssetGUID>601443</BaseAssetGUID>
+          <Values>
+            <Standard>
+              <GUID>1500301410</GUID>
+              <Name>Land_Quay_Street_Moderate</Name>
+              <IconFilename>data/ui/2kimages/main/kurila/icon_land_quay_street.png</IconFilename>
+              <InfoDescription>12751</InfoDescription>
+            </Standard>
+            <Cost>
+              <Costs>
+                <Item>
+                  <Ingredient>1010017</Ingredient>
+                  <Amount>20</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010205</Ingredient>
+                </Item>
+              </Costs>
+            </Cost>
+            <Street>
+              <CfgFileName>data/kurila/quay_streets/quay_system_01_01.cfg</CfgFileName>
+              <BridgeAsset>101587</BridgeAsset>
+              <InternalID>88</InternalID>
+              <IsHarbour>0</IsHarbour>
+			        <DowngradeModeTarget>1010035</DowngradeModeTarget>
+              <AdaptToNeighbors>
+                <AdaptGroups>Street;QuayStreet</AdaptGroups>
+              </AdaptToNeighbors>
+            </Street>
+            <Building>
+              <BuildingCategoryName>11153</BuildingCategoryName>
+              <TerrainType>Terrain</TerrainType>
+					    <PickingAsset>1500301410</PickingAsset>
+            </Building>
+          </Values>
+        </Asset>
+      </ModOp>
+      <ModOp Type="merge" GUID="1010035" Path="/Values/Street">
+        <Street>
+          <UpgradeModeTarget>1500301410</UpgradeModeTarget>
+        </Street>
+      </ModOp>
+      <ModOp Type="addNextSibling" GUID="25000190,500092" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010035']">
+        <Item>
+          <Building>1500301410</Building>
+        </Item>
+      </ModOp>
+    </Group>
+  <!-- New World -->
+    <Group>
+      <ModOp Type="merge" GUID="131865" Path="/Values/Street">
+        <AdaptToNeighbors>
+          <AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences;QuayStreet</AdaptGroups>
+        </AdaptToNeighbors>
+      </ModOp>
+      <ModOp Type="addNextSibling" GUID="131865">
+        <Asset>
+          <BaseAssetGUID>131865</BaseAssetGUID>
+          <Values>
+            <Standard>
+              <GUID>1500301411</GUID>
+              <Name>Land_Quay_Street_Colony01</Name>
+              <IconFilename>data/ui/2kimages/main/kurila/icon_land_quay_street.png</IconFilename>
+              <InfoDescription>12751</InfoDescription>
+            </Standard>
+            <Cost>
+              <Costs>
+                <Item>
+                  <Ingredient>1010017</Ingredient>
+                  <Amount>20</Amount>
+                </Item>
+                <Item>
+                  <Ingredient>1010205</Ingredient>
+                </Item>
+              </Costs>
+            </Cost>
+            <Street>
+              <CfgFileName>data/kurila/quay_streets/quay_system_colony01_01_01.cfg</CfgFileName>
+              <BridgeAsset>101587</BridgeAsset>
+              <InternalID>89</InternalID>
+              <IsHarbour>0</IsHarbour>
+			        <DowngradeModeTarget>101309</DowngradeModeTarget>
+              <AdaptToNeighbors>
+                <AdaptGroups>Street;QuayStreet</AdaptGroups>
+              </AdaptToNeighbors>
+            </Street>
+            <Building>
+              <BuildingCategoryName>11153</BuildingCategoryName>
+              <TerrainType>Terrain</TerrainType>
+					    <PickingAsset>1500301411</PickingAsset>
+            </Building>
+          </Values>
+        </Asset>
+      </ModOp>
+      <ModOp Type="merge" GUID="101309" Path="/Values/Street">
+        <Street>
+          <UpgradeModeTarget>1500301411</UpgradeModeTarget>
+        </Street>
+      </ModOp>
+      <ModOp Type="addNextSibling" GUID="25000194,500137" Path="/Values/ConstructionCategory/BuildingList/Item[Building='101309']">
+        <Item>
+          <Building>1500301411</Building>
+        </Item>
+      </ModOp>
+    </Group>
+  <!-- Arctic and Enbesa -->
+    <Group>
+      <!-- Condition Target -->
+        <Group>
+          <ModOp Type="addNextSibling" GUID="601443" Condition="#Streets_Related_MU">
+            <Asset>
+              <Values>
+                <Standard>
+                  <GUID>1500301414</GUID>
+                  <Name>Condition_Target</Name>
+                </Standard>
+              </Values>
+            </Asset>
+          </ModOp>
+          <ModOp Type="addNextSibling" GUID="601443" Condition="#JDG_10_quay_streets">
+            <Asset>
+              <Values>
+                <Standard>
+                  <GUID>1500301414</GUID>
+                  <Name>Condition_Target</Name>
+                </Standard>
+              </Values>
+            </Asset>
+          </ModOp>
+        </Group>
+      <!-- Arctic and Enbesa -->
+        <Group Condition="@1500301414">
+          <!-- Arctic-->
+            <Group>
+                <ModOp Type="addNextSibling" GUID="601443">
+                  <Asset>
+                    <BaseAssetGUID>601443</BaseAssetGUID>
+                    <Values>
+                      <Standard>
+                        <GUID>1500301412</GUID>
+                        <Name>Land_Quay_Street_Arctic</Name>
+                        <IconFilename>data/ui/2kimages/main/kurila/icon_land_quay_street_arctic.png</IconFilename>
+                        <InfoDescription>12751</InfoDescription>
+                      </Standard>
+                      <Cost>
+                        <Costs>
+                          <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                          </Item>
+                          <Item>
+                            <Ingredient>1010205</Ingredient>
+                          </Item>
+                        </Costs>
+                      </Cost>
+                      <Street>
+                        <CfgFileName>data/kurila/quay_streets/quay_system_arctic_01_01.cfg</CfgFileName>
+                        <BridgeAsset>101328</BridgeAsset>
+                        <InternalID>90</InternalID>
+                        <IsHarbour>0</IsHarbour>
+                        <DowngradeModeTarget>112113</DowngradeModeTarget>
+                        <AdaptToNeighbors>
+                          <AdaptGroups>Street;QuayStreet;Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+                        </AdaptToNeighbors>
+                      </Street>
+                      <Building>
+                        <BuildingCategoryName>11153</BuildingCategoryName>
+                        <TerrainType>Terrain</TerrainType>
+                        <PickingAsset>1500301412</PickingAsset>
+                        <AssociatedRegions>Arctic</AssociatedRegions>
+                      </Building>
+                    </Values>
+                  </Asset>
+                </ModOp>
+                <ModOp Type="merge" GUID="112113" Path="/Values/Street">
+                  <Street>
+                    <UpgradeModeTarget>1500301412</UpgradeModeTarget>
+                  </Street>
+                </ModOp>
+                <ModOp Type="addNextSibling" GUID="112790,116343" Path="/Values/ConstructionCategory/BuildingList/Item[Building='112113']">
+                  <Item>
+                    <Building>1500301412</Building>
+                  </Item>
+                </ModOp>
+                <Group Condition="@2077103023">
+                  <ModOp Type="merge" GUID="1500301412" Path="/Values/Street">
+                    <Street>
+                      <CfgFileName>data/kurila/quay_streets/quay_system_arctic_01_02.cfg</CfgFileName>
+                    </Street>
+                  </ModOp>
+                  <ModOp Type="merge" GUID="2077103023" Path="/Values/Street">
+                    <AdaptToNeighbors>
+                      <AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences;QuayStreet</AdaptGroups>
+                    </AdaptToNeighbors>
+                  </ModOp>
+                </Group>
+            </Group>
+          <!-- Enbesa -->
+            <Group>
+                <ModOp Type="addNextSibling" GUID="601443">
+                  <Asset>
+                    <BaseAssetGUID>601443</BaseAssetGUID>
+                    <Values>
+                      <Standard>
+                        <GUID>1500301413</GUID>
+                        <Name>Land_Quay_Street_Enbesa</Name>
+                        <IconFilename>data/ui/2kimages/main/kurila/icon_land_quay_street_africa.png</IconFilename>
+                        <InfoDescription>12751</InfoDescription>
+                      </Standard>
+                      <Cost>
+                        <Costs>
+                          <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                          </Item>
+                          <Item>
+                            <Ingredient>1010205</Ingredient>
+                          </Item>
+                        </Costs>
+                      </Cost>
+                      <Street>
+                        <CfgFileName>data/kurila/quay_streets/quay_system_enbesa_01_01.cfg</CfgFileName>
+                        <BridgeAsset>122988</BridgeAsset>
+                        <InternalID>91</InternalID>
+                        <IsHarbour>0</IsHarbour>
+                        <DowngradeModeTarget>119029</DowngradeModeTarget>
+                        <AdaptToNeighbors>
+                          <AdaptGroups>Street;QuayStreet;Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences</AdaptGroups>
+                        </AdaptToNeighbors>
+                      </Street>
+                      <Building>
+                        <BuildingCategoryName>11153</BuildingCategoryName>
+                        <TerrainType>Terrain</TerrainType>
+                        <PickingAsset>1500301413</PickingAsset>
+                        <AssociatedRegions>Africa</AssociatedRegions>
+                      </Building>
+                    </Values>
+                  </Asset>
+                </ModOp>
+                <ModOp Type="merge" GUID="119029" Path="/Values/Street">
+                  <Street>
+                    <UpgradeModeTarget>1500301413</UpgradeModeTarget>
+                  </Street>
+                </ModOp>
+                <ModOp Type="addNextSibling" GUID="114554,119012" Path="/Values/ConstructionCategory/BuildingList/Item[Building='119029']">
+                  <Item>
+                    <Building>1500301413</Building>
+                  </Item>
+                </ModOp>
+                <Group Condition="@2077102023">
+                  <ModOp Type="merge" GUID="1500301413" Path="/Values/Street">
+                    <Street>
+                      <CfgFileName>data/kurila/quay_streets/quay_system_enbesa_01_02.cfg</CfgFileName>
+                    </Street>
+                  </ModOp>
+                  <ModOp Type="merge" GUID="2077102023" Path="/Values/Street">
+                    <AdaptToNeighbors>
+                      <AdaptGroups>Quay_And_QuaySpecial;Quay_And_QuayBase_And_HiddenFences;QuayStreet</AdaptGroups>
+                    </AdaptToNeighbors>
+                  </ModOp>
+                </Group>
+            </Group>
+        </Group>
+    </Group>
+  <!-- Quay Streets as fast Streets -->
+    <Group ModOpID="FastQuayStreet" Skip="1">
+      <ModOp Type="merge" GUID="601443,131865" Path="/Values">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="1337501046" Path="/Values" Condition="@1337501046">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="2077103023" Path="/Values" Condition="@2077103023">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="1337501047" Path="/Values" Condition="@1337501047">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="2077102023" Path="/Values" Condition="@2077102023">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+    </Group>
+  <!-- Land Quay Streets as fast Streets -->
+    <Group ModOpID="FastLandQuayStreet" Skip="1">
+      <ModOp Type="merge" GUID="1500301410,1500301411" Path="/Values">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="1500301412" Path="/Values" Condition="@1500301412">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="1500301413" Path="/Values" Condition="@1500301413">
+        <Cost>
+          <Costs>
+            <Item />
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>1</Amount>
+            </Item>
+          </Costs>
+          <ItemsPerCost>4</ItemsPerCost>
+        </Cost>
+        <Street>
+          <SpeedFactor>1.5</SpeedFactor>
+        </Street>
+      </ModOp>
+    </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Land Quay Street" Icon="data/ui/2kimages/main/3dicons/icon_quay.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" ModOpID="FastQuayStreet" ExposeID="Disable/Enable fast quay streets"
+    Description="The quay streets now function as fast streets, but they also cost building materials.&#xD;&#xA;Off= Slow (Without building materials)&#xD;&#xA;On= Fast (With building materials)">
+    </ImyaExpose>
+    <ImyaExpose Path="*" Kind="SkipToggle" ModOpID="FastLandQuayStreet" ExposeID="Disable/Enable fast land quay streets"
+    Description="The land quay streets now function as fast streets, but they also cost building materials.&#xD;&#xA;Off= Slow (Without building materials)&#xD;&#xA;On= Fast (With building materials)">
+    </ImyaExpose>
+</ModOps>

@@ -1,0 +1,46 @@
+{
+  "Version": "1.0",
+  "ModID": "ricky_old_town_extended_skins",
+  "Category": {
+    "English": "Skin",
+    "Chinese": "Skin",
+    "French": "Skin",
+    "German": "Skin",
+    "Italian": "Skin",
+    "Japanese": "Skin",
+    "Korean": "Skin",
+    "Polish": "Skin",
+    "Russian": "Skin",
+    "Spanish": "Skin",
+    "Taiwanese": "Skin"
+  },
+  "ModName": {
+    "English": "Casino",
+    "Chinese": "Casino",
+    "French": "Casino",
+    "German": "Casino",
+    "Italian": "Casino",
+    "Japanese": "Casino",
+    "Korean": "Casino",
+    "Polish": "Casino",
+    "Russian": "Casino",
+    "Spanish": "Casino",
+    "Taiwanese": "Casino"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "Ricky"
+}
