@@ -1,0 +1,13 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1337473011</GUID>
+      <Text>Большое Хранилище Нефти</Text>
+    </Text>
+    <Text>
+      <GUID>1337473012</GUID>
+      <Text>Большое Хранилище Нефти</Text>
+    </Text>
+  </ModOp>
+</ModOps>
+
