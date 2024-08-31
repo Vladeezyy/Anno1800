@@ -1,0 +1,65 @@
+{
+  "Version": "1.3.2",
+  "ModID": "Spice_PlazaStreets",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "装饰",
+    "English": "Ornamental",
+    "French": null,
+    "German": "Zierobjekte",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": "广场街",
+    "English": "Plaza street",
+    "French": null,
+    "German": "Plazastraße",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": "将街道功能添加到铺面、混凝土铺面和育碧俱乐部长廊中",
+    "English": "Adds street function to paving, concrete paving and the Ubisoft Club Promenade",
+    "French": null,
+    "German": "Fügt Platz, Betonboden und Ubi-Club Promenade eine Straßenfunktion hinzu.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": "",
+      "English": "Electric wires and poles will spawn on the plaza street.",
+      "French": null,
+      "German": "Stromkabel spawnen auch auf der Plazastraße",
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": null,
+  "CreatorName": "Spice it up-Team: Taubenangriff",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image" : null,
+  "ModioResourceId" : 3211668
+}
