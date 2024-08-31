@@ -1,0 +1,51 @@
+{
+  "Version": "1.3.8",
+  "ModID": "skin-residence-skins-jakob",
+  "DeprecateIds": [
+    "jakob_skin_pack"
+  ],
+  "LoadAfterIds": [
+    "jakob_pescatarians"
+  ],
+  "Category": {
+    "Chinese": "皮肤",
+    "English": "Skin",
+    "French": "Skin",
+    "German": "Skin",
+    "Italian": "Skin",
+    "Japanese": "Skin",
+    "Korean": "Skin",
+    "Polish": "Skin",
+    "Russian": "Skin",
+    "Spanish": "Skin",
+    "Taiwanese": "Skin"
+  },
+  "ModName": {
+    "Chinese": "住宅皮肤(Jakob)",
+    "English": "Residence Skins (Jakob)",
+    "French": "Residence Skins (Jakob)",
+    "German": "Residence Skins (Jakob)",
+    "Italian": "Residence Skins (Jakob)",
+    "Japanese": "Residence Skins (Jakob)",
+    "Korean": "Residence Skins (Jakob)",
+    "Polish": "Residence Skins (Jakob)",
+    "Russian": "Residence Skins (Jakob)",
+    "Spanish": "Residence Skins (Jakob)",
+    "Taiwanese": "Residence Skins (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno-1800-jakobs-mods",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

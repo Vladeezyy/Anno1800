@@ -1,0 +1,45 @@
+{
+  "Version": "3.1",
+  "ModID": "jakob_extra_goods",
+  "Category": {
+    "Chinese": "弃用",
+    "English": "Deprecated",
+    "French": "Deprecated",
+    "German": "Deprecated",
+    "Italian": "Deprecated",
+    "Japanese": "Deprecated",
+    "Korean": "Deprecated",
+    "Polish": "Deprecated",
+    "Russian": "Deprecated",
+    "Spanish": "Deprecated",
+    "Taiwanese": "Deprecated"
+  },
+  "ModName": {
+    "Chinese": "额外的货物 (Jakob)",
+    "English": "Extra Goods (Jakob)",
+    "French": "Extra Goods (Jakob)",
+    "German": "Extra Goods (Jakob)",
+    "Italian": "Extra Goods (Jakob)",
+    "Japanese": "Extra Goods (Jakob)",
+    "Korean": "Extra Goods (Jakob)",
+    "Polish": "Extra Goods (Jakob)",
+    "Russian": "Extra Goods (Jakob)",
+    "Spanish": "Extra Goods (Jakob)",
+    "Taiwanese": "Extra Goods (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno-1800-jakobs-mods",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

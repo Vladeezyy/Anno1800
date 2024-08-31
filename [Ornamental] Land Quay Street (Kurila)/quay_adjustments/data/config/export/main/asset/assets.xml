@@ -1,0 +1,42 @@
+<ModOps>
+  <!-- Old World -->
+    <Group Condition="@601443/Street/CfgFileName[text()='data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_ow/quay_system_01.cfg']">
+      <ModOp Type="merge" GUID="1500301410" Path="/Values/Street">
+        <Street>
+          <CfgFileName>data/kurila/quay_streets/quay_system_01_02.cfg</CfgFileName>
+        </Street>
+      </ModOp>
+    </Group>
+    <Group Condition="@601443/Street/CfgFileName[text()='data/modgraphics/streets/quay_street_ow/quay_system_01.cfg']">
+      <ModOp Type="merge" GUID="1500301410" Path="/Values/Street">
+        <Street>
+          <CfgFileName>data/kurila/quay_streets/quay_system_01_02.cfg</CfgFileName>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="601443" Path="/Values/Street">
+        <Street>
+          <CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_ow/quay_system_01.cfg</CfgFileName>
+        </Street>
+      </ModOp>
+    </Group>
+  <!-- New World -->
+    <Group Condition="@131865/Street/CfgFileName[text()='data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_nw/quay_system_01.cfg']">
+      <ModOp Type="merge" GUID="1500301411" Path="/Values/Street">
+        <Street>
+          <CfgFileName>data/kurila/quay_streets/quay_system_colony01_01_02.cfg</CfgFileName>
+        </Street>
+      </ModOp>
+    </Group>
+    <Group Condition="@131865/Street/CfgFileName[text()='data/modgraphics/streets/quay_street_nw/quay_system_01.cfg']">
+      <ModOp Type="merge" GUID="1500301411" Path="/Values/Street">
+        <Street>
+          <CfgFileName>data/kurila/quay_streets/quay_system_colony01_01_02.cfg</CfgFileName>
+        </Street>
+      </ModOp>
+      <ModOp Type="merge" GUID="131865" Path="/Values/Street">
+        <Street>
+          <CfgFileName>data/muggenstuermer/mixed_harbor/harbor_streets/quay_street_nw/quay_system_01.cfg</CfgFileName>
+        </Street>
+      </ModOp>
+    </Group>
+</ModOps>

@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404423054</GUID>
+      <Text>Кормление животных</Text>
+    </Text>
+    <Text>
+      <GUID>1404423060</GUID>
+      <Text>Голодные животные</Text>
+    </Text>
+    <Text>
+      <GUID>1404423055</GUID>
+      <Text>Свинокомплекс</Text>
+    </Text>
+     <Text>
+      <GUID>1404423058</GUID>
+      <Text>Силосная башня</Text>
+    </Text>
+    <Text>
+      <GUID>1404423068</GUID>
+      <Text>Хранит корм для животных и обеспечивает производство.</Text>
+    </Text>
+    <Text>
+      <GUID>1404423056</GUID>
+      <Text>Продвинутоый свинарник</Text>
+    </Text>
+  </ModOp>
+</ModOps>

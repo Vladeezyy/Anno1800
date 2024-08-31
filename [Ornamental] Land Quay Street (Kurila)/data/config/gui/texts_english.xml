@@ -1,0 +1,20 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500301410</GUID>
+      <Text>Land quay street</Text>
+    </Text>
+    <Text>
+      <GUID>1500301411</GUID>
+      <Text>[AssetData(1500301410) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1500301412</GUID>
+      <Text>[AssetData(1500301410) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1500301413</GUID>
+      <Text>[AssetData(1500301410) Text]</Text>
+    </Text>
+  </ModOp>
+</ModOps>

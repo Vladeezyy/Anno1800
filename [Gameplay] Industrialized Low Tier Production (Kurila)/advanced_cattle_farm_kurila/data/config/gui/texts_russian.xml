@@ -1,0 +1,36 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300957</GUID>
+      <Text>Кормление животных</Text>
+    </Text>
+    <Text>
+      <GUID>1500300958</GUID>
+      <Text>Голодные животные</Text>
+    </Text>
+    <Text>
+      <GUID>1404423061</GUID>
+      <Text>Доильный зал</Text>
+    </Text>
+    <Text>
+      <GUID>1404423067</GUID>
+      <Text>Производит молоко.</Text>
+    </Text>
+    <Text>
+      <GUID>1500300015</GUID>
+      <Text>Хранит корм для животных и обеспечивает производство.</Text>
+    </Text>
+    <Text>
+      <GUID>1404423065</GUID>
+      <Text>Скотокомплекс</Text>
+    </Text>
+    <Text>
+      <GUID>1404423066</GUID>
+      <Text>Продвинутое пастбище</Text>
+    </Text>
+    <Text>
+      <GUID>1404423064</GUID>
+      <Text>Силосная башня</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,58 @@
+<ModOps>
+  <!-- # Modular Factories -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010600</GUID>
+      <Text>Fabryka maszyn do szycia</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500011315</GUID>
+      <Text>Industrial Distillery</Text>
+    </Text>
+    <Text>
+      <GUID>1500011270</GUID>
+      <Text>Przemysłowa fabryka mydła</Text>
+    </Text>
+    <Text>
+      <GUID>1500011271</GUID>
+      <Text>Przemysłowa rzeźnia</Text>
+    </Text>
+    <Text>
+      <GUID>1500011310</GUID>
+      <Text>Przemysłowa piekarnia</Text>
+    </Text>
+    <Text>
+      <GUID>1500011311</GUID>
+      <Text>Przemysłowy młyn</Text>
+    </Text>
+    <Text>
+      <GUID>1500011318</GUID>
+      <Text>Przemysłowa słodownia</Text>
+    </Text>
+    <Text>
+      <GUID>1500011317</GUID>
+      <Text>Przemysłowy browar</Text>
+    </Text>
+    <Text>
+      <GUID>1500011320</GUID>
+      <Text>Przemysłowa fabryka dzianin</Text>
+    </Text>
+    <Text>
+      <GUID>1500011313</GUID>
+      <Text>Przemysłowy rzeźnik</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Modular Factories menu -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010601</GUID>
+      <Text>Kompleks przemysłowy</Text> <!-- menu: modular factories -->
+    </Text>
+    <Text>
+      <GUID>1500010602</GUID>
+      <Text>Wiele fabryk łączy się w jeden kompleks</Text> <!-- menu desc: modular factories -->
+    </Text>
+  </ModOp>
+</ModOps>

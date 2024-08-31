@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+	<Text>
+      <GUID>1337473001</GUID>
+      <Text>Cathedral: Foundation</Text>
+    </Text>
+	<Text>
+      <GUID>1337473002</GUID>
+      <Text>Cathedral: Structure</Text>
+    </Text>
+	<Text>
+      <GUID>1337473003</GUID>
+      <Text>Cathedral: Interior Design</Text>
+    </Text>
+    <Text>
+      <GUID>1337473004</GUID>
+      <Text>Cathedral</Text>
+    </Text>
+    <Text>
+      <GUID>1337473005</GUID>
+      <Text>The cathedral is a place of worship. Your populace will focus more on their faith and less on the material world. Consumption of goods will be lowered by 5% and happiness will increase by 5.</Text>
+    </Text>
+	<Text>
+      <GUID>1337473007</GUID>
+      <Text>Cathedral</Text>
+    </Text>
+  </ModOp>
+</ModOps>

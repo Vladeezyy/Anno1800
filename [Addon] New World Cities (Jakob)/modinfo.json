@@ -1,0 +1,70 @@
+{
+  "Version": "2.2.11",
+  "ModID": "jakob_new_world_cities",
+  "ModioResourceId": 3229897,
+  "DeprecateIds": [
+    "jakob_nw_construction",
+    "jakob_bugfix_celluloid",
+    "jakob_power_nw",
+    "jakob_extra_goods"
+  ],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "sardines-jakob",
+    "cheese-jakob"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions",
+    "cheese-jakob",
+    "Spice_Harborlife",
+    "FamTaubeLexy_NewWorldHotels",
+    "cheat-instant-residences-jakob"
+  ],
+  "Category": {
+    "Chinese": "插件",
+    "English": "Addon",
+    "French": "Addon",
+    "German": "Addon",
+    "Italian": "Addon",
+    "Japanese": "Addon",
+    "Korean": "Addon",
+    "Polish": "Addon",
+    "Russian": "Addon",
+    "Spanish": "Addon",
+    "Taiwanese": "Addon"
+  },
+  "ModName": {
+    "Chinese": "Jakob 新世界城市",
+    "English": "Jakob's New World Cities",
+    "French": "Jakob's New World Cities",
+    "German": "Jakob's New World Cities",
+    "Italian": "Jakob's New World Cities",
+    "Japanese": "Jakob's New World Cities",
+    "Korean": "Jakob's New World Cities",
+    "Polish": "Jakob's New World Cities",
+    "Russian": "Jakob's New World Cities",
+    "Spanish": "Jakob's New World Cities",
+    "Taiwanese": "Jakob's New World Cities"
+  },
+  "DLCDependencies": [
+    {
+      "DLC": "SeedsOfChange",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno-1800-jakobs-mods",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

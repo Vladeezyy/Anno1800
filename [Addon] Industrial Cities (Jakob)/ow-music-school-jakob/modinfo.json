@@ -1,0 +1,51 @@
+{
+  "Version": "1.0.1",
+  "ModID": "ow-music-school-jakob",
+  "ModDependencies": [
+    "shared-pools-and-definitions"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
+  "Category": {
+    "English": "Building",
+    "Chinese": "Building",
+    "French": "Building",
+    "German": "Building",
+    "Italian": "Building",
+    "Japanese": "Building",
+    "Korean": "Building",
+    "Polish": "Building",
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
+  },
+  "ModName": {
+    "English": "Music School (Jakob)",
+    "Chinese": "Music School (Jakob)",
+    "French": "Music School (Jakob)",
+    "German": "Music School (Jakob)",
+    "Italian": "Music School (Jakob)",
+    "Japanese": "Music School (Jakob)",
+    "Korean": "Music School (Jakob)",
+    "Polish": "Music School (Jakob)",
+    "Russian": "Music School (Jakob)",
+    "Spanish": "Music School (Jakob)",
+    "Taiwanese": "Music School (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno1800-jakobs-mods",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

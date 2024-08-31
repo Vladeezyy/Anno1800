@@ -1,0 +1,100 @@
+<ModOps>
+  <!-- # Workers -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010200</GUID>
+      <Text>Casa adosada para trabajadores: Nivel 1</Text> <!-- construction menu, residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010201</GUID>
+      <Text>Casa adosada para trabajadores: Nivel 2</Text> <!-- residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010206</GUID>
+      <Text>Piel de techo rojo</Text> <!-- skin name -->
+    </Text>
+    <Text>
+      <GUID>1500010207</GUID>
+      <Text>¿Prefieres los techos rojos?</Text> <!-- skin desc -->
+    </Text>
+    <Text>
+      <GUID>1500010208</GUID>
+      <Text>Diseño de techo negro</Text> <!-- skin name -->
+    </Text>
+    <Text>
+      <GUID>1500010209</GUID>
+      <Text>¿No te gusta el techo rojo ocasional en la mezcla?</Text> <!-- skin desc -->
+    </Text>
+    <Text>
+      <GUID>1500010212</GUID>
+      <Text>Casas adosadas</Text> <!-- construction menu name -->
+    </Text>
+    <Text>
+      <GUID>1500010213</GUID>
+      <Text>Menú Construcción</Text> <!-- construction menu desc -->
+    </Text>
+    <Text>
+      <GUID>1500010214</GUID>
+      <Text>El uso del botón de actualización de rascacielos proporciona una mejor ubicación de variación aleatoria.</Text> <!-- level 1 residence construction desc -->
+    </Text>
+    <Text>
+      <GUID>1500010215</GUID>
+      <Text>Pavimento de Piedra (Calle)</Text> <!-- construction menu, ornament UI -->
+    </Text>
+    <Text>
+      <GUID>1500010217</GUID>
+      <Text>Actualizar trabajadores, artesanos a</Text> <!-- notification small/top text -->
+    </Text>
+    <Text>
+      <GUID>1500010218</GUID>
+      <Text>Casas adosadas</Text> <!-- notification big/middle text -->
+    </Text>
+    <Text>
+      <GUID>1500010222</GUID>
+      <Text>Encuentra adornos de mercado con variaciones de suelo a juego en 'Paquete de luces de la ciudad'.</Text> <!-- ornament description -->
+    </Text>
+    <Text>
+      <GUID>1500010223</GUID>
+      <Text>Pavimento de piedra</Text> <!-- stone pavement decorations -->
+    </Text>
+    <Text>
+      <GUID>1500010224</GUID>
+      <Text>[AssetData(1500010223) Text]</Text> <!-- construction menu, ornament UI -->
+    </Text>
+    <Text>
+      <GUID>1500010281</GUID>
+      <Text>Casas adosadas de trabajadores</Text> <!-- target pool -->
+    </Text>
+  </ModOp>
+  <!-- # Artisans -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010225</GUID>
+      <Text>Casa Artesanal Adosada: Nivel 1</Text> <!-- residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010226</GUID>
+      <Text>Casa Artesanal Adosada: Nivel 2</Text> <!-- residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010227</GUID>
+      <Text>Casas Artesanales Adosadas</Text> <!-- target pool -->
+    </Text>
+    <Text>
+      <GUID>1500010228</GUID>
+      <Text>Piel Mixta</Text> <!-- mixed skin -->
+    </Text>
+    <Text>
+      <GUID>1500010229</GUID>
+      <Text>Piel de techo azul</Text> <!-- blue roof skin -->
+    </Text>
+    <Text>
+      <GUID>1500010230</GUID>
+      <Text>Piel de ladrillo</Text> <!-- brick wall skin -->
+    </Text>
+    <Text>
+      <GUID>1500010242</GUID>
+      <Text>Piel de techo verde</Text>
+    </Text>
+  </ModOp>
+</ModOps>

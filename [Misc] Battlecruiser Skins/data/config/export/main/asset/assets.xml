@@ -1,0 +1,100 @@
+<ModOps>
+    <ModOp GUID='80142' Type="addNextSibling">
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1440134100</GUID>
+                    <Name>Battle Cruiser Lava skin (Military)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_battlecruiser_variation.png</IconFilename>
+                </Standard>
+                <Skin>
+                    <SkinName>1440133060</SkinName>
+                    <SkinDescription>1440133063</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data/graphics/vehicle/battle_cruiser_03/battle_cruiser_lava_new.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1440134101</GUID>
+                    <Name>Battle Cruiser Redcube skin (Military)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_battlecruiser_variation.png</IconFilename>
+                </Standard>
+                <Skin>
+                    <SkinName>1440133061</SkinName>
+                    <SkinDescription>1440133064</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data/graphics/vehicle/battle_cruiser_03/battle_cruiser_redcube_new.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1440134102</GUID>
+                    <Name>Battle Cruiser Starfield skin (Military)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ships/icon_ship_battlecruiser_variation.png</IconFilename>
+                </Standard>
+                <Skin>
+                    <SkinName>1440133062</SkinName>
+                    <SkinDescription>1440133065</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data/graphics/vehicle/battle_cruiser_03/battle_cruiser_starfield_new.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID='100442' Type="add" Path="/Values/Object/Skins/SkinList">
+        <Item>
+            <SkinAssetGuid>1440134100</SkinAssetGuid>
+        </Item>
+        <Item>
+            <SkinAssetGuid>1440134101</SkinAssetGuid>
+        </Item>
+        <Item>
+            <SkinAssetGuid>1440134102</SkinAssetGuid>
+        </Item>
+    </ModOp>
+
+    <ModOp GUID='142915' Path="/Values/SkinDescriptionFeature/GuidSkinToVariationSkinMapping" Type="add">
+        <Item>
+            <OldSkinGuidAsset>119355</OldSkinGuidAsset>
+            <BaseObject>100442</BaseObject>
+            <NewSkinAsset>1440134100</NewSkinAsset>
+        </Item>
+        <Item>
+            <OldSkinGuidAsset>119356</OldSkinGuidAsset>
+            <BaseObject>100442</BaseObject>
+            <NewSkinAsset>1440134101</NewSkinAsset>
+        </Item>
+        <Item>
+            <OldSkinGuidAsset>119357</OldSkinGuidAsset>
+            <BaseObject>100442</BaseObject>
+            <NewSkinAsset>1440134102</NewSkinAsset>
+        </Item>
+    </ModOp>
+</ModOps>

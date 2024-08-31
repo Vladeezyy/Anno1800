@@ -1,0 +1,35 @@
+<ModOps>
+  <!-- # Cheese -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010103</GUID>
+      <Text>Käserei</Text>
+    </Text>
+    <Text>
+      <GUID>1500010104</GUID>
+      <Text>Molkerei</Text>
+    </Text>
+    <Text>
+      <GUID>1500011514</GUID>
+      <!-- Mod origin/name -->
+      <Text>Produktion (Jakob)</Text>
+      <IndustrialCities />
+    </Text>
+  </ModOp>
+
+  <!-- # Hot Chocolate -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010250</GUID>
+      <Text>Heiße Schokolade</Text>
+    </Text>
+    <Text>
+      <GUID>1500010251</GUID>
+      <Text>Es muss nicht immer Kaffee sein. Heiße Milch, Kakaopulver und Zimt... das ist alles was du für ein koffeinfreies Getränk brauchst.</Text>
+    </Text>
+    <Text>
+      <GUID>1500010252</GUID>
+      <Text>Café: [AssetData(1500010250) Text]</Text>
+    </Text>
+  </ModOp>
+</ModOps>

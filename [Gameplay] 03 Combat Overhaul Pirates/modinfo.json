@@ -1,0 +1,27 @@
+{
+  "ModID": "[Gameplay] 03 Combat Overhaul Pirates",
+  "Version": "17.2.1.7",
+  "ModName": {
+    "English": "03 Combat Overhaul Pirates"
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "LoadAfterIds": [ "[Gameplay] 01 Combat Overhaul Ships" ],
+  "ModDependencies": [ "[Gameplay] 01 Combat Overhaul Ships" ],
+  "IncompatibleIds": [
+    "Stronger_Pirate_Ships_Serp",
+    "Stronger_Pirates_Serp"
+  ],
+  "DeprecateIds": [
+    "Stronger_Pirate_Ships_Serp",
+    "Stronger_Pirates_Serp"
+  ],
+  "KnownIssues": [
+    {"English": "In order to preserve stability, CO disables a few mods due to imbalance, incompatibility or bug-causing issues"},
+    {"English": "ModName: P Buffed Pirate Ships (Serp)     ModID: Stronger_Pirate_Ships_Serp     mod.io/g/anno-1800/m/p-buffed-pirate-ships-serp     reason: CO does something similar"},
+    {"English": "ModName: P Stronger Pirates (Serp)        ModID: Stronger_Pirates_Serp          mod.io/g/anno-1800/m/p-stronger-pirates-serp        reason: CO does something similar"}
+    ],
+  "CreatorName": "Ac3s",
+  "CreatorContact": "add Ac3s as friend on Discord"
+}

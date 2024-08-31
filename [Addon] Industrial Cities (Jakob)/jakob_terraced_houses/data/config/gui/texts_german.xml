@@ -1,0 +1,100 @@
+<ModOps>
+  <!-- # Workers -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010200</GUID>
+      <Text>Arbeiter-Reihenhaus I</Text> <!-- construction menu, residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010201</GUID>
+      <Text>Arbeiter-Reihenhaus II</Text> <!-- residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010206</GUID>
+      <Text>Rote Dächer</Text> <!-- skin name -->
+    </Text>
+    <Text>
+      <GUID>1500010207</GUID>
+      <Text>Du bevorzugst rote Dächer?</Text> <!-- skin desc -->
+    </Text>
+    <Text>
+      <GUID>1500010208</GUID>
+      <Text>Schwarze Dächer</Text> <!-- skin name -->
+    </Text>
+    <Text>
+      <GUID>1500010209</GUID>
+      <Text>Keine Lust auf eine Mischung?</Text> <!-- skin desc -->
+    </Text>
+    <Text>
+      <GUID>1500010212</GUID>
+      <Text>Upgradefähige Wohnhäuser</Text> <!-- construction menu name -->
+    </Text>
+    <Text>
+      <GUID>1500010213</GUID>
+      <Text>Baumenü</Text> <!-- construction menu desc -->
+    </Text>
+    <Text>
+      <GUID>1500010214</GUID>
+      <Text>Der Hochhaus-Upgradeknopf hat eine bessere Zufallsauswahl für die Häusertypen.</Text> <!-- level 1 residence construction desc -->
+    </Text>
+    <Text>
+      <GUID>1500010215</GUID>
+      <Text>Pflasterstein (Straße)</Text> <!-- construction menu, ornament UI -->
+    </Text>
+    <Text>
+      <GUID>1500010217</GUID>
+      <Text>Verbessere Wohnhäuser zu</Text> <!-- notification small/top text -->
+    </Text>
+    <Text>
+      <GUID>1500010218</GUID>
+      <Text>Reihenhäuser</Text> <!-- notification big/middle text -->
+    </Text>
+    <Text>
+      <GUID>1500010222</GUID>
+      <Text>Du findest Marktornamente mit passenden Bodenvariationen im 'City Lights Pack'.</Text> <!-- ornament description -->
+    </Text>
+    <Text>
+      <GUID>1500010223</GUID>
+      <Text>Pflasterstein</Text> <!-- stone pavement decorations -->
+    </Text>
+    <Text>
+      <GUID>1500010224</GUID>
+      <Text>[AssetData(1500010223) Text]</Text> <!-- construction menu, ornament UI -->
+    </Text>
+    <Text>
+      <GUID>1500010281</GUID>
+      <Text>Arbeiter-Reihenhäuser</Text> <!-- target pool -->
+    </Text>
+  </ModOp>
+  <!-- # Artisans -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010225</GUID>
+      <Text>Handwerker-Reihenhaus I</Text> <!-- residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010226</GUID>
+      <Text>Handwerker-Reihenhaus II</Text> <!-- residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010227</GUID>
+      <Text>Handwerker-Reihenhäuser</Text> <!-- target pool -->
+    </Text>
+    <Text>
+      <GUID>1500010228</GUID>
+      <Text>Gemischter Skin</Text> <!-- mixed skin -->
+    </Text>
+    <Text>
+      <GUID>1500010229</GUID>
+      <Text>Blaue Dächer</Text> <!-- blue roof skin -->
+    </Text>
+    <Text>
+      <GUID>1500010230</GUID>
+      <Text>Backstein</Text> <!-- brick wall skin -->
+    </Text>
+    <Text>
+      <GUID>1500010242</GUID>
+      <Text>Grüne Dächer</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,208 @@
+<ModOps>
+  <!-- # Pescatarians -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- main -->
+    <Text>
+      <GUID>601382</GUID>
+      <Text>Pescatarianos</Text>
+    </Text>
+    <Text>
+      <GUID>1500010100</GUID>
+      <Text>Centro Comunitario</Text>
+    </Text>
+    <Text>
+      <GUID>1500010118</GUID>
+      <Text>Ayuntamiento</Text> <!-- public service: luxury -->
+    </Text>
+    <Text>
+      <GUID>1500010119</GUID>
+      <Text>Mercado Comunitario</Text> <!-- public service: basic -->
+    </Text>
+    <Text>
+      <GUID>1500010134</GUID>
+      <Text>Pescatarianos</Text>
+    </Text>
+    <Text>
+      <GUID>1500010136</GUID>
+      <Text>Nueva poblacion</Text> <!-- AGE OF -->
+    </Text>
+    <Text>
+      <GUID>1500010137</GUID>
+      <Text>Pescatarianos</Text> <!-- AGRICULTURE -->
+    </Text>
+    <Text>
+      <GUID>1500010142</GUID>
+      <Text>Residencia de agricultores pescatarianos</Text>
+    </Text>
+    <Text>
+      <GUID>1500010143</GUID>
+      <Text>Residencia de Trabajadores Pescatarianos</Text>
+    </Text>
+    <Text>
+      <GUID>1500010144</GUID>
+      <Text>Residencia de Artesanos Pescatarianos</Text>
+    </Text>
+    <Text>
+      <GUID>1500010145</GUID>
+      <Text>Residencia de Ingenieros Pescatarianos</Text>
+    </Text>
+    <Text>
+      <GUID>1500010146</GUID>
+      <Text>Los residentes de Pescatarian viven aquí. ¡Los niveles de trabajador y artesano brindan mano de obra de granjero adicional!</Text>
+    </Text>
+    <Text>
+      <GUID>1500010147</GUID>
+      <Text>Residencia Pescatariana</Text>
+    </Text>
+    <Text>
+      <GUID>1500010148</GUID>
+      <Text>Residencia Pescatariana</Text>
+    </Text>
+    <Text>
+      <GUID>1500010169</GUID>
+      <Text>Residencias mixtas de ingenieros y artesanos.</Text> <!-- Skin Description: Mixed Engineer and Artisan residences. -->
+    </Text>
+    <Text>
+      <GUID>1500010170</GUID>
+      <Text>Pescatarianos (Jakob)</Text> <!-- Mod name -->
+    </Text>
+    <Text>
+      <GUID>1500010173</GUID>
+      <Text>Taller Residencias artesanales.</Text> <!-- Skin Description: Taller Artisan residences. -->
+    </Text>
+    <Text>
+      <GUID>1500010186</GUID>
+      <Text>[AssetData(1500010134) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1500010188</GUID>
+      <Text>Edificios Pescatarianos</Text>
+    </Text>
+    <Text>
+      <GUID>1500010189</GUID>
+      <Text>Residencias mixtas de artesanos y obreros.</Text> <!-- Skin Description: Mixed Artisan and Worker residences. -->
+    </Text>
+    <Text>
+      <GUID>1500010282</GUID>
+      <Text>Residencias Pescatarianas</Text>
+    </Text>
+    <Text>
+      <GUID>1500010800</GUID>
+      <Text>Escuela de Musica</Text> <!-- building: music school -->
+    </Text>
+    <Text>
+      <GUID>1500010801</GUID>
+      <Text>[AssetData(1500010800) Text]</Text> <!-- service: music school -->
+    </Text>
+    <Text>
+      <GUID>1500010804</GUID>
+      <Text>Mano de obra mixta</Text>
+    </Text>
+    <Text>
+      <GUID>1500010806</GUID> <!-- can't be AssetData -->
+      <Text>Pescatarianos</Text>
+    </Text>
+    <Text>
+      <GUID>1500010810</GUID>
+      <Text>Pescatariano enojado</Text>
+    </Text>
+    <Text>
+      <GUID>1500010811</GUID>
+      <Text>Pescatariano infeliz</Text>
+    </Text>
+    <Text>
+      <GUID>1500010812</GUID>
+      <Text>Contenido pescatariano</Text>
+    </Text>
+    <Text>
+      <GUID>1500010813</GUID>
+      <Text>Pescatariano feliz</Text>
+    </Text>
+    <Text>
+      <GUID>1500010814</GUID>
+      <Text>Pescatariano eufórico</Text>
+    </Text>
+    <Text>
+      <GUID>1500010321</GUID>
+      <Text>Piel roja alta</Text>
+    </Text>
+    <Text>
+      <GUID>1500010833</GUID>
+      <Text>Piel oscura</Text>
+    </Text>
+    <Text>
+      <GUID>1500010311</GUID>
+      <Text>Piel azul alta</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Services -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010816</GUID>
+      <Text>Biblioteca</Text>
+    </Text>
+    <Text>
+      <GUID>1500010818</GUID>
+      <Text>Biblioteca</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010841</GUID>
+      <Text>Piel amarilla</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010842</GUID>
+      <Text>Piel escolar</Text>
+    </Text>
+    <Text>
+      <GUID>1500010817</GUID>
+      <Text>Pequeña oficina de correos</Text>
+    </Text>
+    <Text>
+      <GUID>1500010819</GUID>
+      <Text>Marisquería</Text>
+    </Text>
+    <Text>
+      <GUID>1500010820</GUID>
+      <Text>Marisquería</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Ships -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010821</GUID>
+      <Text>3 Goleta de mástil</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Productions -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010822</GUID>
+      <Text>Fabricante de cuerdas</Text>
+    </Text>
+    <Text>
+      <GUID>1500010824</GUID>
+      <Text>Cuerdas</Text>
+    </Text>
+    <Text>
+      <GUID>1500010825</GUID>
+      <Text>Cuerdas</Text>
+    </Text>
+    <Text>
+      <GUID>1500010827</GUID>
+      <Text>Redes de pesca</Text>
+    </Text>
+    <Text>
+      <GUID>1500010828</GUID>
+      <Text>Fabricante de redes de pesca</Text>
+    </Text>
+    <Text>
+      <GUID>1500010829</GUID>
+      <Text>Redes de pesca</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,209 @@
+<ModOps>
+  <!-- # Pescatarians -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- main -->
+    <Text>
+      <GUID>601382</GUID>
+      <Text>鱼素食主义者</Text>
+    </Text>
+    <Text>
+      <GUID>1500010100</GUID>
+      <Text>活动中心</Text>
+    </Text>
+    <Text>
+      <GUID>1500010118</GUID>
+      <Text>社区会堂</Text> <!-- public service: luxury -->
+    </Text>
+    <Text>
+      <GUID>1500010119</GUID>
+      <Text>团体市场</Text> <!-- public service: basic -->
+    </Text>
+    <Text>
+      <GUID>1500010134</GUID>
+      <Text>鱼素食主义者</Text>
+    </Text>
+    <Text>
+      <GUID>1500010136</GUID>
+      <Text>新群体</Text> <!-- AGE OF -->
+    </Text>
+    <Text>
+      <GUID>1500010137</GUID>
+      <Text>鱼素食主义者</Text> <!-- AGRICULTURE -->
+    </Text>
+    <Text>
+      <GUID>1500010142</GUID>
+      <Text>鱼素食主义者农民住宅</Text>
+    </Text>
+    <Text>
+      <GUID>1500010143</GUID>
+      <Text>鱼素食主义者工人住宅</Text>
+    </Text>
+    <Text>
+      <GUID>1500010144</GUID>
+      <Text>鱼素食主义者工匠住宅</Text>
+    </Text>
+    <Text>
+      <GUID>1500010145</GUID>
+      <Text>鱼素食主义者工程师住宅</Text>
+    </Text>
+    <Text>
+      <GUID>1500010146</GUID>
+      <Text>鱼素食主义者住在这里，在农民，工人，工匠阶级提供额外的劳动力</Text>
+    </Text>
+    <Text>
+      <GUID>1500010147</GUID>
+      <Text>鱼素食主义者住宅</Text>
+    </Text>
+    <Text>
+      <GUID>1500010148</GUID>
+      <Text>鱼素食主义者住宅</Text>
+    </Text>
+    <Text>
+      <GUID>1500010169</GUID>
+      <Text>工程师与工匠的混合住宅区.</Text> <!-- Skin Description: Mixed Engineer and Artisan residences. -->
+    </Text>
+    <Text>
+      <GUID>1500010170</GUID>
+      <Text>鱼素食主义者Mod(Jakob)</Text> <!-- Mod name -->
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010173</GUID>
+      <Text>更高的工匠住宅。</Text> <!-- Skin Description: Taller Artisan residences. -->
+    </Text>
+    <Text>
+      <GUID>1500010186</GUID>
+      <Text>[AssetData(1500010134) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1500010188</GUID>
+      <Text>鱼素食主义者建筑</Text>
+    </Text>
+    <Text>
+      <GUID>1500010189</GUID>
+      <Text>工匠和工人的混合住宅区.</Text> <!-- Skin Description: Mixed Artisan and Worker residences. -->
+    </Text>
+    <Text>
+      <GUID>1500010282</GUID>
+      <Text>鱼素食主义者住宅</Text>
+    </Text>
+    <Text>
+      <GUID>1500010800</GUID>
+      <Text>音乐学校</Text> <!-- building: music school -->
+    </Text>
+    <Text>
+      <GUID>1500010801</GUID>
+      <Text>[AssetData(1500010800) Text]</Text> <!-- service: music school -->
+    </Text>
+    <Text>
+      <GUID>1500010804</GUID>
+      <Text>混合劳动力</Text>
+    </Text>
+    <Text>
+      <GUID>1500010806</GUID> <!-- can't be AssetData -->
+      <Text>鱼素食主义者</Text>
+    </Text>
+    <Text>
+      <GUID>1500010810</GUID>
+      <Text>生气的 鱼素食主义者</Text>
+    </Text>
+    <Text>
+      <GUID>1500010811</GUID>
+      <Text>不悦的 鱼素食主义者</Text>
+    </Text>
+    <Text>
+      <GUID>1500010812</GUID>
+      <Text>满意的 鱼素食主义者</Text>
+    </Text>
+    <Text>
+      <GUID>1500010813</GUID>
+      <Text>快乐的 鱼素食主义者</Text>
+    </Text>
+    <Text>
+      <GUID>1500010814</GUID>
+      <Text>愉悦的 鱼素食主义者</Text>
+    </Text>
+    <Text>
+      <GUID>1500010321</GUID>
+      <Text>高红外观</Text>
+    </Text>
+    <Text>
+      <GUID>1500010833</GUID>
+      <Text>黑暗外观</Text>
+    </Text>
+    <Text>
+      <GUID>1500010311</GUID>
+      <Text>高蓝外观</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Services -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010816</GUID>
+      <Text>图书馆</Text>
+    </Text>
+    <Text>
+      <GUID>1500010818</GUID>
+      <Text>图书馆</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010841</GUID>
+      <Text>黄色外观</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010842</GUID>
+      <Text>学校外观</Text>
+    </Text>
+    <Text>
+      <GUID>1500010817</GUID>
+      <Text>小型邮局</Text>
+    </Text>
+    <Text>
+      <GUID>1500010819</GUID>
+      <Text>海鲜餐厅</Text>
+    </Text>
+    <Text>
+      <GUID>1500010820</GUID>
+      <Text>海鲜餐厅</Text>
+    </Text>
+  </ModOp> 
+  
+  <!-- # Ships -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010821</GUID>
+      <Text>三桅帆船</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Productions -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010822</GUID>
+      <Text>绳索制造商</Text>
+    </Text>
+    <Text>
+      <GUID>1500010824</GUID>
+      <Text>绳索</Text>
+    </Text>
+    <Text>
+      <GUID>1500010825</GUID>
+      <Text>绳索</Text>
+    </Text>
+    <Text>
+      <GUID>1500010827</GUID>
+      <Text>渔网</Text>
+    </Text>
+    <Text>
+      <GUID>1500010828</GUID>
+      <Text>渔网制造商</Text>
+    </Text>
+    <Text>
+      <GUID>1500010829</GUID>
+      <Text>渔网</Text>
+    </Text>
+  </ModOp>
+</ModOps>

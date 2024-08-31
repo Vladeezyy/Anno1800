@@ -1,0 +1,85 @@
+{
+  "Version": "1.2.0",
+  "ModID": "Taludas_VanillaRiverSlotBuildingsOW",
+  "IncompatibleIds": [
+    "Spice_SouthRiversRemoved",
+    "Spice_SouthRiversReduced",
+    "Spice_Mapseeds",
+    "Spice_NorthernRiversRemoved"
+  ],
+  "ModDependencies": [
+    "Taludas_RiverslotsOW",
+    "shared-pools-and-definitions"
+  ],
+  "LoadAfterIds": [
+    "*",
+    "Taludas_RiverslotsOW",
+    "shared-pools-and-definitions",
+    "Taludas_VanillaRiverSlotBuildingsNW",
+    "jakob_pescatarians",
+    "production-vegetables-and-cheese-jakob",
+    "shared-products-jakob",
+    "shared-pools-and-definitions",
+    "jakob_alternative_needs"
+  ],
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+    "English": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+    "French": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+    "German": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+    "Italian": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+    "Japanese": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+    "Korean": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+    "Polish": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+    "Russian": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+    "Spanish": "Taludas' Collection - Vanilla Riverslot Buildings OW",
+    "Taiwanese": "Taludas' Collection - Vanilla Riverslot Buildings OW"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Introduces multiple Riverslot Buildings to the OW, producing a variety of vanilla goods to give you a new gameplay alternative to the usual slot and coastal buildings.",
+    "French": null,
+    "German": "Führt mehrere Riverslot-Gebäude in der Alten Welt ein, die eine Vielzahl von Vanilla-Gütern produzieren und eine neue Spielalternative zu den üblichen Slot- und Küstengebäuden bieten.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://discordapp.com/users/665193676531826729",
+  "Image": null
+}

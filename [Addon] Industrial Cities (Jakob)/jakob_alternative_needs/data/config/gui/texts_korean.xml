@@ -1,0 +1,63 @@
+<ModOps>
+  <!-- # Alternative Needs -->
+  <Group Skip="1">
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500019']/Text">
+      <Text>훌륭한 의복</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='25000244']/Text">
+      <Text>음식</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500004']/Text">
+      <Text>음식</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500008']/Text">
+      <Text>통조림 음식</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500003']/Text">
+      <Text>[AssetData(984) Text]</Text> <!-- Tools -->
+    </ModOp>
+  </Group>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010846</GUID>
+      <Text>기본 음식</Text>
+    </Text>
+    <Text>
+      <GUID>1500010826</GUID>
+      <Text>대체 요구</Text>
+    </Text>
+    <Text>
+      <GUID>1500011370</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#ffe4ad'&lt;일용품 요구&lt;/font;을 열고 대체 요구 사항을 활성화하여 거주자가 기본 요구 사항 대신 해당 요구 사항을 소비할 수 있도록 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1500010159</GUID>
+      <Text>대체 요구</Text>
+    </Text>
+    <Text>
+      <GUID>1500010949</GUID>
+      <Text>대체 &amp; 사치품 요구</Text>
+    </Text>
+    <Text>
+      <GUID>1500010950</GUID>
+      <Text>대체 &amp; 기본 요구</Text>
+    </Text>
+    <Text>
+      <GUID>1500011545</GUID>
+      <Text>대체 공급</Text>
+    </Text>
+    <Text>
+      <GUID>1500011546</GUID>
+      <Text>대체 금지</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Alternatives Tab -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011338</GUID>
+      <Text>따뜻한 음료</Text>
+    </Text>
+  </ModOp>
+</ModOps>

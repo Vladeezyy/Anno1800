@@ -1,0 +1,64 @@
+<ModOps>
+  <!-- # Alternative Needs -->
+  <Group Skip="1">
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500019']/Text">
+      <Text>Piękne ubrania</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='25000244']/Text">
+      <Text>Żywność</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500004']/Text">
+      <Text>Żywność</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500008']/Text">
+      <Text>Żywność konserwowa</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500003']/Text">
+      <Text>[AssetData(984) Text]</Text> <!-- Tools -->
+    </ModOp>
+  </Group>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010846</GUID>
+      <Text>Żywność Podstawowa</Text>
+    </Text>
+    <Text>
+      <GUID>1500010826</GUID>
+      <Text>Alternatywne potrzeby</Text>
+    </Text>
+    <Text>
+      <GUID>1500011370</GUID>
+      <Text>Open &lt;font overrideTextColor="true" color='#ffe4ad'&gt;Lifestyle Needs&lt;/font&gt; and enable Alternative Needs to let your residents consume those instead of their basic counterparts.</Text>
+    </Text>
+    <Text>
+      <GUID>1500010159</GUID>
+      <Text>Alternatywne potrzeby</Text>
+    </Text>
+    <Text>
+      <GUID>1500010949</GUID>
+      <Text>Alternatywna &amp; Potrzeba luksusowa</Text>
+    </Text>
+    <Text>
+      <GUID>1500010950</GUID>
+      <Text>Alternatywna &amp; Potrzeba podstawowa</Text>
+    </Text>
+    <Text>
+      <GUID>1500011545</GUID>
+      <Text>Dostawa Alternatywna</Text>
+    </Text>
+    <Text>
+      <GUID>1500011546</GUID>
+      <Text>Alternatywa Zabroniona</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Alternatives Tab -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500011338</GUID>
+      <Text>Hot Beverages</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,58 @@
+{
+  "Version": "1.1.6",
+  "ModID": "Fam_EnbesanFlora",
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "null",
+    "Polish": "Dodatek",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Fam's Enbesan Flora",
+    "English": "Fam's Enbesan Flora",
+    "French": "Fam's Enbesan Flora",
+    "German": "Fam's Enbesan Flora",
+    "Italian": "Fam's Enbesan Flora",
+    "Japanese": "Fam's Enbesan Flora",
+    "Korean": "Fam's 엔베사 식물",
+    "Polish": "Fam's Enbesan Flora",
+    "Russian": "Fam's Энбесанское флорой",
+    "Spanish": "Fam's Enbesan Flora",
+    "Taiwanese": "Fam's Enbesan Flora"
+  },
+  "Description": {
+    "Chinese": "Adds 18 new plants and four new sets for the Botanical Garden.",
+    "English": "Adds 18 new plants and four new sets for the Botanical Garden.",
+    "French": "Adds 18 new plants and four new sets for the Botanical Garden.",
+    "German": "18 neue Pflanzen und vier neue Sets für den Botanischen Garten.",
+    "Italian": "Adds 18 new plants and four new sets for the Botanical Garden.",
+    "Japanese": "Adds 18 new plants and four new sets for the Botanical Garden.",
+    "Korean": "Adds 18 new plants and four new sets for the Botanical Garden.",
+    "Polish": "Adds 18 new plants and four new sets for the Botanical Garden.",
+    "Russian": "Adds 18 new plants and four new sets for the Botanical Garden.",
+    "Spanish": "Adds 18 new plants and four new sets for the Botanical Garden.",
+    "Taiwanese": "Adds 18 new plants and four new sets for the Botanical Garden."
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "Botanica",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "LandOfLions",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Fam",
+  "CreatorContact": "https://www.nexusmods.com/anno1800/users/101551493"
+}

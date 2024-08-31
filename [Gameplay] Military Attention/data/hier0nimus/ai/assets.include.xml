@@ -1,0 +1,1669 @@
+<!-- 
+  AI Tweaks
+-->
+
+
+<ModOps>
+  <!-- START AI - EASY - EXTRA BUILDINGS MATERIALINFO -->
+  <ModOp Type="add" GUID="168" Path="Values/ConstructionAI/EconomyRules/ConstructionMaterials/MainMaterialInfos">
+    <Item>
+      <Product>1010221</Product>      <!-- Weapons/Cannons - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010223</Product>      <!-- Advanced Weapons - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010210</Product>      <!-- Sails - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010224</Product>      <!-- Steam Motors - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>849</Product>      <!-- Care Packages - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100533</Product>      <!-- Sailors - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100203</Product>      <!-- Basic Ammunition - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100248</Product>      <!-- Shell Ammunition - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>846</Product>      <!-- Bombs Ammunition - Product -->
+      <PerProgressLevelInfos>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100471</Product>      <!-- Basic Weapons - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100211</Product>      <!-- Horses - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010232</Product>      <!-- Saltpeter - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100293</Product>      <!-- Gunpowder - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+  </ModOp>
+  <!-- START AI - EASY - EXTRA BUILDINGS MATERIALINFO -->
+
+  <!-- START AI - MEDIUM - EXTRA BUILDINGS MATERIALINFO -->
+  <ModOp Type="add" GUID="169" Path="Values/ConstructionAI/EconomyRules/ConstructionMaterials/MainMaterialInfos">
+    <Item>
+      <Product>1010221</Product>      <!-- Weapons/Cannons - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>5</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>6</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010223</Product>      <!-- Advanced Weapons - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010210</Product>      <!-- Sails - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010224</Product>      <!-- Steam Motors - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>849</Product>      <!-- Care Packages - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100533</Product>      <!-- Sailors - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100203</Product>      <!-- Basic Ammunition - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100248</Product>      <!-- Shell Ammunition - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>846</Product>      <!-- Bombs Ammunition - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100471</Product>      <!-- Basic Weapons - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100211</Product>      <!-- Horses - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010232</Product>      <!-- Saltpeter - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100293</Product>      <!-- Gunpowder - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+  </ModOp>
+  <!-- START AI - MEDIUM - EXTRA BUILDINGS MATERIALINFO -->
+
+  <!-- START AI - HARD - EXTRA BUILDINGS MATERIALINFO -->
+  <ModOp Type="add" GUID="170" Path="Values/ConstructionAI/EconomyRules/ConstructionMaterials/MainMaterialInfos">
+    <Item>
+      <Product>1010221</Product>      <!-- Weapons/Cannons - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>5</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>5</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>6</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>7</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010223</Product>      <!-- Advanced Weapons - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>6</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010210</Product>      <!-- Sails - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>5</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>5</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010224</Product>      <!-- Steam Motors - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>5</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>849</Product>      <!-- Care Packages - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100533</Product>      <!-- Sailors - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>5</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100203</Product>      <!-- Basic Ammunition - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>5</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100248</Product>      <!-- Shell Ammunition - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>5</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>846</Product>      <!-- Bombs Ammunition - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100471</Product>      <!-- Basic Weapons - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>4</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>5</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100211</Product>      <!-- Horses - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1010232</Product>      <!-- Saltpeter - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>1</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+    <Item>
+      <Product>1742100293</Product>      <!-- Gunpowder - Product -->
+      <PerProgressLevelInfos>
+        <EarlyGame>
+          <ProducerBuildingCountMain>0</ProducerBuildingCountMain>
+        </EarlyGame>
+        <EarlyMidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </EarlyMidGame>
+        <MidGame>
+          <ProducerBuildingCountMain>2</ProducerBuildingCountMain>
+        </MidGame>
+        <LateMidGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateMidGame>
+        <LateGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </LateGame>
+        <EndGame>
+          <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+        </EndGame>
+      </PerProgressLevelInfos>
+    </Item>
+  </ModOp>
+  <!-- START AI - HARD - EXTRA BUILDINGS MATERIALINFO -->
+
+  <!-- START ADD FAKE FACTORIES -->
+
+  <!-- Care Packages -->
+  <ModOp GUID='1010295' Type="AddNextSibling">
+    <Asset>
+      <BaseAssetGUID>100451</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1742100537</GUID>
+          <Name>Fake AI Care Packages Factory</Name>
+          <IconFilename>data\graphics\icons\icon_care_packages.png</IconFilename>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/care_package_factory/care_package_factory_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <FactoryBase>
+          <FactoryInputs />
+          <FactoryOutputs>
+            <Item>
+              <Product>849</Product>              <!-- Care Packages - Product -->
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <Cost>
+          <Costs />
+        </Cost>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>10</Amount>
+              <InactiveAmount>5</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Basic Ammunition -->
+  <ModOp GUID='1010295' Type="AddNextSibling">
+    <Asset>
+      <BaseAssetGUID>100451</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1742100539</GUID>
+          <Name>Fake AI Basic Ammunition Factory</Name>
+          <IconFilename>data/graphics/icons/icon_basic_ammunition.png</IconFilename>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\buildings\production\ammunition_factory\ammunition_factory_basic_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <FactoryBase>
+          <FactoryInputs />
+          <FactoryOutputs>
+            <Item>
+              <Product>1742100203</Product>              <!-- Basic Ammunition - Product -->
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <Cost>
+          <Costs />
+        </Cost>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>10</Amount>
+              <InactiveAmount>5</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Shell Ammunition -->
+  <ModOp GUID='1010295' Type="AddNextSibling">
+    <Asset>
+      <BaseAssetGUID>100451</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1742100623</GUID>
+          <Name>Fake AI Shell Ammunition Factory</Name>
+          <IconFilename>data/graphics/icons/icon_shell_ammunition.png</IconFilename>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\buildings\production\ammunition_factory\ammunition_factory_shell_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <FactoryBase>
+          <FactoryInputs />
+          <FactoryOutputs>
+            <Item>
+              <Product>1742100248</Product>              <!-- Shell Ammunition - Product -->
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <Cost>
+          <Costs />
+        </Cost>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>10</Amount>
+              <InactiveAmount>5</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Bombs Ammunition -->
+  <ModOp GUID='1010295' Type="AddNextSibling">
+    <Asset>
+      <BaseAssetGUID>100451</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1742100541</GUID>
+          <Name>Fake AI Bombs Ammunition Factory</Name>
+          <IconFilename>data/graphics/icons/icon_bombs_ammunition.png</IconFilename>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\graphics\buildings\production\ammunition_factory\ammunition_factory_bombs_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <FactoryBase>
+          <FactoryInputs />
+          <FactoryOutputs>
+            <Item>
+              <Product>846</Product>              <!-- Bombs - Product -->
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <Cost>
+          <Costs />
+        </Cost>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>10</Amount>
+              <InactiveAmount>5</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Basic Weapons -->
+  <ModOp GUID='1010295' Type="AddNextSibling">
+    <Asset>
+      <BaseAssetGUID>100451</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1742100542</GUID>
+          <Name>Fake AI Basic Weapons Factory</Name>
+          <IconFilename>data\graphics\icons\icon_basic_weapons.png</IconFilename>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/basic_weapons_factory/basic_weapons_factory_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <FactoryBase>
+          <FactoryInputs />
+          <FactoryOutputs>
+            <Item>
+              <Product>1742100471</Product>              <!-- Basic Weapons - Product -->
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <Cost>
+          <Costs />
+        </Cost>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>10</Amount>
+              <InactiveAmount>5</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Sailors -->
+  <ModOp GUID='1010295' Type="AddNextSibling">
+    <Asset>
+      <BaseAssetGUID>100451</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1742100538</GUID>
+          <Name>Fake AI Navy Recruitment Office</Name>
+          <IconFilename>data/graphics/icons/icon_sailors.png</IconFilename>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/military/naval_recruitment_office/naval_recruitment_office_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <FactoryBase>
+          <FactoryInputs />
+          <FactoryOutputs>
+            <Item>
+              <Product>1742100533</Product>              <!-- Sailors - Product -->
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <Cost>
+          <Costs />
+        </Cost>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>10</Amount>
+              <InactiveAmount>5</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>
+              <Amount>10</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Warehouse>
+          <WarehouseStorage>
+            <StorageMax>1500</StorageMax>
+          </WarehouseStorage>
+          <StorageType>Warehouse</StorageType>
+        </Warehouse>
+        <StorageBase>
+          <ProductStorageList>1742100532</ProductStorageList>
+        </StorageBase>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Gunpowder -->
+  <ModOp GUID='1010295' Type="AddNextSibling">
+    <Asset>
+      <BaseAssetGUID>100451</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1742100622</GUID>
+          <Name>Fake AI Gunpowder Factory</Name>
+          <IconFilename>data/graphics/icons/icon_gunpowder.png</IconFilename>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/gunpowder_factory/gunpowder_factory_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <FactoryBase>
+          <FactoryInputs />
+          <FactoryOutputs>
+            <Item>
+              <Product>1742100293</Product>              <!-- Gunpowder - Product -->
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>15</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <Cost>
+          <Costs />
+        </Cost>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>80</Amount>
+              <InactiveAmount>40</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010115</Product>              <!-- Workers -->
+              <Amount>40</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Saltpetre -->
+  <ModOp GUID='1010295' Type="AddNextSibling">
+    <Asset>
+      <BaseAssetGUID>100451</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1742100621</GUID>
+          <Name>Fake AI Nitrary</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_niter.png</IconFilename>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/production/nitrary/nitrary_01.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <FactoryBase>
+          <FactoryInputs />
+          <FactoryOutputs>
+            <Item>
+              <Product>1010232</Product>              <!-- Saltpetre - Product -->
+              <Amount>1</Amount>
+              <StorageAmount>8</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>15</CycleTime>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>
+        <Cost>
+          <Costs />
+        </Cost>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>80</Amount>
+              <InactiveAmount>40</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010052</Product>              <!-- Farmers -->
+              <Amount>20</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- END ADD FAKE FACTORIES -->
+
+  <!-- START ADD AI HIDDEN CONSTRUCTION MENU (OW) -->
+  <ModOp Type="addNextSibling" GUID='500091'>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1742100543</GUID>
+          <Name>Fake Menu Chain (OW)</Name>
+          <IconFilename>data/graphics/icons/icon_cargo_supplies.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>100451</Building>          <!-- Timber Factory (FILL) - Building -->
+          <Tier1>
+            <Item>
+              <Building>100451</Building>              <!-- Timber Factory (FILL) - Building -->
+              <Tier2>
+                <Item>
+                  <Building>1742100537</Building>                  <!-- Fake AI Care Packages Factory - Building -->
+                </Item>
+                <Item>
+                  <Building>1742100538</Building>                  <!-- Fake AI Navy Recruitment Office - Building -->
+                </Item>
+                <Item>
+                  <Building>1742100539</Building>                  <!-- Fake AI Basic Ammunition Factory - Building -->
+                </Item>
+                <Item>
+                  <Building>1742100623</Building>                  <!-- Fake AI Shell Ammunition Factory - Building -->
+                </Item>
+                <Item>
+                  <Building>1742100541</Building>                  <!-- Fake AI Bombs Ammunition Factory - Building -->
+                </Item>
+                <Item>
+                  <Building>1742100542</Building>                  <!-- Fake AI Basic Weapons Factory - Building -->
+                </Item>
+                <Item>
+                  <Building>1742100621</Building>                  <!-- Fake AI Nitrary - Building -->
+                </Item>
+                <Item>
+                  <Building>1742100622</Building>                  <!-- Fake AI Gunpowder - Building -->
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>100451</Building>              <!-- Timber Factory (FILL) - Building -->
+              <Tier2>
+                <Item>
+                  <Building>1010522</Building>
+                </Item>
+                <Item>
+                  <Building>1010523</Building>
+                </Item>
+                <Item>
+                  <Building>736</Building>
+                </Item>
+                <Item>
+                  <Building>625</Building>
+                </Item>
+                <Item>
+                  <Building>3700</Building>
+                </Item>
+                <Item>
+                  <Building>1010524</Building>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD AI HIDDEN CONSTRUCTION MENU (OW) -->
+
+  <!-- START ADD AI HIDDEN CONSTRUCTION MENU (NW) -->
+  <ModOp Type="addNextSibling" GUID='500091'>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1742100544</GUID>
+          <Name>Fake Menu Chain (NW)</Name>
+          <IconFilename>data/graphics/icons/icon_cargo_supplies.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>100451</Building>          <!-- Timber Factory (FILL) - Building -->
+          <Tier1>
+            <Item>
+              <Building>100451</Building>              <!-- Timber Factory (FILL) - Building -->
+              <Tier2>
+                <Item>
+                  <Building>101563</Building>
+                </Item>
+                <Item>
+                  <Building>101570</Building>
+                </Item>
+                <Item>
+                  <Building>632</Building>
+                </Item>
+                <Item>
+                  <Building>742</Building>
+                </Item>
+                <Item>
+                  <Building>4797</Building>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD AI HIDDEN CONSTRUCTION MENU (NW) -->
+
+  <!-- START ADD AI HIDDEN CONSTRUCTION MENU (EN) -->
+  <ModOp Type="addNextSibling" GUID='500091'>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1742100545</GUID>
+          <Name>Fake Menu Chain (EN)</Name>
+          <IconFilename>data/graphics/icons/icon_cargo_supplies.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>100451</Building>          <!-- Timber Factory (FILL) - Building -->
+          <Tier1>
+            <Item>
+              <Building>100451</Building>              <!-- Timber Factory (FILL) - Building -->
+              <Tier2>
+                <Item>
+                  <Building>117861</Building>
+                </Item>
+                <Item>
+                  <Building>743</Building>
+                </Item>
+                <Item>
+                  <Building>117863</Building>
+                </Item>
+                <Item>
+                  <Building>823</Building>
+                </Item>
+                <Item>
+                  <Building>4799</Building>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD AI HIDDEN CONSTRUCTION MENU (NW) -->
+
+  <!-- START ADD AI HIDDEN CONSTRUCTION MENU (AR) -->
+  <ModOp Type="addNextSibling" GUID='500091'>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1742100546</GUID>
+          <Name>Fake Menu Chain (AR)</Name>
+          <IconFilename>data/graphics/icons/icon_cargo_supplies.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>100451</Building>          <!-- Timber Factory (FILL) - Building -->
+          <Tier1>
+            <Item>
+              <Building>100451</Building>              <!-- Timber Factory (FILL) - Building -->
+              <Tier2>
+                <Item>
+                  <Building>112671</Building>
+                </Item>
+                <Item>
+                  <Building>824</Building>
+                </Item>
+                <Item>
+                  <Building>822</Building>
+                </Item>
+                <Item>
+                  <Building>4798</Building>
+                </Item>
+              </Tier2>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked>
+          <DefaultLockedState>1</DefaultLockedState>
+        </Locked>
+        <Text />
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD AI HIDDEN CONSTRUCTION MENU (NW) -->
+
+  <!-- START AI - ADD BUILDINGS TO CONSTRUCTION MENU (OW) -->
+  <ModOp Type="addPrevSibling" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1000178']">
+    <Item>
+      <Building>1742100543</Building>
+    </Item>
+  </ModOp>
+  <!-- END AI - ADD BUILDINGS TO CONSTRUCTION MENU (OW) -->
+
+  <!-- START AI - ADD BUILDINGS TO CONSTRUCTION MENU (NW) -->
+  <ModOp Type="addPrevSibling" GUID='25000193' Path="/Values/ConstructionCategory/BuildingList/Item[Building='101308']">
+    <Item>
+      <Building>1742100544</Building>
+    </Item>
+  </ModOp>
+  <!-- END AI - ADD BUILDINGS TO CONSTRUCTION MENU (NW) -->
+
+  <!-- START AI - ADD BUILDINGS TO CONSTRUCTION MENU (EN) -->
+  <ModOp Type="addPrevSibling" GUID='114553' Path="/Values/ConstructionCategory/BuildingList/Item[Building='114523']">
+    <Item>
+      <Building>1742100545</Building>
+    </Item>
+  </ModOp>
+  <!-- END AI - ADD BUILDINGS TO CONSTRUCTION MENU (EN) -->
+
+  <!-- START AI - ADD BUILDINGS TO CONSTRUCTION MENU (AR) -->
+  <ModOp Type="addPrevSibling" GUID='112790' Path="/Values/ConstructionCategory/BuildingList/Item[Building='112113']">
+    <Item>
+      <Building>1742100546</Building>
+    </Item>
+  </ModOp>
+  <!-- END AI - ADD BUILDINGS TO CONSTRUCTION MENU (AR) -->
+
+  <!-- START AI - REMOVE VANILLA BUILDINGS/DEFENSES FROM CONSTRUCTION MENU -->
+  <!-- CONSTRUCTION MENU WORKERS -->
+  <ModOp Type="remove" GUID='500952' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010522']" />
+  <ModOp Type="remove" GUID='500952' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010523']" />
+  <ModOp Type="remove" GUID='500952' Path="/Values/ConstructionCategory/BuildingList/Item[Building='736']" />
+  <!-- CONSTRUCTION MENU ARTISANS -->
+  <ModOp Type="remove" GUID='500953' Path="/Values/ConstructionCategory/BuildingList/Item[Building='625']" />
+  <!-- CONSTRUCTION MENU ENGINEERS -->
+  <ModOp Type="remove" GUID='500954' Path="/Values/ConstructionCategory/BuildingList/Item[Building='3700']" />
+  <ModOp Type="remove" GUID='500954' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010524']" />
+  <!-- CONSTRUCTION MENU HARBOUR (OW) -->
+  <ModOp Type="remove" GUID='500111' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010522']" />
+  <ModOp Type="remove" GUID='500111' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010523']" />
+  <ModOp Type="remove" GUID='500111' Path="/Values/ConstructionCategory/BuildingList/Item[Building='736']" />
+  <ModOp Type="remove" GUID='500111' Path="/Values/ConstructionCategory/BuildingList/Item[Building='625']" />
+  <ModOp Type="remove" GUID='500111' Path="/Values/ConstructionCategory/BuildingList/Item[Building='3700']" />
+  <ModOp Type="remove" GUID='500111' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010524']" />
+  <!-- CONSTRUCTION MENU JORNALEROS -->
+  <ModOp Type="remove" GUID='501007' Path="/Values/ConstructionCategory/BuildingList/Item[Building='101563']" />
+  <ModOp Type="remove" GUID='501007' Path="/Values/ConstructionCategory/BuildingList/Item[Building='742']" />
+  <!-- CONSTRUCTION MENU OBREROS -->
+  <ModOp Type="remove" GUID='501008' Path="/Values/ConstructionCategory/BuildingList/Item[Building='101570']" />
+  <ModOp Type="remove" GUID='501008' Path="/Values/ConstructionCategory/BuildingList/Item[Building='632']" />
+  <ModOp Type="remove" GUID='501008' Path="/Values/ConstructionCategory/BuildingList/Item[Building='4797']" />
+  <!-- CONSTRUCTION MENU HARBOUR (NW) -->
+  <ModOp Type="remove" GUID='500149' Path="/Values/ConstructionCategory/BuildingList/Item[Building='101563']" />
+  <ModOp Type="remove" GUID='500149' Path="/Values/ConstructionCategory/BuildingList/Item[Building='101570']" />
+  <ModOp Type="remove" GUID='500149' Path="/Values/ConstructionCategory/BuildingList/Item[Building='632']" />
+  <ModOp Type="remove" GUID='500149' Path="/Values/ConstructionCategory/BuildingList/Item[Building='742']" />
+  <ModOp Type="remove" GUID='500149' Path="/Values/ConstructionCategory/BuildingList/Item[Building='4797']" />
+  <!-- CONSTRUCTION MENU SHEPHERDS -->
+  <ModOp Type="remove" GUID='114555' Path="/Values/ConstructionCategory/BuildingList/Item[Building='117861']" />
+  <ModOp Type="remove" GUID='114555' Path="/Values/ConstructionCategory/BuildingList/Item[Building='743']" />
+  <!-- CONSTRUCTION MENU ELDERS -->
+  <ModOp Type="remove" GUID='117897' Path="/Values/ConstructionCategory/BuildingList/Item[Building='117863']" />
+  <ModOp Type="remove" GUID='117897' Path="/Values/ConstructionCategory/BuildingList/Item[Building='823']" />
+  <ModOp Type="remove" GUID='117897' Path="/Values/ConstructionCategory/BuildingList/Item[Building='4799']" />
+  <!-- CONSTRUCTION MENU HARBOUR (EN) -->
+  <ModOp Type="remove" GUID='119014' Path="/Values/ConstructionCategory/BuildingList/Item[Building='117861']" />
+  <ModOp Type="remove" GUID='119014' Path="/Values/ConstructionCategory/BuildingList/Item[Building='743']" />
+  <ModOp Type="remove" GUID='119014' Path="/Values/ConstructionCategory/BuildingList/Item[Building='117863']" />
+  <ModOp Type="remove" GUID='119014' Path="/Values/ConstructionCategory/BuildingList/Item[Building='823']" />
+  <ModOp Type="remove" GUID='119014' Path="/Values/ConstructionCategory/BuildingList/Item[Building='4799']" />
+  <!-- CONSTRUCTION MENU TECHNICIANS -->
+  <ModOp Type="remove" GUID='112792' Path="/Values/ConstructionCategory/BuildingList/Item[Building='112671']" />
+  <ModOp Type="remove" GUID='112792' Path="/Values/ConstructionCategory/BuildingList/Item[Building='824']" />
+  <ModOp Type="remove" GUID='112792' Path="/Values/ConstructionCategory/BuildingList/Item[Building='822']" />
+  <ModOp Type="remove" GUID='112792' Path="/Values/ConstructionCategory/BuildingList/Item[Building='4798']" />
+  <!-- CONSTRUCTION MENU HARBOUR (AR) -->
+  <ModOp Type="remove" GUID='116345' Path="/Values/ConstructionCategory/BuildingList/Item[Building='112671']" />
+  <ModOp Type="remove" GUID='116345' Path="/Values/ConstructionCategory/BuildingList/Item[Building='824']" />
+  <ModOp Type="remove" GUID='116345' Path="/Values/ConstructionCategory/BuildingList/Item[Building='822']" />
+  <ModOp Type="remove" GUID='116345' Path="/Values/ConstructionCategory/BuildingList/Item[Building='4798']" />
+  <!-- END AI - REMOVE VANILLA BUILDINGS/DEFENSES FROM CONSTRUCTION MENU -->
+
+  <!-- START NERFING DROPPING GOODS ON AI TO BOOST REPUTATION - ORIGINAL CODE FROM AI Everyone Hard AI (Serp) -->
+  <!-- INCREASING COOLDOWN FROM 30s TO 15min -->
+  <ModOp Type="merge" GUID="167" Path="/Values/Interaction/DropReactionConfig">
+    <DropReaction>
+      <PositiveEffect>
+        <CoolDownAfterThresholdHasBeenReached>900000</CoolDownAfterThresholdHasBeenReached>
+      </PositiveEffect>
+      <IncidentResolver>
+        <CoolDownAfterThresholdHasBeenReached>900000</CoolDownAfterThresholdHasBeenReached>
+      </IncidentResolver>
+    </DropReaction>
+  </ModOp>
+  <!-- NERFING REPUTATION FROM 5 TO 1 -->
+  <!-- Care Packages -->
+  <ModOp Type="merge" GUID="119" Path="/Values/ParticipantMessages/MessageTriggers/AirshipDropPositiveEffectMessage/Reactions/Item[1]">
+    <SideEffectValue>1</SideEffectValue>
+  </ModOp>
+  <!-- Water Drops -->
+  <ModOp Type="merge" GUID="119" Path="/Values/ParticipantMessages/MessageTriggers/AirshipDropIncidentResolvedMessage/Reactions/Item[1]">
+    <SideEffectValue>1</SideEffectValue>
+  </ModOp>
+  <!-- END NERFING DROPPING GOODS ON AI TO BOOST REPUTATION - ORIGINAL CODE FROM AI Everyone Hard AI (Serp) -->
+
+  <!-- START - AI NOT WAITING FOR CAPE TO REACH CERTAIN LEVEL TO GO FURTHER IN OTHER REGIONS - FROM MAD AI (Taube) -->
+  <ModOp GUID='110934' Path="/Values/Session/SecondPartyMotivation" Type="replace">
+    <SecondPartyMotivation>
+      <TargetPopulation>15000000</TargetPopulation>
+      <TargetAmount>1</TargetAmount>
+    </SecondPartyMotivation>
+  </ModOp>
+  <!-- END - AI NOT WAITING FOR CAPE TO REACH CERTAIN LEVEL TO GO FURTHER IN OTHER REGIONS -  FROM MAD AI (Taube) -->
+</ModOps>
+

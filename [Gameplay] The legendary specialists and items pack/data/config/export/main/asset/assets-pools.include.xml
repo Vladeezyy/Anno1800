@@ -1,0 +1,74 @@
+<ModOps>
+  <!-- Extra Pools -->
+  <!-- All Sheep Farms -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+        <Values>
+        <Standard>
+          <GUID>1900000041</GUID>
+          <Name>All Sheep Farms</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>1010267</GUID> <!-- Sheep Farm -->
+            </Item>
+            <Item>
+              <GUID>1500300837</GUID> <!-- Industrial Sheep Farm -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- All Kitchens -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000042</GUID>
+            <Name>All Kitchens</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>1010293</GUID> <!-- Artisanal Kitchen -->
+            </Item>
+            <Item>
+              <GUID>1500011511</GUID> <!-- Seafood Kitchen (Jakob) -->
+            </Item>
+            <Item>
+              <GUID>1555000118</GUID> <!-- Pasta Kitchen -->
+            </Item>
+            <Item>
+              <GUID>101264</GUID> <!-- Fried Plantain Kitchen -->
+            </Item>
+            <Item>
+              <GUID>1999002224</GUID> <!-- Guacamole Kitchen -->
+            </Item>
+            <Item>
+              <GUID>5458</GUID> <!-- Jalea Kitchen -->
+            </Item>
+            <Item>
+              <GUID>1500011235</GUID> <!-- Jam Kitchen (Jakob) -->
+            </Item>
+            <Item>
+              <GUID>114471</GUID> <!-- Wat Kitchen -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Change Text in shared-pools-and-definitions -->
+  <ModOp Type="replace" GUID="1500301021" Path="/Values/Text">
+    <Text>
+      <TextOverride>1500301021</TextOverride>
+    </Text>
+  </ModOp>
+
+</ModOps>

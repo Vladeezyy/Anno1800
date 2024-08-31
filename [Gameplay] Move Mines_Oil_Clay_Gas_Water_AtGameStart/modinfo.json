@@ -1,0 +1,49 @@
+{
+	"Version": "1.0.0",
+	"ModID": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+	"IncompatibleIds": null,
+	"ModDependencies": null,
+	"Category": {
+		"Chinese": "调整",
+		"English": "Adjustments",
+		"French": null,
+		"German": "Anpassung",
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": "Nastawienie",
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	},
+	"ModName": {
+		"Chinese": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"English": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"French": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"German": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Italian": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Japanese": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Korean": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Polish": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Russian": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Spanish": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Taiwanese": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot"
+	},
+	"Description": {
+		"Chinese": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"English": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"French": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"German": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Italian": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Japanese": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Korean": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Polish": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Russian": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Spanish": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot",
+		"Taiwanese": "Move Mines_Oil Well_Clay Deposit_Gas Deposit_Water Slot"
+	},
+	"KnownIssues": null,
+	"DLCDependencies": null,
+	"CreatorName": "Senfdeckel98",
+	"CreatorContact": "Senfdeckel98"
+}

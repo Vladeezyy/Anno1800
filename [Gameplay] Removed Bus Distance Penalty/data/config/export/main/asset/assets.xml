@@ -1,0 +1,50 @@
+<ModOps>
+	<!-- START CHANGE - Restaurant_Need -->
+	<ModOp Type="Merge" GUID="132751" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - Bar_Need -->
+	<ModOp Type="Merge" GUID="132754" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - Cafe_Need -->
+	<ModOp Type="Merge" GUID="132755" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - Cabaret_Need -->
+	<ModOp Type="Merge" GUID="133573" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - Zoo_Need -->
+	<ModOp Type="Merge" GUID="601485" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - Museum_Need -->
+	<ModOp Type="Merge" GUID="133535" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - BotanicalGarden_Need -->
+	<ModOp Type="Merge" GUID="355" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - Palace_Need -->
+	<ModOp Type="Merge" GUID="134257" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - Tourist_Monument_Need -->
+	<ModOp Type="Merge" GUID="132761" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - WorldFair_Monument_Need -->
+	<ModOp Type="Merge" GUID="133536" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - Docklands_Need -->
+	<ModOp Type="Merge" GUID="134781" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+	<!-- START CHANGE - SkylineTower_Monument_Need -->
+	<ModOp Type="Merge" GUID="137757" Path="Values/Product">
+		<BusDistancePenalty>1</BusDistancePenalty>
+	</ModOp>
+</ModOps>

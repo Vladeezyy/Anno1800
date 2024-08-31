@@ -1,0 +1,345 @@
+<!-- 
+  Pools
+-->
+
+<ModOps>
+
+  <!-- *************************************** AssetPool *************************************** -->
+
+  <!-- START - ALL PLAYER SHIPS / ALL PLAYER SHIPS CAMPAIGN - AssetPool -->
+  <ModOp Type="add" GUID="700151,270174" Path="/Values/AssetPool/AssetList/">
+    <Item>
+      <Asset>1742100576</Asset>      <!-- Windjammer - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100578</Asset>      <!-- The Duke - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100581</Asset>      <!-- Small Cargo Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100583</Asset>      <!-- Small Battle Cruiser -->
+    </Item>
+    <Item>
+      <Asset>1742100585</Asset>      <!-- Heavy Battle Cruiser -->
+    </Item>
+    <Item>
+      <Asset>1742100587</Asset>      <!-- Torpedo Boat - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100589</Asset>      <!-- Corvette - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100591</Asset>      <!-- Auxiliary Ship - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100611</Asset>      <!-- Small Reefer - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100615</Asset>      <!-- Ironclad Cruiser - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100609</Asset>      <!-- Flak Ironclad - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100624</Asset>      <!-- Small Oil Tanker - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100625</Asset>      <!-- Large Oil Tanker - Ship -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL PLAYER SHIPS / ALL PLAYER SHIPS CAMPAIGN - AssetPool -->
+
+  <!-- START - ALL AIRSHIPS - AssetPool -->
+  <ModOp Type="add" GUID="102180" Path="/Values/AssetPool/AssetList/">
+    <Item>
+      <Asset>1742100613</Asset>      <!-- B42 - AirShip -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL AIRSHIPS - AssetPool -->
+
+  <!-- *************************************** PlayerCounterContextPool *************************************** -->
+
+  <!-- START - ALL PLAYER SHIPS - PlayerCounterContextPool -->
+  <ModOp Type="add" GUID="700155,700065" Path="/Values/PlayerCounterContextPool/Contexts/">
+    <Item>
+      <Asset>1742100576</Asset>      <!-- Windjammer - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100578</Asset>      <!-- The Duke - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100581</Asset>      <!-- Small Cargo Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100583</Asset>      <!-- Small Battle Cruiser -->
+    </Item>
+    <Item>
+      <Asset>1742100585</Asset>      <!-- Heavy Battle Cruiser -->
+    </Item>
+    <Item>
+      <Asset>1742100587</Asset>      <!-- Torpedo Boat - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100589</Asset>      <!-- Corvette - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100591</Asset>      <!-- Auxiliary Ship - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100611</Asset>      <!-- Small Reefer - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100615</Asset>      <!-- Ironclad Cruiser - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100609</Asset>      <!-- Flak Ironclad - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100624</Asset>      <!-- Small Oil Tanker - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100625</Asset>      <!-- Large Oil Tanker - Ship -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL PLAYER SHIPS - PlayerCounterContextPool -->
+
+  <!-- START - ALL MLITARY SHIPS - PlayerCounterContextPool -->
+  <ModOp Type="add" GUID="119965" Path="/Values/PlayerCounterContextPool/Contexts/">
+    <Item>
+      <Asset>1742100578</Asset>      <!-- The Duke - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100583</Asset>      <!-- Small Battle Cruiser -->
+    </Item>
+    <Item>
+      <Asset>1742100585</Asset>      <!-- Heavy Battle Cruiser -->
+    </Item>
+    <Item>
+      <Asset>1742100587</Asset>      <!-- Torpedo Boat - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100589</Asset>      <!-- Corvette - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100615</Asset>      <!-- Ironclad Cruiser - Ship -->
+    </Item>
+    <Item>
+      <Asset>1742100609</Asset>      <!-- Flak Ironclad - Ship -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL MLITARY SHIPS - PlayerCounterContextPool -->
+
+  <!-- START - ALL AIRSHIPS - PlayerCounterContextPool -->
+  <ModOp Type="add" GUID="104661,103085,104750" Path="/Values/PlayerCounterContextPool/Contexts/">
+    <Item>
+      <Asset>1742100613</Asset>      <!-- B42 - AirShip -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL MLITARY SHIPS - PlayerCounterContextPool -->
+
+  <!-- *************************************** ItemEffectTargetPool *************************************** -->
+
+  <!-- START - ALL SHIPS - ItemEffectTargetPool-->
+  <ModOp Type="add" GUID="191454" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>1742100576</GUID>      <!-- Windjammer - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100578</GUID>      <!-- The Duke - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100581</GUID>      <!-- Small Cargo Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100583</GUID>      <!-- Small Battle Cruiser -->
+    </Item>
+    <Item>
+      <GUID>1742100585</GUID>      <!-- Heavy Battle Cruiser -->
+    </Item>
+    <Item>
+      <GUID>1742100587</GUID>      <!-- Torpedo Boat - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100589</GUID>      <!-- Corvette - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100591</GUID>      <!-- Auxiliary Ship - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100611</GUID>      <!-- Small Reefer - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100613</GUID>      <!-- B42 - AirShip -->
+    </Item>
+    <Item>
+      <GUID>1742100615</GUID>      <!-- Ironclad Cruiser - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100609</GUID>      <!-- Flak Ironclad - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100624</GUID>      <!-- Small Oil Tanker - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100625</GUID>      <!-- Large Oil Tanker - Ship -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL SHIPS - ItemEffectTargetPool -->
+
+  <!-- START - ALL SAILING SHIPS - ItemEffectTargetPool-->
+  <ModOp Type="add" GUID="191455" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>1742100576</GUID>      <!-- Windjammer - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100578</GUID>      <!-- The Duke - Ship -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL SAILING SHIPS - ItemEffectTargetPool -->
+
+  <!-- START - ALL STEAMSHIPS - ItemEffectTargetPool -->
+  <ModOp Type="add" GUID="191456" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>1742100581</GUID>      <!-- Small Cargo Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100583</GUID>      <!-- Small Battle Cruiser -->
+    </Item>
+    <Item>
+      <GUID>1742100585</GUID>      <!-- Heavy Battle Cruiser -->
+    </Item>
+    <Item>
+      <GUID>1742100587</GUID>      <!-- Torpedo Boat - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100589</GUID>      <!-- Corvette - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100591</GUID>      <!-- Auxiliary Ship - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100611</GUID>      <!-- Small Reefer - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100615</GUID>      <!-- Ironclad Cruiser - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100609</GUID>      <!-- Flak Ironclad - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100624</GUID>      <!-- Small Oil Tanker - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100625</GUID>      <!-- Large Oil Tanker - Ship -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL STEAMSHIPS - ItemEffectTargetPool -->
+
+  <!-- START - ALL TRADE SHIP - ItemEffectTargetPool -->
+  <ModOp Type="add" GUID="193982" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>1742100576</GUID>      <!-- Windjammer - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100581</GUID>      <!-- Small Cargo Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100611</GUID>      <!-- Small Reefer - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100624</GUID>      <!-- Small Oil Tanker - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100625</GUID>      <!-- Large Oil Tanker - Ship -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL TRADE SHIP - ItemEffectTargetPool -->
+
+  <!-- START - ALL WARSHIPS / ALL MILITARY UNITS - ItemEffectTargetPool -->
+  <ModOp Type="add" GUID="191458,193986" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>1742100578</GUID>      <!-- The Duke - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100583</GUID>      <!-- Small Battle Cruiser -->
+    </Item>
+    <Item>
+      <GUID>1742100585</GUID>      <!-- Heavy Battle Cruiser -->
+    </Item>
+    <Item>
+      <GUID>1742100587</GUID>      <!-- Torpedo Boat - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100589</GUID>      <!-- Corvette - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100615</GUID>      <!-- Ironclad Cruiser - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100609</GUID>      <!-- Flak Ironclad - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100613</GUID>      <!-- B42 - AirShip -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL WARSHIPS / ALL MILITARY UNITS - ItemEffectTargetPool -->
+
+  <!-- START - ALL WOODEN HULL SHIPS (Flamable) - ItemEffectTargetPool-->
+  <ModOp Type="add" GUID="1398" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>1742100576</GUID>      <!-- Windjammer - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100578</GUID>      <!-- The Duke - Ship -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL WOODEN HULL SHIPS (Flamable) - ItemEffectTargetPool-->
+
+  <!-- START - ALL STEAL HULL SHIPS - ItemEffectTargetPool -->
+  <ModOp Type="add" GUID="1404" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>1742100581</GUID>      <!-- Small Cargo Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100583</GUID>      <!-- Small Battle Cruiser -->
+    </Item>
+    <Item>
+      <GUID>1742100585</GUID>      <!-- Heavy Battle Cruiser -->
+    </Item>
+    <Item>
+      <GUID>1742100587</GUID>      <!-- Torpedo Boat - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100589</GUID>      <!-- Corvette - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100591</GUID>      <!-- Auxiliary Ship - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100611</GUID>      <!-- Small Reefer - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100615</GUID>      <!-- Ironclad Cruiser - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100609</GUID>      <!-- Flak Ironclad - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100624</GUID>      <!-- Small Oil Tanker - Ship -->
+    </Item>
+    <Item>
+      <GUID>1742100625</GUID>      <!-- Large Oil Tanker - Ship -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL STEAL HULL SHIPS - ItemEffectTargetPool -->
+
+  <!-- START - ALL AIRSHIPS - ItemEffectTargetPool -->
+  <ModOp Type="add" GUID="102492" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/">
+    <Item>
+      <GUID>1742100613</GUID>      <!-- B42 - AirShip -->
+    </Item>
+  </ModOp>
+  <!-- END - ALL AIRSHIPS - ItemEffectTargetPool -->
+
+</ModOps>

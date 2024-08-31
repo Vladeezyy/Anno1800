@@ -1,0 +1,9 @@
+<ModOps>
+  <Include File="./cleanups.include.xml" />
+  <Include File="./compat.include.xml" />
+  <Include File="./tabs.include.xml" />
+  <Include File="./ow-groups.include.xml" />
+  <Include File="./nw-groups.include.xml" />
+  <Include File="./other-groups.include.xml" />
+  <Include File="./residences.include.xml" />
+</ModOps>

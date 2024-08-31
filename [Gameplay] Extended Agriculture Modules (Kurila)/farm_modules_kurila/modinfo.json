@@ -1,0 +1,65 @@
+{
+  "Version": "1.8.4",
+  "ModID": "farm_modules_kurila",
+  "DeprecateIds": [
+    "[Gameplay] Farmhouse Tractor-transporter",
+    "extended_farm_tractors_kurila",
+    "tractors_kurila",
+    "farm_tractors_kurila"
+  ],
+  "LoadAfterIds": [
+    "*",
+    "animal_modules_kurila"
+  ],
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Farm Modules (Kurila)",
+    "English": "Farm Modules (Kurila)",
+    "French": "Farm Modules (Kurila)",
+    "German": "Farm Modules (Kurila)",
+    "Italian": "Farm Modules (Kurila)",
+    "Japanese": "Farm Modules (Kurila)",
+    "Korean": "Farm Modules (Kurila)",
+    "Polish": "Farm Modules (Kurila)",
+    "Russian": "Farm Modules (Kurila)",
+    "Spanish": "Farm Modules (Kurila)",
+    "Taiwanese": "Farm Modules (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": "file::README.ENG.md",
+    "French": "file::README.ENG.md",
+    "Italian": "file::README.ENG.md",
+    "Japanese": "file::README.ENG.md",
+    "Korean": "file::README.ENG.md",
+    "Polish": "file::README.ENG.md",
+    "Russian": "file::README.ENG.md",
+    "Spanish": "file::README.ENG.md",
+    "Taiwanese": "file::README.ENG.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "BrightHarvest",
+      "Dependant": "Required"
+    }
+  ],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

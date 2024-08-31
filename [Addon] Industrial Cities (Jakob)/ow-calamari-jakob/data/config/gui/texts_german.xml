@@ -1,0 +1,22 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011532</GUID>
+      <Text>Calamares-Vorkommen</Text>
+    </Text>
+    <Text>
+      <GUID>1500011533</GUID>
+      <Text>Spielstand-Kompatibilität</Text>
+    </Text>
+    <Text>
+      <GUID>1500011534</GUID>
+      <Text>Buff für Spielstände ohne benötigte Fruchtbarkeiten.</Text>
+    </Text>
+    <Text>
+      <GUID>1500011540</GUID>
+      <!-- Mod origin/name -->
+      <Text>Produktion (Jakob)</Text>
+      <IndustrialCities />
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,29 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011330</GUID>
+      <Text>Образование</Text>
+    </Text>
+    <Text>
+      <GUID>1500011331</GUID>
+      <Text>Религия</Text>
+    </Text>
+    <Text>
+      <GUID>1500011120</GUID>
+      <Text>Портовые пушки</Text>
+    </Text>
+    <Text>
+      <GUID>1500011541</GUID>
+      <!-- Mod origin/name -->
+      <Text>Compact Menus</Text>
+    </Text>
+    <Text>
+      <GUID>1500011543</GUID>
+      <Text>Обществ. здания</Text>
+    </Text>
+  </ModOp>
+
+  <ModOp Type="replace" Condition="/TextExport/Texts/Text[GUID='101037222']" Path="/TextExport/Texts/Text[GUID='101037222']/Text">
+    <Text>Рынок с Красной Крышей</Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,22 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011532</GUID>
+      <Text>Abbondanza di calamari</Text>
+    </Text>
+    <Text>
+      <GUID>1500011533</GUID>
+      <Text>Compatibilità del salvataggio</Text>
+    </Text>
+    <Text>
+      <GUID>1500011534</GUID>
+      <Text>Potenziamento per supportare i salvataggi esistenti senza fertilità richieste.</Text>
+    </Text>
+    <Text>
+      <GUID>1500011540</GUID>
+      <!-- Mod origin/name -->
+      <Text>Production (Jakob)</Text>
+      <IndustrialCities />
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500301410</GUID>
+      <Text>[AssetData(601443) Text]</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500301411</GUID>
+      <Text>[AssetData(601443) Text]</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500301412</GUID>
+      <Text>[AssetData(601443) Text]</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500301413</GUID>
+      <Text>[AssetData(601443) Text]</Text>
+    </Text>
+  </ModOp>
+</ModOps>

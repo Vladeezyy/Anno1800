@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010079</GUID>
+      <Text>Brama</Text>
+    </Text>
+    <Text>
+      <GUID>1500010080</GUID>
+      <Text>[AssetData(1500010079) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1500010081</GUID>
+      <Text>Połączenie modułów w obrębie drogi zachowuje premię atrakcyjności</Text>
+    </Text>
+  </ModOp>
+</ModOps>

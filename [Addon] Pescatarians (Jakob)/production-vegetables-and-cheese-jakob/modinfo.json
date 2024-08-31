@@ -1,0 +1,49 @@
+{
+  "Version": "1.1.7",
+  "ModID": "production-vegetables-and-cheese-jakob",
+  "ModDependencies": [
+    "shared-ground-textures-industry-jakob",
+    "shared-products-jakob"
+  ],
+  "Category": {
+    "English": "Production",
+    "Chinese": "Production",
+    "French": "Production",
+    "German": "Production",
+    "Italian": "Production",
+    "Japanese": "Production",
+    "Korean": "Production",
+    "Polish": "Production",
+    "Russian": "Production",
+    "Spanish": "Production",
+    "Taiwanese": "Production"
+  },
+  "ModName": {
+    "English": "Vegetables and Cheese (Jakob)",
+    "Chinese": "Vegetables and Cheese (Jakob)",
+    "French": "Vegetables and Cheese (Jakob)",
+    "German": "Vegetables and Cheese (Jakob)",
+    "Italian": "Vegetables and Cheese (Jakob)",
+    "Japanese": "Vegetables and Cheese (Jakob)",
+    "Korean": "Vegetables and Cheese (Jakob)",
+    "Polish": "Vegetables and Cheese (Jakob)",
+    "Russian": "Vegetables and Cheese (Jakob)",
+    "Spanish": "Vegetables and Cheese (Jakob)",
+    "Taiwanese": "Vegetables and Cheese (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno-1800-jakobs-mods",
+  "Description": {
+    "English": "README.md",
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

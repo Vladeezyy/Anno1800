@@ -1,0 +1,22 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010848</GUID>
+      <Text>Fattoria delle erbe</Text>
+    </Text>
+    <Text>
+      <GUID>1500011398</GUID>
+      <Text>Compatibilità del salvataggio</Text>
+    </Text>
+    <Text>
+      <GUID>1500011399</GUID>
+      <Text>Potenziamento per supportare i salvataggi esistenti senza fertilità richieste.</Text>
+    </Text>
+    <Text>
+      <GUID>1500011517</GUID>
+      <!-- Mod origin/name -->
+      <Text>Production (Jakob)</Text>
+      <IndustrialCities />
+    </Text>
+  </ModOp>
+</ModOps>

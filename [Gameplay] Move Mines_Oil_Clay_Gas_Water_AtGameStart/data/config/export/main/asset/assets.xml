@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModOps>
+  <ModOp Type="remove" GUID="101061,101062,102498" Path="/Values/Building/MoveRequiredGodlike" />
+  <ModOp Type="add" GUID="112691,116038,1372,1387,1010500,1010501,101061,1010503,1010504,1010505,1010507,113750,129024,117741,129382,1000029,100417,100849,102458,614,5989" Path="/Values/Building">
+    <Movable>1</Movable>
+  </ModOp>
+</ModOps>

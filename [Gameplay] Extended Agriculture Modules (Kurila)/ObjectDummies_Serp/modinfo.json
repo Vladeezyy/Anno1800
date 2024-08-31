@@ -1,0 +1,48 @@
+{
+  "Version": "1.10",
+  "ModID": "ObjectDummies_Serp",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "English": "Shared",
+    "German": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Object Dummies",
+    "German": "Object Dummies",
+    "Chinese": "Object Dummies",
+    "French": "Object Dummies",
+    "Italian": "Object Dummies",
+    "Japanese": "Object Dummies",
+    "Korean": "Object Dummies",
+    "Polish": "Object Dummies",
+    "Russian": "Object Dummies",
+    "Spanish": "Object Dummies",
+    "Taiwanese": "Object Dummies"
+  },
+  "Description": {
+    "English": "For Modders: Object Dummies for Modders, see modfiles.",
+    "German": "Für Modder: Object Dummies für Modder, siehe Mod Dateien ",
+    "Chinese": "For Modders: Object Dummies for Modders, see modfiles.",
+    "French": "For Modders: Object Dummies for Modders, see modfiles.",
+    "Italian": "For Modders: Object Dummies for Modders, see modfiles.",
+    "Japanese": "For Modders: Object Dummies for Modders, see modfiles.",
+    "Korean": "For Modders: Object Dummies for Modders, see modfiles.",
+    "Polish": "For Modders: Object Dummies for Modders, see modfiles.",
+    "Russian": "For Modders: Object Dummies for Modders, see modfiles.",
+    "Spanish": "For Modders: Object Dummies for Modders, see modfiles.",
+    "Taiwanese": "For Modders: Object Dummies for Modders, see modfiles."
+  },
+  "DLCDependencies": null,
+  "CreatorName": "Serp",
+  "CreatorContact": "https://github.com/Serpens66"
+}

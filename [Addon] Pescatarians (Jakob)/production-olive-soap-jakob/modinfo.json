@@ -1,0 +1,48 @@
+{
+  "Version": "1.1.3",
+  "ModID": "production-olive-soap-jakob",
+  "ModDependencies": [
+    "shared-products-jakob"
+  ],
+  "Category": {
+    "Chinese": "生产",
+    "English": "Production",
+    "French": "Production",
+    "German": "Production",
+    "Italian": "Production",
+    "Japanese": "Production",
+    "Korean": "Production",
+    "Polish": "Production",
+    "Russian": "Production",
+    "Spanish": "Production",
+    "Taiwanese": "Production"
+  },
+  "ModName": {
+    "Chinese": "橄榄皂(Jakob)",
+    "English": "Olive Soap (Jakob)",
+    "French": "Olive Soap (Jakob)",
+    "German": "Olive Soap (Jakob)",
+    "Italian": "Olive Soap (Jakob)",
+    "Japanese": "Olive Soap (Jakob)",
+    "Korean": "Olive Soap (Jakob)",
+    "Polish": "Olive Soap (Jakob)",
+    "Russian": "Olive Soap (Jakob)",
+    "Spanish": "Olive Soap (Jakob)",
+    "Taiwanese": "Olive Soap (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno-1800-jakobs-mods",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

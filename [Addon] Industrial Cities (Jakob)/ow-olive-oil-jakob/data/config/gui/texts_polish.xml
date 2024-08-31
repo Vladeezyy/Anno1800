@@ -1,0 +1,38 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010107</GUID>
+      <Text>Gaj oliwny</Text>
+    </Text>
+    <Text>
+      <GUID>1500010110</GUID>
+      <Text>Drzewo oliwne</Text>
+    </Text>
+    <Text>
+      <GUID>1500011325</GUID>
+      <Text>Fabryka oleju oliwnego</Text>
+    </Text>
+    <Text>
+      <GUID>1500011326</GUID>
+      <Text>Olej oliwny</Text>
+    </Text>
+    <Text>
+      <GUID>1500011341</GUID>
+      <Text>Płodność oliwek</Text>
+    </Text>
+    <Text>
+      <GUID>1500011394</GUID>
+      <Text>Zgodność zapisu gry</Text>
+    </Text>
+    <Text>
+      <GUID>1500011395</GUID>
+      <Text>Wzmocnienie wsparcia istniejących zapisów gry bez wymaganych płodności.</Text>
+    </Text>
+    <Text>
+      <GUID>1500011519</GUID>
+      <!-- Mod origin/name -->
+      <Text>Production (Jakob)</Text>
+      <IndustrialCities />
+    </Text>
+  </ModOp>
+</ModOps>

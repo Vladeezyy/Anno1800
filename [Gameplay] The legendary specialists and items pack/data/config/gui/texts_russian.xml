@@ -1,0 +1,221 @@
+<ModOps>
+
+<!-- Changes text in shared-pools-and-definitions -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011904</GUID>
+      <Text>Все фабрики швейных машин</Text> <!-- 1010284 -->
+    </Text>
+    <Text>
+      <GUID>1500200673</GUID>
+      <Text>Все пекарни</Text> <!-- 1010291 -->
+    </Text>
+    <Text>
+      <GUID>1500301021</GUID>
+      <Text>Все текстильные фабрики</Text> <!-- 1010315 -->
+    </Text>
+  </ModOp>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000003</GUID>
+			<Text>Алексей Стаханов</Text>
+		</Text>
+		<Text>
+			<GUID>1900000004</GUID>
+			<Text>Советский шахтёр, новатор угольной промышленности, основоположник Стахановского движения.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000005</GUID>
+			<Text>Капитан Немо</Text>
+		</Text>
+		<Text>
+			<GUID>1900000006</GUID>
+			<Text>Легендарный Капитан подводного корабля «Наутилус» из романов Жюля Верна!</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000007</GUID>
+			<Text>Жак-Ив Кусто</Text>
+		</Text>
+		<Text>
+			<GUID>1900000008</GUID>
+			<Text>Французский исследователь мирового океана, фотограф, режиссёр, изобретатель, автор множества книг и фильмов.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000009</GUID>
+			<Text>Снаряд "Нобель"</Text>
+		</Text>
+		<Text>
+			<GUID>1900000010</GUID>
+			<Text>Сверхмощный снаряд, названный в честь Альфреда Нобеля.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000011</GUID>
+			<Text>Пушка "Центурион"</Text>
+		</Text>
+		<Text>
+			<GUID>1900000012</GUID>
+			<Text>Сверхточное и сверхмощное орудие.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000013</GUID>
+			<Text>Двигатель "Галиаф"</Text>
+		</Text>
+		<Text>
+			<GUID>1900000014</GUID>
+			<Text>Самый мощный двигатель в мире.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000015</GUID>
+			<Text>Двигатель "Циклон"</Text>
+		</Text>
+		<Text>
+			<GUID>1900000016</GUID>
+			<Text>Быстрый, как ураган.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000017</GUID>
+			<Text>Генри Форд</Text>
+		</Text>
+		<Text>
+			<GUID>1900000018</GUID>
+			<Text>Американский промышленник, владелец заводов по производству автомобилей по всему миру.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000019</GUID>
+			<Text>Элиша Грейвс Отис</Text>
+		</Text>
+		<Text>
+			<GUID>1900000020</GUID>
+			<Text>Американский изобретатель безопасного лифта.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000021</GUID>
+			<Text>Айзек Зингер</Text>
+		</Text>
+		<Text>
+			<GUID>1900000022</GUID>
+			<Text>Внёс существенный вклад в усовершенствование конструкции швейной машины и основал компанию «Зингер».</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000023</GUID>
+			<Text>Клод Моэт</Text>
+		</Text>
+		<Text>
+			<GUID>1900000024</GUID>
+			<Text>Клод Моэт был голландским виноделом и торговцем вином, который основал дом шампанского Moët et Chandon.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000025</GUID>
+			<Text>Габриэль Бонёр "Коко" Шанель</Text>
+		</Text>
+		<Text>
+			<GUID>1900000026</GUID>
+			<Text>Французская модельер и основательница модного дома Chanel.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000027</GUID>
+			<Text>Ливай Страус</Text>
+		</Text>
+		<Text>
+			<GUID>1900000028</GUID>
+			<Text>Изобретатель джинсов.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000029</GUID>
+			<Text>Мистер Прингл</Text>
+		</Text>
+		<Text>
+			<GUID>1900000030</GUID>
+			<Text>Вы его знаете.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000031</GUID>
+			<Text>Ашот Чобанян, пастух из Арцаха</Text>
+		</Text>
+		<Text>
+			<GUID>1900000032</GUID>
+			<Text>Вы его не знаете.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000033</GUID>
+			<Text>Альфредо Лингвини и его тайный помощник - минишеф</Text>
+		</Text>
+		<Text>
+			<GUID>1900000034</GUID>
+			<Text>Знаменитый повар из мультфильма "Рататуй".</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000035</GUID>
+			<Text>Система фильтрации метана "Свежесть"</Text>
+		</Text>
+		<Text>
+			<GUID>1900000036</GUID>
+			<Text>Создан, чтобы спасать жизни шахтёров.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000037</GUID>
+			<Text>Тоннелепроходческий комплекс "Шаи-Хулуд"</Text>
+		</Text>
+		<Text>
+			<GUID>1900000038</GUID>
+			<Text>Машина для прокладки глубоких шахт.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000039</GUID>
+			<Text>Тяжелый бур "Землеройка"</Text>
+		</Text>
+		<Text>
+			<GUID>1900000040</GUID>
+			<Text>Кроткие наследуют землю, но не её минеральные ресурсы.</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000041</GUID>
+			<Text>Все овцефермы</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000042</GUID>
+			<Text>Все кухни</Text>
+		</Text>
+	</ModOp>
+</ModOps>

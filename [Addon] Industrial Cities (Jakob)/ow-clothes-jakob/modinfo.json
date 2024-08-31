@@ -1,0 +1,52 @@
+{
+  "Version": "1.0.4",
+  "ModID": "ow-clothes-jakob",
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "ow-flax-jakob"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
+  "Category": {
+    "English": "Production",
+    "Chinese": "Production",
+    "French": "Production",
+    "German": "Production",
+    "Italian": "Production",
+    "Japanese": "Production",
+    "Korean": "Production",
+    "Polish": "Production",
+    "Russian": "Production",
+    "Spanish": "Production",
+    "Taiwanese": "Production"
+  },
+  "ModName": {
+    "English": "OW Clothes (Jakob)",
+    "Chinese": "OW Clothes (Jakob)",
+    "French": "OW Clothes (Jakob)",
+    "German": "OW Clothes (Jakob)",
+    "Italian": "OW Clothes (Jakob)",
+    "Japanese": "OW Clothes (Jakob)",
+    "Korean": "OW Clothes (Jakob)",
+    "Polish": "OW Clothes (Jakob)",
+    "Russian": "OW Clothes (Jakob)",
+    "Spanish": "OW Clothes (Jakob)",
+    "Taiwanese": "OW Clothes (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno1800-jakobs-mods",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

@@ -1,0 +1,57 @@
+<ModOps>
+  <!-- # Modular Factories -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010600</GUID>
+      <Text>Sewing Machine Factory</Text>
+    </Text>
+    <Text>
+      <GUID>1500011315</GUID>
+      <Text>Industrial Distillery</Text>
+    </Text>
+    <Text>
+      <GUID>1500011270</GUID>
+      <Text>Industrial Soap Factory</Text>
+    </Text>
+    <Text>
+      <GUID>1500011271</GUID>
+      <Text>Industrial Rendering Works</Text>
+    </Text>
+    <Text>
+      <GUID>1500011310</GUID>
+      <Text>Industrial Bakery</Text>
+    </Text>
+    <Text>
+      <GUID>1500011311</GUID>
+      <Text>Industrial Flour Mill</Text>
+    </Text>
+    <Text>
+      <GUID>1500011318</GUID>
+      <Text>Industrial Malthouse</Text>
+    </Text>
+    <Text>
+      <GUID>1500011317</GUID>
+      <Text>Industrial Brewery</Text>
+    </Text>
+    <Text>
+      <GUID>1500011320</GUID>
+      <Text>Industrial Knitter</Text>
+    </Text>
+    <Text>
+      <GUID>1500011313</GUID>
+      <Text>Industrial Butcher</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Modular Factories menu -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010601</GUID>
+      <Text>Industrial Complex</Text> <!-- menu: modular factories -->
+    </Text>
+    <Text>
+      <GUID>1500010602</GUID>
+      <Text>Multiple factories merge into one complex</Text> <!-- menu desc: modular factories -->
+    </Text>
+  </ModOp>
+</ModOps>

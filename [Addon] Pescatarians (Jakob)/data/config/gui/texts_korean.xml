@@ -1,0 +1,209 @@
+<ModOps>
+  <!-- # Pescatarians -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- main -->
+    <Text>
+      <GUID>601382</GUID>
+      <Text>페스카테리안</Text>
+    </Text>
+    <Text>
+      <GUID>1500010100</GUID>
+      <Text>공동체 회관</Text>
+    </Text>
+    <Text>
+      <GUID>1500010118</GUID>
+      <Text>공동체 회관</Text> <!-- public service: luxury -->
+    </Text>
+    <Text>
+      <GUID>1500010119</GUID>
+      <Text>공동체 회관</Text> <!-- public service: basic -->
+    </Text>
+    <Text>
+      <GUID>1500010134</GUID>
+      <Text>페스카테리안</Text>
+    </Text>
+    <Text>
+      <GUID>1500010136</GUID>
+      <Text>새로운 인구</Text> <!-- AGE OF -->
+    </Text>
+    <Text>
+      <GUID>1500010137</GUID>
+      <Text>페스카테리안</Text> <!-- AGRICULTURE -->
+    </Text>
+    <Text>
+      <GUID>1500010142</GUID>
+      <Text>페스카테리안 농부 주거지</Text>
+    </Text>
+    <Text>
+      <GUID>1500010143</GUID>
+      <Text>페스카테리안 노동자 주거지</Text>
+    </Text>
+    <Text>
+      <GUID>1500010144</GUID>
+      <Text>페스카테리안 직공 주거지</Text>
+    </Text>
+    <Text>
+      <GUID>1500010145</GUID>
+      <Text>페스카테리안 기술자 주거지</Text>
+    </Text>
+    <Text>
+      <GUID>1500010146</GUID>
+      <Text>페스카테리안 주민들이 사는 곳입니다. 주민은 수입과 노동력을 제공합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1500010147</GUID>
+      <Text>페스카테리안 주거지</Text>
+    </Text>
+    <Text>
+      <GUID>1500010148</GUID>
+      <Text>페스카테리안 주거지</Text>
+    </Text>
+    <Text>
+      <GUID>1500010169</GUID>
+      <Text>기술자와 직공이 혼합된 주거지입니다.</Text> <!-- Skin Description: Mixed Engineer and Artisan residences. -->
+    </Text>
+    <Text>
+      <GUID>1500010170</GUID>
+      <Text>Pescatarians (Jakob)</Text> <!-- Mod name -->
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010173</GUID>
+      <Text>더 높은 직공 주거지입니다.</Text> <!-- Skin Description: Taller Artisan residences. -->
+    </Text>
+    <Text>
+      <GUID>1500010186</GUID>
+      <Text>[AssetData(1500010134) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1500010188</GUID>
+      <Text>주거지</Text>
+    </Text>
+    <Text>
+      <GUID>1500010189</GUID>
+      <Text>직공과 노동자가 혼합된 주거지입니다.</Text> <!-- Skin Description: Mixed Artisan and Worker residences. -->
+    </Text>
+    <Text>
+      <GUID>1500010282</GUID>
+      <Text>페스카테리안 주거지</Text>
+    </Text>
+    <Text>
+      <GUID>1500010800</GUID>
+      <Text>음악 학교</Text> <!-- building: music school -->
+    </Text>
+    <Text>
+      <GUID>1500010801</GUID>
+      <Text>[AssetData(1500010800) Text]</Text> <!-- service: music school -->
+    </Text>
+    <Text>
+      <GUID>1500010804</GUID>
+      <Text>혼합된 노동력</Text>
+    </Text>
+    <Text>
+      <GUID>1500010806</GUID> <!-- can't be AssetData -->
+      <Text>페스카테리안</Text>
+    </Text>
+    <Text>
+      <GUID>1500010810</GUID>
+      <Text>성난 페스카테리안</Text>
+    </Text>
+    <Text>
+      <GUID>1500010811</GUID>
+      <Text>불행한 페스카테리안</Text>
+    </Text>
+    <Text>
+      <GUID>1500010812</GUID>
+      <Text>만족하는 페스카테리안</Text>
+    </Text>
+    <Text>
+      <GUID>1500010813</GUID>
+      <Text>행복한 페스카테리안</Text>
+    </Text>
+    <Text>
+      <GUID>1500010814</GUID>
+      <Text>행복에 취한 페스카테리안</Text>
+    </Text>
+    <Text>
+      <GUID>1500010321</GUID>
+      <Text>높은 빨간 양식(Tall Red Skin)</Text>
+    </Text>
+    <Text>
+      <GUID>1500010833</GUID>
+      <Text>검은 양식(Dark Skin)</Text>
+    </Text>
+    <Text>
+      <GUID>1500010311</GUID>
+      <Text>높은 파란 양식(Tall Blue Skin)</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Services -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010816</GUID>
+      <Text>도서관</Text>
+    </Text>
+    <Text>
+      <GUID>1500010818</GUID>
+      <Text>도서관</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010841</GUID>
+      <Text>노란 양식(Yellow Skin)</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010842</GUID>
+      <Text>학교 양식(School Skin)</Text>
+    </Text>
+    <Text>
+      <GUID>1500010817</GUID>
+      <Text>작은 우체국</Text>
+    </Text>
+    <Text>
+      <GUID>1500010819</GUID>
+      <Text>해산물 식당</Text>
+    </Text>
+    <Text>
+      <GUID>1500010820</GUID>
+      <Text>해산물 식당</Text>
+    </Text>
+  </ModOp> 
+  
+  <!-- # Ships -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010821</GUID>
+      <Text>3 돛 소형 범선</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Productions -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010822</GUID>
+      <Text>밧줄 제작소(Rope Maker)</Text>
+    </Text>
+    <Text>
+      <GUID>1500010824</GUID>
+      <Text>밧줄</Text>
+    </Text>
+    <Text>
+      <GUID>1500010825</GUID>
+      <Text>밧줄</Text>
+    </Text>
+    <Text>
+      <GUID>1500010827</GUID>
+      <Text>어망(Fishernets)</Text>
+    </Text>
+    <Text>
+      <GUID>1500010828</GUID>
+      <Text>어망 제작소(Fishernet Maker)</Text>
+    </Text>
+    <Text>
+      <GUID>1500010829</GUID>
+      <Text>어망(Fishernets)</Text>
+    </Text>
+  </ModOp>
+</ModOps>

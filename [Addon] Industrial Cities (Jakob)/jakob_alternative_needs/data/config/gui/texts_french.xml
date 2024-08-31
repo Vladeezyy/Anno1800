@@ -1,0 +1,63 @@
+<ModOps>
+  <!-- # Alternative Needs -->
+  <Group Skip="1">
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500019']/Text">
+      <Text>Costumes</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='25000244']/Text">
+      <Text>Nourriture</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500004']/Text">
+      <Text>Nourriture</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500008']/Text">
+      <Text>Conserves</Text>
+    </ModOp>
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='500003']/Text">
+      <Text>[AssetData(984) Text]</Text> <!-- Tools -->
+    </ModOp>
+  </Group>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010846</GUID>
+      <Text>Besoins de base</Text>
+    </Text>
+    <Text>
+      <GUID>1500010826</GUID>
+      <Text>Besoins alternatifs</Text>
+    </Text>
+    <Text>
+      <GUID>1500011370</GUID>
+      <Text>Ouvrez &lt;font overrideTextColor="true" color='#ffe4ad'&gt;besoins de confort&lt;/font&gt; et activez besoins alternatifs pour permettre à vos résidents de les consommer au lieu de leurs équivalents de base.</Text>
+    </Text>
+    <Text>
+      <GUID>1500010159</GUID>
+      <Text>Besoins alternatifs</Text>
+    </Text>
+    <Text>
+      <GUID>1500010949</GUID>
+      <Text>Besoins alternatifs ; besoins de luxe</Text>
+    </Text>
+    <Text>
+      <GUID>1500010950</GUID>
+      <Text>Besoins alternatifs ; besoins de base</Text>
+    </Text>
+    <Text>
+      <GUID>1500011545</GUID>
+      <Text>Approvisionnement Alternatif</Text>
+    </Text>
+    <Text>
+      <GUID>1500011546</GUID>
+      <Text>Alternative Interdite</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Alternatives Tab -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011338</GUID>
+      <Text>Boissons chaudes</Text>
+    </Text>
+  </ModOp>
+</ModOps>

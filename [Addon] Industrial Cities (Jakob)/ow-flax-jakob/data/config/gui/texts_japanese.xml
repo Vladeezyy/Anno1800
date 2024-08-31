@@ -1,0 +1,34 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011458</GUID>
+      <Text>亜麻農場</Text>
+    </Text>
+    <Text>
+      <GUID>1500011459</GUID>
+      <Text>亜麻畑</Text>
+    </Text>
+    <Text>
+      <GUID>1500011461</GUID>
+      <Text>セーブデータの互換性</Text>
+    </Text>
+    <Text>
+      <GUID>1500011462</GUID>
+      <Text>既存のセーブデータに必要な肥沃度がない場合のバフサポート</Text>
+    </Text>
+    <Text>
+      <GUID>1500011473</GUID>
+      <Text>亜麻</Text>
+    </Text>
+    <Text>
+      <GUID>1500011474</GUID>
+      <Text>亜麻の肥沃度</Text>
+    </Text>
+    <Text>
+      <GUID>1500011515</GUID>
+      <!-- Mod origin/name -->
+      <Text>Production (Jakob)</Text>
+      <IndustrialCities />
+    </Text>
+  </ModOp>
+</ModOps>
