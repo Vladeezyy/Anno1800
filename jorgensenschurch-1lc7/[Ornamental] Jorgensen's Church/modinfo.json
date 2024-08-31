@@ -1,0 +1,16 @@
+{
+  "ModID": "jorgensen_church",
+  "Version": "1.0",
+  "Category": {
+    "English": "Skin"
+  },
+  "ModName": {
+    "English": "Jorgensen's Church"
+  },
+  "Description": {
+    "English": "This mod adds a new church visual variation for your cities, with a tall steeple perfect for punctuating your skylines."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "jje1000"
+}
