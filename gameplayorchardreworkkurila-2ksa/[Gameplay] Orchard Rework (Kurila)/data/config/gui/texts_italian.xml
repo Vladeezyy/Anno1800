@@ -1,0 +1,138 @@
+<ModOps>
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<!-- Products -->
+			<Text>
+				<GUID>1404420031</GUID>
+				<Text>A differenza della marmellata, queste crescono anche sugli alberi.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420033</GUID>
+				<Text>Una mela al giorno tiene lontano il signor Gasparov, giusto?</Text>
+			</Text>
+		<!-- Orchards -->
+			<Text>
+				<GUID>1404420046</GUID>
+				<Text>Frutteto: Mele</Text>
+			</Text>
+			<Text>
+				<GUID>133496</GUID>
+				<Text>Frutteto: Ciliegie</Text>
+			</Text>
+		<!-- Orchard Fields-->
+			<Text>
+				<GUID>1404420000</GUID>
+				<Text>Piantagione di agrumi</Text>
+			</Text>
+			<Text>
+				<GUID>1404420001</GUID>
+				<Text>Piantagione di cocco</Text>
+			</Text>
+			<Text>
+				<GUID>1404420002</GUID>
+				<Text>Piantagione di cannella</Text>
+			</Text>
+			<Text>
+				<GUID>1404420003</GUID>
+				<Text>Piantagione di canfora</Text>
+			</Text>
+			<Text>
+				<GUID>1404420004</GUID>
+				<Text>Piantagione di ciliegie</Text>
+			</Text>
+			<Text>
+				<GUID>1404420005</GUID>
+				<Text>Piantagione di mele</Text>
+			</Text>
+			<Text>
+				<GUID>1404420006</GUID>
+				<Text>Piantagione di alberi</Text>
+			</Text>
+			<Text>
+				<GUID>1404420007</GUID>
+				<Text>Foresta di ciliegi</Text>
+			</Text>
+
+		<!-- Jam Manufactory -->
+			<Text>
+				<GUID>1404420042</GUID>
+				<Text>Produzione di marmellata</Text>
+			</Text>
+		<!-- Building Category -->
+			<Text>
+				<GUID>1404420044</GUID>
+				<Text>[AssetData(133183) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419500</GUID>
+				<Text>[AssetData(132933) Text]</Text>
+			</Text>
+		<!-- Apple Pie  -->
+			<Text>
+				<GUID>1404419000</GUID>
+				<Text>Strudel di mele</Text>
+			</Text>
+			<Text>
+				<GUID>1404419001</GUID>
+				<Text>Un delizioso strudel di mele con mele fresche e succose. Può essere un piatto semplice, ma i turisti lo adorano.</Text>
+			</Text>
+			<Text>
+				<GUID>1404419006</GUID>
+				<Text>[AssetData(1404419000) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419007</GUID>
+				<Text>[AssetData(1404419000) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419005</GUID>
+				<Text>[AssetData(132782) Text]: [AssetData(1404419000) Text]</Text>
+			</Text>
+		<!-- Specialists -->
+			<Text>
+				<GUID>1404420050</GUID>
+				<Text>John l'abbracciatore di alberi</Text>
+			</Text>
+			<Text>
+				<GUID>1404420051</GUID>
+				<Text>Ama gli alberi. E loro amano lui.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420052</GUID>
+				<Text>Marlene, madre di Marmelade</Text>
+			</Text>
+			<Text>
+				<GUID>1404420053</GUID>
+				<Text>È famosa in tutto il mondo per le sue creazioni di marmellata.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420054</GUID>
+				<Text>Clara la raccoglitrice di ciliegie</Text>
+			</Text>
+			<Text>
+				<GUID>1404420055</GUID>
+				<Text>Dovremmo impiegarla nei frutteti, giusto?</Text>
+			</Text>
+		<!-- Enbesan Fields -->
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1500300900</GUID>
+				<Text>[AssetData(1404420003) Text]</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1500300901</GUID>
+				<Text>[AssetData(1404420002) Text]</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1500300902</GUID>
+				<Text>[AssetData(1404420000) Text]</Text>
+			</Text>
+			<Text>
+				<!-- TODO translation -->
+				<GUID>1500300903</GUID>
+				<Text>[AssetData(1404420001) Text]</Text>
+			</Text>
+	</ModOp>
+
+</ModOps>

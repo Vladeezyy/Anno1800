@@ -1,0 +1,2810 @@
+<ModOps>
+  <!-- Conditions for display "Improved by Tractors" -->
+  <ModOp Type="addNextSibling" Path="//InfoTipData[Guid='25000020']/InfoElement/InfoElement[InfoElement/Text[TextGUID='13659']]">
+    <InfoElement>
+      <ElementType>8</ElementType>
+      <ChildCount>1</ChildCount>
+      <VisibilityElement>
+        <ElementType>
+          <ElementType>2</ElementType>
+        </ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>4</ChildCount>
+          <VisibilityElement><!-- Can be boostet by electricity -->
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <Condition>[StaticData Electricity CanBeBoostedByElectricity([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement><!-- Needs electricity -->
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <ExpectedValueBool>False</ExpectedValueBool>
+            <Condition>[StaticData Electricity NeedsElectricity([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement><!-- Needs electricity unlocked -->
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <Condition>[Unlock IsUnlocked(120022)]</Condition>
+          </VisibilityElement>
+          <VisibilityElement><!-- Can be build in current region -->
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator />
+            <ResultType />
+            <Condition>[StaticData Building IsAllowedInCurrentRegion([RefGuid])]</Condition>
+          </VisibilityElement>
+          <VisibilityElement><!-- Can not be build in Arctic -->
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>1</CompareOperator>
+            </CompareOperator>
+            <ResultType />
+            <Condition>[StaticData Building AllowedInRegion(3, [RefGuid])]</Condition>
+          </VisibilityElement>
+					<VisibilityElement><!-- Buildings list -->
+						<ElementType>
+							<ElementType>2</ElementType>
+						</ElementType>
+						<ChildCount>2</ChildCount>
+            <VisibilityElement><!-- Is Grain Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010262</ExpectedValueInt><!-- Grain Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hop Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010264</ExpectedValueInt><!-- Hop Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Potato Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010265</ExpectedValueInt><!-- Potato Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Grape Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>100655</ExpectedValueInt><!-- Grape Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Pepper Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>100654</ExpectedValueInt><!-- Pepper Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Sugar Cane Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010329</ExpectedValueInt><!-- Sugar Cane Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Tobaco Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010330</ExpectedValueInt><!-- Tobaco Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Cotton Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010331</ExpectedValueInt><!-- Cotton Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Cocoa Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010332</ExpectedValueInt><!-- Cocoa Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Caoutchouc Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010333</ExpectedValueInt><!-- Caoutchouc Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Coffee Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>101251</ExpectedValueInt><!-- Coffee Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Plantain Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>101263</ExpectedValueInt><!-- Plantain Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Corn Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>101270</ExpectedValueInt><!-- Corn Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Flax Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>114448</ExpectedValueInt><!-- Flax Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hibiscus Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>114447</ExpectedValueInt><!-- Hibiscus Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Teff Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>114450</ExpectedValueInt><!-- Teff Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Indigo Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>114451</ExpectedValueInt><!-- Indigo Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Spice Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>114452</ExpectedValueInt><!-- Spice Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Bee Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>114453</ExpectedValueInt><!-- Bee Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Herb Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>5463</ExpectedValueInt><!-- Herb Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Orchid Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>5814</ExpectedValueInt><!-- Orchid Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Blank -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>24794</ExpectedValueInt><!-- Hacienda Farm Blank -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Sugar Cane -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>24798</ExpectedValueInt><!-- Hacienda Farm Sugar Cane -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Caoutchouc -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>25006</ExpectedValueInt><!-- Hacienda Farm Caoutchouc -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Corn -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>25003</ExpectedValueInt><!-- Hacienda Farm Corn -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Coffee -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>25005</ExpectedValueInt><!-- Hacienda Farm Coffee -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Cocoa -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>25009</ExpectedValueInt><!-- Hacienda Farm Cocoa -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Plantains -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1999002001</ExpectedValueInt><!-- Hacienda Farm Plantains -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Cotton -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1999002004</ExpectedValueInt><!-- Hacienda Farm Cotton -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Tobacco -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1999002007</ExpectedValueInt><!-- Hacienda Farm Tobacco -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Potato -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>25019</ExpectedValueInt><!-- Hacienda Farm Potato -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Grain -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>25128</ExpectedValueInt><!-- Hacienda Farm Grain -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hacienda Farm Spice -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>25020</ExpectedValueInt><!-- Hacienda Farm Spice -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Sheep Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010267</ExpectedValueInt><!-- Sheep Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Pig Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010269</ExpectedValueInt><!-- Pig Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Cattle Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010263</ExpectedValueInt><!-- Cattle  Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Cattle Farm Colony01 -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>101269</ExpectedValueInt><!-- Cattle Farm Colony01 -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Alpaca Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>101272</ExpectedValueInt><!-- Aplaca Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Nandu Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>5457</ExpectedValueInt><!-- Nandu Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Goat Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>114456</ExpectedValueInt><!-- Goat Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Sanga Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>114439</ExpectedValueInt><!-- Sanga Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Advanced Pig Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1404423055</ExpectedValueInt><!-- Advanced Pig Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Advanced Sheep Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1500300837</ExpectedValueInt><!-- Advanced Sheep Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Advanced Cattle Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1404423065</ExpectedValueInt><!-- Advanced Cattle Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Advanced Cattle Farm Milking Module -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1404423061</ExpectedValueInt><!-- Advanced Cattle Farm Milking Module -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Advanced Cattle Farm Silo -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1404423064</ExpectedValueInt><!-- Advanced Cattle Farm Silo -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Advanced Pig Farm Silo -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1404423058</ExpectedValueInt><!-- Advanced Pig Farm Silo -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Dairy Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1500010104</ExpectedValueInt><!-- Dairy Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Hemp Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1500010124</ExpectedValueInt><!-- Hemp Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Olive Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1500010107</ExpectedValueInt><!-- Olive Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Mod Herb Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1500010848</ExpectedValueInt><!-- Herb Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Mod Herb Farm 02 -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1500302201</ExpectedValueInt><!-- Herb Farm 02 -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Vegetable Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1500010830</ExpectedValueInt><!-- Vegetable Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Haciende Grape Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1999002010</ExpectedValueInt><!-- Haciende Grape Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Avocado Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1999002218</ExpectedValueInt><!-- Avocado Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Enbesa Coffee Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1999000100</ExpectedValueInt><!-- Enbesa Coffee Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Enbesa Tobaco Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1999000102</ExpectedValueInt><!-- Enbesa Tobaco Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Coconut Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>133004</ExpectedValueInt><!-- Coconut Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Cinnamon Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>133030</ExpectedValueInt><!-- Cinnamon Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Citrus Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>133031</ExpectedValueInt><!-- Citrus Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Jam Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>133496</ExpectedValueInt><!-- Jam Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Camphora Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>134614</ExpectedValueInt><!-- Camphora Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Resin Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>135085</ExpectedValueInt><!-- Resin Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Cherry Wood Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>135088</ExpectedValueInt><!-- Cherry Wood Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Apple Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1404420046</ExpectedValueInt><!-- Apple Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Enbesa Coconut Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1337472607</ExpectedValueInt><!-- Enbesa Coconut Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Enbesa Cinnamon Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1337472608</ExpectedValueInt><!-- Enbesa Cinnamon Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Enbesa Citrus Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1337472609</ExpectedValueInt><!-- Enbesa Citrus Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Enbesa Camphora Orchard -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1337472610</ExpectedValueInt><!-- Enbesa Camphora Orchard -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Sugar Beet Farm -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>2100118219</ExpectedValueInt><!-- Sugar Beet Farm -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Fertiliser Silo Old World -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>25240</ExpectedValueInt><!-- Fertiliser Silo Old World -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Fertiliser Silo New World -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>25241</ExpectedValueInt><!-- Fertiliser Silo New World -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Fertiliser Silo Enbesa -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>25242</ExpectedValueInt><!-- Fertiliser Silo Enbesa -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is  Silo Old World -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>269957</ExpectedValueInt><!--  Silo Old World -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Silo New World -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>269958</ExpectedValueInt><!-- Silo New World -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement><!-- Is Silo Enbesa -->
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>119025</ExpectedValueInt><!-- Silo Enbesa -->
+              <Condition>[RefGuid]</Condition>
+            </VisibilityElement>
+						<OperatorType>
+							<OperatorType>1</OperatorType>
+						</OperatorType>
+					</VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <OperatorType />
+      </VisibilityElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon><!-- Tractor Icon -->
+          <IconGUID>269979</IconGUID><!-- Tractor Icon -->
+          <Style />
+        </Icon>
+        <Text><!-- Improved by Tractors -->
+          <TextGUID>1500300941</TextGUID><!-- Improved by Tractors -->
+          <Style />
+        </Text>
+        <Value><!-- Empty -->
+          <Style />
+        </Value>
+        <WarningType />
+        <BackgroundType />
+      </InfoElement>
+    </InfoElement>
+  </ModOp>
+
+  <!-- Conditions for display "Impoved by Electricity" -->
+  <ModOp Type="addPrevSibling" Path="//InfoTipData[Guid='25000020']/InfoElement/InfoElement[InfoElement/Text[TextGUID='13659']]/VisibilityElement/VisibilityElement/OperatorType">
+    <VisibilityElement><!-- Is not Grain Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010262</ExpectedValueInt><!-- Grain Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hop Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010264</ExpectedValueInt><!-- Hop Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Potato Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010265</ExpectedValueInt><!-- Potato Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Grape Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>100655</ExpectedValueInt><!-- Grape Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Pepper Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>100654</ExpectedValueInt><!-- Pepper Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Sugar Cane Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010329</ExpectedValueInt><!-- Sugar Cane Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Tobaco Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010330</ExpectedValueInt><!-- Tobaco Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Cotton Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010331</ExpectedValueInt><!-- Cotton Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Cocoa Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010332</ExpectedValueInt><!-- Cocoa Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Caoutchouc Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010333</ExpectedValueInt><!-- Caoutchouc Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Coffee Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>101251</ExpectedValueInt><!-- Coffee Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Plantain Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>101263</ExpectedValueInt><!-- Plantain Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Corn Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>101270</ExpectedValueInt><!-- Corn Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Flax Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>114448</ExpectedValueInt><!-- Flax Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hibiscus Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>114447</ExpectedValueInt><!-- Hibiscus Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Teff Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>114450</ExpectedValueInt><!-- Teff Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Indigo Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>114451</ExpectedValueInt><!-- Indigo Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Spice Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>114452</ExpectedValueInt><!-- Spice Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Bee Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>114453</ExpectedValueInt><!-- Bee Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Herb Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>5463</ExpectedValueInt><!-- Herb Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Orchid Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>5814</ExpectedValueInt><!-- Orchid Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Blank -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>24794</ExpectedValueInt><!-- Hacienda Farm Blank -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Sugar Cane -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>24798</ExpectedValueInt><!-- Hacienda Farm Sugar Cane -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Caoutchouc -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>25006</ExpectedValueInt><!-- Hacienda Farm Caoutchouc -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Corn -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>25003</ExpectedValueInt><!-- Hacienda Farm Corn -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Coffee -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>25005</ExpectedValueInt><!-- Hacienda Farm Coffee -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Cocoa -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>25009</ExpectedValueInt><!-- Hacienda Farm Cocoa -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Plantains -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1999002001</ExpectedValueInt><!-- Hacienda Farm Plantains -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Cotton -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1999002004</ExpectedValueInt><!-- Hacienda Farm Cotton -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Tobacco -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1999002007</ExpectedValueInt><!-- Hacienda Farm Tobacco -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Potato -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>25019</ExpectedValueInt><!-- Hacienda Farm Potato -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Grain -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>25128</ExpectedValueInt><!-- Hacienda Farm Grain -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Farm Spice -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>25020</ExpectedValueInt><!-- Hacienda Farm Spice -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Sheep Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010267</ExpectedValueInt><!-- Sheep Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Pig Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010269</ExpectedValueInt><!-- Pig Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Cattle Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1010263</ExpectedValueInt><!-- Cattle  Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Cattle Farm Colony01 -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>101269</ExpectedValueInt><!-- Cattle Farm Colony01 -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Alpaca Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>101272</ExpectedValueInt><!-- Aplaca Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Nandu Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>5457</ExpectedValueInt><!-- Nandu Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Goat Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>114456</ExpectedValueInt><!-- Goat Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Sanga Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>114439</ExpectedValueInt><!-- Sanga Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Advanced Pig Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1404423055</ExpectedValueInt><!-- Advanced Pig Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Advanced Sheep Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1500300837</ExpectedValueInt><!-- Advanced Sheep Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Advanced Cattle Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1404423065</ExpectedValueInt><!-- Advanced Cattle Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Advanced Cattle Farm Milking Module -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1404423061</ExpectedValueInt><!-- Advanced Cattle Farm Milking Module -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Advanced Cattle Farm Silo -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1404423064</ExpectedValueInt><!-- Advanced Cattle Farm Silo -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Advanced Pig Farm Silo -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1404423058</ExpectedValueInt><!-- Advanced Pig Farm Silo -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Dairy Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1500010104</ExpectedValueInt><!-- Dairy Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hemp Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1500010124</ExpectedValueInt><!-- Hemp Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Olive Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1500010107</ExpectedValueInt><!-- Olive Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not mod Herb Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1500010848</ExpectedValueInt><!-- Herb Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not mod Herb Farm 02 -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1500302201</ExpectedValueInt><!-- Herb Farm 02 -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Vegetable Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1500010830</ExpectedValueInt><!-- Vegetable Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Hacienda Grape Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1999002010</ExpectedValueInt><!-- Hacienda Grape Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Avocado Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1999002218</ExpectedValueInt><!-- Avocado Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Enbesa Coffee Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1999000100</ExpectedValueInt><!-- Enbesa Coffee Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Enbesa Tobaco Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1999000102</ExpectedValueInt><!-- Enbesa Tobaco Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Coconut Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>133004</ExpectedValueInt><!-- Coconut Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Cinnamon Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>133030</ExpectedValueInt><!-- Cinnamon Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Citrus Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>133031</ExpectedValueInt><!-- Citrus Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Jam Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>133496</ExpectedValueInt><!-- Jam Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Camphora Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>134614</ExpectedValueInt><!-- Camphora Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Resin Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>135085</ExpectedValueInt><!-- Resin Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Cherry Wood Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>135088</ExpectedValueInt><!-- Cherry Wood Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Apple Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1404420046</ExpectedValueInt><!-- Apple Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Enbesa Coconut Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1337472607</ExpectedValueInt><!-- Enbesa Coconut Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Enbesa Cinnamon Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1337472608</ExpectedValueInt><!-- Enbesa Cinnamon Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Enbesa Citrus Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1337472609</ExpectedValueInt><!-- Enbesa Citrus Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Enbesa Camphora Orchard -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>1337472610</ExpectedValueInt><!-- Enbesa Camphora Orchard -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Sugar Beet Farm -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>2100118219</ExpectedValueInt><!-- Sugar Beet Farm -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Fertiliser Silo Old World -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>25240</ExpectedValueInt><!-- Fertiliser Silo Old World -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Fertiliser Silo New World -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>25241</ExpectedValueInt><!-- Fertiliser Silo New World -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Fertiliser Silo Enbesa -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>25242</ExpectedValueInt><!-- Fertiliser Silo Enbesa -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Silo Old World -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>269957</ExpectedValueInt><!--  Silo Old World -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Silo New World -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>269958</ExpectedValueInt><!-- Silo New World -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+    <VisibilityElement><!-- Is not Silo Enbesa -->
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>119025</ExpectedValueInt><!-- Silo Enbesa -->
+      <Condition>[RefGuid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+
+  <!-- Production Output Infotip for tractor barn (linked in /Values/FactoryBase/ProductionOutputInfotip)-->
+  <ModOp Type="addNextSibling" Path ="//InfoTipData[Guid='25000208']">
+    <InfoTipData>
+      <Guid>1500300948</Guid>
+      <ChildCount>4</ChildCount>
+      <InfoElement>
+        <ElementType>2</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+          <IconGUID>1500300947</IconGUID>
+          <Style />
+        </Icon>
+        <Text>
+          <TextGUID>1500300947</TextGUID>
+          <Style />
+        </Text>
+        <SubText>
+          <TextGUID>2363</TextGUID> <!-- "Effect" -->
+          <Style />
+        </SubText>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>1</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>5</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[ToolOneHelper ItemOrBuffEffectTargets(1500300947)]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>19</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <TemplateGUID>454144439</TemplateGUID> <!-- Buff Effects Formatted -->
+        <Variables>
+          <None>
+            <ID>1840762361</ID>
+            <Name>ItemGuid</Name>
+            <Source>[ItemAssetData(1500300947) Guid]</Source>
+          </None>
+          <None>
+            <ID>1840762361</ID>
+            <Name>ItemGuid</Name>
+            <Source>[ItemAssetData(1500300947) Guid]</Source>
+          </None>
+          <None>
+            <ID>1840762361</ID>
+            <Name>ItemGuid</Name>
+            <Source>[ItemAssetData(1500300947) Guid]</Source>
+          </None>
+        </Variables>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>4</ElementType>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <OperatorType />
+        </VisibilityElement>
+        <Icon>
+            <IconGUID>269979</IconGUID><!-- tractor icon -->
+            <Style />
+          </Icon>
+          <Text>
+            <Text>[AssetData(1500300940) Text]</Text> <!-- "Provides Tractors" -->
+            <Style />
+          </Text>
+        <BackgroundType />
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>5</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>5</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[ItemAssetData({ItemGuid}) AdditionalOutputCount]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>4</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Icon>
+            <IconGUID>23724</IconGUID>
+            <Style />
+          </Icon>
+          <Text>
+            <TextGUID>23724</TextGUID>
+            <Style />
+          </Text>
+          <Value>
+            <Style />
+          </Value>
+          <WarningType />
+          <BackgroundType />
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <ChildCount>1</ChildCount>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType />
+              <ExpectedValueBool>False</ExpectedValueBool>
+              <Condition>[ItemAssetData({ItemGuid}) AdditionalOutputForceProductSameAsFactoryOutput(0)]</Condition>
+            </VisibilityElement>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconText>[AssetData([ItemAssetData({ItemGuid}) AdditionalOutputProduct(#index0#)]) Icon]</IconText>
+              <Style />
+            </Icon>
+            <Text>
+              <Text>&lt;font color='0xff817f87'&gt; [AssetData([ItemAssetData({ItemGuid}) AdditionalOutputProduct(#index0#)]) Text]&lt;/font&gt;</Text>
+              <Style />
+            </Text>
+            <Value>
+              <Text>&lt;font color='0xff817f87'&gt;+[ItemAssetData({ItemGuid}) AdditionalOutputAmount(#index0#)]/[ItemAssetData({ItemGuid}) AdditionalOutputCycle(#index0#)] &lt;/font&gt;</Text>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData({ItemGuid}) AdditionalOutputCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <ChildCount>3</ChildCount>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType />
+              <Condition>[ItemAssetData({ItemGuid}) AdditionalOutputForceProductSameAsFactoryOutput(0)]</Condition>
+            </VisibilityElement>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>2</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator>
+                  <CompareOperator>1</CompareOperator>
+                </CompareOperator>
+                <ResultType>
+                  <ResultType>1</ResultType>
+                </ResultType>
+                <ExpectedValueInt>191141</ExpectedValueInt>
+                <Condition>[ItemAssetData({ItemGuid}) Guid]</Condition>
+              </VisibilityElement>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator>
+                  <CompareOperator>1</CompareOperator>
+                </CompareOperator>
+                <ResultType>
+                  <ResultType>1</ResultType>
+                </ResultType>
+                <ExpectedValueInt>1010471</ExpectedValueInt>
+                <Condition>[Selection Object GUID]</Condition>
+              </VisibilityElement>
+              <OperatorType>
+                <OperatorType>1</OperatorType>
+              </OperatorType>
+            </VisibilityElement>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator>
+                <CompareOperator>1</CompareOperator>
+              </CompareOperator>
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <Condition>[ToolOneHelper MainBuildingOutput Guid]</Condition>
+            </VisibilityElement>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconText>[ToolOneHelper MainBuildingOutput Icon]</IconText>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23727</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData({ItemGuid}) AdditionalOutputCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>7</ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <ChildCount>3</ChildCount>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType />
+              <Condition>[ItemAssetData({ItemGuid}) AdditionalOutputForceProductSameAsFactoryOutput(0)]</Condition>
+            </VisibilityElement>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>2</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator>
+                  <CompareOperator>1</CompareOperator>
+                </CompareOperator>
+                <ResultType>
+                  <ResultType>1</ResultType>
+                </ResultType>
+                <ExpectedValueInt>191141</ExpectedValueInt>
+                <Condition>[ItemAssetData({ItemGuid}) Guid]</Condition>
+              </VisibilityElement>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator>
+                  <CompareOperator>1</CompareOperator>
+                </CompareOperator>
+                <ResultType>
+                  <ResultType>1</ResultType>
+                </ResultType>
+                <ExpectedValueInt>1010471</ExpectedValueInt>
+                <Condition>[Selection Object GUID]</Condition>
+              </VisibilityElement>
+              <OperatorType>
+                <OperatorType>1</OperatorType>
+              </OperatorType>
+            </VisibilityElement>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <Condition>[ToolOneHelper MainBuildingOutput Guid]</Condition>
+            </VisibilityElement>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>501934</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <Source>[ItemAssetData({ItemGuid}) AdditionalOutputCount]</Source>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>8</ElementType>
+          <ChildCount>13</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <ChildCount>3</ChildCount>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType />
+              <Condition>[ItemAssetData({ItemGuid}) AdditionalOutputForceProductSameAsFactoryOutput(0)]</Condition>
+            </VisibilityElement>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>191141</ExpectedValueInt>
+              <Condition>[ItemAssetData({ItemGuid}) Guid]</Condition>
+            </VisibilityElement>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>1</ElementType>
+              </ElementType>
+              <CompareOperator />
+              <ResultType>
+                <ResultType>1</ResultType>
+              </ResultType>
+              <ExpectedValueInt>1010471</ExpectedValueInt>
+              <Condition>[Selection Object GUID]</Condition>
+            </VisibilityElement>
+            <OperatorType />
+          </VisibilityElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23808</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23808</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23809</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23809</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23810</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23810</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23811</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23811</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23812</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23812</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23813</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23813</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>1</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType />
+                <Condition>[GameSetup IsDLCActive(410087)]</Condition>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23921</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23921</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>1</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>2</ElementType>
+                </ElementType>
+                <ChildCount>2</ChildCount>
+                <VisibilityElement>
+                  <ElementType>
+                    <ElementType>1</ElementType>
+                  </ElementType>
+                  <CompareOperator />
+                  <ResultType />
+                  <Condition>[GameSetup IsDLCActive(410087)]</Condition>
+                </VisibilityElement>
+                <VisibilityElement>
+                  <ElementType>
+                    <ElementType>1</ElementType>
+                  </ElementType>
+                  <CompareOperator />
+                  <ResultType />
+                  <Condition>[GameSetup IsDLCActive(410088)]</Condition>
+                </VisibilityElement>
+                <OperatorType>
+                  <OperatorType>1</OperatorType>
+                </OperatorType>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23922</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23922</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>1</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>2</ElementType>
+                </ElementType>
+                <ChildCount>2</ChildCount>
+                <VisibilityElement>
+                  <ElementType>
+                    <ElementType>1</ElementType>
+                  </ElementType>
+                  <CompareOperator />
+                  <ResultType />
+                  <Condition>[GameSetup IsDLCActive(410087)]</Condition>
+                </VisibilityElement>
+                <VisibilityElement>
+                  <ElementType>
+                    <ElementType>1</ElementType>
+                  </ElementType>
+                  <CompareOperator />
+                  <ResultType />
+                  <Condition>[GameSetup IsDLCActive(410088)]</Condition>
+                </VisibilityElement>
+                <OperatorType>
+                  <OperatorType>1</OperatorType>
+                </OperatorType>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23923</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23923</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>1</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>2</ElementType>
+                </ElementType>
+                <ChildCount>2</ChildCount>
+                <VisibilityElement>
+                  <ElementType>
+                    <ElementType>1</ElementType>
+                  </ElementType>
+                  <CompareOperator />
+                  <ResultType />
+                  <Condition>[GameSetup IsDLCActive(410087)]</Condition>
+                </VisibilityElement>
+                <VisibilityElement>
+                  <ElementType>
+                    <ElementType>1</ElementType>
+                  </ElementType>
+                  <CompareOperator />
+                  <ResultType />
+                  <Condition>[GameSetup IsDLCActive(410088)]</Condition>
+                </VisibilityElement>
+                <OperatorType>
+                  <OperatorType>1</OperatorType>
+                </OperatorType>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23924</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23924</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>1</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType />
+                <Condition>[GameSetup IsDLCActive(410088)]</Condition>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23925</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23925</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>1</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>1</ElementType>
+                </ElementType>
+                <CompareOperator />
+                <ResultType />
+                <Condition>[GameSetup IsDLCActive(410088)]</Condition>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23926</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23926</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+          <InfoElement>
+            <ElementType>4</ElementType>
+            <VisibilityElement>
+              <ElementType>
+                <ElementType>2</ElementType>
+              </ElementType>
+              <ChildCount>1</ChildCount>
+              <VisibilityElement>
+                <ElementType>
+                  <ElementType>2</ElementType>
+                </ElementType>
+                <ChildCount>2</ChildCount>
+                <VisibilityElement>
+                  <ElementType>
+                    <ElementType>1</ElementType>
+                  </ElementType>
+                  <CompareOperator />
+                  <ResultType />
+                  <Condition>[GameSetup IsDLCActive(410087)]</Condition>
+                </VisibilityElement>
+                <VisibilityElement>
+                  <ElementType>
+                    <ElementType>1</ElementType>
+                  </ElementType>
+                  <CompareOperator />
+                  <ResultType />
+                  <Condition>[GameSetup IsDLCActive(410088)]</Condition>
+                </VisibilityElement>
+                <OperatorType>
+                  <OperatorType>1</OperatorType>
+                </OperatorType>
+              </VisibilityElement>
+              <OperatorType />
+            </VisibilityElement>
+            <Icon>
+              <IconGUID>23927</IconGUID>
+              <Style />
+            </Icon>
+            <Text>
+              <TextGUID>23927</TextGUID>
+              <Style />
+            </Text>
+            <Value>
+              <TextGUID>23726</TextGUID>
+              <Style />
+            </Value>
+            <WarningType />
+            <BackgroundType />
+          </InfoElement>
+        </InfoElement>
+      </InfoElement>
+      <InfoElement>
+        <ElementType>8</ElementType>
+        <ChildCount>4</ChildCount>
+        <VisibilityElement>
+          <ElementType>
+            <ElementType>2</ElementType>
+          </ElementType>
+          <ChildCount>1</ChildCount>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>1</ElementType>
+            </ElementType>
+            <CompareOperator>
+              <CompareOperator>0</CompareOperator>
+            </CompareOperator>
+            <ResultType>
+              <ResultType>1</ResultType>
+            </ResultType>
+            <Condition>[Item BuffFluff([RefGuid])]</Condition>
+          </VisibilityElement>
+          <OperatorType />
+        </VisibilityElement>
+        <InfoElement>
+          <ElementType>6</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Style />
+          </Text>
+        </InfoElement>
+        <InfoElement>
+          <ElementType>18</ElementType>
+          <VisibilityElement>
+            <ElementType>
+              <ElementType>2</ElementType>
+            </ElementType>
+            <OperatorType />
+          </VisibilityElement>
+          <Text>
+            <Text>[AssetData([Item BuffFluff(1500300947)]) Text]</Text> <!-- potential fluff text needs to be defined in your buff: /Values/Buff/PossibleFluffTexts to be shown here -->
+            <Style />
+          </Text>
+          <BackgroundType />
+        </InfoElement>
+      </InfoElement>
+      <Variables />
+    </InfoTipData>
+  </ModOp>
+</ModOps>

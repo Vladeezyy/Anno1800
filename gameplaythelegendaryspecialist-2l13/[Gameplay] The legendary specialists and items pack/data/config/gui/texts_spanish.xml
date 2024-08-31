@@ -1,0 +1,221 @@
+<ModOps>
+
+<!-- Changes text in shared-pools-and-definitions -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011904</GUID>
+      <Text>All sewing machine factories</Text> <!-- 1010284 -->
+    </Text>
+    <Text>
+      <GUID>1500200673</GUID>
+      <Text>All bakeries</Text> <!-- 1010291 -->
+    </Text>
+    <Text>
+      <GUID>1500301021</GUID>
+      <Text>All framework knitters</Text> <!-- 1010315 -->
+    </Text>
+  </ModOp>
+
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000003</GUID>
+			<Text>Alexey Stakhanov</Text>
+		</Text>
+		<Text>
+			<GUID>1900000004</GUID>
+			<Text>Soviet miner, innovator of the coal industry, founder of the Stakhanov movement.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000005</GUID>
+			<Text>Captain Nemo</Text>
+		</Text>
+		<Text>
+			<GUID>1900000006</GUID>
+			<Text>The legendary Captain of the submarine "Nautilus" from the novels of Jules Verne!</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000007</GUID>
+			<Text>Jacques-Yves Cousteau</Text>
+		</Text>
+		<Text>
+			<GUID>1900000008</GUID>
+			<Text>Jacques-Yves Cousteau was a French naval officer, explorer, conservationist, filmmaker, scientist, photographer, author and researcher who studied the sea and all forms of life in water.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000009</GUID>
+			<Text>The "Nobel" Shot</Text>
+		</Text>
+		<Text>
+			<GUID>1900000010</GUID>
+			<Text>Heavy shot, that was named after Alfred Nobel.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000011</GUID>
+			<Text>The "Centurio" Gun</Text>
+		</Text>
+		<Text>
+			<GUID>1900000012</GUID>
+			<Text>A modern gun, it's said that it has been particularly lucky in its aim.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000013</GUID>
+			<Text>The "Goliath" Engine</Text>
+		</Text>
+		<Text>
+			<GUID>1900000014</GUID>
+			<Text>The most powerful engine in the world.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000015</GUID>
+			<Text>The "Cyclone" Engine</Text>
+		</Text>
+		<Text>
+			<GUID>1900000016</GUID>
+			<Text>Fast as a hurricane.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000017</GUID>
+			<Text>Henry Ford</Text>
+		</Text>
+		<Text>
+			<GUID>1900000018</GUID>
+			<Text>American industrialist, business magnate, founder of the Ford Motor Company and chief developer of the assembly line technique of mass production.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000019</GUID>
+			<Text>Elisha Graves Otis</Text>
+		</Text>
+		<Text>
+			<GUID>1900000020</GUID>
+			<Text>Inventor of a safety device that prevents elevators from falling if the hoisting cable fails.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000021</GUID>
+			<Text>Isaac Singer</Text>
+		</Text>
+		<Text>
+			<GUID>1900000022</GUID>
+			<Text> He made important improvements in the design of the sewing machine and was the founder of the Singer Sewing Machine Company.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000023</GUID>
+			<Text>Claude Moët</Text>
+		</Text>
+		<Text>
+			<GUID>1900000024</GUID>
+			<Text>Claude Moët was a Dutch vintner and wine merchant who founded the Champagne house that later became Moët et Chandon.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000025</GUID>
+			<Text>Gabrielle Bonheur "Coco" Chanel</Text>
+		</Text>
+		<Text>
+			<GUID>1900000026</GUID>
+			<Text>French fashion designer and businesswoman.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000027</GUID>
+			<Text>Levi Strauss</Text>
+		</Text>
+		<Text>
+			<GUID>1900000028</GUID>
+			<Text>Founded the first company to manufacture blue jeans.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000029</GUID>
+			<Text>Mr. Pringle</Text>
+		</Text>
+		<Text>
+			<GUID>1900000030</GUID>
+			<Text>You know him.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000031</GUID>
+			<Text>Ashot Chobanyan, shepherd from Artsakh</Text>
+		</Text>
+		<Text>
+			<GUID>1900000032</GUID>
+			<Text>You don't know him.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000033</GUID>
+			<Text>Alfredo Linguini and Little Chef</Text>
+		</Text>
+		<Text>
+			<GUID>1900000034</GUID>
+			<Text>The famous cook from the cartoon "Ratatouille".</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000035</GUID>
+			<Text>Methane Filtering System "Freshness"</Text>
+		</Text>
+		<Text>
+			<GUID>1900000036</GUID>
+			<Text>Created to save the miners lives.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000037</GUID>
+			<Text>Tunnel Boring Machine "Shai-Hulud"</Text>
+		</Text>
+		<Text>
+			<GUID>1900000038</GUID>
+			<Text>Deep Mining Machine.</Text>
+		</Text>
+	</ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000039</GUID>
+			<Text>Heavy Drill "Shrew"</Text>
+		</Text>
+		<Text>
+			<GUID>1900000040</GUID>
+			<Text>The meek shall inherit the Earth, but not its mineral rights.</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000041</GUID>
+			<Text>All sheep farms</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000042</GUID>
+			<Text>All kitchens</Text>
+		</Text>
+	</ModOp>
+</ModOps>

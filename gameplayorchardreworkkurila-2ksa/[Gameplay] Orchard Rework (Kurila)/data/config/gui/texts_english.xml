@@ -1,0 +1,134 @@
+<ModOps>
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<!-- Products -->
+			<Text>
+				<GUID>1404420031</GUID>
+				<Text>In contrast to jam, these grow on trees.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420033</GUID>
+				<Text>One apple a day keeps Mr. Gasparov away, right?</Text>
+			</Text>
+		<!-- Orchards -->
+			<Text>
+				<GUID>1404420046</GUID>
+				<Text>Orchard: Apples</Text>
+			</Text>
+			<Text>
+				<GUID>133496</GUID>
+				<Text>Orchard: Cherries</Text>
+			</Text>
+		<!-- Orchard Fields-->
+			<Text>
+				<GUID>1404420000</GUID>
+				<Text>Citrus Plantation</Text>
+			</Text>
+			<Text>
+				<GUID>1404420001</GUID>
+				<Text>Coconut Plantation</Text>
+			</Text>
+			<Text>
+				<GUID>1404420002</GUID>
+				<Text>Cinamon Plantation</Text>
+			</Text>
+			<Text>
+				<GUID>1404420003</GUID>
+				<Text>Camphor Plantation</Text>
+			</Text>
+			<Text>
+				<GUID>1404420004</GUID>
+				<Text>Cherrie Plantation</Text>
+			</Text>
+			<Text>
+				<GUID>1404420005</GUID>
+				<Text>Apple Plantation</Text>
+			</Text>
+			<Text>
+				<GUID>1404420006</GUID>
+				<Text>Tree Plantation</Text>
+			</Text>
+			<Text>
+				<GUID>1404420007</GUID>
+				<Text>Cherry Forest</Text>
+			</Text>
+
+		<!-- Jam Manufactory -->
+			<Text>
+				<GUID>1404420042</GUID>
+				<Text>Jam Manufactory</Text>
+			</Text>
+		<!-- Building Category -->
+			<Text>
+				<GUID>1404420044</GUID>
+				<Text>[AssetData(133183) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419500</GUID>
+				<Text>[AssetData(132933) Text]</Text>
+			</Text>
+		<!-- Apple Pie  -->
+			<Text>
+				<GUID>1404419000</GUID>
+				<Text>Apple Pie</Text>
+			</Text>
+			<Text>
+				<GUID>1404419001</GUID>
+				<Text>This apple pie is a simple yet delicious desert. Tourists love the taste of these warm apples.</Text>
+			</Text>
+			<Text>
+				<GUID>1404419006</GUID>
+				<Text>[AssetData(1404419000) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419007</GUID>
+				<Text>[AssetData(1404419000) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419005</GUID>
+				<Text>Café: Apple Pie</Text>
+			</Text>
+		<!-- Specialists -->
+			<Text>
+				<GUID>1404420050</GUID>
+				<Text>John the Treehugger</Text>
+			</Text>
+			<Text>
+				<GUID>1404420051</GUID>
+				<Text>He loves trees. And they seem to love him too.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420052</GUID>
+				<Text>Marlene, Mother of Marmelade</Text>
+			</Text>
+			<Text>
+				<GUID>1404420053</GUID>
+				<Text>She's world famous for her very own marmelade creations.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420054</GUID>
+				<Text>Clara the Cherry Picker</Text>
+			</Text>
+			<Text>
+				<GUID>1404420055</GUID>
+				<Text>We should employ her at the orchards, right?</Text>
+			</Text>
+		<!-- Enbesan Fields -->
+			<Text>
+				<GUID>1500300900</GUID>
+				<Text>[AssetData(1404420003) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1500300901</GUID>
+				<Text>[AssetData(1404420002) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1500300902</GUID>
+				<Text>[AssetData(1404420000) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1500300903</GUID>
+				<Text>[AssetData(1404420001) Text]</Text>
+			</Text>
+	</ModOp>
+
+</ModOps>

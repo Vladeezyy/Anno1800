@@ -1,0 +1,488 @@
+<ModOps>
+  <Group ModOpID="OrchardModules">
+    <!-- New Tractor Barns and Buff -->
+      <ModOp Type="addNextSibling" GUID="119027">
+        <Asset>
+          <BaseAssetGUID>269837</BaseAssetGUID>
+          <Values>
+            <Standard>
+              <GUID>1500300033</GUID>
+              <Name>Tractor_Module_OW</Name>
+            </Standard>
+            <Text>
+              <TextOverride>269837</TextOverride>
+            </Text>
+            <BuffFactory>
+              <ProductionBuffs>
+                <Item>
+                  <ProductivityBuff>1500300947</ProductivityBuff>
+                </Item>
+              </ProductionBuffs>
+              <BaseBuff>1500300935</BaseBuff>
+            </BuffFactory>
+          </Values>
+        </Asset>
+        <Asset>
+          <BaseAssetGUID>269848</BaseAssetGUID>
+          <Values>
+            <Standard>
+              <GUID>1500300034</GUID>
+              <Name>Tractor_Module_NW</Name>
+            </Standard>
+            <Text>
+              <TextOverride>269848</TextOverride>
+            </Text>
+            <BuffFactory>
+              <ProductionBuffs>
+                <Item>
+                  <ProductivityBuff>1500300947</ProductivityBuff>
+                </Item>
+              </ProductionBuffs>
+              <BaseBuff>1500300935</BaseBuff>
+            </BuffFactory>
+          </Values>
+        </Asset>
+        <Asset>
+          <BaseAssetGUID>119026</BaseAssetGUID>
+          <Values>
+            <Standard>
+              <GUID>1500300035</GUID>
+              <Name>Tractor_Module_Enbesa</Name>
+            </Standard>
+            <Text>
+              <TextOverride>119026</TextOverride>
+            </Text>
+            <BuffFactory>
+              <ProductionBuffs>
+                <Item>
+                  <ProductivityBuff>1500300947</ProductivityBuff>
+                </Item>
+              </ProductionBuffs>
+              <BaseBuff>1500300935</BaseBuff>
+            </BuffFactory>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>GuildhouseBuff</Template>
+          <Values>
+            <Standard>
+              <GUID>1500300935</GUID>
+              <Name>TractorBuff_Orchards</Name>
+			        <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+            </Standard>
+            <ModuleOwnerUpgrade>
+              <ModuleLimitPercent>0</ModuleLimitPercent>
+            </ModuleOwnerUpgrade>
+            <CultureUpgrade>
+              <HideBuff>1</HideBuff>
+            </CultureUpgrade>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>Trigger</Template>
+          <Values>
+            <Standard>
+              <GUID>1500300056</GUID>
+              <Name>Trigger_OW</Name>
+            </Standard>
+            <Trigger>
+              <TriggerCondition>
+                <Template>ConditionPlayerCounter</Template>
+                <Values>
+                  <Condition/>
+                  <ConditionPlayerCounter>
+                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                    <Context>15000003</Context>
+                    <CounterAmount>1</CounterAmount>
+                  </ConditionPlayerCounter>
+                </Values>
+              </TriggerCondition>
+              <TriggerActions>
+                <Item>
+                  <TriggerAction>
+                    <Template>ActionUnlockAsset</Template>
+                    <Values>
+                      <Action />
+                      <ActionUnlockAsset>
+                        <UnlockAssets>
+                          <Item>
+                            <Asset>1500300033</Asset>
+                          </Item>
+                        </UnlockAssets>
+                      </ActionUnlockAsset>
+                    </Values>
+                  </TriggerAction>
+                </Item>
+              </TriggerActions>
+            </Trigger>
+            <TriggerSetup />
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>Trigger</Template>
+          <Values>
+            <Standard>
+              <GUID>1500300057</GUID>
+              <Name>Trigger_NW</Name>
+            </Standard>
+            <Trigger>
+              <TriggerCondition>
+                <Template>ConditionPlayerCounter</Template>
+                <Values>
+                  <Condition/>
+                  <ConditionPlayerCounter>
+                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                    <Context>15000006</Context>
+                    <CounterAmount>300</CounterAmount>
+                  </ConditionPlayerCounter>
+                </Values>
+              </TriggerCondition>
+              <TriggerActions>
+                <Item>
+                  <TriggerAction>
+                    <Template>ActionUnlockAsset</Template>
+                    <Values>
+                      <Action />
+                      <ActionUnlockAsset>
+                        <UnlockAssets>
+                          <Item>
+                            <Asset>1500300034</Asset>
+                          </Item>
+                        </UnlockAssets>
+                      </ActionUnlockAsset>
+                    </Values>
+                  </TriggerAction>
+                </Item>
+              </TriggerActions>
+            </Trigger>
+            <TriggerSetup />
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>Trigger</Template>
+          <Values>
+            <Standard>
+              <GUID>1500300058</GUID>
+              <Name>Trigger_Enbesa</Name>
+            </Standard>
+            <Trigger>
+            <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition/>
+                <ConditionPlayerCounter>
+                  <PlayerCounter>PopulationByLevel</PlayerCounter>
+                  <Context>114330</Context>
+                  <CounterAmount>300</CounterAmount>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition>
+              <TriggerActions>
+                <Item>
+                  <TriggerAction>
+                    <Template>ActionUnlockAsset</Template>
+                    <Values>
+                      <Action />
+                      <ActionUnlockAsset>
+                        <UnlockAssets>
+                          <Item>
+                            <Asset>1500300035</Asset>
+                          </Item>
+                        </UnlockAssets>
+                      </ActionUnlockAsset>
+                    </Values>
+                  </TriggerAction>
+                </Item>
+              </TriggerActions>
+            </Trigger>
+            <TriggerSetup />
+          </Values>
+        </Asset>
+      </ModOp>
+      <Group Condition="#OrchardRework">
+        <ModOp Type="merge" GUID='1500300935' Path="/Values" Condition="#OrchardRework">
+          <CultureUpgrade>
+            <HideBuff>0</HideBuff>
+          </CultureUpgrade>
+        </ModOp>
+        <ModOp Type="merge" GUID="1500300935"
+              Path="/Values/ModuleOwnerUpgrade"
+              Content="@269837/ModuleOwnerUpgrade">
+        </ModOp>
+      </Group>
+    <!-- Adjust Orchards and Modules -->
+      <Group>
+        <!-- Old World -->
+          <Group>
+            <!-- Vanilla Buildings -->
+              <Group>
+                <ModOp Type="merge" GUID='135085,133496' Path="/Values">
+                  <Industrializable>
+                    <BoostedByIndustrialization>1</BoostedByIndustrialization>
+                    <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+                    <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+                  </Industrializable>
+                  <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                  </Electrifiable>
+                  <FactoryBase>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+                <ModOp Type="merge" GUID='135085,133496' Path="/Values" Condition="!/Values/ModuleOwner/AdditionalModule">
+                  <ModuleOwner>
+                    <AdditionalModule>1500300033</AdditionalModule>
+                  </ModuleOwner>
+                  <Motorizable>
+                    <MotorizableType>Tractor</MotorizableType>
+                  </Motorizable>
+                </ModOp>
+                <ModOp Type="merge" GUID='135085,133496' Path="/Values" Condition="!/Values/ModuleOwner/FertilizerModuleData/Module">
+                  <ModuleOwner>
+                    <FertilizerModuleData>
+                      <Module>25240</Module>
+                    </FertilizerModuleData>
+                  </ModuleOwner>
+                </ModOp>
+              </Group>
+              <Group Condition="#OrchardRework">
+                <Group Condition="!@135088/FreeAreaProductivity">
+                  <ModOp Type="merge" GUID='135088' Path="/Values">
+                    <Industrializable>
+                      <BoostedByIndustrialization>1</BoostedByIndustrialization>
+                      <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+                      <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+                    </Industrializable>
+                    <Electrifiable>
+                      <ElectricityBoost>0</ElectricityBoost>
+                      <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                    </Electrifiable>
+                    <FactoryBase>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                    </FactoryBase>
+                  </ModOp>
+                </Group>
+                <Group Condition="@135088/FreeAreaProductivity">
+                  <ModOp Type="merge" GUID='135088' Path="/Values">
+                    <Industrializable>
+                      <BoostedByIndustrialization>1</BoostedByIndustrialization>
+                    </Industrializable>
+                    <Electrifiable>
+                      <ElectricityBoost>0</ElectricityBoost>
+                      <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                    </Electrifiable>
+                    <FactoryBase>
+                      <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                      <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                    </FactoryBase>
+                  </ModOp>
+                </Group>
+              </Group>
+              <Group Condition="!#OrchardRework">
+                <ModOp Type="merge" GUID='135088' Path="/Values">
+                  <Industrializable>
+                    <BoostedByIndustrialization>1</BoostedByIndustrialization>
+                    <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+                    <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+                  </Industrializable>
+                  <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                  </Electrifiable>
+                  <FactoryBase>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+                <ModOp Type="merge" GUID='135088' Path="/Values" Condition="!/Values/ModuleOwner/AdditionalModule">
+                  <ModuleOwner>
+                    <AdditionalModule>1500300033</AdditionalModule>
+                  </ModuleOwner>
+                  <Motorizable>
+                    <MotorizableType>Tractor</MotorizableType>
+                  </Motorizable>
+                </ModOp>
+                <ModOp Type="merge" GUID='135088' Path="/Values" Condition="!/Values/ModuleOwner/FertilizerModuleData/Module">
+                  <ModuleOwner>
+                    <FertilizerModuleData>
+                      <Module>25240</Module>
+                    </FertilizerModuleData>
+                  </ModuleOwner>
+                </ModOp>
+              </Group>
+            <!-- Jakobs Olive Orchard -->
+              <Group Condition="@1500010107">
+                <ModOp Type="merge" GUID='1500010107' Path="/Values">
+                  <ModuleOwner>
+                    <FertilizerModuleData>
+                      <Module>25240</Module>
+                    </FertilizerModuleData>
+                  </ModuleOwner>
+                  <Industrializable>
+                    <BoostedByIndustrialization>1</BoostedByIndustrialization>
+                    <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+                    <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+                  </Industrializable>
+                  <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                  </Electrifiable>
+                  <FactoryBase>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+              </Group>
+            <!-- Apple Orchard -->
+              <Group Condition="@1404420046">
+                <ModOp Type="merge" GUID='1404420046' Path="/Values">
+                  <ModuleOwner>
+                    <AdditionalModule>1500300033</AdditionalModule>
+                    <FertilizerModuleData>
+                      <Module>25240</Module>
+                    </FertilizerModuleData>
+                  </ModuleOwner>
+                  <Motorizable>
+                    <MotorizableType>Tractor</MotorizableType>
+                  </Motorizable>
+                  <Industrializable>
+                    <BoostedByIndustrialization>1</BoostedByIndustrialization>
+                    <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+                    <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+                  </Industrializable>
+                  <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                  </Electrifiable>
+                  <FactoryBase>
+                    <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                    <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                  </FactoryBase>
+                </ModOp>
+              </Group>
+          </Group>
+        <!-- New World -->
+          <Group>
+            <ModOp Type="merge" GUID='134614,133004,133030,133031' Path="/Values">
+              <Industrializable>
+                <BoostedByIndustrialization>1</BoostedByIndustrialization>
+                <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+                <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+              </Industrializable>
+              <Electrifiable>
+                <ElectricityBoost>0</ElectricityBoost>
+                <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+              </Electrifiable>
+              <FactoryBase>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+              </FactoryBase>
+            </ModOp>
+            <ModOp Type="merge" GUID='134614,133004,133030,133031' Path="/Values" Condition="!/Values/ModuleOwner/AdditionalModule">
+              <ModuleOwner>
+                <AdditionalModule>1500300034</AdditionalModule>
+                <FarmType>PlantFarm</FarmType>
+              </ModuleOwner>
+              <Motorizable>
+                <MotorizableType>Tractor</MotorizableType>
+              </Motorizable>
+            </ModOp>
+            <ModOp Type="merge" GUID='134614,133004,133030,133031' Path="/Values" Condition="!/Values/ModuleOwner/FertilizerModuleData/Module">
+              <ModuleOwner>
+                <FertilizerModuleData>
+                  <Module>25241</Module>
+                </FertilizerModuleData>
+                <FarmType>PlantFarm</FarmType>
+              </ModuleOwner>
+            </ModOp>
+            <Group Condition="#shared_lubricant_works_kurila">
+              <ModOp Type="merge" GUID='1418' Path="/Values" Condition="!/Values/ModuleOwner/AdditionalModule">
+                <ModuleOwner>
+                  <AdditionalModule>1500300034</AdditionalModule>
+                  <FarmType>PlantFarm</FarmType>
+                </ModuleOwner>
+                <Motorizable>
+                  <MotorizableType>Tractor</MotorizableType>
+                </Motorizable>
+              </ModOp>
+              <ModOp Type="merge" GUID='1418' Path="/Values" Condition="!/Values/ModuleOwner/FertilizerModuleData/Module">
+                <ModuleOwner>
+                  <FertilizerModuleData>
+                    <Module>25241</Module>
+                  </FertilizerModuleData>
+                  <FarmType>PlantFarm</FarmType>
+                </ModuleOwner>
+              </ModOp>
+            </Group>
+          </Group>
+        <!-- Enbesa -->
+          <Group Condition="@1337472516">
+            <!-- Enbesan Orchards -->
+              <ModOp Type="merge" GUID='1337472607,1337472608,1337472609,1337472610' Path="/Values">
+                <Industrializable>
+                  <BoostedByIndustrialization>1</BoostedByIndustrialization>
+                  <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+                  <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+                </Industrializable>
+                <Electrifiable>
+                  <ElectricityBoost>0</ElectricityBoost>
+                  <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                </Electrifiable>
+                <FactoryBase>
+                  <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                  <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+                </FactoryBase>
+              </ModOp>
+              <ModOp Type="merge" GUID='1337472607,1337472608,1337472609,1337472610' Path="/Values" Condition="!/Values/ModuleOwner/AdditionalModule">
+                <ModuleOwner>
+                  <AdditionalModule>1500300035</AdditionalModule>
+                  <FarmType>PlantFarm</FarmType>
+                </ModuleOwner>
+                <Motorizable>
+                  <MotorizableType>Tractor</MotorizableType>
+                </Motorizable>
+              </ModOp>
+              <ModOp Type="merge" GUID='1337472607,1337472608,1337472609,1337472610' Path="/Values" Condition="!/Values/ModuleOwner/FertilizerModuleData/Module">
+                <ModuleOwner>
+                  <FertilizerModuleData>
+                    <Module>25242</Module>
+                  </FertilizerModuleData>
+                  <FarmType>PlantFarm</FarmType>
+                </ModuleOwner>
+              </ModOp>
+          </Group>
+        <!-- Electricity for Silos / Modules without % Bonus -->
+          <ModOp Type="merge" GUID='25240,25241,25242' Path="/Values">
+            <Industrializable>
+              <BoostedByIndustrialization>1</BoostedByIndustrialization>
+              <TransporterIndustrializationFactory>1010106</TransporterIndustrializationFactory>
+              <TransporterIndustrializationWarehouse>1010106</TransporterIndustrializationWarehouse>
+            </Industrializable>
+            <Electrifiable>
+              <ElectricityBoost>0</ElectricityBoost>
+              <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+            </Electrifiable>
+          </ModOp>
+        <!-- Butterfly Buff -->
+          <Group Condition="@2025012807">
+            <ModOp Type="remove" GUID='2025012807' Path="/Values/FactoryUpgrade/ProductivityUpgrade"></ModOp>
+            <ModOp Type="merge" GUID='2025012807' Path="/Values/FactoryUpgrade">
+              <AdditionalOutput>
+                <Item>
+                  <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                  <AdditionalOutputCycle>1</AdditionalOutputCycle>
+                  <Amount>1</Amount>
+                </Item>
+              </AdditionalOutput>
+            </ModOp>
+          </Group>
+      </Group>
+  </Group>
+  <!-- Imya Tweaks -->
+    <ImyaTweaks Title="Features of Orchard Tractors" Icon="data/ui/2kimages/main/3dicons/icon_tractor.png" />
+    <ImyaExpose Path="*" Kind="SkipToggle" InitState="True" ModOpID="OrchardModules" ExposeID="Disable/Enable Orchard Tractors">
+    </ImyaExpose>
+</ModOps>

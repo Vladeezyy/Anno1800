@@ -1,0 +1,104 @@
+<ModOps>
+  <!-- # Workers -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010200</GUID>
+      <Text>Residenza operaio moderna: Livello 1</Text> <!-- construction menu, residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010201</GUID>
+      <Text>Residenza operaio moderna: Livello 2</Text> <!-- residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010206</GUID>
+      <Text>Tetti rossi</Text> <!-- skin name -->
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010207</GUID>
+      <Text>You prefer red roofs?</Text> <!-- skin desc -->
+    </Text>
+    <Text>
+      <GUID>1500010208</GUID>
+      <Text>Tetti neri</Text> <!-- skin name -->
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010209</GUID>
+      <Text>Don't like the occasional red roof in the mix?</Text> <!-- skin desc -->
+    </Text>
+    <Text>
+      <GUID>1500010212</GUID>
+      <Text>Residenze aggiornabili</Text> <!-- construction menu name -->
+    </Text>
+    <Text>
+      <GUID>1500010213</GUID>
+      <Text>[AssetData(163127) Text]</Text> <!-- construction menu desc -->
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010214</GUID>
+      <Text>Using the skyscraper upgrade button provides better random variation placement.</Text> <!-- level 1 residence construction desc -->
+    </Text>
+    <Text>
+      <GUID>1500010215</GUID>
+      <Text>Pavimentazione in pietra (Strada)</Text> <!-- construction menu, ornament UI -->
+    </Text>
+    <Text>
+      <GUID>1500010217</GUID>
+      <Text>Terraced Houses</Text> <!-- notification small/top text -->
+    </Text>
+    <Text>
+      <GUID>1500010218</GUID>
+      <Text>Residenza operaio moderna</Text> <!-- notification big/middle text -->
+    </Text>
+    <Text>
+      <GUID>1500010222</GUID>
+      <Text>You find market ornaments with matching ground variations in the 'City Lights Pack'.</Text> <!-- ornament description -->
+    </Text>
+    <Text>
+      <GUID>1500010223</GUID>
+      <Text>Pavimentazione in pietra</Text> <!-- stone pavement decorations -->
+    </Text>
+    <Text>
+      <GUID>1500010224</GUID>
+      <Text>[AssetData(1500010223) Text]</Text> <!-- construction menu, ornament UI -->
+    </Text>
+    <Text>
+      <GUID>1500010281</GUID>
+      <Text>Residenze operaie moderne</Text> <!-- target pool -->
+    </Text>
+  </ModOp>
+  <!-- # Artisans -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010225</GUID>
+      <Text>Residenza artigiano moderna: Livello 1</Text> <!-- residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010226</GUID>
+      <Text>Residenza artigiano moderna: Livello 2</Text> <!-- residence UI -->
+    </Text>
+    <Text>
+      <GUID>1500010227</GUID>
+      <Text>Residenze artigiane moderne</Text> <!-- target pool -->
+    </Text>
+    <Text>
+      <GUID>1500010228</GUID>
+      <Text>Mixed Skin</Text> <!-- mixed skin -->
+    </Text>
+    <Text>
+      <GUID>1500010229</GUID>
+      <Text>Tetti blu</Text> <!-- blue roof skin -->
+    </Text>
+    <Text>
+      <GUID>1500010230</GUID>
+      <Text>Skin mattoni</Text> <!-- brick wall skin -->
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500010242</GUID>
+      <Text>Green Roof Skin</Text>
+    </Text>
+  </ModOp>
+</ModOps>

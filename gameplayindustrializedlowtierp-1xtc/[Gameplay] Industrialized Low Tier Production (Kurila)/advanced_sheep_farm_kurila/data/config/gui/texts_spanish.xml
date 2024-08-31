@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300835</GUID>
+      <Text>Alimentando a los animales</Text>
+    </Text>
+    <Text>
+      <GUID>1500300836</GUID>
+      <Text>animales hambrientos</Text>
+    </Text>
+    <Text>
+      <GUID>1500300837</GUID>
+      <Text>Explotación ovina industrial</Text>
+    </Text>
+     <Text>
+      <GUID>1500300894</GUID>
+      <Text>Silo (comida para ovejas)</Text>
+    </Text>
+    <Text>
+      <GUID>1500300908</GUID>
+      <Text>Almacena alimentos para los animales y permite la producción..</Text>
+    </Text>
+    <Text>
+      <GUID>1500300893</GUID>
+      <Text>Estabulación ovina avanzada</Text>
+    </Text>
+  </ModOp>
+</ModOps>

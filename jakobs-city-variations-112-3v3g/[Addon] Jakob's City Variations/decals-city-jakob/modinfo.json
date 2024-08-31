@@ -1,0 +1,45 @@
+{
+  "Version": "1.0",
+  "ModID": "decals-city-jakob",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Decals City (Jakob)",
+    "Chinese": "Decals City (Jakob)",
+    "French": "Decals City (Jakob)",
+    "German": "Decals City (Jakob)",
+    "Italian": "Decals City (Jakob)",
+    "Japanese": "Decals City (Jakob)",
+    "Korean": "Decals City (Jakob)",
+    "Polish": "Decals City (Jakob)",
+    "Russian": "Decals City (Jakob)",
+    "Spanish": "Decals City (Jakob)",
+    "Taiwanese": "Decals City (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno1800-shared-mods",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

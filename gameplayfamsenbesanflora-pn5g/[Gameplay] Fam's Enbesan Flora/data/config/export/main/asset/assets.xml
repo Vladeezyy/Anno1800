@@ -1,0 +1,3749 @@
+<!--
+Enbesa sets for Botanical Gardens
+GUID Range: 1660011001-166011999 (Modder prefix: 166001, Mod prefix: 1, ID Range 000-999)
+-->
+<ModOps>
+
+	<!--
+	DLCS:
+	410041 Botanica
+	410071 Land of Lions
+
+	193870: Palace replacement visitor pool
+	 -->
+
+	<!-- GROUP: Enbesan Flora Mod -->
+	<!-- PURPOSE: Re-register the trigger that unlocks all plants so that the newly-added plants get unlocked at traders/etc -->
+	<ModOp GUID="130224" Type="AddNextSibling">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011000</GUID>
+					<Name>[Fams mods] Enbesan Flora: Rerun trigger: intermediate moderate 4.2</Name>
+					<IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition />
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000003</Context>
+								<CounterAmount>1000</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionRegisterTrigger</Template>
+								<Values>
+									<Action />
+									<ActionRegisterTrigger>
+										<TriggerAsset>130224</TriggerAsset>
+									</ActionRegisterTrigger>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Adds the set to the botanical gardens -->
+	<ModOp GUID="110935,114141" Path='/Values/Culture/Sets' Type="Add">
+		<Item>
+			<Set>1660011001</Set>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Adds a new botanical garden set -->
+	<!-- Add after "Heirlooms of the Gold-Realm" museum item set -->
+	<ModOp GUID="124908" Type="AddNextSibling">
+		<Asset>
+			<Template>ItemSet</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011001</GUID>
+					<Name>[Fams mods] Enbesa Plateau Botanical Set</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_treefuschia.png</IconFilename>
+					<InfoDescription>1660011002</InfoDescription>
+				</Standard>
+				<ItemSocketSet>
+					<SetBuff>1660011003</SetBuff>
+					<BuffScope>Area</BuffScope>
+					<DLCMoodImage>data/ui/2kimages/main/assets16/dlc/bgr_dlc_card_botanica.png</DLCMoodImage>
+				</ItemSocketSet>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Enbesa Plateau</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011001</LineID>
+				</Text>
+				<Locked>
+					<!-- Land of Lions Dependency so the icon appears as Enbesa (plants themselves are Botanica-only) -->
+					<DLCDependency>410071</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Text description for set -->
+	<ModOp GUID="22238" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011002</GUID>
+					<Name>[Fams mods] Enbesa Plateau Botanical Set Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>The monsoons sweeping across the highlands of the Enbesan plateau create an unexpected landscape rich in unique flora, and may encourage your farmers to add colour and variety to their fields.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>32718</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Buff for botanical garden set: Adds bonus Hibiscus Flowers and Indigo to farms -->
+	<!-- Add after the Arctic Tundra Park set buff -->
+	<ModOp GUID="193772" Type="AddNextSibling">
+		<Asset>
+			<Template>GuildhouseBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011003</GUID>
+					<Name>[Fams mods] Enbesa Plateau Set Buff</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_treefuschia.png</IconFilename>
+					<InfoDescription>1660011004</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<!-- All crop farms -->
+							<GUID>190865</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Enbesa Plateau</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011004</LineID>
+				</Text>
+				<FactoryUpgrade>
+					<AdditionalOutput>
+						<Item>
+							<!-- Hibiscus Petals -->
+							<Product>114364</Product>
+							<AdditionalOutputCycle>8</AdditionalOutputCycle>
+							<Amount>1</Amount>
+						</Item>
+						<Item>
+							<!-- Indigo Dye -->
+							<Product>114368</Product>
+							<AdditionalOutputCycle>10</AdditionalOutputCycle>
+							<Amount>1</Amount>
+						</Item>
+					</AdditionalOutput>
+				</FactoryUpgrade>
+				<Buff>
+					<PossibleFluffTexts>
+						<Item>
+							<FluffText>1660011004</FluffText>
+						</Item>
+					</PossibleFluffTexts>
+				</Buff>
+				<CultureUpgrade />
+				<ModuleOwnerUpgrade />
+				<IncidentInfectableUpgrade />
+				<PowerplantUpgrade />
+				<IndustrializableUpgrade />
+				<ItemContainerUpgrade />
+				<IncidentInfluencerUpgrade />
+				<IrrigationUpgrade />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Text description for set buff -->
+	<!-- Add after description for Arctic Tundra Set Buff description -->
+	<ModOp GUID="22676" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011004</GUID>
+					<Name>[Fams mods] Enbesa Plateau Botanical Set Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>The variety of flora in the Enbesan Pleateau exhibit of your botanical gardens has encouraged your farmers to grow beautiful and non-indigenous varieties of flowers alongside their crops.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011004</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+
+
+
+
+
+
+
+
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Adds the set to the botanical gardens -->
+	<ModOp GUID="110935,114141" Path='/Values/Culture/Sets' Type="add">
+		<Item>
+			<Set>1660011101</Set>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Adds a new botanical garden set -->
+	<!-- Add after "Heirlooms of the Gold-Realm" museum item set -->
+	<ModOp GUID="124908" Type="AddNextSibling">
+		<Asset>
+			<Template>ItemSet</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011101</GUID>
+					<Name>[Fams mods] Rift Valley Botanical Set</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_adeyflower.png</IconFilename>
+					<InfoDescription>1660011102</InfoDescription>
+				</Standard>
+				<ItemSocketSet>
+					<SetBuff>1660011103</SetBuff>
+					<BuffScope>Area</BuffScope>
+					<DLCMoodImage>data/ui/2kimages/main/assets16/dlc/bgr_dlc_card_botanica.png</DLCMoodImage>
+				</ItemSocketSet>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Rift Valley</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011101</LineID>
+				</Text>
+				<Locked>
+					<!-- Land of Lions Dependency so the icon appears as Enbesa (plants themselves are Botanica-only) -->
+					<DLCDependency>410071</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Text description for set -->
+	<ModOp GUID="22238" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011102</GUID>
+					<Name>[Fams mods] Rift Valley Botanical Set Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>The arid savannah of Enbesa's Rift Valley provides a home to many sturdy varieties of plants. Their heartiness in difficult conditions may reveal secrets that make tending all of your plants easier.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>32718</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Buff for botanical garden set: Increase attractiveness of botanic gardens by +10%, reduced maintenance -50% -->
+	<!-- Add after the Arctic Tundra Park set buff -->
+	<ModOp GUID="193772" Type="AddNextSibling">
+		<Asset>
+			<Template>TownhallBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011103</GUID>
+					<Name>[Fams mods] Rift Valley Set Buff</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_adeyflower.png</IconFilename>
+					<InfoDescription>1660011104</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<!-- All botanical gardens -->
+							<GUID>193667</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Rift Valley</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011104</LineID>
+				</Text>
+				<BuildingUpgrade>
+					<MaintenanceUpgrade>
+						<Value>-50</Value>
+						<Percental>1</Percental>
+					</MaintenanceUpgrade>
+				</BuildingUpgrade>
+				<Buff />
+				<PopulationUpgrade />
+				<ResidenceUpgrade />
+				<IncidentInfectableUpgrade />
+				<CultureUpgrade>
+					<AttractivenessUpgrade>
+						<Value>10</Value>
+						<Percental>1</Percental>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<InfluenceSourceUpgrade />
+				<WarehouseUpgrade />
+				<DistributionUpgrade />
+				<ItemContainerUpgrade />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Text description for set buff -->
+	<!-- Add after description for Arctic Tundra Set Buff description -->
+	<ModOp GUID="22676" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011104</GUID>
+					<Name>[Fams mods] Rift Valley Botanical Set Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Studying the tough plants from Enbesa's arid savannah teach your botanists ways to improve the health and beauty of other exhibits in your botanic gardens.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011104</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+
+
+
+
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Adds the set to the botanical gardens -->
+	<ModOp GUID="110935,114141" Path='/Values/Culture/Sets' Type="add">
+		<Item>
+			<Set>1660011201</Set>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Adds a new botanical garden set -->
+	<!-- Add after "Heirlooms of the Gold-Realm" museum item set -->
+	<ModOp GUID="124908" Type="AddNextSibling">
+		<Asset>
+			<Template>ItemSet</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011201</GUID>
+					<Name>[Fams mods] Bountiful Branches Botanical Set</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_moringa.png</IconFilename>
+					<InfoDescription>1660011202</InfoDescription>
+				</Standard>
+				<ItemSocketSet>
+					<SetBuff>1660011203</SetBuff>
+					<BuffScope>Area</BuffScope>
+					<DLCMoodImage>data/ui/2kimages/main/assets16/dlc/bgr_dlc_card_botanica.png</DLCMoodImage>
+				</ItemSocketSet>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Bountiful Branches</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011201</LineID>
+				</Text>
+				<Locked>
+					<!-- Land of Lions Dependency so the icon appears as Enbesa (plants themselves are Botanica-only) -->
+					<DLCDependency>410071</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Text description for set -->
+	<ModOp GUID="22238" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011202</GUID>
+					<Name>[Fams mods] Bountiful Branches Botanical Set Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>These trees are the life of Enbesa, providing both valuable timber and a selection of native fruits. A grand display of these may inspire your craftspeople.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011202</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Buff for botanical garden set: Increase attractiveness of botanic gardens by +10%, reduced maintenance -50% -->
+	<!-- Add after the Arctic Tundra Park set buff -->
+	<ModOp GUID="193772" Type="AddNextSibling">
+		<Asset>
+			<Template>GuildhouseBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011203</GUID>
+					<Name>[Fams mods] Bountiful Branches Set Buff</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_adeyflower.png</IconFilename>
+					<InfoDescription>1660011204</InfoDescription>
+				</Standard>
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<!-- All carpentry works; -->
+							<GUID>190914</GUID>
+						</Item>
+						<Item>
+							<!-- Window Factory -->
+							<GUID>1010285</GUID>
+						</Item>
+						<Item>
+							<!-- Gramophone Factory -->
+							<GUID>1010326</GUID>
+						</Item>
+						<Item>
+							<!-- Telephone Manufacturer -->
+							<GUID>118735</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Bountiful Branches</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011204</LineID>
+				</Text>
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>20</Value>
+						<Percental>1</Percental>
+					</ProductivityUpgrade>
+				</FactoryUpgrade>
+				<CultureUpgrade />
+				<ModuleOwnerUpgrade />
+				<IncidentInfectableUpgrade />
+				<PowerplantUpgrade />
+				<IndustrializableUpgrade />
+				<ItemContainerUpgrade />
+				<IncidentInfluencerUpgrade />
+				<IrrigationUpgrade />
+
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Text description for set buff -->
+	<!-- Add after description for Arctic Tundra Set Buff description -->
+	<ModOp GUID="22676" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011204</GUID>
+					<Name>[Fams mods] Bountiful Branches Botanical Set Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>The different types of wood displayed in Bountiful Branches have inspired your craftspeople with new techniques to working with wood.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011204</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+
+
+
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Adds the set to the botanical gardens -->
+	<ModOp GUID="110935,114141" Path='/Values/Culture/Sets' Type="add">
+		<Item>
+			<Set>1660011301</Set>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Adds a new botanical garden set -->
+	<!-- Add after "Heirlooms of the Gold-Realm" museum item set -->
+	<ModOp GUID="124908" Type="AddNextSibling">
+		<Asset>
+			<Template>ItemSet</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011301</GUID>
+					<Name>[Fams mods] Jewels of the South Botanical Set</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_callalilly.png</IconFilename>
+					<InfoDescription>1660011302</InfoDescription>
+				</Standard>
+				<ItemSocketSet>
+					<SetBuff>1660011303</SetBuff>
+					<BuffScope>Session</BuffScope>
+					<DLCMoodImage>data/ui/2kimages/main/assets16/dlc/bgr_dlc_card_botanica.png</DLCMoodImage>
+				</ItemSocketSet>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Jewels of the South</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011301</LineID>
+				</Text>
+				<Locked>
+					<!-- Land of Lions Dependency so the icon appears as Enbesa (plants themselves are Botanica-only) -->
+					<DLCDependency>410071</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Text description for set -->
+	<ModOp GUID="22238" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011302</GUID>
+					<Name>[Fams mods] Jewels of the South Botanical Set Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Enbesa's trade partners to the far south have a dazzling array of colourful and exotic plants. Having such bright displays in your gardens may encourage your sailors to improve your trade routes.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>32718</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Buff for botanical garden set: +10% movement speed for trade ships -->
+	<!-- Add after the Arctic Tundra Park set buff -->
+	<ModOp GUID="193772" Type="AddNextSibling">
+		<Asset>
+			<Template>VehicleBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011303</GUID>
+					<Name>[Fams mods] Jewels of the South Set Buff</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_callalilly.png</IconFilename>
+					<InfoDescription>1660011304</InfoDescription>
+				</Standard>
+
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Jewels of the South</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011304</LineID>
+				</Text>
+				<VehicleUpgrade>
+					<ForwardSpeedUpgrade>
+						<Value>10</Value>
+						<Percental>1</Percental>
+					</ForwardSpeedUpgrade>
+				</VehicleUpgrade>
+				<Buff />
+				<AttackerUpgrade />
+				<AttackableUpgrade />
+				<ProjectileUpgrade />
+				<TradeShipUpgrade />
+				<UpgradeList />
+				<ItemEffect>
+					<EffectTargets>
+						<Item>
+							<!-- All tradeships -->
+							<GUID>193898</GUID>
+						</Item>
+					</EffectTargets>
+				</ItemEffect>
+				<DivingBellUpgrade />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Text description for set buff -->
+	<!-- Add after description for Arctic Tundra Set Buff description -->
+	<ModOp GUID="22676" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011304</GUID>
+					<Name>[Fams mods] Jewels of the South Botanical Set Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Upon seeing the beautiful Jewels of the South display in your botanic gardens, your sailors become more eager to expand your trade routes, pushing your trade ships to their limit.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011304</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Add cultural item "Tree Fuchsia" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011010</GUID>
+					<Name>Tree Fuchsia (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_treefuschia.png</IconFilename>
+					<InfoDescription>1660011011</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Tree Fuchsia</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011010</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Epic</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011001</ItemSet>
+					<TradePrice>220000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>40</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>20</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa;SouthernEurope;CentralEurope</ItemRegions>
+					<ItemDifficulties>Average;Hard</ItemDifficulties>
+					<FluffText>1660011011</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Add text description for cultural item "Tree Fuchsia" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011011</GUID>
+					<Name>item fluff Tree Fuchsia (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Halleria Lucida.&lt;/b&gt; A haven for birds on the highlands plateau, its immature fruit is also used by shepherds as a traditional medicine.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011011</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Add cultural item "Torch Lily" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011012</GUID>
+					<Name>Torch Lily (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_torchlily.png</IconFilename>
+					<InfoDescription>1660011013</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Torch Lily</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011012</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Legendary</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011001</ItemSet>
+					<TradePrice>752000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>50</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Faith</Attribute>
+							<Amount>10</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa;SouthernEurope</ItemRegions>
+					<ItemDifficulties>Hard</ItemDifficulties>
+					<FluffText>1660011013</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Add text description for cultural item "Torch Lily" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011013</GUID>
+					<Name>item fluff Torch Lily (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Kniphofia Foliosa.&lt;/b&gt; The glowing flowers shoot up like a dazzling torch, attracting bees to its copious nectar.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011013</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Add cultural item "Lion's Ear" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011014</GUID>
+					<Name>Lion's Ear (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_lionsear.png</IconFilename>
+					<InfoDescription>1660011015</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Lion's Ear</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011014</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Rare</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011001</ItemSet>
+					<TradePrice>99000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>30</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>10</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa;SouthernEurope</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1660011015</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Add text description for cultural item "Lion's Ear" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011015</GUID>
+					<Name>item fluff Lion's Ear (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Leonotis Ocymifolia.&lt;/b&gt; A sturdy specimen with odd-looking tubular flowers is a distant relative of many of the herbs used in the Old World.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011015</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add cultural item "Adey Flower" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011110</GUID>
+					<Name>Adey Flower (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_adeyflower.png</IconFilename>
+					<InfoDescription>1660011111</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Adey Flower</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011110</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Epic</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011101</ItemSet>
+					<TradePrice>220000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>40</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>15</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Faith</Attribute>
+							<Amount>25</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa</ItemRegions>
+					<ItemDifficulties>Average;Hard</ItemDifficulties>
+					<FluffText>1660011111</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add text description for cultural item "Adey Flower" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011111</GUID>
+					<Name>item fluff Adey Flower (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Bidens Macroptera.&lt;/b&gt; The holy flower of Tabourime that blooms to signal the coming of the new year, the Adey flower symbolises prosperity and good fortune for all who wear it.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011111</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add cultural item "Desert Rose" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011112</GUID>
+					<Name>Desert Rose (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_desertrose.png</IconFilename>
+					<InfoDescription>1660011113</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Desert Rose</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011112</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Legendary</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011101</ItemSet>
+					<TradePrice>752000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>50</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Faith</Attribute>
+							<Amount>30</Amount>
+						</Item>
+						<Item>
+							<Attribute>Hunting</Attribute>
+							<Amount>30</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa</ItemRegions>
+					<ItemDifficulties>Hard</ItemDifficulties>
+					<FluffText>1660011113</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add text description for cultural item "Desert Rose" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011113</GUID>
+					<Name>item fluff Desert Rose (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Adenium Obesum.&lt;/b&gt; The desert rose blooms in bright pink only in the perfect conditions. Its stem contains poisons that have been long used by the people of Enbesa for hunting and fishing.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011113</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add cultural item "Old Wanza Tree" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011114</GUID>
+					<Name>Old Wanza Tree (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_wanzaberries.png</IconFilename>
+					<InfoDescription>1660011115</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Old Wanza Tree</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011114</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Common</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011101</ItemSet>
+					<TradePrice>4300</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>10</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Crafting</Attribute>
+							<Amount>10</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa</ItemRegions>
+					<ItemDifficulties>Easy</ItemDifficulties>
+					<FluffText>1660011115</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add text description for cultural item "Old Wanza Tree" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011115</GUID>
+					<Name>item fluff Old Wanza Tree (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Cordia Africana.&lt;/b&gt; Used not just for construction, but also for fine crafting, the sturdy wanza tree's timber is the heart of Enbesa.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011115</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add cultural item "Frankincense" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011116</GUID>
+					<Name>Frankincense (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_frankincense.png</IconFilename>
+					<InfoDescription>1660011117</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Frankincense</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011116</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Uncommon</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011101</ItemSet>
+					<TradePrice>22400</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>20</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>15</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>20</Amount>
+						</Item>
+						<Item>
+							<Attribute>Force</Attribute>
+							<Amount>10</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa;SouthernEurope</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1660011117</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add text description for cultural item "Frankincense" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011117</GUID>
+					<Name>item fluff Frankincense (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Boswellia Papyrifera.&lt;/b&gt; The boswellia tree's resin has been long favoured as an incense.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011117</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add cultural item "Aloe" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011118</GUID>
+					<Name>Aloe (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_aloe.png</IconFilename>
+					<InfoDescription>1660011119</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Aloe</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011118</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Rare</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011101</ItemSet>
+					<TradePrice>99000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>30</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>10</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>25</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>SouthAmerica;NorthAfrica;Africa;SouthernEurope;SouthernSouthAmerica;CentralEurope</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1660011119</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add text description for cultural item "Aloe" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011119</GUID>
+					<Name>item fluff Aloe (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Aloe Elegans.&lt;/b&gt; No drought will stop this little plant from flourishing, although finding it with flowers atop its red-toothed leaves is more of a treat.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011119</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add cultural item "Wild Custard Apple" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011120</GUID>
+					<Name>Wild Custard Apple (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_custardapple.png</IconFilename>
+					<InfoDescription>1660011121</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Wild Custard Apple</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011120</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Rare</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011101</ItemSet>
+					<TradePrice>99000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>30</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>20</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>20</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1660011121</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Add text description for cultural item "Wild Custard Apple" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011121</GUID>
+					<Name>item fluff Wild Custard Apple (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Annona Senegalensis.&lt;/b&gt; "First came those tropical pine apples and now another? Such a strange taste, but not unpleasant!</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011121</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add cultural item "Calla Lily" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011310</GUID>
+					<Name>Calla Lily (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_callalilly.png</IconFilename>
+					<InfoDescription>1660011311</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Calla Lily</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011310</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Epic</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011301</ItemSet>
+					<TradePrice>220000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>40</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Faith</Attribute>
+							<Amount>35</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>SouthAmerica;NorthAfrica;Africa;SouthernEurope;SouthernSouthAmerica;CentralEurope</ItemRegions>
+					<ItemDifficulties>Average;Hard</ItemDifficulties>
+					<FluffText>1660011311</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add text description for cultural item "Calla Lily" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011311</GUID>
+					<Name>item fluff Calla Lily (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Zantedeschia Aenbesica.&lt;/b&gt; Despite the 'lily' misnomer, this beautiful plant is temperamental yet majestic. Its elegant flowers are unmistakable.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011311</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add cultural item "Royal Poinciana" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011312</GUID>
+					<Name>Royal Poinciana (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_flamboyanttree.png</IconFilename>
+					<InfoDescription>1660011313</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Royal Poinciana</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011312</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Legendary</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011301</ItemSet>
+					<TradePrice>752000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111094</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>50</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Crafting</Attribute>
+							<Amount>10</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>SouthAmerica;NorthAfrica;Africa;SouthernEurope;SouthernSouthAmerica;CentralEurope</ItemRegions>
+					<ItemDifficulties>Hard</ItemDifficulties>
+					<FluffText>1660011313</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add text description for cultural item "Royal Poinciana" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011313</GUID>
+					<Name>item fluff Royal Poinciana (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Delonix Regia.&lt;/b&gt; Commonly said to be the 'flamboyant tree', you can often see their bright red flowers lining the edges of roads.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011313</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add cultural item "Spur Flower" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011314</GUID>
+					<Name>Spur Flower (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_spurflower.png</IconFilename>
+					<InfoDescription>1660011315</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Spur Flower</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011314</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Rare</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011301</ItemSet>
+					<TradePrice>99000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>30</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+
+					<ItemRegions>SouthAmerica;NorthAfrica;Africa;SouthernEurope;SouthernSouthAmerica;CentralEurope</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1660011315</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add text description for cultural item "Spur Flower" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011315</GUID>
+					<Name>item fluff Spur Flower (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Plectranthus Coerulescens.&lt;/b&gt; This shrub blankets the land, bursting into flower late in the year with in pale flowers and fragrant leaves.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011315</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add cultural item "Leopard Orchid" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011316</GUID>
+					<Name>Leopard Orchid (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_leopardorchid.png</IconFilename>
+					<InfoDescription>1660011317</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Leopard Orchid</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011316</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Legendary</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011301</ItemSet>
+					<TradePrice>689600</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>50</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Faith</Attribute>
+							<Amount>40</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>SouthernEurope;NorthAfrica;Africa</ItemRegions>
+					<ItemDifficulties>Hard</ItemDifficulties>
+					<FluffText>1660011317</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add text description for cultural item "Leopard Orchid" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011317</GUID>
+					<Name>item fluff Leopard Orchid (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Ansellia Africana.&lt;/b&gt; Sometimes the dark leopard spots may seem to take over the flower, but the striking resemblance to a leopard remains clear.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011317</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add cultural item "Gazania" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011318</GUID>
+					<Name>Gazania (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_gazania.png</IconFilename>
+					<InfoDescription>1660011319</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Gazania</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011318</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Uncommon</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011301</ItemSet>
+					<TradePrice>22400</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111083</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>20</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+
+					<ItemRegions>SouthAmerica;NorthAfrica;Africa;SouthernEurope;SouthernSouthAmerica;CentralEurope</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1660011319</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add text description for cultural item "Gazania" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011319</GUID>
+					<Name>item fluff Gazania (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Gazania Rigens.&lt;/b&gt; It's suggested that the petals taste like butter, leading to its other nickname 'the butter flower', although we don't recommend it on your toast.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011319</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add cultural item "Cape Periwinkle" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011320</GUID>
+					<Name>Cape Periwinkle (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_periwinkle.png</IconFilename>
+					<InfoDescription>1660011321</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Cape Periwinkle</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011320</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Uncommon</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011301</ItemSet>
+					<TradePrice>22400</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111102</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>20</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>0</BaseMorale>
+
+					<ItemRegions>NorthernEurope;SouthAmerica;NorthAfrica;Africa;SouthernEurope;SouthernSouthAmerica;CentralEurope</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1660011321</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Add text description for cultural item "Cape Periwinkle" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011321</GUID>
+					<Name>item fluff Cape Periwinkle (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Catharanthus Roseus.&lt;/b&gt; Leave their farmland unattended for a short while and a shepherd will come to find a spread of 'Bright eyes' periwinkles as their new neighbours.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011321</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Add cultural item "Ironwood Olive Tree" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011210</GUID>
+					<Name>Ironwood Olive Tree (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_ironwoodolive.png</IconFilename>
+					<InfoDescription>1660011211</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Ironwood Olive Tree</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011210</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Rare</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011201</ItemSet>
+					<TradePrice>99000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111096</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>30</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>10</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Crafting</Attribute>
+							<Amount>30</Amount>
+						</Item>
+						<Item>
+							<Attribute>Force</Attribute>
+							<Amount>10</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1660011211</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Add text description for cultural item "Ironwood Olive Tree" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011211</GUID>
+					<Name>item fluff Ironwood Olive Tree (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Olea Capensis.&lt;/b&gt; One of the world's hardest woods, the hardwood has been used for art and decorative artifacts for centuries, with a regular harvest of olives.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011211</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Add cultural item "Moringa Tree" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011212</GUID>
+					<Name>Moringa Tree (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_moringa.png</IconFilename>
+					<InfoDescription>1660011213</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Moringa Tree</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011212</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Rare</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011201</ItemSet>
+					<TradePrice>99000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>111096</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>30</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>10</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Crafting</Attribute>
+							<Amount>10</Amount>
+						</Item>
+						<Item>
+							<Attribute>Medicine</Attribute>
+							<Amount>10</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa;SouthernEurope</ItemRegions>
+					<ItemDifficulties>Easy;Average</ItemDifficulties>
+					<FluffText>1660011213</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Add text description for cultural item "Moringa Tree" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011213</GUID>
+					<Name>item fluff Moringa Tree (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Moringa Stenopetala.&lt;/b&gt; Every part of this tree is useful in Enbesa; leaves prepared like cabbages, seeds made into a useful oil, young pods are boiled, even the flowers are eaten.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011213</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Add cultural item "Warka Tree" -->
+	<!-- Add after "Chronicles of Enbesa" museum item (last item) -->
+	<ModOp GUID="130945" Type="AddNextSibling">
+		<Asset>
+			<Template>CultureItem</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011214</GUID>
+					<Name>Warka Tree (Fam's Enbesa Flora mod)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/plants_enbesanflora/icon_warka.png</IconFilename>
+					<InfoDescription>1660011215</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Warka Tree</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011214</LineID>
+				</Text>
+				<Item>
+					<Allocation>BotanicGarden</Allocation>
+					<Rarity>Epic</Rarity>
+					<ItemType>Normal</ItemType>
+					<ItemSet>1660011201</ItemSet>
+					<TradePrice>220000</TradePrice>
+					<TradePriceOnlineCurrency>10</TradePriceOnlineCurrency>
+				</Item>
+				<Cost />
+				<CultureUpgrade>
+					<ChangeModule>114310</ChangeModule>
+					<AttractivenessUpgrade>
+						<Value>40</Value>
+					</AttractivenessUpgrade>
+				</CultureUpgrade>
+				<BuildingUpgrade />
+				<ExpeditionAttribute>
+					<BaseMorale>10</BaseMorale>
+					<ExpeditionAttributes>
+						<Item>
+							<Attribute>Crafting</Attribute>
+							<Amount>25</Amount>
+						</Item>
+						<Item>
+							<Attribute>Force</Attribute>
+							<Amount>15</Amount>
+						</Item>
+					</ExpeditionAttributes>
+					<ItemRegions>NorthAfrica;Africa</ItemRegions>
+					<ItemDifficulties>Average;Hard</ItemDifficulties>
+					<FluffText>1660011215</FluffText>
+				</ExpeditionAttribute>
+				<Locked>
+					<DLCDependency>410041</DLCDependency>
+				</Locked>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Add text description for cultural item "Warka Tree" -->
+	<ModOp GUID="112763" Type="AddNextSibling">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011215</GUID>
+					<Name>item fluff Warka Tree (Fam's Enbesa Flora mod)</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Ficus Vasta.&lt;/b&gt; This huge load-bearing ficus' trunk splits into spreading branches, providing figs enjoyed by children and grazed by animals.</Text>
+							<Status>Exported</Status>
+							<ExportCount>1</ExportCount>
+						</English>
+					</LocaText>
+					<LineID>1660011215</LineID>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+
+
+
+	<!-- GROUP: Enbesan Plant Reward Sets -->
+	<!-- PURPOSE: Add new rewardpool for Common Enbesan plants -->
+	<!-- Add after description for Arctic Tundra Set Buff description -->
+	<ModOp GUID="22676" Type="AddNextSibling">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011990</GUID>
+					<Name>Culture - Enbesan Plants - Common</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Enbesan Plant Reward Sets -->
+	<!-- PURPOSE: Add new rewardpool for Uncommon Enbesan plants -->
+	<!-- Add after description for Arctic Tundra Set Buff description -->
+	<ModOp GUID="22676" Type="AddNextSibling">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011991</GUID>
+					<Name>Culture - Enbesan Plants - Uncommon</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Enbesan Plant Reward Sets -->
+	<!-- PURPOSE: Add new rewardpool for Rare Enbesan plants -->
+	<!-- Add after description for Arctic Tundra Set Buff description -->
+	<ModOp GUID="22676" Type="AddNextSibling">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011992</GUID>
+					<Name>Culture - Enbesan Plants - Rare</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Enbesan Plant Reward Sets -->
+	<!-- PURPOSE: Add new rewardpool for Epic Enbesan plants -->
+	<!-- Add after description for Arctic Tundra Set Buff description -->
+	<ModOp GUID="22676" Type="AddNextSibling">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011993</GUID>
+					<Name>Culture - Enbesan Plants - Epic</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- GROUP: Enbesan Plant Reward Sets -->
+	<!-- PURPOSE: Add new rewardpool for Legendary Enbesan plants -->
+	<!-- Add after description for Arctic Tundra Set Buff description -->
+	<ModOp GUID="22676" Type="AddNextSibling">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1660011994</GUID>
+					<Name>Culture - Enbesan Plants - Legendary</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+
+
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Common to Asset Pool: 3rd_party_13 (Emperor Ketema) EarlyGame -->
+	<ModOp GUID="127466" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Common -->
+			<ItemLink>1660011990</ItemLink>
+			<Weight>60</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Common to Asset Pool: 3rd_party_13 (Emperor Ketema) EarlyMidGame -->
+	<ModOp GUID="127476" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Common -->
+			<ItemLink>1660011990</ItemLink>
+			<Weight>50</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Common to Asset Pool: 3rd_party_13 (Emperor Ketema) MidGame -->
+	<ModOp GUID="127477" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Common -->
+			<ItemLink>1660011990</ItemLink>
+			<Weight>20</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Common to Asset Pool: 3rd_party_13 (Emperor Ketema) LateMidGame -->
+	<ModOp GUID="127478" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Common -->
+			<ItemLink>1660011990</ItemLink>
+			<Weight>15</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Common to Asset Pool: 3rd_party_13 (Emperor Ketema) LateGame -->
+	<ModOp GUID="127479" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Common -->
+			<ItemLink>1660011990</ItemLink>
+			<Weight>10</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Common to Asset Pool: 3rd_party_13 (Emperor Ketema) EndGame -->
+	<ModOp GUID="127480" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Common -->
+			<ItemLink>1660011990</ItemLink>
+			<Weight>10</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Common to Asset Pool: Culture - Plants - Common -->
+	<ModOp GUID="193674" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Common -->
+			<ItemLink>1660011990</ItemLink>
+			<Weight>2</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Uncommon to Asset Pool: 3rd_party_13 (Emperor Ketema) EarlyGame -->
+	<ModOp GUID="127466" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Uncommon -->
+			<ItemLink>1660011991</ItemLink>
+			<Weight>20</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Uncommon to Asset Pool: 3rd_party_13 (Emperor Ketema) EarlyMidGame -->
+	<ModOp GUID="127476" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Uncommon -->
+			<ItemLink>1660011991</ItemLink>
+			<Weight>30</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Uncommon to Asset Pool: 3rd_party_13 (Emperor Ketema) MidGame -->
+	<ModOp GUID="127477" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Uncommon -->
+			<ItemLink>1660011991</ItemLink>
+			<Weight>40</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Uncommon to Asset Pool: 3rd_party_13 (Emperor Ketema) LateMidGame -->
+	<ModOp GUID="127478" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Uncommon -->
+			<ItemLink>1660011991</ItemLink>
+			<Weight>30</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Uncommon to Asset Pool: 3rd_party_13 (Emperor Ketema) LateGame -->
+	<ModOp GUID="127479" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Uncommon -->
+			<ItemLink>1660011991</ItemLink>
+			<Weight>20</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Uncommon to Asset Pool: 3rd_party_13 (Emperor Ketema) EndGame -->
+	<ModOp GUID="127480" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Uncommon -->
+			<ItemLink>1660011991</ItemLink>
+			<Weight>10</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Uncommon to Asset Pool: Culture - Plants - Uncommon -->
+	<ModOp GUID="193675" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Uncommon -->
+			<ItemLink>1660011991</ItemLink>
+			<Weight>6</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Rare to Asset Pool: 3rd_party_13 (Emperor Ketema) EarlyGame -->
+	<ModOp GUID="127466" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Rare -->
+			<ItemLink>1660011992</ItemLink>
+			<Weight>0</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Rare to Asset Pool: 3rd_party_13 (Emperor Ketema) EarlyMidGame -->
+	<ModOp GUID="127476" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Rare -->
+			<ItemLink>1660011992</ItemLink>
+			<Weight>8</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Rare to Asset Pool: 3rd_party_13 (Emperor Ketema) MidGame -->
+	<ModOp GUID="127477" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Rare -->
+			<ItemLink>1660011992</ItemLink>
+			<Weight>12</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Rare to Asset Pool: 3rd_party_13 (Emperor Ketema) LateMidGame -->
+	<ModOp GUID="127478" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Rare -->
+			<ItemLink>1660011992</ItemLink>
+			<Weight>20</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Rare to Asset Pool: 3rd_party_13 (Emperor Ketema) LateGame -->
+	<ModOp GUID="127479" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Rare -->
+			<ItemLink>1660011992</ItemLink>
+			<Weight>30</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Rare to Asset Pool: 3rd_party_13 (Emperor Ketema) EndGame -->
+	<ModOp GUID="127480" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Rare -->
+			<ItemLink>1660011992</ItemLink>
+			<Weight>40</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Rare to Asset Pool: Culture - Plants - Rare -->
+	<ModOp GUID="193676" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Rare -->
+			<ItemLink>1660011992</ItemLink>
+			<Weight>7</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Epic to Asset Pool: 3rd_party_13 (Emperor Ketema) EarlyGame -->
+	<ModOp GUID="127466" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Epic -->
+			<ItemLink>1660011993</ItemLink>
+			<Weight>0</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Epic to Asset Pool: 3rd_party_13 (Emperor Ketema) EarlyMidGame -->
+	<ModOp GUID="127476" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Epic -->
+			<ItemLink>1660011993</ItemLink>
+			<Weight>0</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Epic to Asset Pool: 3rd_party_13 (Emperor Ketema) MidGame -->
+	<ModOp GUID="127477" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Epic -->
+			<ItemLink>1660011993</ItemLink>
+			<Weight>5</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Epic to Asset Pool: 3rd_party_13 (Emperor Ketema) LateMidGame -->
+	<ModOp GUID="127478" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Epic -->
+			<ItemLink>1660011993</ItemLink>
+			<Weight>3</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Epic to Asset Pool: 3rd_party_13 (Emperor Ketema) LateGame -->
+	<ModOp GUID="127479" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Epic -->
+			<ItemLink>1660011993</ItemLink>
+			<Weight>7</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Epic to Asset Pool: 3rd_party_13 (Emperor Ketema) EndGame -->
+	<ModOp GUID="127480" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Epic -->
+			<ItemLink>1660011993</ItemLink>
+			<Weight>10</Weight>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Epic to Asset Pool: Culture - Plants - Epic -->
+	<ModOp GUID="193677" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Epic -->
+			<ItemLink>1660011993</ItemLink>
+			<Weight>3</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Legendary to Asset Pool: 3rd_party_13 (Emperor Ketema) EarlyGame -->
+	<ModOp GUID="127466" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Legendary -->
+			<ItemLink>1660011994</ItemLink>
+			<Weight>0</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Legendary to Asset Pool: 3rd_party_13 (Emperor Ketema) EarlyMidGame -->
+	<ModOp GUID="127476" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Legendary -->
+			<ItemLink>1660011994</ItemLink>
+			<Weight>0</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Legendary to Asset Pool: 3rd_party_13 (Emperor Ketema) MidGame -->
+	<ModOp GUID="127477" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Legendary -->
+			<ItemLink>1660011994</ItemLink>
+			<Weight>0</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Legendary to Asset Pool: 3rd_party_13 (Emperor Ketema) LateMidGame -->
+	<ModOp GUID="127478" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Legendary -->
+			<ItemLink>1660011994</ItemLink>
+			<Weight>0</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Legendary to Asset Pool: 3rd_party_13 (Emperor Ketema) LateGame -->
+	<ModOp GUID="127479" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Legendary -->
+			<ItemLink>1660011994</ItemLink>
+			<Weight>0</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Legendary to Asset Pool: 3rd_party_13 (Emperor Ketema) EndGame -->
+	<ModOp GUID="127480" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Legendary -->
+			<ItemLink>1660011994</ItemLink>
+			<Weight>0</Weight>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesan Flora -->
+	<!-- PURPOSE: Add Enbesa - Plants - Legendary to Asset Pool: Culture - Plants - Legendary -->
+	<ModOp GUID="193678" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Enbesa - Plants - Legendary -->
+			<ItemLink>1660011994</ItemLink>
+			<Weight>2</Weight>
+		</Item>
+	</ModOp>
+
+
+
+
+
+
+
+
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Tree Fuchsia to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Tree Fuchsia -->
+			<Asset>1660011010</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Tree Fuchsia to Asset Pool: Africa - Plants - Epic -->
+	<ModOp GUID="1660011993" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Tree Fuchsia -->
+			<ItemLink>1660011010</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Tree Fuchsia to Asset Pool: Culture - Luxury Plants - Epic -->
+	<ModOp GUID="193719" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Tree Fuchsia -->
+			<ItemLink>1660011010</ItemLink>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Tree Fuchsia to Asset Pool: Culture - Nice Shaped Plants - Epic -->
+	<ModOp GUID="193721" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Tree Fuchsia -->
+			<ItemLink>1660011010</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Tree Fuchsia to Asset Pool: Hot Climate Plants R/E -->
+	<ModOp GUID="193755" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Tree Fuchsia -->
+			<ItemLink>1660011010</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Tree Fuchsia to Asset Pool: TraderQuest (Ketema) Epic Reward Pool -->
+	<ModOp GUID="130313" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Tree Fuchsia -->
+			<ItemLink>1660011010</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Tree Fuchsia to Asset Pool: Archetype (Elder) Epic Reward Pool -->
+	<ModOp GUID="130303" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Tree Fuchsia -->
+			<ItemLink>1660011010</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Torch Lily to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Torch Lily -->
+			<Asset>1660011012</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Torch Lily to Asset Pool: Africa - Plants - Legendary -->
+	<ModOp GUID="1660011994" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Torch Lily -->
+			<ItemLink>1660011012</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Torch Lily to Asset Pool: Culture - Farming Plants EU - Legendary -->
+	<ModOp GUID="193702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Torch Lily -->
+			<ItemLink>1660011012</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Torch Lily to Asset Pool: Myth based Plants L -->
+	<ModOp GUID="193759" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Torch Lily -->
+			<ItemLink>1660011012</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Torch Lily to Asset Pool: Archetype (Elder) Legendary Reward Pool -->
+	<ModOp GUID="130304" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Torch Lily -->
+			<ItemLink>1660011012</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Lion's Ear to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Lion's Ear -->
+			<Asset>1660011014</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Lion's Ear to Asset Pool: Africa - Plants - Rare -->
+	<ModOp GUID="1660011992" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Lion's Ear -->
+			<ItemLink>1660011014</ItemLink>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Lion's Ear to Asset Pool: Flowering Trees U/R -->
+	<ModOp GUID="193748" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Lion's Ear -->
+			<ItemLink>1660011014</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Lion's Ear to Asset Pool: Hot Climate Plants R/E -->
+	<ModOp GUID="193755" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Lion's Ear -->
+			<ItemLink>1660011014</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Enbesa Plateau -->
+	<!-- PURPOSE: Add Lion's Ear to Asset Pool: TraderQuest (Ketema) Rare Reward Pool -->
+	<ModOp GUID="130312" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Lion's Ear -->
+			<ItemLink>1660011014</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Adey Flower to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Adey Flower -->
+			<Asset>1660011110</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Adey Flower to Asset Pool: Africa - Plants - Epic -->
+	<ModOp GUID="1660011993" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Adey Flower -->
+			<ItemLink>1660011110</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Adey Flower to Asset Pool: Culture - Luxury Plants - Epic -->
+	<ModOp GUID="193719" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Adey Flower -->
+			<ItemLink>1660011110</ItemLink>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Adey Flower to Asset Pool: Culture - Nice Shaped Plants - Epic -->
+	<ModOp GUID="193721" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Adey Flower -->
+			<ItemLink>1660011110</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Adey Flower to Asset Pool: Hot Climate Plants R/E -->
+	<ModOp GUID="193755" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Adey Flower -->
+			<ItemLink>1660011110</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Adey Flower to Asset Pool: TraderQuest (Ketema) Epic Reward Pool -->
+	<ModOp GUID="130313" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Adey Flower -->
+			<ItemLink>1660011110</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Adey Flower to Asset Pool: Archetype (Shepherd) Epic Reward Pool -->
+	<ModOp GUID="129989" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Adey Flower -->
+			<ItemLink>1660011110</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Desert Rose to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Desert Rose -->
+			<Asset>1660011112</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Desert Rose to Asset Pool: Africa - Plants - Legendary -->
+	<ModOp GUID="1660011994" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Desert Rose -->
+			<ItemLink>1660011112</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Desert Rose to Asset Pool: Culture - Farming Plants EU - Legendary -->
+	<ModOp GUID="193702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Desert Rose -->
+			<ItemLink>1660011112</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Desert Rose to Asset Pool: Myth based Plants L -->
+	<ModOp GUID="193759" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Desert Rose -->
+			<ItemLink>1660011112</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Desert Rose to Asset Pool: Archetype (Shepherd) Legendary Reward Pool -->
+	<ModOp GUID="129990" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Desert Rose -->
+			<ItemLink>1660011112</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Old Wanza Tree to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Old Wanza Tree -->
+			<Asset>1660011114</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Old Wanza Tree to Asset Pool: Africa - Plants - Common -->
+	<ModOp GUID="1660011990" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Old Wanza Tree -->
+			<ItemLink>1660011114</ItemLink>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Old Wanza Tree to Asset Pool: Africa - Plants - Uncommon -->
+	<!-- Without doing this (and thus adding it to unlockable research rewards),
+	the Old Wanza Tree does not show up in the Research Center -->
+	<ModOp GUID="1660011991" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Old Wanza Tree -->
+			<ItemLink>1660011114</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Old Wanza Tree to Asset Pool: Culture - Luxury Plants - Common -->
+	<ModOp GUID="193704" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Old Wanza Tree -->
+			<ItemLink>1660011114</ItemLink>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Old Wanza Tree to Asset Pool: Culture - Nice Shaped Plants - Common -->
+	<ModOp GUID="193706" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Old Wanza Tree -->
+			<ItemLink>1660011114</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Old Wanza Tree to Asset Pool: Wild Grass C/U -->
+	<ModOp GUID="193743" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Old Wanza Tree -->
+			<ItemLink>1660011114</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Old Wanza Tree to Asset Pool: Archetype (Shepherd) Common Reward Pool -->
+	<ModOp GUID="129969" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Old Wanza Tree -->
+			<ItemLink>1660011114</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Frankincense to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Frankincense -->
+			<Asset>1660011116</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Frankincense to Asset Pool: Africa - Plants - Uncommon -->
+	<ModOp GUID="1660011991" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Frankincense -->
+			<ItemLink>1660011116</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Frankincense to Asset Pool: Culture - Luxury Plants - Uncommon -->
+	<ModOp GUID="193709" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Frankincense -->
+			<ItemLink>1660011116</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Frankincense to Asset Pool: Culture - Nice Shaped Plants - Uncommon -->
+	<ModOp GUID="193711" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Frankincense -->
+			<ItemLink>1660011116</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Frankincense to Asset Pool: Water Growing C/U -->
+	<ModOp GUID="193745" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Frankincense -->
+			<ItemLink>1660011116</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Frankincense to Asset Pool: Any Flowers U/R -->
+	<ModOp GUID="193751" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Frankincense -->
+			<ItemLink>1660011116</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Frankincense to Asset Pool: Archetype (Shepherd) Uncommon Reward Pool -->
+	<ModOp GUID="129987" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Frankincense -->
+			<ItemLink>1660011116</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Aloe to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Aloe -->
+			<Asset>1660011118</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Aloe to Asset Pool: Africa - Plants - Rare -->
+	<ModOp GUID="1660011992" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Aloe -->
+			<ItemLink>1660011118</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Aloe to Asset Pool: Flowering Trees U/R -->
+	<ModOp GUID="193748" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Aloe -->
+			<ItemLink>1660011118</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Aloe to Asset Pool: Any Flowers U/R -->
+	<ModOp GUID="193751" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Aloe -->
+			<ItemLink>1660011118</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Aloe to Asset Pool: TraderQuest (Ketema) Rare Reward Pool -->
+	<ModOp GUID="130312" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Aloe -->
+			<ItemLink>1660011118</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Aloe to Asset Pool: Archetype (Shepherd) Rare Reward Pool -->
+	<ModOp GUID="129988" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Aloe -->
+			<ItemLink>1660011118</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Wild Custard Apple to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Wild Custard Apple -->
+			<Asset>1660011120</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Wild Custard Apple to Asset Pool: Africa - Plants - Rare -->
+	<ModOp GUID="1660011992" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Wild Custard Apple -->
+			<ItemLink>1660011120</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Wild Custard Apple to Asset Pool: Flowering Trees U/R -->
+	<ModOp GUID="193748" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Wild Custard Apple -->
+			<ItemLink>1660011120</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Wild Custard Apple to Asset Pool: Any Flowers U/R -->
+	<ModOp GUID="193751" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Wild Custard Apple -->
+			<ItemLink>1660011120</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Wild Custard Apple to Asset Pool: TraderQuest (Ketema) Rare Reward Pool -->
+	<ModOp GUID="130312" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Wild Custard Apple -->
+			<ItemLink>1660011120</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Rift Valley -->
+	<!-- PURPOSE: Add Wild Custard Apple to Asset Pool: Archetype (Shepherd) Rare Reward Pool -->
+	<ModOp GUID="129988" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Wild Custard Apple -->
+			<ItemLink>1660011120</ItemLink>
+		</Item>
+	</ModOp>
+
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Ironwood Olive Tree to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Ironwood Olive Tree -->
+			<Asset>1660011210</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Ironwood Olive Tree to Asset Pool: Africa - Plants - Rare -->
+	<ModOp GUID="1660011992" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Ironwood Olive Tree -->
+			<ItemLink>1660011210</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Ironwood Olive Tree to Asset Pool: Culture - Farming Plants EU - Rare -->
+	<ModOp GUID="193700" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Ironwood Olive Tree -->
+			<ItemLink>1660011210</ItemLink>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Ironwood Olive Tree to Asset Pool: Deep Jungle Plants R -->
+	<ModOp GUID="193754" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Ironwood Olive Tree -->
+			<ItemLink>1660011210</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Ironwood Olive Tree to Asset Pool: TraderQuest (Ketema) Rare Reward Pool -->
+	<ModOp GUID="130312" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Ironwood Olive Tree -->
+			<ItemLink>1660011210</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Ironwood Olive Tree to Asset Pool: Archetype (Shepherd) Rare Reward Pool -->
+	<ModOp GUID="129988" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Ironwood Olive Tree -->
+			<ItemLink>1660011210</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Moringa Tree to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Moringa Tree -->
+			<Asset>1660011212</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Moringa Tree to Asset Pool: Africa - Plants - Rare -->
+	<ModOp GUID="1660011992" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Moringa Tree -->
+			<ItemLink>1660011212</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Moringa Tree to Asset Pool: Culture - Farming Plants EU - Rare -->
+	<ModOp GUID="193700" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Moringa Tree -->
+			<ItemLink>1660011212</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Moringa Tree to Asset Pool: Culture - Jungle base Plants - Rare -->
+	<ModOp GUID="193715" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Moringa Tree -->
+			<ItemLink>1660011212</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Moringa Tree to Asset Pool: Deep Jungle Plants R -->
+	<ModOp GUID="193754" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Moringa Tree -->
+			<ItemLink>1660011212</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Moringa Tree to Asset Pool: TraderQuest (Ketema) Rare Reward Pool -->
+	<ModOp GUID="130312" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Moringa Tree -->
+			<ItemLink>1660011212</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Moringa Tree to Asset Pool: Archetype (Shepherd) Rare Reward Pool -->
+	<ModOp GUID="129988" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Moringa Tree -->
+			<ItemLink>1660011212</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Warka Tree to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Warka Tree -->
+			<Asset>1660011214</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Warka Tree to Asset Pool: Africa - Plants - Epic -->
+	<ModOp GUID="1660011993" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Warka Tree -->
+			<ItemLink>1660011214</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Warka Tree to Asset Pool: Culture - Luxury Plants - Epic -->
+	<ModOp GUID="193719" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Warka Tree -->
+			<ItemLink>1660011214</ItemLink>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Warka Tree to Asset Pool: Culture - Nice Shaped Plants - Epic -->
+	<ModOp GUID="193721" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Warka Tree -->
+			<ItemLink>1660011214</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Warka Tree to Asset Pool: Hot Climate Plants R/E -->
+	<ModOp GUID="193755" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Warka Tree -->
+			<ItemLink>1660011214</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Warka Tree to Asset Pool: Strange Shapes Plants R/E/L -->
+	<ModOp GUID="193756" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Warka Tree -->
+			<ItemLink>1660011214</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Warka Tree to Asset Pool: TraderQuest (Ketema) Epic Reward Pool -->
+	<ModOp GUID="130313" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Warka Tree -->
+			<ItemLink>1660011214</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Bountiful Branches -->
+	<!-- PURPOSE: Add Warka Tree to Asset Pool: Archetype (Shepherd) Epic Reward Pool -->
+	<ModOp GUID="129989" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Warka Tree -->
+			<ItemLink>1660011214</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Calla Lily to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Calla Lily -->
+			<Asset>1660011310</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Calla Lily to Asset Pool: Africa - Plants - Epic -->
+	<ModOp GUID="1660011993" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Calla Lily -->
+			<ItemLink>1660011310</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Calla Lily to Asset Pool: Culture - Luxury Plants - Epic -->
+	<ModOp GUID="193719" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Calla Lily -->
+			<ItemLink>1660011310</ItemLink>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Calla Lily to Asset Pool: Culture - Nice Shaped Plants - Epic -->
+	<ModOp GUID="193721" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Calla Lily -->
+			<ItemLink>1660011310</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Calla Lily to Asset Pool: Hot Climate Plants R/E -->
+	<ModOp GUID="193755" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Calla Lily -->
+			<ItemLink>1660011310</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Calla Lily to Asset Pool: TraderQuest (Ketema) Epic Reward Pool -->
+	<ModOp GUID="130313" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Calla Lily -->
+			<ItemLink>1660011310</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Royal Poinciana to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Royal Poinciana -->
+			<Asset>1660011312</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Royal Poinciana to Asset Pool: Africa - Plants - Legendary -->
+	<ModOp GUID="1660011994" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Royal Poinciana -->
+			<ItemLink>1660011312</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Royal Poinciana to Asset Pool: Culture - Farming Plants EU - Legendary -->
+	<ModOp GUID="193702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Royal Poinciana -->
+			<ItemLink>1660011312</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Royal Poinciana to Asset Pool: Myth based Plants L -->
+	<ModOp GUID="193759" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Royal Poinciana -->
+			<ItemLink>1660011312</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Royal Poinciana to Asset Pool: Archetype (Elder) Legendary Reward Pool -->
+	<ModOp GUID="130304" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Royal Poinciana -->
+			<ItemLink>1660011312</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Spur Flower to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Spur Flower -->
+			<Asset>1660011314</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Spur Flower to Asset Pool: Africa - Plants - Rare -->
+	<ModOp GUID="1660011992" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Spur Flower -->
+			<ItemLink>1660011314</ItemLink>
+		</Item>
+	</ModOp>
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Spur Flower to Asset Pool: Flowering Trees U/R -->
+	<ModOp GUID="193748" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Spur Flower -->
+			<ItemLink>1660011314</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Spur Flower to Asset Pool: Hot Climate Plants R/E -->
+	<ModOp GUID="193755" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Spur Flower -->
+			<ItemLink>1660011314</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Spur Flower to Asset Pool: TraderQuest (Ketema) Rare Reward Pool -->
+	<ModOp GUID="130312" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Spur Flower -->
+			<ItemLink>1660011314</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Leopard Orchid to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Leopard Orchid -->
+			<Asset>1660011316</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Leopard Orchid to Asset Pool: Africa - Plants - Legendary -->
+	<ModOp GUID="1660011994" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Leopard Orchid -->
+			<ItemLink>1660011316</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Leopard Orchid to Asset Pool: Culture - Farming Plants EU - Legendary -->
+	<ModOp GUID="193702" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Leopard Orchid -->
+			<ItemLink>1660011316</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Leopard Orchid to Asset Pool: Myth based Plants L -->
+	<ModOp GUID="193759" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Leopard Orchid -->
+			<ItemLink>1660011316</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Leopard Orchid to Asset Pool: Archetype (Elder) Legendary Reward Pool -->
+	<ModOp GUID="130304" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Leopard Orchid -->
+			<ItemLink>1660011316</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Gazania to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Gazania -->
+			<Asset>1660011318</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Gazania to Asset Pool: Africa - Plants - Uncommon -->
+	<ModOp GUID="1660011991" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Gazania -->
+			<ItemLink>1660011318</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Gazania to Asset Pool: Culture - Luxury Plants - Uncommon -->
+	<ModOp GUID="193709" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Gazania -->
+			<ItemLink>1660011318</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Gazania to Asset Pool: Culture - Nice Shaped Plants - Uncommon -->
+	<ModOp GUID="193711" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Gazania -->
+			<ItemLink>1660011318</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Gazania to Asset Pool: Flowering Brushes U/R -->
+	<ModOp GUID="193749" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Gazania -->
+			<ItemLink>1660011318</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Gazania to Asset Pool: Any Flowers U/R -->
+	<ModOp GUID="193751" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Gazania -->
+			<ItemLink>1660011318</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Cape Periwinkle to Asset Pool: Items Engineers 4.2 -->
+	<ModOp GUID="130177" Path="/Values/AssetPool/AssetList" Type="Add">
+		<Item>
+			<!-- Cape Periwinkle -->
+			<Asset>1660011320</Asset>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Cape Periwinkle to Asset Pool: Africa - Plants - Uncommon -->
+	<ModOp GUID="1660011991" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Cape Periwinkle -->
+			<ItemLink>1660011320</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Cape Periwinkle to Asset Pool: Culture - Luxury Plants - Uncommon -->
+	<ModOp GUID="193709" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Cape Periwinkle -->
+			<ItemLink>1660011320</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Cape Periwinkle to Asset Pool: Culture - Nice Shaped Plants - Uncommon -->
+	<ModOp GUID="193711" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Cape Periwinkle -->
+			<ItemLink>1660011320</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Cape Periwinkle to Asset Pool: Flowering Brushes U/R -->
+	<ModOp GUID="193749" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Cape Periwinkle -->
+			<ItemLink>1660011320</ItemLink>
+		</Item>
+	</ModOp>
+
+
+	<!-- GROUP: Jewels of the South -->
+	<!-- PURPOSE: Add Cape Periwinkle to Asset Pool: Any Flowers U/R -->
+	<ModOp GUID="193751" Path="/Values/RewardPool/ItemsPool" Type="Add">
+		<Item>
+			<!-- Cape Periwinkle -->
+			<ItemLink>1660011320</ItemLink>
+		</Item>
+	</ModOp>
+
+
+
+</ModOps>

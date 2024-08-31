@@ -1,0 +1,65 @@
+<!-- 
+  IMYA
+-->
+<ModOps>
+
+    <ImyaTweaks Title="Revert balance changes items" Description="You do not like the changes that rebalance the items? Disable those here and revert back to the vanilla values" Icon="data/ui/2kimages/main/icons/icon_resource_balance_4.png" />
+
+    <!-- #Revert balance changes items -->
+    <Group ModOpID="RevertBalanceChangesItems">
+        <!-- ****************** START Master Craftsman Franke Military Uniforms ******************  -->
+        <ModOp Type="replace" GUID='192039' Path="/Values/FactoryUpgrade/AdditionalOutput">
+            <AdditionalOutput>
+                <Item>
+                    <Product>120043</Product>
+                    <!--ponchos-->
+                    <AdditionalOutputCycle>12</AdditionalOutputCycle>
+                    <Amount>1</Amount>
+                </Item>
+                <Item>
+                    <Product>1010237</Product>
+                    <!--basic clothes-->
+                    <AdditionalOutputCycle>12</AdditionalOutputCycle>
+                    <Amount>1</Amount>
+                </Item>
+                <Item>
+                    <Product>120037</Product>
+                    <!--bombin-->
+                    <AdditionalOutputCycle>12</AdditionalOutputCycle>
+                    <Amount>1</Amount>
+                </Item>
+            </AdditionalOutput>
+        </ModOp>
+        <!-- ****************** END Master Craftsman Franke Military Uniforms ******************  -->
+
+        <!-- ****************** START Lily The Fashion Designer ******************  -->
+        <ModOp Type="replace" GUID='191328' Path="/Values/FactoryUpgrade/AdditionalOutput">
+            <AdditionalOutput>
+                <Item>
+                    <Product>120043</Product>
+                    <!--ponchos-->
+                    <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                    <Amount>1</Amount>
+                </Item>
+            </AdditionalOutput>
+        </ModOp>
+        <!-- ****************** END Lily The Fashion Designer ******************  -->
+
+        <!-- ****************** START Mariana the Master Stylist Military Uniforms ******************  -->
+        <ModOp Type="replace" GUID='191346' Path="/Values/FactoryUpgrade/AdditionalOutput">
+            <AdditionalOutput>
+                <Item>
+                    <Product>1010237</Product>
+                    <!--basic clothes-->
+                    <AdditionalOutputCycle>3</AdditionalOutputCycle>
+                    <Amount>1</Amount>
+                </Item>
+            </AdditionalOutput>
+        </ModOp>
+        <!-- ****************** END Mariana the Master Stylist Uniforms ******************  -->
+
+    </Group>
+
+    <ImyaExpose Path="*" ModOpID="RevertBalanceChangesItems" ExposeID="Revert balance changes for items" Description="[Toggle: on = Back to vanilla item values, Toggle: off = rebalanced values" Kind="SkipToggle"></ImyaExpose>
+
+</ModOps>

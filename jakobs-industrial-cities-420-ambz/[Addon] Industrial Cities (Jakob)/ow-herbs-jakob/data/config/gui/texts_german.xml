@@ -1,0 +1,22 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010848</GUID>
+      <Text>Kräuterhof</Text>
+    </Text>
+    <Text>
+      <GUID>1500011398</GUID>
+      <Text>Spielstand-Kompatibilität</Text>
+    </Text>
+    <Text>
+      <GUID>1500011399</GUID>
+      <Text>Buff für Spielstände ohne benötigte Fruchtbarkeiten.</Text>
+    </Text>
+    <Text>
+      <GUID>1500011517</GUID>
+      <!-- Mod origin/name -->
+      <Text>Produktion (Jakob)</Text>
+      <IndustrialCities />
+    </Text>
+  </ModOp>
+</ModOps>

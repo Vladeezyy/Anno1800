@@ -1,0 +1,58 @@
+<ModOps>
+  <!-- # Modular Factories -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010600</GUID>
+      <Text>재봉틀 공장</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500011315</GUID>
+      <Text>Industrial Distillery</Text>
+    </Text>
+    <Text>
+      <GUID>1500011270</GUID>
+      <Text>산업용 비누 공장</Text>
+    </Text>
+    <Text>
+      <GUID>1500011271</GUID>
+      <Text>산업용 도살장</Text>
+    </Text>
+    <Text>
+      <GUID>1500011310</GUID>
+      <Text>산업용 제빵소</Text>
+    </Text>
+    <Text>
+      <GUID>1500011311</GUID>
+      <Text>산업용 제분소</Text>
+    </Text>
+    <Text>
+      <GUID>1500011318</GUID>
+      <Text>산업용 몰트 하우스</Text>
+    </Text>
+    <Text>
+      <GUID>1500011317</GUID>
+      <Text>산업용 양조장</Text>
+    </Text>
+    <Text>
+      <GUID>1500011320</GUID>
+      <Text>산업용 뜨개질 공장</Text>
+    </Text>
+    <Text>
+      <GUID>1500011313</GUID>
+      <Text>산업용 정육점</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Modular Factories menu -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010601</GUID>
+      <Text>모듈식 공장</Text> <!-- menu: modular factories -->
+    </Text>
+    <Text>
+      <GUID>1500010602</GUID>
+      <Text>여러 공장들을 하나로 통합합니다.</Text> <!-- menu desc: modular factories -->
+    </Text>
+  </ModOp>
+</ModOps>

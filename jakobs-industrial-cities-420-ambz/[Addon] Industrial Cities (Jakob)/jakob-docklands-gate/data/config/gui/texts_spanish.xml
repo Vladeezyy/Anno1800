@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010079</GUID>
+      <Text>Puerta</Text>
+    </Text>
+    <Text>
+      <GUID>1500010080</GUID>
+      <Text>[AssetData(1500010079) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1500010081</GUID>
+      <Text>Conecte módulos a través de las calles para mantener el atractivo</Text>
+    </Text>
+  </ModOp>
+</ModOps>

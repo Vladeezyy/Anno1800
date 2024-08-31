@@ -1,0 +1,34 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011458</GUID>
+      <Text>Granja de Lino</Text>
+    </Text>
+    <Text>
+      <GUID>1500011459</GUID>
+      <Text>Campo de Lino</Text>
+    </Text>
+    <Text>
+      <GUID>1500011461</GUID>
+      <Text>Compatibilidad de la partida guardada</Text>
+    </Text>
+    <Text>
+      <GUID>1500011462</GUID>
+      <Text>Buff para apoyar partidas guardadas existentes sin las fertilidades requeridas.</Text>
+    </Text>
+    <Text>
+      <GUID>1500011473</GUID>
+      <Text>Lino</Text>
+    </Text>
+    <Text>
+      <GUID>1500011474</GUID>
+      <Text>Fertilidad de Lino</Text>
+    </Text>
+    <Text>
+      <GUID>1500011515</GUID>
+      <!-- Mod origin/name -->
+      <Text>Producción (Jakob)</Text>
+      <IndustrialCities />
+    </Text>
+  </ModOp>
+</ModOps>

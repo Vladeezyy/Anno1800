@@ -1,0 +1,476 @@
+<!--
+Enbesa sets for Botanical Gardens
+GUID Range: 1660011001-166011999 (Modder prefix: 166001, Mod prefix: 1, ID Range 000-999)
+-->
+<ModOps>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Title for Enbesa Plateau set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011001</GUID>
+			<Text>MESETA ENBESANA</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Description for Enbesa Plateau set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011002</GUID>
+			<Text>Los monzones que recorren las tierras altas de la meseta de Enbesana crean un paisaje inesperadamente rico en una flora única y pueden alentar a sus agricultores a agregar color y variedad a sus campos.</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Title for Enbesa Plateau BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011003</GUID>
+			<Text>Inspiración de la Meseta Enbesana</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Description for Enbesa Plateau BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011004</GUID>
+			<Text>La variedad de flora en la exhibición de Meseta Enbesana de tus jardines botánicos ha animado a tus agricultores a cultivar variedades de flores hermosas y no autóctonas junto con sus cultivos.</Text>
+		</Text>
+	</ModOp>
+
+
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Rift Valley set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011101</GUID>
+			<Text>VALLE DEL RIFT</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Rift Valley set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011102</GUID>
+			<Text>La árida sabana del Valle del Rift de Enbesa alberga muchas variedades de plantas resistentes. Su resistencia en condiciones difíciles puede revelar secretos que faciliten el cuidado de todas tus plantas.</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Rift Valley BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011103</GUID>
+			<Text>Corazón del valle del Rift</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Rift Valley BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011104</GUID>
+			<Text>El estudio de las duras plantas de la árida sabana de Enbesa enseña a los botánicos formas de mejorar la salud y la belleza de otras exhibiciones en tus jardines botánicos.</Text>
+		</Text>
+	</ModOp>
+
+
+
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Bountiful Branches set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011201</GUID>
+			<Text>RAMAS ABUNDANTES</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Bountiful Branches set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011202</GUID>
+			<Text>Estos árboles son la vida de Enbesa, proporcionando madera valiosa y una selección de frutas nativas. Una gran exhibición de estos puede inspirar a tus artesanos.</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Bountiful Branches BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011203</GUID>
+			<Text>Técnicas de elaboración de Ramas Abundantes</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Description for Bountiful Branches BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011204</GUID>
+			<Text>Los diferentes tipos de madera que se muestran en Ramas Abundantes han inspirado a tus artesanos con nuevas técnicas para trabajar la madera.</Text>
+		</Text>
+	</ModOp>
+
+
+
+
+	<!-- GROUP: Botanical set: Jewels of the South  -->
+	<!-- PURPOSE: Title for Jewels of the South set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011301</GUID>
+			<Text>JOYAS DEL SUR</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Jewels of the South set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011302</GUID>
+			<Text>Los socios comerciales de Enbesa en el extremo sur tienen una deslumbrante variedad de plantas exóticas y coloridas. Tener exhibiciones tan brillantes en tus jardines puede alentar a tus marineros a mejorar sus rutas comerciales.</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Jewels of the South BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011303</GUID>
+			<Text>Joyas del Sur</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Jewels of the South BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011304</GUID>
+			<Text>Al ver las hermosas Joyas del Sur exhibidas en tus jardines botánicos, tus marineros se vuelven más ansiosos por expandir tus rutas comerciales, llevando sus barcos comerciales al límite.</Text>
+		</Text>
+	</ModOp>
+
+
+
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Title for Tree Fuchsia item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011010</GUID>
+			<Text>Árbol Fuchsia</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Description for Tree Fuchsia item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011011</GUID>
+			<Text>&lt;b&gt;Halleria lucida.&lt;/b&gt;Un paraíso para las aves en la meseta de las tierras altas, su fruto inmaduro también es utilizado por los pastores como medicina tradicional.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Title for Torch Lily item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011012</GUID>
+			<Text>Lirio Antorcha</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Description for Torch Lily item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011013</GUID>
+			<Text>&lt;b&gt;Kniphofia foliosa.&lt;/b&gt; Las flores brillantes se abren como una antorcha deslumbrante, atrayendo a las abejas a su abundante néctar.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Title for Lion's Ear item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011014</GUID>
+			<Text>Oreja de León</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Description for Lion's Ear item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011015</GUID>
+			<Text>&lt;b&gt;Leonotis ocymifolia.&lt;/b&gt; Un espécimen robusto con flores tubulares de aspecto extraño. Es un pariente lejano de muchas de las hierbas utilizadas en el Viejo Mundo.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Adey Flower item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011110</GUID>
+			<Text>Flor de Adey</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Adey Flower item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011111</GUID>
+			<Text>&lt;b&gt;Bidens macroptera.&lt;/b&gt; La flor sagrada de Tabourime que florece para señalar la llegada del nuevo año, la flor de Adey simboliza la prosperidad y la buena fortuna para todos los que la usan.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Desert Rose item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011112</GUID>
+			<Text>Rosa del desierto</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Desert Rose item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011113</GUID>
+			<Text>&lt;b&gt;Adenium obesum.&lt;/b&gt; La rosa del desierto florece con un rosa brillante solo en las condiciones perfectas. Su tallo contiene venenos que han sido utilizados por los habitantes de Enbesa durante mucho tiempo para la caza y la pesca.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Old Wanza Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011114</GUID>
+			<Text>Árbol viejo de Wanza </Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Old Wanza Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011115</GUID>
+			<Text>&lt;b&gt;Cordia africana.&lt;/b&gt; Usado no solo para la construcción, sino también para la artesanía fina, la robusta madera del árbol Wanza es el corazón de Enbesa.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Frankincense item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011116</GUID>
+			<Text>Incienso</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Frankincense item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011117</GUID>
+			<Text>&lt;b&gt;Boswellia papyrifera.&lt;/b&gt; La resina del árbol de boswellia se ha favorecido durante mucho tiempo como incienso.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Aloe item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011118</GUID>
+			<Text>Aloe</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Aloe item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011119</GUID>
+			<Text>&lt;b&gt;Aloe elegans.&lt;/b&gt; Ninguna sequía evitará que esta pequeña planta florezca, aunque encontrarla con flores sobre sus hojas de dientes rojos es más un placer.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Wild Custard Apple item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011120</GUID>
+			<Text>Chirimoya silvestre</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Wild Custard Apple item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011121</GUID>
+			<Text>&lt;b&gt;Annona senegalensis.&lt;/b&gt; "¿Primero vinieron esas piñas tropicales y ahora otra? ¡Qué sabor tan extraño, pero no desagradable!"</Text>
+		</Text>
+	</ModOp>
+
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Ironwood Olive Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011210</GUID>
+			<Text>Olivo palo fierro</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Description for Ironwood Olive Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011211</GUID>
+			<Text>&lt;b&gt;Olea capensis.&lt;/b&gt; Una de las maderas más duras del mundo, la madera dura se ha utilizado para arte y artefactos decorativos durante siglos, con una cosecha regular de aceitunas.</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Moringa Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011212</GUID>
+			<Text>Árbol Moringa</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Description for Moringa Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011213</GUID>
+			<Text>&lt;b&gt;Moringa stenopetala.&lt;/b&gt;Cada parte de este árbol es útil en Enbesa; hojas preparadas como coles, semillas convertidas en un aceite útil, las vainas tiernas se hierven, incluso las flores se comen.</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Warka Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011214</GUID>
+			<Text>Árbol Warka</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Description for Warka Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011215</GUID>
+			<Text>&lt;b&gt;Ficus vasta.&lt;/b&gt; El tronco de este enorme ficus soporta enormes cargas y se divide en ramas extendidas, proporcionando higos que disfrutan los niños y que los animales pastan.</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Calla Lily item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011310</GUID>
+			<Text>Cala</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Calla Lily item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011311</GUID>
+			<Text>&lt;b&gt;Zantedeschia aenbesica.&lt;/b&gt; Esta hermosa planta es temperamental pero majestuosa. Sus elegantes flores son inconfundibles.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Royal Poinciana item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011312</GUID>
+			<Text>Framboyán Real</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Royal Poinciana item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011313</GUID>
+			<Text>&lt;b&gt;Delonix regia.&lt;/b&gt; Comúnmente se dice que es el 'árbol extravagante', a menudo se pueden ver sus flores de color rojo brillante que bordean los arcenes de las carreteras.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Spur Flower item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011314</GUID>
+			<Text>Flor de espuela Zulú</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Spur Flower item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011315</GUID>
+			<Text>&lt;b&gt;Plectranthus coerulescens.&lt;/b&gt; Este arbusto cubre la tierra y florece a finales de año entre flores pálidas y hojas fragantes.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Leopard Orchid item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011316</GUID>
+			<Text>Orquídea Leopardo</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Leopard Orchid item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011317</GUID>
+			<Text>&lt;b&gt;Ansellia africana.&lt;/b&gt; A veces, las manchas oscuras de leopardo pueden parecer adueñarse de la flor, pero el parecido sorprendente con un leopardo permanece claro.</Text>
+		</Text>
+	</ModOp>
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Gazania item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011318</GUID>
+			<Text>Gazania</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Gazania item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011319</GUID>
+			<Text>&lt;b&gt;Gazania rigens.&lt;/b&gt; Se sugiere que los pétalos saben a mantequilla, lo que lleva a su otro apodo, 'la flor de mantequilla', aunque no la recomendamos en tus tostadas.</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Cape Periwinkle item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011320</GUID>
+			<Text>Vinca del Cabo</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Cape Periwinkle item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011321</GUID>
+			<Text>&lt;b&gt;Catharanthus roseus.&lt;/b&gt; Deja tus tierras de cultivo desatendidas por un corto tiempo y un pastor llegará a encontrar una variedad de bígaros de 'ojos brillantes' como sus nuevos vecinos.</Text>
+		</Text>
+	</ModOp>
+
+
+</ModOps>

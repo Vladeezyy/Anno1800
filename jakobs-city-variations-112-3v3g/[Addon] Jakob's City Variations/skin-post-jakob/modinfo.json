@@ -1,0 +1,48 @@
+{
+  "Version": "1.0.1",
+  "ModID": "skin-post-jakob",
+  "ModDependencies": [
+    "decals-city-jakob"
+  ],
+  "Category": {
+    "English": "Skin",
+    "Chinese": "Skin",
+    "French": "Skin",
+    "German": "Skin",
+    "Italian": "Skin",
+    "Japanese": "Skin",
+    "Korean": "Skin",
+    "Polish": "Skin",
+    "Russian": "Skin",
+    "Spanish": "Skin",
+    "Taiwanese": "Skin"
+  },
+  "ModName": {
+    "English": "Post (Jakob)",
+    "Chinese": "Post (Jakob)",
+    "French": "Post (Jakob)",
+    "German": "Post (Jakob)",
+    "Italian": "Post (Jakob)",
+    "Japanese": "Post (Jakob)",
+    "Korean": "Post (Jakob)",
+    "Polish": "Post (Jakob)",
+    "Russian": "Post (Jakob)",
+    "Spanish": "Post (Jakob)",
+    "Taiwanese": "Post (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno1800-jakobs-mods",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

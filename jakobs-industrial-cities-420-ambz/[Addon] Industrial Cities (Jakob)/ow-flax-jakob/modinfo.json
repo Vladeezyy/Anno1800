@@ -1,0 +1,51 @@
+{
+  "Version": "1.0.6",
+  "ModID": "ow-flax-jakob",
+  "ModDependencies": [
+    "shared-pools-and-definitions"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
+  "Category": {
+    "English": "Production",
+    "Chinese": "Production",
+    "French": "Production",
+    "German": "Production",
+    "Italian": "Production",
+    "Japanese": "Production",
+    "Korean": "Production",
+    "Polish": "Production",
+    "Russian": "Production",
+    "Spanish": "Production",
+    "Taiwanese": "Production"
+  },
+  "ModName": {
+    "English": "OW Flax (Jakob)",
+    "Chinese": "OW Flax (Jakob)",
+    "French": "OW Flax (Jakob)",
+    "German": "OW Flax (Jakob)",
+    "Italian": "OW Flax (Jakob)",
+    "Japanese": "OW Flax (Jakob)",
+    "Korean": "OW Flax (Jakob)",
+    "Polish": "OW Flax (Jakob)",
+    "Russian": "OW Flax (Jakob)",
+    "Spanish": "OW Flax (Jakob)",
+    "Taiwanese": "OW Flax (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno1800-shared-mods",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}

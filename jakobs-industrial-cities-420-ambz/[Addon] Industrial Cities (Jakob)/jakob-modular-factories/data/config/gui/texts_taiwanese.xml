@@ -1,0 +1,58 @@
+<ModOps>
+  <!-- # Modular Factories -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010600</GUID>
+      <Text>裁縫機工廠</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500011315</GUID>
+      <Text>Industrial Distillery</Text>
+    </Text>
+    <Text>
+      <GUID>1500011270</GUID>
+      <Text>工業肥皂廠</Text>
+    </Text>
+    <Text>
+      <GUID>1500011271</GUID>
+      <Text>工業屠宰場</Text>
+    </Text>
+    <Text>
+      <GUID>1500011310</GUID>
+      <Text>工業麵包廠</Text>
+    </Text>
+    <Text>
+      <GUID>1500011311</GUID>
+      <Text>工業麵粉廠</Text>
+    </Text>
+    <Text>
+      <GUID>1500011318</GUID>
+      <Text>工業麥芽廠</Text>
+    </Text>
+    <Text>
+      <GUID>1500011317</GUID>
+      <Text>工業釀酒廠</Text>
+    </Text>
+    <Text>
+      <GUID>1500011320</GUID>
+      <Text>工業織布廠</Text>
+    </Text>
+    <Text>
+      <GUID>1500011313</GUID>
+      <Text>工業屠夫</Text>
+    </Text>
+  </ModOp>
+
+  <!-- # Modular Factories menu -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010601</GUID>
+      <Text>工業園區</Text> <!-- menu: modular factories -->
+    </Text>
+    <Text>
+      <GUID>1500010602</GUID>
+      <Text>多個工廠合併為一個綜合體</Text> <!-- menu desc: modular factories -->
+    </Text>
+  </ModOp>
+</ModOps>

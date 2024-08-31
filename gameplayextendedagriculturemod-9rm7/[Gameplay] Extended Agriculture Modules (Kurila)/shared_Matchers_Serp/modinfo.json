@@ -1,0 +1,48 @@
+{
+  "Version": "1.0",
+  "ModID": "shared_Matchers_Serp",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "English": "Shared",
+    "German": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "shared_Matchers_Serp",
+    "German": "shared_Matchers_Serp",
+    "Chinese": "shared_Matchers_Serp",
+    "French": "shared_Matchers_Serp",
+    "Italian": "shared_Matchers_Serp",
+    "Japanese": "shared_Matchers_Serp",
+    "Korean": "shared_Matchers_Serp",
+    "Polish": "shared_Matchers_Serp",
+    "Russian": "shared_Matchers_Serp",
+    "Spanish": "shared_Matchers_Serp",
+    "Taiwanese": "shared_Matchers_Serp"
+  },
+  "Description": {
+    "English": "For Modders: Matchers for the use in ActionSpawnObject as MatcherGUID",
+    "German": "Für Modder: Matchers für die Nutzung in ActionSpawnObject als MatcherGUID",
+    "Chinese": "For Modders: Matchers for the use in ActionSpawnObject as MatcherGUID",
+    "French": "For Modders: Matchers for the use in ActionSpawnObject as MatcherGUID",
+    "Italian": "For Modders: Matchers for the use in ActionSpawnObject as MatcherGUID",
+    "Japanese": "For Modders: Matchers for the use in ActionSpawnObject as MatcherGUID",
+    "Korean": "For Modders: Matchers for the use in ActionSpawnObject as MatcherGUID",
+    "Polish": "For Modders: Matchers for the use in ActionSpawnObject as MatcherGUID",
+    "Russian": "For Modders: Matchers for the use in ActionSpawnObject as MatcherGUID",
+    "Spanish": "For Modders: Matchers for the use in ActionSpawnObject as MatcherGUID",
+    "Taiwanese": "For Modders: Matchers for the use in ActionSpawnObject as MatcherGUID"
+  },
+  "DLCDependencies": null,
+  "CreatorName": "Serp",
+  "CreatorContact": "https://github.com/Serpens66"
+}

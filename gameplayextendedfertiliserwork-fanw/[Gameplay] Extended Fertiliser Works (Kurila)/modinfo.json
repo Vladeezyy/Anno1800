@@ -1,0 +1,63 @@
+{
+  "Version": "2.0.2",
+  "ModID": "MP_Fertilizer_OW_Enbesa",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "shared-pools-and-definitions"
+  ],
+  "LoadAfterIds": [],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Extended Fertiliser Works (Kurila)",
+    "English": "Extended Fertiliser Works (Kurila)",
+    "French": "Extended Fertiliser Works (Kurila)",
+    "German": "Extended Fertiliser Works (Kurila)",
+    "Italian": "Extended Fertiliser Works (Kurila)",
+    "Japanese": "Extended Fertiliser Works (Kurila)",
+    "Korean": "Extended Fertiliser Works (Kurila)",
+    "Polish": "Extended Fertiliser Works (Kurila)",
+    "Russian": "Extended Fertiliser Works (Kurila)",
+    "Spanish": "Extended Fertiliser Works (Kurila)",
+    "Taiwanese": "Extended Fertiliser Works (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "LandOfLions",
+      "Dependant": "partly"
+    },
+    {
+      "DLC": "SeedsOfChange",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Jaradis/Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

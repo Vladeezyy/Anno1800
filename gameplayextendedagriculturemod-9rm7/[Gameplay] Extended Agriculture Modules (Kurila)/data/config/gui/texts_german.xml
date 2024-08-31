@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300941</GUID>
+      <Text>Traktoren optional</Text>
+    </Text>
+    <Text>
+      <GUID>1500300940</GUID>
+      <Text>Stellt Traktoren bereit</Text>
+    </Text>
+    <Text>
+      <GUID>1500300942</GUID>
+      <Text>Traktoren sind schneller und laden ihre Waren rascher ab als Pferdewagen.</Text>
+    </Text>
+    <Text>
+      <GUID>1500300943</GUID>
+      <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(269979) Icon]"/&gt; [AssetData(1500300940) Text]&lt;/font&gt;&#xD;&#xA;&#xD;&#xA;[AssetData(1500300942) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1500300949</GUID>
+      <Text>Erhöht die Produktivität! Als Transportfahrzeuge werden Traktoren verwendet.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,134 @@
+<ModOps>
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<!-- Products -->
+			<Text>
+				<GUID>1404420031</GUID>
+				<Text>Im Gegensatz zu Konfitüre wachsen diese sogar auf Bäumen.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420033</GUID>
+				<Text>One apple a day keeps Mr. Gasparov away, right?</Text>
+			</Text>
+		<!-- Orchards -->
+			<Text>
+				<GUID>1404420046</GUID>
+				<Text>Baumschule: Äpfel</Text>
+			</Text>
+			<Text>
+				<GUID>133496</GUID>
+				<Text>Baumschule: Kirschen</Text>
+			</Text>
+		<!-- Orchard Fields-->
+			<Text>
+				<GUID>1404420000</GUID>
+				<Text>Zitrusplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420001</GUID>
+				<Text>Kokusnussplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420002</GUID>
+				<Text>Zimtplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420003</GUID>
+				<Text>Kampferplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420004</GUID>
+				<Text>Kirschplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420005</GUID>
+				<Text>Apfelplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420006</GUID>
+				<Text>Baumplantage</Text>
+			</Text>
+			<Text>
+				<GUID>1404420007</GUID>
+				<Text>Kirschwald</Text>
+			</Text>
+
+		<!-- Jam Manufactory -->
+			<Text>
+				<GUID>1404420042</GUID>
+				<Text>Konfitürenmanufaktur</Text>
+			</Text>
+		<!-- Building Category -->
+			<Text>
+				<GUID>1404420044</GUID>
+				<Text>[AssetData(133183) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419500</GUID>
+				<Text>[AssetData(132933) Text]</Text>
+			</Text>
+		<!-- Apple Pie  -->
+			<Text>
+				<GUID>1404419000</GUID>
+				<Text>Apfelstrudel</Text>
+			</Text>
+			<Text>
+				<GUID>1404419001</GUID>
+				<Text>Ein herrlicher Apfelstrudel mit frischen und saftigen Äpfeln. Es mag ein simples Gericht sein, doch die Touristen lieben es.</Text>
+			</Text>
+			<Text>
+				<GUID>1404419006</GUID>
+				<Text>[AssetData(1404419000) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419007</GUID>
+				<Text>[AssetData(1404419000) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1404419005</GUID>
+				<Text>[AssetData(132782) Text]: [AssetData(1404419000) Text]</Text>
+			</Text>
+		<!-- Specialists -->
+			<Text>
+				<GUID>1404420050</GUID>
+				<Text>John der Baumumarmer</Text>
+			</Text>
+			<Text>
+				<GUID>1404420051</GUID>
+				<Text>Er liebt Bäume. Und sie lieben ihn.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420052</GUID>
+				<Text>Marlene, Mutter der Marmeladen</Text>
+			</Text>
+			<Text>
+				<GUID>1404420053</GUID>
+				<Text>Sie ist weltberühmt für ihre köstliche Konfitüre.</Text>
+			</Text>
+			<Text>
+				<GUID>1404420054</GUID>
+				<Text>Clara die Kirschenpickerin</Text>
+			</Text>
+			<Text>
+				<GUID>1404420055</GUID>
+				<Text>Sie mag auch gerne Rosinen.</Text>
+			</Text>
+		<!-- Enbesan Fields -->
+			<Text>
+				<GUID>1500300900</GUID>
+				<Text>[AssetData(1404420003) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1500300901</GUID>
+				<Text>[AssetData(1404420002) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1500300902</GUID>
+				<Text>[AssetData(1404420000) Text]</Text>
+			</Text>
+			<Text>
+				<GUID>1500300903</GUID>
+				<Text>[AssetData(1404420001) Text]</Text>
+			</Text>
+	</ModOp>
+
+</ModOps>

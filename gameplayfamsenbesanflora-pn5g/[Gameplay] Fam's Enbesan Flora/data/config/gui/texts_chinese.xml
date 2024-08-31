@@ -1,0 +1,478 @@
+<!--
+
+这个文件是自动翻译的。
+如果您想使用英文文本，请将 texts_english.xml 的内容复制到这个文件中。
+我感谢所有对翻译的帮助，请在Discord上联系Fam#9120或在nexusmods上留言。
+
+Enbesa sets for Botanical Gardens
+GUID Range: 1660011001-166011999 (Modder prefix: 166001, Mod prefix: 1, ID Range 000-999)
+-->
+<ModOps>
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Title for Enbesa Plateau set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011001</GUID>
+			<Text>ENBESAN板块</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Description for Enbesa Plateau set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011002</GUID>
+			<Text>掠过恩比山高原的季风，创造了出人意料的景观，丰富了独特的植物群落，可能会鼓励您的农民为他们的田地增添色彩和品种。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Title for Enbesa Plateau BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011003</GUID>
+			<Text>恩比山高原的灵感</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Description for Enbesa Plateau BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011004</GUID>
+			<Text>在贵国植物园的Enbesan Pleateau展览中的各种植物鼓励贵国农民在种植作物的同时种植美丽的非本土品种的花卉。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Rift Valley set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011101</GUID>
+			<Text>裂谷</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Rift Valley set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011102</GUID>
+			<Text>恩贝萨裂谷的干旱大草原为许多坚固的植物品种提供了家园。它们在困难条件下的心性可能会揭示出一些秘密，使您的植物管理更加容易。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Rift Valley BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011103</GUID>
+			<Text>裂谷之心</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Rift Valley BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011104</GUID>
+			<Text>研究来自恩贝萨干旱大草原的坚韧植物，教您的植物学家如何改善植物园中其他展品的健康和美丽。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Bountiful Branches set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011201</GUID>
+			<Text>茂盛的树枝</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Bountiful Branches set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011202</GUID>
+			<Text>这些树是恩贝萨的生命，既提供了宝贵的木材，也提供了精选的本地水果。隆重展示这些树可能会激发你的工匠们的灵感。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Bountiful Branches BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011203</GUID>
+			<Text>丰盛的树枝工艺技术。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Description for Bountiful Branches BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011204</GUID>
+			<Text>在Bountiful Branches展示的不同类型的木材，启发了您的工匠使用新的木材加工技术。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South  -->
+	<!-- PURPOSE: Title for Jewels of the South set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011301</GUID>
+			<Text>南方的珠宝</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Jewels of the South set -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011302</GUID>
+			<Text>Enbesa的远南贸易伙伴拥有一系列色彩斑斓的异国植物，令人眼花缭乱。在您的花园里有这样的亮丽的展示，可能会鼓励您的水手改善您的贸易路线。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Jewels of the South BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011303</GUID>
+			<Text>南方的宝石</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Jewels of the South BUFF -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011304</GUID>
+			<Text>当看到美丽的南方宝石在您的植物园中展示时，您的水手们更加渴望拓展您的贸易路线，将您的贸易船推向极限。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Title for Tree Fuchsia item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011010</GUID>
+			<Text>紫红色的树</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Description for Tree Fuchsia item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011011</GUID>
+			<Text>&lt;b&gt;Halleria lucida.&lt;/b&gt;高原鸟类的天堂，其未成熟的果实也被牧羊人用作传统的药物。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Title for Torch Lily item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011012</GUID>
+			<Text>火炬百合</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Description for Torch Lily item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011013</GUID>
+			<Text>&lt;b&gt;Kniphofia foliosa.&lt;/b&gt; 发光的花朵像耀眼的火炬一样射出，吸引蜜蜂前来采蜜。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Title for Lion's Ear item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011014</GUID>
+			<Text>狮子耳</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Enbesa Plateau -->
+	<!-- PURPOSE: Description for Lion's Ear item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011015</GUID>
+			<Text>&lt;b&gt;Leonotis ocymifolia.&lt;/b&gt;一种结实的标本，开着奇特的管状花，是旧世界许多草药的远亲。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Adey Flower item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011110</GUID>
+			<Text>阿迪花</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Adey Flower item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011111</GUID>
+			<Text>&lt;b&gt;Bidens macroptera.&lt;/b&gt; Tabourime的圣花，开花时预示着新的一年的到来，Adey花象征着繁荣和好运，所有佩戴它的人。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Desert Rose item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011112</GUID>
+			<Text>沙漠玫瑰</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Desert Rose item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011113</GUID>
+			<Text>&lt;b&gt;Adenium obesum.&lt;/b&gt;沙漠玫瑰只有在完美的条件下才会开出鲜艳的粉红色。它的茎部含有毒药，长期以来一直被恩贝萨人用于狩猎和捕鱼。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Old Wanza Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011114</GUID>
+			<Text>老万扎树</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Old Wanza Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011115</GUID>
+			<Text>&lt;b&gt;Cordia africana.&lt;/b&gt;不仅用于建筑，也用于精细的手工制作，坚固的Wanza树的木材是Enbesa的核心。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Frankincense item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011116</GUID>
+			<Text>乳香</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Frankincense item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011117</GUID>
+			<Text>&lt;b&gt;乳香树.&lt;/b&gt;乳香树的树脂长期以来一直被作为香品而受到青睐。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Aloe item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011118</GUID>
+			<Text>芦荟</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Aloe item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011119</GUID>
+			<Text>&lt;b&gt;Aloe elegans.&lt;/b&gt;任何干旱都不会阻止这种小植物的蓬勃发展，尽管在它的红齿叶子上发现花朵更像是一种享受。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Title for Wild Custard Apple item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011120</GUID>
+			<Text>野生奶油苹果</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Rift Valley -->
+	<!-- PURPOSE: Description for Wild Custard Apple item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011121</GUID>
+			<Text>&lt;b&gt;Annona senegalensis.&lt;/b&gt; "先是那些热带松树苹果，现在又来了一个？好奇怪的味道，但并不难受！"</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Ironwood Olive Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011210</GUID>
+			<Text>铁木橄榄树</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Description for Ironwood Olive Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011211</GUID>
+			<Text>&lt;b&gt;Olea capensis.&lt;/b&gt;是世界上最坚硬的木材之一，数百年来，这种硬木一直被用于艺术和装饰工艺品，定期收获橄榄。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Moringa Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011212</GUID>
+			<Text>Moringa树</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Description for Moringa Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011213</GUID>
+			<Text>樹的每一個部分都是有用的，葉子像捲心菜一樣，種子被製成有用的油，幼嫩的豆莢被煮熟，甚至花也被吃掉。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Title for Warka Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011214</GUID>
+			<Text>瓦卡树</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Bountiful Branches -->
+	<!-- PURPOSE: Description for Warka Tree item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011215</GUID>
+			<Text>&lt;b&gt;Ficus vasta.&lt;/b&gt;这种巨大的承重榕树的树干分裂成平展的枝条，为孩子们提供了无花果，也为动物提供了吃食。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Calla Lily item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011310</GUID>
+			<Text>马蹄莲</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Calla Lily item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011311</GUID>
+			<Text>&lt;b&gt;Zantedeschia aenbesica.&lt;/b&gt;尽管有'百合'的误称，但这种美丽的植物是喜怒无常而又雄伟的。它优雅的花朵是无可挑剔的。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Royal Poinciana item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011312</GUID>
+			<Text>皇家尖峰花</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Royal Poinciana item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011313</GUID>
+			<Text>&lt;b&gt;Delonix regia.&lt;/b&gt;俗话说 "花枝招展"，你经常可以看到它们鲜红的花朵铺满道路的边缘。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Spur Flower item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011314</GUID>
+			<Text>雀舌花</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Spur Flower item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011315</GUID>
+			<Text></Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Leopard Orchid item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011316</GUID>
+			<Text>豹纹兰</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Leopard Orchid item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011317</GUID>
+			<Text>&lt;b&gt;Ansellia africana.&lt;/b&gt;有时，深色的豹斑似乎会占据花朵，但与豹子的惊人相似之处仍然很明显。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Gazania item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011318</GUID>
+			<Text>羚羊花</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Gazania item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011319</GUID>
+			<Text>&lt;b&gt;Gazania rigens.&lt;/b&gt;据说，花瓣的味道像黄油，因此它的另一个绰号是 "黄油花"，尽管我们不建议把它放在吐司上。</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Title for Cape Periwinkle item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011320</GUID>
+			<Text>海角长春花</Text>
+		</Text>
+	</ModOp>
+
+	<!-- GROUP: Botanical set: Jewels of the South -->
+	<!-- PURPOSE: Description for Cape Periwinkle item -->
+	<ModOp Path='/TextExport/Texts' Type="Add">
+		<Text>
+			<GUID>1660011321</GUID>
+			<Text>&lt;b&gt;Catharanthus roseus.&lt;/b&gt;离开他们的农田一小会儿，牧羊人就会来发现一地的 "明眸 "长春花是他们的新邻居。</Text>
+		</Text>
+	</ModOp>
+</ModOps>

@@ -1,0 +1,22 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500010848</GUID>
+      <Text>Ферма трав</Text>
+    </Text>
+    <Text>
+      <GUID>1500011398</GUID>
+      <Text>Совместимость сохранений</Text>
+    </Text>
+    <Text>
+      <GUID>1500011399</GUID>
+      <Text>Бафф для поддержки существующих сохранений без необходимых плодородий.</Text>
+    </Text>
+    <Text>
+      <GUID>1500011517</GUID>
+      <!-- Mod origin/name -->
+      <Text>Производство (Jakob)</Text>
+      <IndustrialCities />
+    </Text>
+  </ModOp>
+</ModOps>

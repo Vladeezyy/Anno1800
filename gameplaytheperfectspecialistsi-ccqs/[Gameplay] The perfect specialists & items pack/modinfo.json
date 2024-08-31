@@ -1,0 +1,105 @@
+{
+  "Version": "18.7",
+  "ModID": "the_perfect_specialists_and_items_pack",
+  "IncompatibleIds": [],
+  "ModDependencies": [],
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "游戏玩法",
+    "French": "Gameplay",
+    "German": "Spielverlauf",
+    "Italian": "Gioco",
+    "Japanese": "ゲームプレイ",
+    "Korean": "게임 플레이",
+    "Polish": "Rozgrywka",
+    "Russian": "Геймплей",
+    "Spanish": "Jugabilidad",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "English": "The perfect specialists & items pack",
+    "Chinese": "完美的专家和物品包",
+    "French": "Le pack des spécialistes et objets parfaits",
+    "German": "Das perfekte Spezialisten- und Artikelpaket",
+    "Italian": "La confezione perfetta per specialisti e articoli",
+    "Japanese": "完璧なスペシャリスト＆アイテムパック",
+    "Korean": "완벽한 전문가 및 아이템 팩",
+    "Polish": "Idealny pakiet specjalistów i przedmiotów",
+    "Russian": "Идеальный набор специалистов и предметов",
+    "Spanish": "El pack perfecto de especialistas y artículos",
+    "Taiwanese": "The perfect specialists & items pack"
+  },
+  "Description": {
+    "English": "The perfect specialists and items pack is a set of 125 specialists and items for all regions. Some buildings or items did not got the love they deserve and did not recieve a specialist or legendary streat. This mod wants to change this by giving almost every building and item a specialist or legendary variant.",
+    "Chinese": "完美的专家和物品包是一套为所有地区提供的125个专家和物品。一些建筑或物品没有得到应有的爱，没有得到专家或传奇的地位。这个模型想改变这种情况，给几乎所有的建筑和物品提供一个专家或传奇的变体。",
+    "French": "Le pack des spécialistes et objets parfaits est un ensemble de 125 spécialistes et objets pour toutes les régions. Certains bâtiments ou objets n'ont pas reçu l'amour qu'ils méritaient et n'ont pas reçu de statut de spécialiste ou de légendaire. Ce mod veut changer cela en donnant à presque tous les bâtiments et objets un spécialiste ou une variante légendaire.",
+    "German": "Das perfekte Spezialisten- und Artikelpaket ist ein Set von 125 Spezialisten und Gegenständen für alle Regionen. Einige Gebäude oder Gegenstände haben nicht die Liebe bekommen, die sie verdienen und haben keinen Spezialisten oder legendären Streat bekommen. Diese Mod will das ändern, indem sie fast jedem Gebäude und Gegenstand eine Spezialisten- oder legendäre Variante gibt.",
+    "Italian": "La confezione perfetta per specialisti e articoli è un insieme di 125 specialisti e oggetti per tutte le regioni. Alcuni edifici o oggetti non hanno ricevuto l'amore che meritano e non hanno ricevuto una variante specialistica o leggendaria. Questa mod vuole cambiare questa situazione dando a quasi tutti gli edifici e gli oggetti una variante specialistica o leggendaria.",
+    "Japanese": "パーフェクト・スペシャリスト＆アイテム・パックは、全地域のスペシャリストとアイテム125点のセットである。いくつかの建物やアイテムは、それにふさわしい愛情を受けず、スペシャリストやレジェンダリー・ストレートを受けませんでした。このMODは、ほとんど全ての建物やアイテムにスペシャリストやレジェンダリーのバリエーションを与えることで、この状況を変えたいと考えています。",
+    "Korean": "완벽한 전문가 및 아이템 팩은 모든 지역의 125명의 전문가와 아이템으로 구성된 모드입니다. 일부 건물의 경우 충분한 숫자의 전문가가 할당되지 못했고 일부 아이템은 전설 등급을 가지지 못했습니다. 이 모드는 거의 모든 건물의 전문가와 전설적 아이템을 제공하여 이를 보완하고자 합니다.",
+    "Polish": "Pakiet doskonałych specjalistów i przedmiotów to zestaw 125 specjalistów i przedmiotów dla wszystkich regionów. Niektóre budynki i przedmioty nie otrzymały miłości, na którą zasługują i nie otrzymały specjalisty lub legendarnego wariantu. Ten mod chce to zmienić, dając prawie każdemu budynkowi i przedmiotowi specjalisty lub legendarny wariant.",
+    "Russian": "Пакет идеальных специалистов и предметов - это набор из 125 специалистов и предметов для всех регионов. Некоторые здания и предметы не получили должной любви и не получили специализацию или легендарный статус. Этот мод хочет изменить ситуацию, дав почти каждому зданию и предмету вариант специалиста или легенды.",
+    "Spanish": "El pack de especialistas y objetos perfectos es un conjunto de 125 especialistas y objetos para todas las regiones. Algunos edificios y objetos no han recibido el amor que se merecen y no se les ha dotado de un especialista o legendario. Este mod quiere cambiar esto dando a casi todos los edificios y objetos un especialista o una variante legendaria.",
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "Anarchist",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "SunkenTreasures",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Botanica",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "ThePassage",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "SeatOfPower",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "BrightHarvest",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "LandOfLions",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Docklands",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Tourism",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Highlife",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "SeedsOfChange",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "EmpireOfTheSkies",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "required"
+    }
+  ],
+  "LoadAfterIds": [],
+  "CreatorName": "Hier0nimus",
+  "CreatorContact": "https://github.com/Hier0nimus/anno-mods-hier0nimus",
+  "ModioResourceId": 3272935,
+  "Image": "banner.jpg"
+}

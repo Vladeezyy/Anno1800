@@ -1,0 +1,29 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500011330</GUID>
+      <Text>교육</Text>
+    </Text>
+    <Text>
+      <GUID>1500011331</GUID>
+      <Text>종교</Text>
+    </Text>
+    <Text>
+      <GUID>1500011120</GUID>
+      <Text>항만 대포</Text>
+    </Text>
+    <Text>
+      <GUID>1500011541</GUID>
+      <!-- Mod origin/name -->
+      <Text>Compact Menus</Text>
+    </Text>
+    <Text>
+      <GUID>1500011543</GUID>
+      <Text>공공시설</Text>
+    </Text>
+  </ModOp>
+
+  <ModOp Type="replace" Condition="/TextExport/Texts/Text[GUID='101037222']" Path="/TextExport/Texts/Text[GUID='101037222']/Text">
+    <Text>붉은 지붕 시장</Text>
+  </ModOp>
+</ModOps>
