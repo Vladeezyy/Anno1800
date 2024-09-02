@@ -1,0 +1,71 @@
+{
+  "Version": "1.31",
+  "ModID": "Tourists_Alternativ_Buildings_MU",
+  "IncompatibleIds": [],
+  "ModDependencies": [ 
+	"Shared_Objects_MU"
+  ],
+  "Category": {
+    "Chinese": "Building",
+    "English": "Building",
+    "French": "Immeuble",
+    "German": "Gebäude",
+    "Italian": "Building",
+    "Japanese": "Building",
+    "Korean": "Building",
+    "Polish": "Budynki",
+    "Russian": "Building",
+    "Spanish": "Building",
+    "Taiwanese": "Building"
+  },
+    "ModName": {
+    "Chinese": "Tourists_Alternativ_Buildings_MU",
+    "English": "Tourists_Alternativ_Buildings_MU",
+    "French": "Tourists_Alternativ_Buildings_MU",
+    "German": "Tourists_Alternativ_Buildings_MU",
+    "Italian": "Tourists_Alternativ_Buildings_MU",
+    "Japanese": "Tourists_Alternativ_Buildings_MU",
+    "Korean": "Tourists_Alternativ_Buildings_MU",
+    "Polish": "Tourists_Alternativ_Buildings_MU",
+    "Russian": "Tourists_Alternativ_Buildings_MU",
+    "Spanish": "Tourists_Alternativ_Buildings_MU",
+    "Taiwanese": "Tourists_Alternativ_Buildings_MU"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Provides a hotel and a bar as alternative buildings and a trainstation as warehouse.\nWith upcoming updates, these will be expanded to include almost all Tourist Season buildings.",
+    "French": "Prévoit un hôtel et un bar comme bâtiments alternatifs et une gare comme entrepôt.\nAvec les mises à jour à venir, ceux-ci seront étendus pour inclure presque tous les bâtiments de la saison touristique.",
+    "German": "Stellt ein Hotel und eine Bar als alternativgebäude und einen Bahnhof als Lagerhaus zur verfügung.\nMit kommenden Updates werden diese um fast alle Tourist Season gebäude erweitert.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": "Przewiduje hotel i bar jako budynki alternatywne oraz dworzec kolejowy jako magazyn.\nWraz z nadchodzącymi aktualizacjami zostaną one rozszerzone o prawie wszystkie budynki Sezonu Turystycznego.",
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC": "Tourism",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "muggenstuermer",
+  "CreatorContact": "https://www.nexusmods.com/anno1800/users/74331668",
+  "Image" : null
+}

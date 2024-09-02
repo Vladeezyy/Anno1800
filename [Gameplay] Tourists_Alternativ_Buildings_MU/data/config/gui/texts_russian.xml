@@ -1,0 +1,40 @@
+<ModOps>
+	<ModOp Type="add" Path="/TextExport/Texts">
+
+		<Text>
+			<GUID>1337500352</GUID>
+			<Text>Исторический вокзальный склад</Text>.
+		</Text>
+		<Text>
+			<GUID>1337500353</GUID>
+			<Text>Инфраструктура</Text>
+		</Text>
+		<Text>
+			<GUID>1337500354</GUID>
+			<Text>Триумфальная Арка</Text>
+		</Text>
+		<Text>
+			<GUID>1337500359</GUID>
+			<Text>Для двойных улиц, с гонщиками и без них</Text>.
+		</Text>
+
+		<Text>
+			<GUID>1337500360</GUID>
+			<Text>Триумфальная Арка</Text>
+		</Text>
+		<Text>
+			<GUID>1337500361</GUID>
+			<Text>Для улицы, с гонщиками и без.</Text>.
+		</Text>
+		<Text>
+			<GUID>1337500355</GUID>
+			<Text>Туристические здания</Text>
+		</Text>
+		<Text>
+			<GUID>1337500356</GUID>
+			<Text>Здания, которые увеличивают туризм</Text>.
+		</Text>
+
+
+	</ModOp>
+</ModOps>

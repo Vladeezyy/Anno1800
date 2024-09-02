@@ -1,0 +1,32 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+	<Text>
+      <GUID>1337500014</GUID>
+      <Text>Больницы</Text>
+    </Text>
+    <Text>
+      <GUID>1337500015</GUID>
+      <Text>Больницы</Text>
+    </Text>
+	<Text>
+      <GUID>1337500020</GUID>
+      <Text>Больницы</Text>
+    </Text>
+	<Text>
+      <GUID>1337500016</GUID>
+      <Text>Старший Врач</Text>
+    </Text>
+	<Text>
+      <GUID>1337500017</GUID>
+      <Text>Специалист</Text>
+    </Text>
+	<Text>
+      <GUID>1337500018</GUID>
+      <Text>Карантинное отделение</Text>
+    </Text>
+	<Text>
+      <GUID>1337500019</GUID>
+      <Text>Знахарь</Text>
+    </Text>
+  </ModOp>
+</ModOps>

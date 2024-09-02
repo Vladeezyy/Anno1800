@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1337500007</GUID>
+      <Text>Пожарные отделения</Text>
+    </Text>
+    <Text>
+      <GUID>1337500008</GUID>
+      <Text>Пожарные отделения</Text>
+    </Text>
+    <Text>
+      <GUID>1337500013</GUID>
+      <Text>Пожарные отделения</Text>
+    </Text>
+    <Text>
+      <GUID>1337500011</GUID>
+      <Text>Институт пожарной охраны</Text>
+    </Text>
+    <Text>
+      <GUID>1337500012</GUID>
+      <Text>Добровольные пожарные</Text>
+    </Text>
+  </ModOp>
+</ModOps>
