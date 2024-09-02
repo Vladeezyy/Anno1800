@@ -1,53 +1,53 @@
 <ModOps>
 
- <!-- Asset List: GUIDs in ascending order-->
+	<!-- Asset List: GUIDs in ascending order-->
 
-  <ModOp Type="add" Path="/TextExport/Texts">
+	<ModOp Type="add" Path="/TextExport/Texts">
 
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115080</GUID>
-			<Text>Advanced Paper Mill</Text>
+			<Text>Передовая бумажная фабрика</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115081</GUID>
-			<Text>Advanced Paper Mill</Text>
+			<Text>Передовая бумажная фабрика</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115082</GUID>
-			<Text>Paper Recipe List</Text>
+			<Text>Список рецептов бумаги</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115083</GUID>
-			<Text>The Advanced Paper Mill allows you to industrially produce paper using a variety of different manufacturing processes: The more advanced the process, the greater the output.</Text>
+			<Text>Усовершенствованная бумажная фабрика позволяет вам производить бумагу в промышленных масштабах, используя множество различных производственных процессов: чем более продвинутый процесс, тем выше производительность.</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115084</GUID>
-			<Text>Recipe: Sulfite Process</Text>
+			<Text>Рецепт: Серный процесс</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115085</GUID>
-			<Text>Invented in the second half of the 19th century, it enabled the efficient splitting of wood for the first time by adding a compound of lime and sulfur(dioxide). Together with this, the wood is boiled down under high pressure for several hours, then crushed and dried. The resulting wood cellulose is cheap, very pure and is therefore suitable for direct further processing into paper.</Text>
+			<Text>Изобретенный во второй половине XIX века, он впервые позволил эффективно расколоть древесину путем добавления соединения извести и серы (диоксида). Вместе с этим древесину вываривают под высоким давлением в течение нескольких часов, затем измельчают и сушат. Получаемая древесная целлюлоза дешева, очень чиста и поэтому пригодна для непосредственной дальнейшей переработки в бумагу.</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115086</GUID>
-			<Text>Recipe: Woolen Rags</Text>
+			<Text>Рецепт: шерстяные тряпки</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115087</GUID>
-			<Text>Advanced Paper Mill</Text>
+			<Text>Передовая бумажная фабрика</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115088</GUID>
-			<Text>After old, worn out clothes have been shredded and pounded, they are mixed with water to make a pulp. If you dip a sieve in it, a thin layer of pulp is deposited, which, after pressing and drying, results in a sheet of paper.</Text>
+			<Text>После того как старую, изношенную одежду измельчают и измельчают, ее смешивают с водой, чтобы получить кашицу. Если окунуть в него сито, откладывается тонкий слой мякоти, из которой после прессования и высыхания получается лист бумаги.</Text>
 		</Text>
 		<!--
 		<Text>
@@ -77,30 +77,32 @@
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115095</GUID>
-			<Text>Paper</Text>
+			<Text>Бумага</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115096</GUID>
-			<Text>Produces paper in the Old World using different recipes</Text>
+			<Text>Производит бумагу в Старом Свете по разным рецептам.</Text>
 		</Text>
 		<Text>
 			<GUID>2100115097</GUID>
-			<Text /> <!-- no translation needed -->
+			<Text />
+			<!-- no translation needed -->
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115098</GUID>
-			<Text>Unlock Trigger</Text> <!-- no translation needed -->
+			<Text>Unlock Trigger</Text>			<!-- no translation needed -->
 		</Text>
 		<Text>
 			<GUID>2100115099</GUID>
-			<Text /> <!-- no translation needed -->
+			<Text />
+			<!-- no translation needed -->
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115270</GUID>
-			<Text>This recipe is unlocked at 750 Engineers</Text>
+			<Text>Этот рецепт разблокируется на уровне 750 инженеров.</Text>
 		</Text>
 		<!--<Text>
 			<GUID>2100115721</GUID>
@@ -109,12 +111,12 @@
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115722</GUID>
-			<Text>Paper Mill Old World Unlock</Text> <!-- no translation needed -->
+			<Text>Paper Mill Old World Unlock</Text>			<!-- no translation needed -->
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115723</GUID>
-			<Text>Paper Mill Old World Unlock Creative Mode</Text> <!-- no translation needed -->
+			<Text>Paper Mill Old World Unlock Creative Mode</Text>			<!-- no translation needed -->
 		</Text>
 		<Text>
 			<!-- TODO translation -->
@@ -131,6 +133,6 @@
 			<GUID>2100115726</GUID>
 			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Recipe: Sulfite Process&lt;/font&gt;</Text>
 		</Text>
-  </ModOp>
+	</ModOp>
 
 </ModOps>

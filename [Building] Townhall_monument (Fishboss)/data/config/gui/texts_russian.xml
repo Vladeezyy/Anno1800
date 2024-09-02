@@ -2,19 +2,19 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>850026</GUID>
-      <Text>Townhall-monument</Text>
+      <Text>Ратуша-памятник</Text>
     </Text>
     <Text>
       <GUID>850027</GUID>
-      <Text>Townhall-monument</Text>
+      <Text>Ратуша-памятник</Text>
     </Text>
     <Text>
       <GUID>850028</GUID>
-      <Text>Townhall-monument</Text>
+      <Text>Ратуша-памятник</Text>
     </Text>
     <Text>
       <GUID>850029</GUID>
-      <Text>The townhall monument is a brightful building. Constructed in multiple phases, it will provide more specialist and a wider radius for your town.</Text>
+      <Text>Памятник ратуше представляет собой яркое здание. Построенный в несколько этапов, он предоставит больше специалистов и расширит радиус действия вашего города.</Text>
     </Text>
   </ModOp>
 </ModOps>

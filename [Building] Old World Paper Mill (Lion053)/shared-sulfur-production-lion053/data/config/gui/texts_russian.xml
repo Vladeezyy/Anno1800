@@ -1,45 +1,45 @@
 <ModOps>
 
- <!-- Asset List: GUIDs in ascending order-->
+	<!-- Asset List: GUIDs in ascending order-->
 
-  <ModOp Type="add" Path="/TextExport/Texts">
+	<ModOp Type="add" Path="/TextExport/Texts">
 
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115089</GUID>
-			<Text>Sulfur</Text>
+			<Text>Сера</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115090</GUID>
-			<Text>Sulfur Module</Text>
+			<Text>Модуль Серы</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115091</GUID>
-			<Text>Iron, copper and zinc mines produce sulfur as extra output, when this module is placed next to them. Requires coal as input.&#xA;&#xD;&#xA;&#xD;&lt;font overrideTextColor="true" color='#2d7fb8'&gt;Demand&lt;/font&gt;&lt;font overrideTextColor="true" color='#edc891'&gt; per Cycle (01:30):&lt;/font&gt;&#xD;&#xA;&lt;font overrideTextColor="true" color='#edc891'&gt;1t &lt;img height='24' width='24' src="[AssetData(1010304) Icon]"/&gt; [AssetData(1010226) Text]&lt;/font&gt;</Text>
+			<Text>Железные, медные и цинковые рудники производят серу в качестве дополнительной продукции, когда этот модуль размещается рядом с ними. Требуется уголь в качестве сырья.&#xA;&#xD;&#xA;&#xD;&lt;font overrideTextColor="true" color='#2d7fb8'&gt;Требует&lt;/font&gt;&lt;font overrideTextColor="true" color='#edc891'&gt; за цикл (01:30):&lt;/font&gt;&#xD;&#xA;&lt;font overrideTextColor="true" color='#edc891'&gt;1t &lt;img height='24' width='24' src="[AssetData(1010304) Icon]"/&gt; [AssetData(1010226) Text]&lt;/font&gt;</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115092</GUID>
-			<Text>Mine Module</Text>
+			<Text>Модуль шахты</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115093</GUID>
-			<Text>Roasting Sulfidic Ore</Text>
+			<Text>Обжиг сульфидной руды</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115094</GUID>
-			<Text>Sulfur dioxide can be obtained from sulfidic iron, copper and zinc ores by roasting them for several hours.</Text>
+			<Text>Диоксид серы можно получить из сульфидных железных, медных и цинковых руд путем их обжига в течение нескольких часов.</Text>
 		</Text>
 		<Text>
 			<!-- TODO translation -->
 			<GUID>2100115721</GUID>
-			<Text>Sulfur Module Fake</Text> <!-- no translation needed -->
+			<Text>Sulfur Module Fake</Text>			<!-- no translation needed -->
 		</Text>
 
-  </ModOp>
+	</ModOp>
 
 </ModOps>
