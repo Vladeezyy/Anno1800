@@ -1,0 +1,16 @@
+{
+  "ModID": "Greener Farm Fields",
+  "Version": "1.0",
+  "ModName": {
+    "English": "Greener Farm Fields"
+  },
+  "Category": {
+    "English": "Cosmetic"
+  },
+  "LoadAfterIds": [],
+  "ModDependencies": [],
+  "IncompatibleIds": [],
+  "DeprecateIds": [],
+  "CreatorName": "Ac3s",
+  "CreatorContact": "add Ac3s as friend on Discord"
+}

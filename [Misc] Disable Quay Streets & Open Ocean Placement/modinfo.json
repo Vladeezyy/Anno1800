@@ -1,0 +1,16 @@
+{
+  "ModID": "Disable Quay Streets and Open Ocean Placement",
+  "Version": "1.0",
+  "ModName": {
+    "English": "Disable Quay Streets and Open Ocean Placement"
+  },
+  "Category": {
+    "English": "Misc"
+  },
+  "LoadAfterIds": [],
+  "ModDependencies": [],
+  "IncompatibleIds": [],
+  "DeprecateIds": [],
+  "CreatorName": "Ac3s",
+  "CreatorContact": "add Ac3s as friend on Discord"
+}

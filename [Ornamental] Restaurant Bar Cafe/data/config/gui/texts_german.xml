@@ -1,0 +1,35 @@
+ <ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2130020148</GUID>
+      <Text>Restaurant zum schnellen Löffel</Text>
+    </Text>
+	<Text>
+      <GUID>2130020149</GUID>
+      <Text>SB Restaurant</Text>
+    </Text>
+	<Text>
+      <GUID>2130020150</GUID>
+      <Text>Cafe Keese</Text>
+    </Text>
+	<Text>
+      <GUID>2130020151</GUID>
+      <Text>SB Cafe</Text>
+    </Text>
+	<Text>
+      <GUID>2130020152</GUID>
+      <Text>Cocktailbar</Text>
+    </Text>
+	<Text>
+      <GUID>2130020153</GUID>
+      <Text>Um Reservierung wird gebeten</Text>
+    </Text>
+	<Text>
+      <GUID>2130020154</GUID>
+      <Text>Ornamentale Gebäude</Text>
+    </Text>
+  </ModOp>
+ </ModOps>
+	
+	
+	

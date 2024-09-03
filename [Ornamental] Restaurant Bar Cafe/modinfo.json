@@ -1,0 +1,48 @@
+{
+  "Version": "1.0.",
+  "ModID":"Ornamental Restaurant,Bar,Cafe",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "German": "Ornamental",
+    "English":"Ornamental",
+    "French": null,
+    "Italian": null,
+    "Polish": null,
+    "Russian": null,
+    "Czech": null
+  },
+  "ModName": {
+    "German": "Ornamental Restaurant,Bar,Cafe",
+    "English": "Ornamental Restaurant,Bar,Cafe",
+    "French": null,
+    "Italian": null,
+    "Polish": null,
+    "Russian": null,
+    "Czech": null
+  },
+    "Description": {
+    "German": "Ornamentale Gebaeude vom Restaurant, Bar, Cafe",
+    "English": "Ornamental buildings of the restaurant, bar, cafe",
+    "French": null,
+    "Italian": null,
+    "Polish": null,
+    "Russian": null,
+    "Czech": null
+  },
+  "KnownIssues": [
+    {
+    "German": null,
+    "English": null,
+    "French": null,
+    "Italian": null,
+    "Polish": null,
+    "Russian": null,
+    "Czech": null
+    }
+  ],
+  "DLCDependencies": null,
+  "CreatorName": "Finchen",
+  "CreatorContact": "https://discord.gg/znrAXQSfzV",
+  "Image": null
+}

@@ -1,0 +1,32 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2130020148</GUID>
+      <Text>Ресторан быстрой ложки</Text>
+    </Text>
+    <Text>
+      <GUID>2130020149</GUID>
+      <Text>Ресторан самообслуживания</Text>
+    </Text>
+    <Text>
+      <GUID>2130020150</GUID>
+      <Text>Кафе Киз</Text>
+    </Text>
+    <Text>
+      <GUID>2130020151</GUID>
+      <Text>Кафе самообслуживания</Text>
+    </Text>
+    <Text>
+      <GUID>2130020152</GUID>
+      <Text>Коктейль-бар</Text>
+    </Text>
+    <Text>
+      <GUID>2130020153</GUID>
+      <Text>Запрошено бронирование</Text>
+    </Text>
+    <Text>
+      <GUID>2130020154</GUID>
+      <Text>Декоративные постройки</Text>
+    </Text>
+  </ModOp>
+</ModOps>

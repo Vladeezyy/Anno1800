@@ -1,0 +1,27 @@
+
+#######################
+GUID Range:
+2130020148 - 2130020154
+#######################
+Version: 1.0
+Content:
+
+Mit dieser kleinen Mod können die Gebäude:
+- Restaurant
+- Cafe
+- Bar
+als Ornamente gebaut werden.
+Zu finden im Ornamenten Menü "Klassisch"
+Verfügbar in der Alten - und Neuen Welt ab Arbeiter.
+
+Besonderen Dank für die Hilfe bei der Erstellung geht an Fishboss und Lion :-)
+------------------------------------------------------------------------------
+With this small mod, the buildings:
+- Restaurant
+- cafe
+- bar
+can be built as ornaments.
+You will found them in the ornaments menu "Classic"
+Available in the Old World and New World from Worker.
+
+Special thanks to Fishboss and Lion for their help with the creation :-)
