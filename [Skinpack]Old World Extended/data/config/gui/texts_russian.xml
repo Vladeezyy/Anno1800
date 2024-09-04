@@ -1,0 +1,74 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360020</GUID>
+      <Text>Скотоводческая ферма в стиле Старого города</Text>      <!-- skin: Old Town Styled Cattle farm -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360021</GUID>
+      <Text>Виноградная ферма в стиле Старого города</Text>      <!-- skin: Old Town Styled Grape farm -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360022</GUID>
+      <Text>Хмельная ферма в стиле Старого города</Text>      <!-- skin: Old Town Styled Hop farm -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360023</GUID>
+      <Text>Ферма перца в стиле Старого города</Text>      <!-- skin: Old Town Styled Pepper farm -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360024</GUID>
+      <Text>Свиноферма в стиле Старого города</Text>      <!-- skin: Old Town Styled Pig Farm -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360025</GUID>
+      <Text>Картофельная ферма в стиле Старого города</Text>      <!-- skin: Old Town Styled Potato Farm -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360026</GUID>
+      <Text>Овечья ферма в стиле Старого города</Text>      <!-- skin: Old Town Styled Sheep Farm -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360027</GUID>
+      <Text>Зерновая ферма в стиле Старого города</Text>      <!-- skin: Old Town Styled Grain Farm -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360028</GUID>
+      <Text>Пекарня в стиле Старого города</Text>      <!-- skin: Old Town Styled Bakery -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360029</GUID>
+      <Text>Бойня в стиле Старого города</Text>      <!-- skin: Old Town Styled Slaughterhouse -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360030</GUID>
+      <Text>Пивоварня в стиле Старого города</Text>      <!-- skin: Old Town Styled Beer Brewery -->
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>2122360031</GUID>
+      <Text>Завод по производству шнапса в стиле Старого города</Text>      <!-- skin: Old Town Styled Schnapps Distillery -->
+    </Text>
+  </ModOp>
+</ModOps>

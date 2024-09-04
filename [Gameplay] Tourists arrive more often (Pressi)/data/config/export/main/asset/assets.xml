@@ -1,0 +1,6 @@
+<ModOps>
+  <ModOp Type="merge" GUID='2001173' Path="/Values/TourismFeature">
+                  <IntervalDuration>600000</IntervalDuration>
+                  <MinUnloadingTime>60000</MinUnloadingTime>
+  </ModOp>
+</ModOps>

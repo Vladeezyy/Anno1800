@@ -1,0 +1,43 @@
+<ModOps>
+
+<!-- 1404 Church - Skin by shane868 / based on Old-Town Mod variant by Fishboss1 -->
+<!-- GUID - Range: 6808000 -->
+
+<!-- Skin <GUID>1010359 <Name>service_04 (Church) - add skin to vanilla SkinList -->
+
+<ModOp GUID="1010359" Type="add" Path="/Values/Object/Skins/SkinList"> 
+		<Item>
+			<SkinAssetGuid>6808041</SkinAssetGuid>
+		</Item>
+</ModOp>
+
+<!-- 1404 Church Skin - added after CDLC09 Church - Skin 5231 -->
+<ModOp GUID="5231" Type="addNextSibling" Path="/">
+	<Asset>
+		<Template>Skin</Template>
+			<Values>
+			  <Standard>
+				<GUID>6808041</GUID>
+				<Name>church_1404</Name>
+				<IconFilename>data/mod-graphics/icons/1404-church-ico.png</IconFilename>
+				<ID>skinType_church_1404</ID>
+			  </Standard>
+			  <Skin>
+				<SkinName>6808042</SkinName>
+				<SkinDescription>5241</SkinDescription>
+				<SkinVariations>
+				  <Item>
+					<FileName>data/mod-graphics/1404_church/church.cfg</FileName>
+				  </Item>
+				</SkinVariations>
+				<SkinCategoryDescription>5753</SkinCategoryDescription>
+			  </Skin>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+			  <Text/>
+			</Values> 
+	</Asset>
+</ModOp>
+
+</ModOps>

@@ -1,0 +1,24 @@
+<ModOps>
+
+<ModOp GUID="328" Type="replace" Path="/Values/Object/Variations/Item/Filename"> 
+         <Filename>data/mod_dlc11/graphics/vehicle/airships/airship_transport_small/airship_transport_small_wft.cfg</Filename>
+</ModOp>
+
+<ModOp GUID="328" Type="replace" Path="/Values/Walking"> 
+	<Walking>
+		<SpecialMovementType>AirConstantHeight</SpecialMovementType>
+		<StartHeight>10</StartHeight>
+		<ReservationLength>16</ReservationLength>
+		<ReservationWidth>6</ReservationWidth>
+		<PathPlannerLayer>Air</PathPlannerLayer>
+		<ExpensiveDirSmoothing>1</ExpensiveDirSmoothing>
+		<TurnAroundRadius>5</TurnAroundRadius>
+		<Acceleration>1.4</Acceleration>
+		<Deceleration>1</Deceleration>
+		<TurnSpeed>30</TurnSpeed>
+		<TurnMovement>50</TurnMovement>
+		<LeaningMaxAngle>10</LeaningMaxAngle>
+	</Walking>
+</ModOp>
+
+</ModOps>

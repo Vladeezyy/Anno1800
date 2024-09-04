@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+	<Text>
+      <GUID>6808042</GUID>
+      <Text>Anno 1404 Church - Skin</Text>
+    </Text>
+  </ModOp>
+</ModOps>

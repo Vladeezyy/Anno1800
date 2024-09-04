@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>6808042</GUID>
+      <Text>Церковь Anno 1404</Text>
+    </Text>
+  </ModOp>
+</ModOps>

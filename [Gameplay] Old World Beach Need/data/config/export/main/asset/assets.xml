@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ModOps>
+  <ModOp Type="replace" GUID='6264' Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+  </ModOp>
+
+
+  <ModOp Type="addPrevSibling" GUID="25000191" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010361' or (position()=1 and (not(../Item[Building='1010361'])))]">
+    <!-- Build Menu -->
+    <Item>
+      <Building>7182</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="addNextSibling" GUID="500094" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010359']">
+    <!-- Build Menu -->
+    <Item>
+      <Building>7182</Building>
+    </Item>
+  </ModOp>
+  
+  <!-- artisan beach needs -->
+  <ModOp Type = "add" GUID='15000002' Path="/Values/PopulationLevel7/PopulationInputs">
+    <Item>
+      <Product>6265</Product>
+      <HappinessValue>10</HappinessValue>
+      <MoneyValue>30</MoneyValue>
+    </Item>
+  </ModOp>
+
+  <!-- engineer beach needs -->
+  <ModOp Type = "add" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs">
+    <Item>
+      <Product>6265</Product>
+      <HappinessValue>8</HappinessValue>
+      <MoneyValue>50</MoneyValue>
+    </Item>
+  </ModOp>
+
+  <!-- investor beach needs -->
+  <ModOp Type = "add" GUID='15000004' Path="/Values/PopulationLevel7/PopulationInputs">
+    <Item>
+      <Product>6265</Product>
+      <HappinessValue>6</HappinessValue>
+      <MoneyValue>80</MoneyValue>
+    </Item>
+  </ModOp>
+
+ <!--  beach sand on coast -->
+  <ModOp Type="addNextSibling" GUID='7895'>
+    <Asset>
+      <Template>OrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1685866909</GUID>
+          <Name>Beach Ornament Sandvariations</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_01.png</IconFilename>
+          <InfoDescription>7184</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Sand</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60408</LineID>
+        </Text>
+        <Blocking>
+          <HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+          <ArchHeight>1.2</ArchHeight>
+          <OverwriteBelowArchBuildHeight>1</OverwriteBelowArchBuildHeight>
+          <BelowArchBuildHeight>1.2</BelowArchBuildHeight>
+          <HasBuildingBaseTiles>0</HasBuildingBaseTiles>
+          <BlocksBuilding>0</BlocksBuilding>
+        </Blocking>
+        <Building>
+          <BuildingCategoryName>7313</BuildingCategoryName>
+          <TerrainType>Water_Including_Coast</TerrainType>
+          <InfluencedByNeighbors>
+            <Item>
+              <Building>1685866909</Building>
+            </Item>
+            <Item>
+              <Building>7895</Building>
+            </Item>
+            <Item>
+              <Building>7085</Building>
+            </Item>
+            <Item>
+              <Building>7178</Building>
+            </Item>
+            <Item>
+              <Building>7179</Building>
+            </Item>
+            <Item>
+              <Building>7181</Building>
+            </Item>
+            <Item>
+              <Building>7879</Building>
+            </Item>
+            <Item>
+              <Building>7880</Building>
+            </Item>
+          </InfluencedByNeighbors>
+          <InfluencedVariationDirection>
+            <Item>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Direction>2</Direction>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Direction>3</Direction>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Direction>2</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Direction>2</Direction>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Direction>1</Direction>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Direction>3</Direction>
+              <Type>Corner</Type>
+            </Item>
+            <Item>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Direction>3</Direction>
+              <Type>Single</Type>
+            </Item>
+            <Item>
+              <Type>Single</Type>
+            </Item>
+          </InfluencedVariationDirection>
+          <AssociatedRegions>Colony01;Moderate</AssociatedRegions>
+          <BuildingBlockPool>
+            <Corner>
+              <Pool>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>4</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>5</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>6</Variation>
+                </Item>
+                <Item>
+                  <DirectionOffet>2</DirectionOffet>
+                  <Variation>7</Variation>
+                </Item>
+              </Pool>
+            </Corner>
+            <Single>
+              <Pool>
+                <Item />
+                <Item>
+                  <Variation>1</Variation>
+                </Item>
+                <Item>
+                  <Variation>2</Variation>
+                </Item>
+                <Item>
+                  <Variation>3</Variation>
+                </Item>
+              </Pool>
+            </Single>
+          </BuildingBlockPool>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+          <VariationIcons>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_01.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_02.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_03.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_04.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_01.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_02.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_03.png</IconFilename>
+            </Item>
+            <Item>
+              <IconFilename>data/ui/2kimages/main/3dicons/ornaments/beach/icon_beach_sand_corner_04.png</IconFilename>
+            </Item>
+          </VariationIcons>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Amount>200</Amount>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>1</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>2</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>2</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>3</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>3</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>4</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>4</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>5</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>OrnamentalBuilding</TemplateName>
+                    <Index>5</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </Costs>
+        </Cost>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+        </Selection>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data\modgraphics\streets\sand\beach_groundplate_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\modgraphics\streets\sand\beach_groundplate_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\modgraphics\streets\sand\beach_groundplate_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\modgraphics\streets\sand\beach_groundplate_04.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\modgraphics\streets\sand\beach_groundplate_corner_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\modgraphics\streets\sand\beach_groundplate_corner_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\modgraphics\streets\sand\beach_groundplate_corner_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data\modgraphics\streets\sand\beach_groundplate_corner_04.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Constructable />
+        <Mesh />
+        <SoundEmitter />
+        <Locked>
+          <DLCDependency>24963</DLCDependency>
+        </Locked>
+        <FeedbackController>
+          <NightBehavior>HideNone</NightBehavior>
+        </FeedbackController>
+        <Ornament>
+          <OrnamentUnit>2</OrnamentUnit>
+          <OrnamentDescription>8272</OrnamentDescription>
+          <OrnamentType>Ornament_Beach</OrnamentType>
+        </Ornament>
+        <AmbientMoodProvider />
+        <Pausable />
+        <Infolayer />
+        <Culture />
+      </Values>
+    </Asset>
+
+  </ModOp>
+  
+  <!-- beach sand unlock -->
+  <ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1685866904</GUID>
+          <Name>intermediate moderate 2.0</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier02.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000002</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1685866909</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>5801</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>1685866909</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>5801</Asset>
+                      </Item>
+                    </UnhideAssets>
+
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+  
+  <!-- add coast sand in the build menu -->
+  <ModOp Type="addNextSibling" GUID='7182' Path="/Values/ConstructionCategory/BuildingList/Item[Building='7895']">
+    <Item>
+      <Building>1685866909</Building> 
+    </Item>
+  </ModOp>
+
+ <!--  original sand placement influence by coast sand -->
+  <ModOp Type="add" GUID='7895' Path="/Values/Building/InfluencedByNeighbors">
+    <Item>
+      <Building>1685866909</Building>
+    </Item>
+  </ModOp>
+
+
+</ModOps>

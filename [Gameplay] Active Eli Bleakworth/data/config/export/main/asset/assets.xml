@@ -1,0 +1,141 @@
+<ModOps>
+	<!--Credit to Serp66 for helping  to fix a lot of things with a mod-->
+	<!--Active Eli Bleakworth-->
+	<!--TradeShips for Eli -->
+	<!--102593 Bleackworth's Dreary Clipper (Tradeship)
+		103144 Eli's Flagship (TradeShip)
+		143875 Confiscated Steamer (Tradeship)-->
+	<ModOp Type="addNextSibling" GUID="102593">
+		<Asset>
+			<BaseAssetGUID>102593</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>2000100000</GUID>
+					<Name>Bleackworth's Dreary Clipper</Name>
+				</Standard>
+				<Text>
+					<TextOverride>102593</TextOverride>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="addNextSibling" GUID="103144">
+		<Asset>
+			<BaseAssetGUID>103144</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>2000100001</GUID>
+					<Name>Eli's Flagship</Name>
+				</Standard>
+				<Text>
+					<TextOverride>103144</TextOverride>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type="addNextSibling" GUID="143875">
+		<Asset>
+			<BaseAssetGUID>143875</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>2000100002</GUID>
+					<Name>Confiscated Steamer</Name>
+				</Standard>
+				<Text>
+					<TextOverride>143875</TextOverride>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp Type = "merge" GUID = '46' Path = "/Values/Trader/Progression">
+		<EarlyGame>
+			<TradeFleet />
+		</EarlyGame>
+		<EarlyMidGame>
+			<TradeFleet />
+		</EarlyMidGame>
+		<MidGame>
+			<TradeFleet />
+		</MidGame>
+		<LateMidGame>
+			<TradeFleet />
+		</LateMidGame>
+		<LateGame>
+			<TradeFleet />
+		</LateGame>
+		<EndGame>
+			<TradeFleet />
+		</EndGame>
+	</ModOp>
+	<ModOp Type="add" GUID='46' Path="/Values/Trader/Progression/EarlyGame/TradeFleet">
+		<Item>
+			<ShipAsset>2000100000</ShipAsset>
+			<Amount>1</Amount>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='46' Path="/Values/Trader/Progression/EarlyMidGame/TradeFleet">
+		<Item>
+			<ShipAsset>2000100000</ShipAsset>
+			<!-- Bleackworth's Dreary Clipper (Tradeship) -->
+			<Amount>1</Amount>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='46' Path="/Values/Trader/Progression/MidGame/TradeFleet">
+		<Item>
+			<ShipAsset>2000100000</ShipAsset>
+			<!-- Bleackworth's Dreary Clipper (Tradeship) -->
+			<Amount>1</Amount>
+		</Item>
+		<Item>
+			<ShipAsset>2000100001</ShipAsset>
+			<!--Eli's Flagship (TradeShip)-->
+			<Amount>1</Amount>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='46' Path="/Values/Trader/Progression/LateMidGame/TradeFleet">
+		<Item>
+			<ShipAsset>2000100000</ShipAsset>
+			<!-- Bleackworth's Dreary Clipper (Tradeship) -->
+			<Amount>1</Amount>
+		</Item>
+		<Item>
+			<ShipAsset>2000100001</ShipAsset>
+			<!--Eli's Flagship (TradeShip)-->
+			<Amount>1</Amount>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='46' Path="/Values/Trader/Progression/LateGame/TradeFleet">
+		<Item>
+			<ShipAsset>2000100000</ShipAsset>
+			<!-- Bleackworth's Dreary Clipper (Tradeship) -->
+			<Amount>1</Amount>
+		</Item>
+		<Item>
+			<ShipAsset>2000100001</ShipAsset>
+			<!--Eli's Flagship (TradeShip)-->
+			<Amount>1</Amount>
+		</Item>
+		<Item>
+			<ShipAsset>2000100002</ShipAsset>
+			<!--Confiscated Steamer (Tradeship)-->
+			<Amount>1</Amount>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='46' Path="/Values/Trader/Progression/EndGame/TradeFleet">
+		<Item>
+			<ShipAsset>2000100000</ShipAsset>
+			<!-- Bleackworth's Dreary Clipper (Tradeship) -->
+			<Amount>1</Amount>
+		</Item>
+		<Item>
+			<ShipAsset>2000100001</ShipAsset>
+			<!--Eli's Flagship (TradeShip)-->
+			<Amount>1</Amount>
+		</Item>
+		<Item>
+			<ShipAsset>2000100002</ShipAsset>
+			<!--Confiscated Steamer (Tradeship)-->
+			<Amount>1</Amount>
+		</Item>
+	</ModOp>
+</ModOps>

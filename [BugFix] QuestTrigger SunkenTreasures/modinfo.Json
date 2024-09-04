@@ -1,0 +1,55 @@
+{
+  "Version": "0.01",
+  "ModID": "QuestTrigger_SunkenTreasures",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": null,
+    "English": "BugFix",
+    "French": null,
+    "German": "BugFix",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "QuestTrigger Sunken Treasures",
+    "French": null,
+    "German": "QuestTrigger Versunkene Schätze",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Bugfix for the Sunken Treasures DLC questline.",
+    "French": null,
+    "German": "Bugfix für die Versunkene Schätze DLC Quest-Reihe",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "SunkenTreasures",
+      "Dependant": "required"
+    }  
+  ],
+  "CreatorName": "Kageyajuu",
+  "CreatorContact": null,
+  "Image" : null
+}

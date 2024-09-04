@@ -1,0 +1,1763 @@
+<!--  QuestTriggerCapeTrelawney	-->
+<!-- 			V0.01 			-->
+<!--   GUID start: 1420037000	-->
+<!--   GUID end:   1420037099	-->
+
+<!-- GUID notes
+1010371 warehouse
+1010517 kontor small
+100510 kontor medium
+100511 kontor large
+269867 kontor grand
+-->
+
+<!-- all trigger rely on the quests existing pre-conditions if nothing is specified -->
+	
+<ModOps>
+
+<!-- Change Quest objective from building a kontor to selecting a small warehouse, in case the island was claimed before receiving the quest -->
+<ModOp Type="replace" GUID='113373' Path="/Values/Objectives/WinConditions">
+	<WinConditions>
+		<Item>
+			<Objective>
+			<Template>SelectObjectObjective</Template>
+			<Values>
+				<ConditionQuestObjective>
+				<ObjectiveSignsAndFeedback>
+					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+					<Values>
+					<ConditionObjectiveSignsAndFeedback>
+						<Infolayer>0</Infolayer>
+						<MinimapToken>0</MinimapToken>
+					</ConditionObjectiveSignsAndFeedback>
+					</Values>
+				</ObjectiveSignsAndFeedback>
+				</ConditionQuestObjective>
+				<ConditionQuestSelectObject>
+					<SelectObjects>
+						<Item>
+						<Object>
+							<Template>ObjectFilter</Template>
+							<Values>
+							<ObjectFilter>
+								<ObjectGUID>1010371</ObjectGUID>
+							</ObjectFilter>
+							</Values>
+						</Object>
+						</Item>
+					</SelectObjects>
+				</ConditionQuestSelectObject>
+				<ConditionPropsSessionSettings />
+				<ConditionPropsExecutionPlaceSettings />
+			</Values>
+			</Objective>
+		</Item>
+	</WinConditions>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_02_Megalopolis -->
+<ModOp Type="addNextSibling" GUID='130248'>
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+		<Standard>
+			<GUID>1420037002</GUID>
+			<Name>Q_Trigger_QLTrelawney_02_Megalopolis</Name>
+		</Standard>
+		<Trigger>
+			<TriggerCondition>
+				<Template>ConditionIsDLCActive</Template>
+				<Values>
+					<Condition />
+					<ConditionIsDLCActive>
+						<DLCAssetList>
+							<Item>
+							<DLCAsset>410040</DLCAsset>
+							</Item>
+						</DLCAssetList>
+					</ConditionIsDLCActive>
+					<ConditionPropsNegatable />
+				</Values>
+			</TriggerCondition>
+			<TriggerActions>
+				<Item>
+					<TriggerAction>
+					<Template>ActionStartQuest</Template>
+					<Values>
+						<Action />
+						<ActionStartQuest>
+							<Quest>113373</Quest>
+							<QuestSession>110934</QuestSession>
+						</ActionStartQuest>
+					</Values>
+					</TriggerAction>
+				</Item>
+			</TriggerActions>
+		</Trigger>
+		<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_03_MeetingOldNate -->
+<ModOp Type="addNextSibling" GUID='130248'>
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037003</GUID>
+				<Name>Q_Trigger_QLTrelawney_03_MeetingOldNate</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>111846</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_04_TestingThePrototype -->
+<ModOp Type="addNextSibling" GUID='130248'>
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037004</GUID>
+				<Name>Q_Trigger_QLTrelawney_04_TestingThePrototype</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionDelayedActions</Template>
+							<Values>
+								<Action />
+								<ActionDelayedActions>
+									<ExecutionDelay>10000</ExecutionDelay>
+									<DelayedActions>
+									<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+									<Values>
+										<ActionList>
+										<Actions>
+											<Item>
+											<Action>
+												<Template>ActionStartQuest</Template>
+												<Values>
+												<Action />
+												<ActionStartQuest>
+													<Quest>111847</Quest>
+													<QuestSession>110934</QuestSession>
+												</ActionStartQuest>
+												</Values>
+											</Action>
+											</Item>
+										</Actions>
+										</ActionList>
+									</Values>
+									</DelayedActions>
+								</ActionDelayedActions>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>111846</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_05_LeadIntoGold -->
+<ModOp Type="addNextSibling" GUID='130248'>
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037005</GUID>
+				<Name>Q_Trigger_QLTrelawney_05_LeadIntoGold</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>111848</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>111847</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_06_FirstOneFree -->
+<ModOp Type="addNextSibling" GUID='130248'>
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037006</GUID>
+				<Name>Q_Trigger_QLTrelawney_06_FirstOneFree</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>111849</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>111848</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_07_TheBigBlue -->
+<ModOp Type="addNextSibling" GUID='130248'>
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037007</GUID>
+				<Name>Q_Trigger_QLTrelawney_07_TheBigBlue</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>114168</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>111849</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_08_TheJournal -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037008</GUID>
+				<Name>Q_Trigger_QLTrelawney_08_TheJournal</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>111850</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>114168</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_09_RestoreTheJournal -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037009</GUID>
+				<Name>Q_Trigger_QLTrelawney_09_RestoreTheJournal</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>111851</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>111850</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_10_BindingDocument -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037010</GUID>
+				<Name>Q_Trigger_QLTrelawney_10_BindingDocument</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>111852</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>111851</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_11_RetracingHistory -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037011</GUID>
+				<Name>Q_Trigger_QLTrelawney_11_RetracingHistory</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>111853</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>111852</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_12_TheEveOfWar -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037012</GUID>
+				<Name>Q_Trigger_QLTrelawney_12_TheEveOfWar</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>111855</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>111853</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_13_TheEveOfWar -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037013</GUID>
+				<Name>Q_Trigger_QLTrelawney_13_TheEveOfWar</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>113411</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>111855</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_14_TheBattleOfTrelawney -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037014</GUID>
+				<Name>Q_Trigger_QLTrelawney_14_TheBattleOfTrelawney</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>112244</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>113411</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_15_TheBattleOfTrelawney -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037015</GUID>
+				<Name>Q_Trigger_QLTrelawney_15_TheBattleOfTrelawney</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>113454</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>112244</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_16_TheBattleOfTrelawney -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037016</GUID>
+				<Name>Q_Trigger_QLTrelawney_16_TheBattleOfTrelawney</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>113457</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>113454</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_17_JumbleTech -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037017</GUID>
+				<Name>Q_Trigger_QLTrelawney_17_JumbleTech</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>112250</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>113457</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_18_theSoundOfTheSea -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037018</GUID>
+				<Name>Q_Trigger_QLTrelawney_18_theSoundOfTheSea</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>112251</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>112250</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_19_VascosCovenant -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037019</GUID>
+				<Name>Q_Trigger_QLTrelawney_19_VascosCovenant</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>113661</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>112251</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_20_NadaskysLegacy -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037020</GUID>
+				<Name>Q_Trigger_QLTrelawney_20_NadaskysLegacy</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>112252</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>113661</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_21_NadaskysLegacy -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037021</GUID>
+				<Name>Q_Trigger_QLTrelawney_21_NadaskysLegacy</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>113318</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>112252</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_22_ForgottenHeroes -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037022</GUID>
+				<Name>Q_Trigger_QLTrelawney_22_ForgottenHeroes</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>112254</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>113318</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_23_LaCoronaFlagship -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037023</GUID>
+				<Name>Q_Trigger_QLTrelawney_23_LaCoronaFlagship</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>112258</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>112254</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_24_BellyOfTheWhale -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037024</GUID>
+				<Name>Q_Trigger_QLTrelawney_24_BellyOfTheWhale</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>112259</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>112258</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_25_BestOfThree -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037025</GUID>
+				<Name>Q_Trigger_QLTrelawney_25_BestOfThree</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>112263</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>112259</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_26_TheSceptreOfCapon -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037026</GUID>
+				<Name>Q_Trigger_QLTrelawney_26_TheSceptreOfCapon</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>112264</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>112263</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_27_TheSceptreOfCapon -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037027</GUID>
+				<Name>Q_Trigger_QLTrelawney_27_TheSceptreOfCapon</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>113371</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>112264</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+<!-- Q_Trigger_QLTrelawney_28_TheCaponsRoost -->
+<ModOp Type="addNextSibling" GUID='130248'> 
+	<Asset>
+		<Template>Trigger</Template>
+		<Values>
+			<Standard>
+				<GUID>1420037028</GUID>
+				<Name>Q_Trigger_QLTrelawney_28_TheCaponsRoost</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+					<Template>ConditionIsDLCActive</Template>
+					<Values>
+						<Condition />
+						<ConditionIsDLCActive>
+							<DLCAssetList>
+								<Item>
+								<DLCAsset>410040</DLCAsset>
+								</Item>
+							</DLCAssetList>
+						</ConditionIsDLCActive>
+						<ConditionPropsNegatable />
+					</Values>
+				</TriggerCondition>
+				<TriggerActions>
+					<Item>
+						<TriggerAction>
+							<Template>ActionStartQuest</Template>
+							<Values>
+								<Action />
+								<ActionStartQuest>
+									<Quest>112273</Quest>
+									<QuestSession>110934</QuestSession>
+								</ActionStartQuest>
+							</Values>
+						</TriggerAction>
+					</Item>
+				</TriggerActions>
+				<SubTriggers>
+					<Item>
+						<SubTrigger>
+						  <Template>AutoCreateTrigger</Template>
+						  <Values>
+							<Trigger>
+								<TriggerCondition>
+									<Template>ConditionQuestState</Template>
+									<Values>
+										<Condition />
+										<ConditionQuestState>
+											<ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+											<ConditionQuestStateQuestGUID>113371</ConditionQuestStateQuestGUID>
+										</ConditionQuestState>
+									</Values>
+								</TriggerCondition>
+							</Trigger>
+						  </Values>
+						</SubTrigger>
+					</Item>
+				</SubTriggers>
+			</Trigger>
+			<TriggerSetup />
+		</Values>
+	</Asset>
+</ModOp>
+</ModOps>
