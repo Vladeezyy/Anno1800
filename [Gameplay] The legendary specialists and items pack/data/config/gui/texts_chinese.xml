@@ -4,218 +4,404 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1500011904</GUID>
-      <Text>All sewing machine factories</Text> <!-- 1010284 -->
+      <Text>所有缝纫机工厂</Text> <!-- 1010284 -->
     </Text>
     <Text>
       <GUID>1500200673</GUID>
-      <Text>All bakeries</Text> <!-- 1010291 -->
+      <Text>所有面包店</Text> <!-- 1010291 -->
     </Text>
     <Text>
       <GUID>1500301021</GUID>
-      <Text>All framework knitters</Text> <!-- 1010315 -->
+      <Text>所有纺织工厂</Text> <!-- 1010315 -->
     </Text>
   </ModOp>
 
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000003</GUID>
-			<Text>Alexey Stakhanov</Text>
+			<Text>“劳动英雄”，阿列克谢·斯达汉诺夫</Text>
 		</Text>
 		<Text>
 			<GUID>1900000004</GUID>
-			<Text>Soviet miner, innovator of the coal industry, founder of the Stakhanov movement.</Text>
+			<Text>苏联的传奇劳动英雄，曾因一班时间内开采出超过采煤定额的十三倍的煤炭而被载入史册。世界煤炭工业的创新者，斯达汉诺夫运动的创始人。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000005</GUID>
-			<Text>Captain Nemo</Text>
+			<Text>尼摩船长</Text>
 		</Text>
 		<Text>
 			<GUID>1900000006</GUID>
-			<Text>The legendary Captain of the submarine "Nautilus" from the novels of Jules Verne!</Text>
+			<Text>儒勒·凡尔纳小说中“鹦鹉螺号”的传奇船长！</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000007</GUID>
-			<Text>Jacques-Yves Cousteau</Text>
+			<Text>“海洋学家”，雅各-伊夫·库斯托</Text>
 		</Text>
 		<Text>
 			<GUID>1900000008</GUID>
-			<Text>Jacques-Yves Cousteau was a French naval officer, explorer, conservationist, filmmaker, scientist, photographer, author and researcher who studied the sea and all forms of life in water.</Text>
+			<Text>雅克·伊夫·库斯托是法国海军军官、探险家、环保主义者、电影制作人、科学家、摄影师、作家，他致力于研究各种水生生物。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000009</GUID>
-			<Text>The "Nobel" Shot</Text>
+			<Text>“诺贝尔”重炮弹</Text>
 		</Text>
 		<Text>
 			<GUID>1900000010</GUID>
-			<Text>Heavy shot, that was named after Alfred Nobel.</Text>
+			<Text>以阿尔弗雷德·诺贝尔的名字命名的特制重炮弹。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000011</GUID>
-			<Text>The "Centurio" Gun</Text>
+			<Text>“百夫长”加农炮</Text>
 		</Text>
 		<Text>
 			<GUID>1900000012</GUID>
-			<Text>A modern gun, it's said that it has been particularly lucky in its aim.</Text>
+			<Text>一种现代化加农炮，它的准星特别准。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000013</GUID>
-			<Text>The "Goliath" Engine</Text>
+			<Text>“歌利亚”船用引擎</Text>
 		</Text>
 		<Text>
 			<GUID>1900000014</GUID>
-			<Text>The most powerful engine in the world.</Text>
+			<Text>世界上最强大的动力锅炉。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000015</GUID>
-			<Text>The "Cyclone" Engine</Text>
+			<Text>“旋风”船用引擎</Text>
 		</Text>
 		<Text>
 			<GUID>1900000016</GUID>
-			<Text>Fast as a hurricane.</Text>
+			<Text>快如旋风。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000017</GUID>
-			<Text>Henry Ford</Text>
+			<Text>“流水线之父”，亨利·福特</Text>
 		</Text>
 		<Text>
 			<GUID>1900000018</GUID>
-			<Text>American industrialist, business magnate, founder of the Ford Motor Company and chief developer of the assembly line technique of mass production.</Text>
+			<Text>美国实业家、商业巨头、福特汽车公司的创始人，大规模生产流水线技术的首倡者。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000019</GUID>
-			<Text>Elisha Graves Otis</Text>
+			<Text>“安全电梯发明者”以利沙·格雷夫斯·奥狄斯</Text>
 		</Text>
 		<Text>
 			<GUID>1900000020</GUID>
-			<Text>Inventor of a safety device that prevents elevators from falling if the hoisting cable fails.</Text>
+			<Text>一种安全装置的发明者，可防止升降机在吊装缆绳失效时下落。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000021</GUID>
-			<Text>Isaac Singer</Text>
+			<Text>“缝纫机改良者”，艾萨克·胜家</Text>
 		</Text>
 		<Text>
 			<GUID>1900000022</GUID>
-			<Text> He made important improvements in the design of the sewing machine and was the founder of the Singer Sewing Machine Company.</Text>
+			<Text> 他对缝纫机的设计做出了重要的改进，是胜家缝纫机公司的创始人。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000023</GUID>
-			<Text>Claude Moët</Text>
+			<Text>“皇室香槟供应商”，克劳德·酩悦</Text>
 		</Text>
 		<Text>
 			<GUID>1900000024</GUID>
-			<Text>Claude Moët was a Dutch vintner and wine merchant who founded the Champagne house that later became Moët et Chandon.</Text>
+			<Text>克劳德·酩悦是荷兰的酒商和酒商，他创立了后来成为酩悦香槟的香槟公司。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000025</GUID>
-			<Text>Gabrielle Bonheur "Coco" Chanel</Text>
+			<Text>“时尚教母”，加布里埃尔·博纳尔“可可”·香奈儿</Text>
 		</Text>
 		<Text>
 			<GUID>1900000026</GUID>
-			<Text>French fashion designer and businesswoman.</Text>
+			<Text>法国时装设计师、女商人，香奈儿品牌创始人。“可可”是她年轻卖唱时起的艺名，后以艺名闻世。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000027</GUID>
-			<Text>Levi Strauss</Text>
+			<Text>“牛仔裤发明者”，李维·史特劳斯</Text>
 		</Text>
 		<Text>
 			<GUID>1900000028</GUID>
-			<Text>Founded the first company to manufacture blue jeans.</Text>
+			<Text>发明了蓝色牛仔裤，并创建了一个叫做李维牛仔裤的公司。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000029</GUID>
-			<Text>Mr. Pringle</Text>
+			<Text>“品客薯片创始人”，普林格尔先生</Text>
 		</Text>
 		<Text>
 			<GUID>1900000030</GUID>
-			<Text>You know him.</Text>
+			<Text>你一定认识他的。（译者注：品客薯片创始人）</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000031</GUID>
-			<Text>Ashot Chobanyan, shepherd from Artsakh</Text>
+			<Text>“阿察克的牧羊人”，阿绍特·乔班扬</Text>
 		</Text>
 		<Text>
 			<GUID>1900000032</GUID>
-			<Text>You don't know him.</Text>
+			<Text>籍籍无名的牧羊人。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000033</GUID>
-			<Text>Alfredo Linguini and Little Chef</Text>
+			<Text>“料理鼠王”，阿尔弗雷多·林桂尼与小厨师</Text>
 		</Text>
 		<Text>
 			<GUID>1900000034</GUID>
-			<Text>The famous cook from the cartoon "Ratatouille".</Text>
+			<Text>来自《美食总动员》。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000035</GUID>
-			<Text>Methane Filtering System "Freshness"</Text>
+			<Text>“新风”废气过滤系统</Text>
 		</Text>
 		<Text>
 			<GUID>1900000036</GUID>
-			<Text>Created to save the miners lives.</Text>
+			<Text>为了拯救矿工的生命而创建。</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000037</GUID>
-			<Text>Tunnel Boring Machine "Shai-Hulud"</Text>
+			<Text>“沙虫”隧道掘进机</Text>
 		</Text>
 		<Text>
 			<GUID>1900000038</GUID>
-			<Text>Deep Mining Machine.</Text>
+			<Text>深采机械</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000039</GUID>
-			<Text>Heavy Drill "Shrew"</Text>
+			<Text>“鼩鼱”重型钻探机</Text>
 		</Text>
 		<Text>
 			<GUID>1900000040</GUID>
-			<Text>The meek shall inherit the Earth, but not its mineral rights.</Text>
+			<Text>温顺的人将继承地球，但不能继承其地下的矿产。</Text>
 		</Text>
 	</ModOp>
 	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000041</GUID>
-			<Text>All sheep farms</Text>
+			<Text>所有绵羊农场</Text>
 		</Text>
 	</ModOp>
 	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000042</GUID>
-			<Text>All kitchens</Text>
+			<Text>所有厨房</Text>
+		</Text>
+	</ModOp>
+
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000043</GUID>
+			<Text>“元素周期表发现者”，德米特里·伊万诺维奇·门捷列夫</Text>
+		</Text>
+		<Text>
+			<GUID>1900000044</GUID>
+			<Text>俄国化学家和发明家，以提出元素周期率和元素周期表而闻名。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000045</GUID>
+			<Text>“无线电通信之父”，亚历山大·斯捷潘诺维奇·波波夫</Text>
+		</Text>
+		<Text>
+			<GUID>1900000046</GUID>
+			<Text>俄国物理学家，无线电接收装置的发明者。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000047</GUID>
+			<Text>“电动机之父”，莫里兹·冯·雅可比</Text>
+		</Text>
+		<Text>
+			<GUID>1900000048</GUID>
+			<Text>俄国工程师和发明家。他创造了第一台电动机，并开发了各种电话设备。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000049</GUID>
+			<Text>“水果育种专家”，伊万·弗拉基米罗维奇·米丘林</Text>
+		</Text>
+		<Text>
+			<GUID>1900000050</GUID>
+			<Text>俄国生物学家、农学家、水果育种学家，将300余种水果引进了俄罗斯。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000051</GUID>
+			<Text>“第一个种子库”，尼古拉·伊万诺维奇·瓦维洛夫</Text>
+		</Text>
+		<Text>
+			<GUID>1900000052</GUID>
+			<Text>俄国农学家、植物学家和遗传学家。他创建了世界上第一个种子库，里面包含25万个种子和果实样本。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000053</GUID>
+			<Text>“俄国现代医学教育之父”，谢尔盖·彼得罗维奇·博特金</Text>
+		</Text>
+		<Text>
+			<GUID>1900000054</GUID>
+			<Text>俄国临床医生、治疗师和活动家，现代俄罗斯医学科学和教育的创始人之一。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000055</GUID>
+			<Text>“泡沫灭火器之父”，亚历山大·格奥尔基耶维奇·罗兰</Text>
+		</Text>
+		<Text>
+			<GUID>1900000056</GUID>
+			<Text>俄国发明家，发明了灭火泡沫和世界上第一个泡沫灭火器。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000057</GUID>
+			<Text>“碳丝弧光灯之父”，帕维尔·尼古拉耶维奇·亚布罗奇科夫</Text>
+		</Text>
+		<Text>
+			<GUID>1900000058</GUID>
+			<Text>俄国电气工程师，以发明亚布罗奇科夫蜡烛而闻名，这是一种碳弧光灯。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000059</GUID>
+			<Text>“新型油库之父”，弗拉基米尔·格里戈里耶维奇·舒霍夫</Text>
+		</Text>
+		<Text>
+			<GUID>1900000060</GUID>
+			<Text>俄国工程师、科学家和建筑师。他发明了第一种石油裂解方法，创造了一种新型油库——圆柱形舒霍夫油库。</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000061</GUID>
+			<Text>“马拉收割机发明者”，安德烈·拉森科</Text>
+		</Text>
+		<Text>
+			<GUID>1900000062</GUID>
+			<Text>俄国农业技术人员，马拉谷物收割机的发明者。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000063</GUID>
+			<Text>“南极发现者”，法杰伊·法杰耶维奇·冯·别林斯高晋</Text>
+		</Text>
+		<Text>
+			<GUID>1900000064</GUID>
+			<Text>俄国制图师、探险家和海军军官，南极洲大陆的发现者。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000065</GUID>
+			<Text>“暖气发明者”，弗兰茨·圣·加利</Text>
+		</Text>
+		<Text>
+			<GUID>1900000066</GUID>
+			<Text>俄罗斯企业家和发明家，第一个暖气片的创造者。</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000067</GUID>
+			<Text>“顶级香料药草专家”，瓦里科·苏内什维利</Text>
+		</Text>
+		<Text>
+			<GUID>1900000068</GUID>
+			<Text>有什么能比好酒、新鲜的草药和芬芳的香料更好呢？</Text>
+		</Text>
+	</ModOp>
+
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000069</GUID>
+			<Text>所有原油重工业</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000070</GUID>
+			<Text>所有陆地油库</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000071</GUID>
+			<Text>所有化学厂</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000072</GUID>
+			<Text>所有果园：柑橘</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000074</GUID>
+			<Text>所有苏打粉厂</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000075</GUID>
+			<Text>All hop farms</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000076</GUID>
+			<Text>All vegetable farms</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000077</GUID>
+			<Text>All hemp farms</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000078</GUID>
+			<Text>All manors</Text>
 		</Text>
 	</ModOp>
 </ModOps>

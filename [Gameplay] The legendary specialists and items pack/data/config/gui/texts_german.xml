@@ -4,36 +4,36 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1500011904</GUID>
-      <Text>All sewing machine factories</Text> <!-- 1010284 -->
+      <Text>Alle Nähmaschinenfabriken</Text> <!-- 1010284 -->
     </Text>
     <Text>
       <GUID>1500200673</GUID>
-      <Text>All bakeries</Text> <!-- 1010291 -->
+      <Text>Alle Bäckereien</Text> <!-- 1010291 -->
     </Text>
     <Text>
       <GUID>1500301021</GUID>
-      <Text>All framework knitters</Text> <!-- 1010315 -->
+      <Text>Alle Webereien</Text> <!-- 1010315 -->
     </Text>
   </ModOp>
 
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000003</GUID>
-			<Text>Alexey Stakhanov</Text>
+			<Text>Alexei Stachanow</Text>
 		</Text>
 		<Text>
 			<GUID>1900000004</GUID>
-			<Text>Soviet miner, innovator of the coal industry, founder of the Stakhanov movement.</Text>
+			<Text>Sowjetischer Bergmann, Erneuerer der Kohleindustrie, Gründer der Stachanow-Bewegung.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000005</GUID>
-			<Text>Captain Nemo</Text>
+			<Text>Kapitän Nemo</Text>
 		</Text>
 		<Text>
 			<GUID>1900000006</GUID>
-			<Text>The legendary Captain of the submarine "Nautilus" from the novels of Jules Verne!</Text>
+			<Text>Der legendäre Kapitän des U-Bootes „Nautilus“ aus den Romanen von Jules Verne!</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -43,47 +43,47 @@
 		</Text>
 		<Text>
 			<GUID>1900000008</GUID>
-			<Text>Jacques-Yves Cousteau was a French naval officer, explorer, conservationist, filmmaker, scientist, photographer, author and researcher who studied the sea and all forms of life in water.</Text>
+			<Text>Jacques-Yves Cousteau war ein französischer Marineoffizier, Entdecker, Naturschützer, Filmemacher, Wissenschaftler, Fotograf, Autor und Forscher, der das Meer und alle Lebensformen im Wasser studierte.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000009</GUID>
-			<Text>The "Nobel" Shot</Text>
+			<Text>Der „Nobelschuss“</Text>
 		</Text>
 		<Text>
 			<GUID>1900000010</GUID>
-			<Text>Heavy shot, that was named after Alfred Nobel.</Text>
+			<Text>Schweres Schuss, das nach Alfred Nobel benannt wurde.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000011</GUID>
-			<Text>The "Centurio" Gun</Text>
+			<Text>Das „Centurio“-Gewehr</Text>
 		</Text>
 		<Text>
 			<GUID>1900000012</GUID>
-			<Text>A modern gun, it's said that it has been particularly lucky in its aim.</Text>
+			<Text>Ein modernes Gewehr, dem man besonderes Zielglück nachsagt wird.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000013</GUID>
-			<Text>The "Goliath" Engine</Text>
+			<Text>Der „Goliath“-Motor</Text>
 		</Text>
 		<Text>
 			<GUID>1900000014</GUID>
-			<Text>The most powerful engine in the world.</Text>
+			<Text>Der stärkste Motor der Welt.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000015</GUID>
-			<Text>The "Cyclone" Engine</Text>
+			<Text>Der „Cyclone“-Motor</Text>
 		</Text>
 		<Text>
 			<GUID>1900000016</GUID>
-			<Text>Fast as a hurricane.</Text>
+			<Text>Schnell wie ein Hurrikan.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -93,7 +93,7 @@
 		</Text>
 		<Text>
 			<GUID>1900000018</GUID>
-			<Text>American industrialist, business magnate, founder of the Ford Motor Company and chief developer of the assembly line technique of mass production.</Text>
+			<Text>Amerikanischer Industrieller, Wirtschaftsmagnat, Gründer der Ford Motor Company und Chefentwickler der Fließbandtechnik der Massenproduktion.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -103,7 +103,7 @@
 		</Text>
 		<Text>
 			<GUID>1900000020</GUID>
-			<Text>Inventor of a safety device that prevents elevators from falling if the hoisting cable fails.</Text>
+			<Text>Erfinder einer Sicherheitsvorrichtung, die den Absturz von Aufzügen bei einem Ausfall des Förderkabels verhindert.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -113,7 +113,7 @@
 		</Text>
 		<Text>
 			<GUID>1900000022</GUID>
-			<Text> He made important improvements in the design of the sewing machine and was the founder of the Singer Sewing Machine Company.</Text>
+			<Text>Er führte wichtige Verbesserungen im Design der Nähmaschine durch und war der Gründer der Singer Sewing Machine Company.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -123,7 +123,7 @@
 		</Text>
 		<Text>
 			<GUID>1900000024</GUID>
-			<Text>Claude Moët was a Dutch vintner and wine merchant who founded the Champagne house that later became Moët et Chandon.</Text>
+			<Text>Claude Moët war ein niederländischer Winzer und Weinhändler, der das Champagnerhaus gründete, aus dem später Moët et Chandon entstanden ist.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -133,7 +133,7 @@
 		</Text>
 		<Text>
 			<GUID>1900000026</GUID>
-			<Text>French fashion designer and businesswoman.</Text>
+			<Text>Französische Modedesignerin und Geschäftsfrau.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -143,7 +143,7 @@
 		</Text>
 		<Text>
 			<GUID>1900000028</GUID>
-			<Text>Founded the first company to manufacture blue jeans.</Text>
+			<Text>Er gründete das erste Unternehmen zur Herstellung von blauen Jeans.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
@@ -153,69 +153,255 @@
 		</Text>
 		<Text>
 			<GUID>1900000030</GUID>
-			<Text>You know him.</Text>
+			<Text>Sie kennen ihn.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000031</GUID>
-			<Text>Ashot Chobanyan, shepherd from Artsakh</Text>
+			<Text>Aschot Tschobanjan, Hirte aus Arzach.</Text>
 		</Text>
 		<Text>
 			<GUID>1900000032</GUID>
-			<Text>You don't know him.</Text>
+			<Text>Sie kennen ihn nicht.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000033</GUID>
-			<Text>Alfredo Linguini and Little Chef</Text>
+			<Text>Alfredo Linguini und der kleine Chef</Text>
 		</Text>
 		<Text>
 			<GUID>1900000034</GUID>
-			<Text>The famous cook from the cartoon "Ratatouille".</Text>
+			<Text>Der berühmte Koch aus dem Zeichentrickfilm "Ratatouille".</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000035</GUID>
-			<Text>Methane Filtering System "Freshness"</Text>
+			<Text>Methanfiltersystem "Freshness"</Text>
 		</Text>
 		<Text>
 			<GUID>1900000036</GUID>
-			<Text>Created to save the miners lives.</Text>
+			<Text>Rettet das Leben der Bergleute.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000037</GUID>
-			<Text>Tunnel Boring Machine "Shai-Hulud"</Text>
+			<Text>Tunnelbohrmaschine "Shai-Hulud"</Text>
 		</Text>
 		<Text>
 			<GUID>1900000038</GUID>
-			<Text>Deep Mining Machine.</Text>
+			<Text>Eine Tiefbaumaschine.</Text>
 		</Text>
 	</ModOp>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000039</GUID>
-			<Text>Heavy Drill "Shrew"</Text>
+			<Text>Schwerer Bohrer "Shrew"</Text>
 		</Text>
 		<Text>
 			<GUID>1900000040</GUID>
-			<Text>The meek shall inherit the Earth, but not its mineral rights.</Text>
+			<Text>Die Sanftmütigen werden die Erde erben, aber nicht ihre Rechte auf Mineralien.</Text>
 		</Text>
 	</ModOp>
 	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000041</GUID>
-			<Text>All sheep farms</Text>
+			<Text>Alle Schaffarmen</Text>
 		</Text>
 	</ModOp>
 	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000042</GUID>
-			<Text>All kitchens</Text>
+			<Text>Alle Küchen</Text>
+		</Text>
+	</ModOp>
+
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000043</GUID>
+			<Text>Dmitri Mendelejew</Text>
+		</Text>
+		<Text>
+			<GUID>1900000044</GUID>
+			<Text>Russischer Chemiker und Erfinder, bekannt für die Formulierung des Periodengesetzes und die Erstellung des Periodensystems der Elemente.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000045</GUID>
+			<Text>Alexander Popow</Text>
+		</Text>
+		<Text>
+			<GUID>1900000046</GUID>
+			<Text>Russischer Physiker, Erfinder eines Radioempfangsgeräts.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000047</GUID>
+			<Text>Boris Yakobi</Text>
+		</Text>
+		<Text>
+			<GUID>1900000048</GUID>
+			<Text>Russischer Ingenieur und Erfinder, schuf den ersten Elektromotor und entwickelte verschiedene Telefongeräte.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000049</GUID>
+			<Text>Iwan Mitschurin</Text>
+		</Text>
+		<Text>
+			<GUID>1900000050</GUID>
+			<Text>Russischer Biologe und Praktiker der Züchtung neuer Sorten von Nutzpflanzen und Obstpflanzen, führte über 300 neue Sorten ein.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000051</GUID>
+			<Text>Nikolai Wawilow</Text>
+		</Text>
+		<Text>
+			<GUID>1900000052</GUID>
+			<Text>Russischer und sowjetischer Agronom, Botaniker und Genetiker, schuf die weltweit erste Saatgutbank mit 250.000 Proben von Samen, Wurzeln und Früchten.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000053</GUID>
+			<Text>Sergei Botkin</Text>
+		</Text>
+		<Text>
+			<GUID>1900000054</GUID>
+			<Text>Russischer Kliniker, Therapeut und Aktivist, einer der Begründer der modernen russischen Medizinwissenschaft und -ausbildung.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000055</GUID>
+			<Text>Aleksandr Loran</Text>
+		</Text>
+		<Text>
+			<GUID>1900000056</GUID>
+			<Text>Russischer Erfinder, hat den Feuerlöschschaum und den ersten Schaumlöscher der Welt entwickelt.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000057</GUID>
+			<Text>Pawel Jablotschkow</Text>
+		</Text>
+		<Text>
+			<GUID>1900000058</GUID>
+			<Text>Russischer Elektroingenieur, bekannt als Erfinder der Jablotschkow-Kerze, einer Art elektrischer Kohlebogenlampe.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000059</GUID>
+			<Text>Wladimir Schuchow</Text>
+		</Text>
+		<Text>
+			<GUID>1900000060</GUID>
+			<Text>Russischer und sowjetischer Ingenieur, Wissenschaftler und Architekt, erfand die erste Cracking-Methode und schuf eine neue Art von Ölreservoir - das zylindrische Schuchow-Reservoir.</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000061</GUID>
+			<Text>Andrei Wlasenko</Text>
+		</Text>
+		<Text>
+			<GUID>1900000062</GUID>
+			<Text>Russischer Agrartechniker, Erfinder eines von Pferden gezogenen Mähdreschers.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000063</GUID>
+			<Text>Faddey Bellingshausen</Text>
+		</Text>
+		<Text>
+			<GUID>1900000064</GUID>
+			<Text>Russischer Kartograf, Entdecker und Marineoffizier, Entdecker des Kontinents Antarktis.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000065</GUID>
+			<Text>Franz San Galli</Text>
+		</Text>
+		<Text>
+			<GUID>1900000066</GUID>
+			<Text>Russischer Unternehmer und Erfinder, Schöpfer des ersten Heizkörpers.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000067</GUID>
+			<Text>Waliko Sunelischwili, der beste Gewürz- und Kräuterspezialist</Text>
+		</Text>
+		<Text>
+			<GUID>1900000068</GUID>
+			<Text>Was könnte Schöneres sein als guten Wein, frische Kräuter und duftende Gewürze?</Text>
+		</Text>
+	</ModOp>
+
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000069</GUID>
+			<Text>Alle Ölraffinerieen</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000070</GUID>
+			<Text>Alle Ölspeicher</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000071</GUID>
+			<Text>Alle Chemiefabriken</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000072</GUID>
+			<Text>Alle Zitrusfrüchte-Baumschulen</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000074</GUID>
+			<Text>Alle Sodafabriken</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000075</GUID>
+			<Text>Alle Hopfenfarmen</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000076</GUID>
+			<Text>Alle Gemüsefarmen</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000077</GUID>
+			<Text>Alle Hanffarmen</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000078</GUID>
+			<Text>Alle Herrenhäuser</Text>
 		</Text>
 	</ModOp>
 </ModOps>

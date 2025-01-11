@@ -218,4 +218,190 @@
 			<Text>All kitchens</Text>
 		</Text>
 	</ModOp>
+
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000043</GUID>
+			<Text>Dmitri Mendeleev</Text>
+		</Text>
+		<Text>
+			<GUID>1900000044</GUID>
+			<Text>Russian chemist and inventor, known for formulating the periodic law and creating the periodic table of elements.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000045</GUID>
+			<Text>Alexander Popov</Text>
+		</Text>
+		<Text>
+			<GUID>1900000046</GUID>
+			<Text>Russian physicist, inventor of a radio receiving device.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000047</GUID>
+			<Text>Boris Yakobi</Text>
+		</Text>
+		<Text>
+			<GUID>1900000048</GUID>
+			<Text>Russian engineer and inventor. He has created the first electric motor and developed diverse telephone devices.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000049</GUID>
+			<Text>Ivan Michurin</Text>
+		</Text>
+		<Text>
+			<GUID>1900000050</GUID>
+			<Text>Russian biologist and practitioner of selection of new sorts of crop and fruit plants. He introduced over 300 new varieties.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000051</GUID>
+			<Text>Nikolai Vavilov</Text>
+		</Text>
+		<Text>
+			<GUID>1900000052</GUID>
+			<Text>Russian and Soviet agronomist, botanist and geneticist. He created the world's first seedbank with 250,000 samples of seeds, roots and fruits.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000053</GUID>
+			<Text>Sergey Botkin</Text>
+		</Text>
+		<Text>
+			<GUID>1900000054</GUID>
+			<Text>Russian clinician, therapist and activist, one of the founders of modern Russian medical science and education.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000055</GUID>
+			<Text>Aleksandr Loran</Text>
+		</Text>
+		<Text>
+			<GUID>1900000056</GUID>
+			<Text>Russian inventor. He has created the fire fighting foam and the world's first foam extinguisher.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000057</GUID>
+			<Text>Pavel Yablochkov</Text>
+		</Text>
+		<Text>
+			<GUID>1900000058</GUID>
+			<Text>Russian electrical engineer, known as the inventor of the Yablochkov candle, a type of electric carbon arc lamp.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000059</GUID>
+			<Text>Vladimir Shukhov</Text>
+		</Text>
+		<Text>
+			<GUID>1900000060</GUID>
+			<Text>Russian and Soviet engineer, scientist and architect. He has invented the first cracking method and created a new type of oil reservoir - cylindric Shukhov reservoir.</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000061</GUID>
+			<Text>Andrey Vlasenko</Text>
+		</Text>
+		<Text>
+			<GUID>1900000062</GUID>
+			<Text>Russian agrotechnician, inventor of a horsedrawn grain harvester.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000063</GUID>
+			<Text>Faddey Bellingshausen</Text>
+		</Text>
+		<Text>
+			<GUID>1900000064</GUID>
+			<Text>Russian cartographer, explorer and naval officer, the discoverer of the continent of Antarctica.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000065</GUID>
+			<Text>Franz San Galli</Text>
+		</Text>
+		<Text>
+			<GUID>1900000066</GUID>
+			<Text>Russian entrepreneur and inventor, creator of the first heating radiator.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000067</GUID>
+			<Text>Valiko Sunelishvili, the best spice and herb specialist</Text>
+		</Text>
+		<Text>
+			<GUID>1900000068</GUID>
+			<Text>What could be better than good wine, fresh herbs and fragrant spices?</Text>
+		</Text>
+	</ModOp>
+
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000069</GUID>
+			<Text>All oil heavy industries</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000070</GUID>
+			<Text>All land oil depots</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000071</GUID>
+			<Text>All chemical plants</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000072</GUID>
+			<Text>All citrus orchards</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000074</GUID>
+			<Text>All soda factories</Text>
+		</Text>
+	</ModOp>
+		<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000075</GUID>
+			<Text>All hop farms</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000076</GUID>
+			<Text>All vegetable farms</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000077</GUID>
+			<Text>All hemp farms</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000078</GUID>
+			<Text>All manors</Text>
+		</Text>
+	</ModOp>
 </ModOps>

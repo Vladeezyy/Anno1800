@@ -1,10 +1,68 @@
-# Military Attention | 1.8!
+# Military Attention | 1.17!
 
 A mod centered around military infrastructure and adding new military residence tiers for all regions with a focus on the Old World.
 
 ![ma-img-01.jpg](./banner.jpg)
 
 ## Changelog
+
+### v1.17
+- Fixed AI building military postbox over and over again. AI do not build it anymore.
+- Cut out Open Pit Mines from Military Attention. It can now also be downloaded as a standalone mod. It is still included in this mod. But no need to install both mods if you have this mod.
+- Disabled open pit mines also for AI to make sure they not bug out AI.
+- Added a pool for All Cemeteries
+- Added additional unlocks for input goods (saltpetre/gunpowder) for cannons/weapons related production chain to also unlock with workers and not only with soldiers.
+
+### v1.16
+- Additional support for new Imperio Shipyard ships (Frachter Imperio Liner, Viktoria Luise, Kleiner Schlepper mit Lastkahn)
+- Additional support for 1905 - Trans-Ocean Liner
+
+### v1.15
+- Added buildings to alternative construction menu
+- Rebalance amount of goods AI produce
+- New icons for Cemetery and Military Warehouse
+- Nerfing AI behaviour even more for dropping goods.
+- Added compatibility for Jakob Compact Menu again, but in a correct way now.
+- Additional fixes to make sure the mod works correctly when CO is installed
+- Text fixes
+
+### v1.14
+- Fixed bug in code for pools
+- Fixed bug with shared Galena good mod
+
+### v1.13
+- Added newest version of shared pools and definitions
+- Added newest version of galena shared good
+- Added fake AI factory so AI makes cannons more easily
+- Rebalanced amount of factories AI make, the fake factories itself and the output of fake factories for AI
+- Removed potential compatibility with Jakob Compact menu because not working at the moment and generating warnings in log
+- Added additional pools for all basic weapons factory and all military uniform factories
+- Added All basic weapons factories and All Military Uniforms factories to more vanilla pools to be used with more items (All Heavy Production, All Ironworks and Foundries, The Cutting Edge)
+- Cleanup pools by combining some buildings into an existing pool for easier management
+
+### v1.12
+- Refreshed trigger GUIDs for 1 soldier and 100 soldiers unlock
+- Added buff to churches when building a cemetery next to a church. Added also compatibility for Lion Old World Chapel mod for this.
+- Added compatibility for Pescatarians mod by adding some needs from MA to the Pescatarians population
+- Increased the amount of soldiers you get from early game goods a small bit to get some more soldiers early game
+
+### v1.11
+- Updated Chinese translation thanks to hanthe2th
+- Added compatibility checks for Lifestyle needs so they are more compatible with other mods that change lifestyle needs
+- Fixed wrongly unlock condition for Field Hospital
+- Added additional population for Engineers and Investors in line with the additional population for farmers, workers and artisan so when upgrading you do not loose population.
+
+### v1.10
+- Update for Simplified Chinese translation
+- Added new item Sammy Moray - replacing arctic gas with ethanol for Gas Ammunition depots and Gas-Fired Power Plant. Added compatibility for mod "Additional Power Plants"
+- Fixes to All ammunition depots pools
+- Cleanup for product storage lists
+
+### v1.9
+- Added Soldiers workforce to free island workforce from "World Leaders" buff
+- Changed the effect to only steam shipyard from both shipyards for "Pyrphorian Ship Blueprints" Military Academy itemset
+- Added Mourning at sea building a cemetery building when Harborlife is installed so people in harbour also have a cemetery building
+- Fixes to text/descriptions
 
 ### v1.8
 - Added compatibility for Icebreaker ship mod from EvametryE
@@ -404,7 +462,7 @@ Adds a new soldiers population tier as extra workforce in every region.
 | ![Small Ammunition Depot](./data/graphics/icons/icon_bombs_ammunition_depot.png) | Small Ammunition Depot (Bombs) (Old World, New World, Enbesa, Arctic)  |
 | ![Large Ammunition Depot](./data/graphics/icons/icon_ammunition_depot_large.png) | Large Ammunition Depot (Old World, New World, Enbesa, Arctic)  |
 | ![Small Military Warehouse](./data/graphics/icons/icon_military_warehouse.png) | Small Military Warehouse  |
-| ![Military Warehouse](./data/graphics/icons/icon_military_warehouse.png) | Military Warehouse  |
+| ![Military Warehouse](./data/graphics/icons/icon_military_warehouse_large.png) | Military Warehouse  |
 
 ### Defense Buildings
 |     |  |

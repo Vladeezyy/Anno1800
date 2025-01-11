@@ -78,7 +78,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1742100738</GUID>
+          <GUID>1742100774</GUID>
           <Name>MOD Trigger</Name>
         </Standard>
         <Trigger>
@@ -108,6 +108,9 @@
                       </Item>
                       <Item>
                         <Asset>1742100558</Asset>                        <!-- Local cemetery - Building -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100630</Asset>                        <!-- Mourning at sea - Building -->
                       </Item>
                       <Item>
                         <Asset>1742100242</Asset>                        <!-- Clean Water - Product -->
@@ -235,6 +238,79 @@
                       </Item>
                       <Item>
                         <Asset>1742100478</Asset>                        <!-- Military - Construction -->
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!--UNLOCK - WORKERS 300 -->
+  <ModOp Type="addnextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1742100788</GUID>
+          <Name>MOD Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000001</Context>                <!-- Workers PopulationLevel7 -->
+                <CounterAmount>300</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                    </UnhideAssets>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1742100293</Asset>                        <!-- Gunpowder - Product -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100287</Asset>                        <!-- Dung Collector - Building -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100289</Asset>                        <!-- Nitrary - Building -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100374</Asset>                        <!-- Saltpetre Bed - Building -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100376</Asset>                        <!-- Nitrary Shed - Module -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100291</Asset>                        <!-- Gunpowder Factory - Building -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100433</Asset>                        <!-- Galena - Product -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100435</Asset>                        <!-- Lead - Product -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100407</Asset>                        <!-- Galena Mine - Building -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100409</Asset>                        <!-- Lead Smelter - Building -->
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -1503,7 +1579,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1742100729</GUID>
+          <GUID>1742100779</GUID>
           <Name>MOD Trigger</Name>
         </Standard>
         <Trigger>
@@ -1555,7 +1631,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1742100728</GUID>
+          <GUID>1742100780</GUID>
           <Name>MOD Trigger</Name>
         </Standard>
         <Trigger>
@@ -1796,7 +1872,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1742100750</GUID>
+          <GUID>1742100773</GUID>
           <Name>Unlock Creative Mode</Name>
         </Standard>
         <Trigger>
@@ -1968,6 +2044,9 @@
                       </Item>
                       <Item>
                         <Asset>1742100558</Asset>                        <!-- Local cemetery - Building -->
+                      </Item>
+                      <Item>
+                        <Asset>1742100630</Asset>                        <!-- Mourning at sea - Building -->
                       </Item>
                       <Item>
                         <Asset>1742100242</Asset>                        <!-- Clean Water - Product -->

@@ -1,0 +1,543 @@
+<ModOps>
+
+<!-- All Items Unlocked At Traders -->
+    <Group Condition="#AllItemsUnlockedAtTraders">
+        <!-- Archibald Blake -->
+        <ModOp Type="add" GUID='192069' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000009</ItemLink> <!-- "Nobel" Shot -->
+            </Item>
+            <Item>
+                <ItemLink>1900000011</ItemLink> <!-- "Centurio" Gun -->
+            </Item>
+            <Item>
+                <ItemLink>1900000013</ItemLink> <!-- "Goliath" Engine -->
+            </Item>
+        </ModOp>
+
+        <!-- Eli Bleakworth -->
+        <ModOp Type="add" GUID='190774' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000003</ItemLink> <!-- Alexey Stakhanov -->
+            </Item>
+	        <Item>
+                <ItemLink>1900000017</ItemLink> <!-- Henry Ford -->
+            </Item>
+            <Item>
+                <ItemLink>1900000019</ItemLink> <!-- Elisha Graves Otis -->
+            </Item>
+            <Item>
+                <ItemLink>1900000021</ItemLink> <!-- Isaac Singer -->
+            </Item>
+            <Item>
+                <ItemLink>1900000023</ItemLink> <!-- Claude Moët -->
+            </Item>
+            <Item>
+                <ItemLink>1900000025</ItemLink> <!-- Gabrielle Bonheur "Coco" Chanel -->
+            </Item>
+            <Item>
+                <ItemLink>1900000027</ItemLink> <!-- Levi Strauss -->
+            </Item>
+            <Item>
+                <ItemLink>1900000029</ItemLink> <!-- Mr. Pringle -->
+            </Item>
+            <Item>
+                <ItemLink>1900000031</ItemLink> <!-- Ashot Chobanyan -->
+            </Item>
+            <Item>
+                <ItemLink>1900000033</ItemLink> <!-- Alfredo Linguini -->
+            </Item>
+            <Item>
+                <ItemLink>1900000043</ItemLink> <!-- Dmitri Mendeleev -->
+            </Item>
+            <Item>
+                <ItemLink>1900000045</ItemLink> <!-- Alexander Popov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000047</ItemLink> <!-- Boris Yakobi -->
+            </Item>
+            <Item>
+                <ItemLink>1900000049</ItemLink> <!-- Ivan Michurin -->
+            </Item>    
+            <Item>
+                <ItemLink>1900000051</ItemLink> <!-- Nikolai Vavilov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000053</ItemLink> <!-- Sergey Botkin -->
+            </Item>
+            <Item>
+                <ItemLink>1900000055</ItemLink> <!-- Alexander Laurant -->
+            </Item>
+            <Item>
+                <ItemLink>1900000057</ItemLink> <!-- Pavel Yablochkov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000059</ItemLink> <!-- Vladimir Shukhov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000061</ItemLink> <!-- Andrey Vlasenko -->
+            </Item>
+            <Item>
+                <ItemLink>1900000067</ItemLink> <!-- Valiko Sunelishvili -->
+            </Item>
+        </ModOp>
+
+        <!-- Isabel Sarmento -->
+        <ModOp Type="add" GUID='192073' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000003</ItemLink> <!-- Alexey Stakhanov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000021</ItemLink> <!-- Isaac Singer -->
+            </Item>
+            <Item>
+                <ItemLink>1900000023</ItemLink> <!-- Claude Moët -->
+            </Item>
+            <Item>
+                <ItemLink>1900000027</ItemLink> <!-- Levi Strauss -->
+            </Item>
+            <Item>
+                <ItemLink>1900000029</ItemLink> <!-- Mr. Pringle -->
+            </Item>
+            <Item>
+                <ItemLink>1900000031</ItemLink> <!-- Ashot Chobanyan -->
+            </Item>
+            <Item>
+                <ItemLink>1900000033</ItemLink> <!-- Alfredo Linguini -->
+            </Item>
+            <Item>
+                <ItemLink>1900000043</ItemLink> <!-- Dmitri Mendeleev -->
+            </Item>
+            <Item>
+                <ItemLink>1900000047</ItemLink> <!-- Boris Yakobi -->
+            </Item>
+            <Item>
+                <ItemLink>1900000049</ItemLink> <!-- Ivan Michurin -->
+            </Item>    
+            <Item>
+                <ItemLink>1900000051</ItemLink> <!-- Nikolai Vavilov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000053</ItemLink> <!-- Sergey Botkin -->
+            </Item>
+            <Item>
+                <ItemLink>1900000055</ItemLink> <!-- Alexander Laurant -->
+            </Item>
+            <Item>
+                <ItemLink>1900000059</ItemLink> <!-- Vladimir Shukhov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000061</ItemLink> <!-- Andrey Vlasenko -->
+            </Item>
+            <Item>
+                <ItemLink>1900000067</ItemLink> <!-- Valiko Sunelishvili -->
+            </Item>
+        </ModOp>
+
+        <!-- Inuit -->
+        <ModOp Type="add" GUID='193835' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000065</ItemLink> <!-- Franz San Galli -->
+            </Item>
+        </ModOp>
+    </Group>
+
+<!-- lonelyPorter NPC Dice Reworked -->
+    <Group Condition="#lonelyPorter_dice">
+        <!-- Archibald Blake -->
+        <ModOp Type="add" GUID='192069' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000009</ItemLink> <!-- "Nobel" Shot -->
+            </Item>
+            <Item>
+                <ItemLink>1900000011</ItemLink> <!-- "Centurio" Gun -->
+            </Item>
+            <Item>
+                <ItemLink>1900000013</ItemLink> <!-- "Goliath" Engine -->
+            </Item>
+        </ModOp>
+
+        <!-- Eli Bleakworth -->
+        <ModOp Type="add" GUID='190774' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000003</ItemLink> <!-- Alexey Stakhanov -->
+            </Item>
+	        <Item>
+                <ItemLink>1900000017</ItemLink> <!-- Henry Ford -->
+            </Item>
+            <Item>
+                <ItemLink>1900000019</ItemLink> <!-- Elisha Graves Otis -->
+            </Item>
+            <Item>
+                <ItemLink>1900000021</ItemLink> <!-- Isaac Singer -->
+            </Item>
+            <Item>
+                <ItemLink>1900000023</ItemLink> <!-- Claude Moët -->
+            </Item>
+            <Item>
+                <ItemLink>1900000025</ItemLink> <!-- Gabrielle Bonheur "Coco" Chanel -->
+            </Item>
+            <Item>
+                <ItemLink>1900000027</ItemLink> <!-- Levi Strauss -->
+            </Item>
+            <Item>
+                <ItemLink>1900000029</ItemLink> <!-- Mr. Pringle -->
+            </Item>
+            <Item>
+                <ItemLink>1900000031</ItemLink> <!-- Ashot Chobanyan -->
+            </Item>
+            <Item>
+                <ItemLink>1900000033</ItemLink> <!-- Alfredo Linguini -->
+            </Item>
+            <Item>
+                <ItemLink>1900000043</ItemLink> <!-- Dmitri Mendeleev -->
+            </Item>
+            <Item>
+                <ItemLink>1900000045</ItemLink> <!-- Alexander Popov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000047</ItemLink> <!-- Boris Yakobi -->
+            </Item>
+            <Item>
+                <ItemLink>1900000049</ItemLink> <!-- Ivan Michurin -->
+            </Item>    
+            <Item>
+                <ItemLink>1900000051</ItemLink> <!-- Nikolai Vavilov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000053</ItemLink> <!-- Sergey Botkin -->
+            </Item>
+            <Item>
+                <ItemLink>1900000055</ItemLink> <!-- Alexander Laurant -->
+            </Item>
+            <Item>
+                <ItemLink>1900000057</ItemLink> <!-- Pavel Yablochkov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000059</ItemLink> <!-- Vladimir Shukhov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000061</ItemLink> <!-- Andrey Vlasenko -->
+            </Item>
+            <Item>
+                <ItemLink>1900000067</ItemLink> <!-- Valiko Sunelishvili -->
+            </Item>
+        </ModOp>
+
+        <!-- Isabel Sarmento -->
+        <ModOp Type="add" GUID='192073' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000003</ItemLink> <!-- Alexey Stakhanov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000021</ItemLink> <!-- Isaac Singer -->
+            </Item>
+            <Item>
+                <ItemLink>1900000023</ItemLink> <!-- Claude Moët -->
+            </Item>
+            <Item>
+                <ItemLink>1900000027</ItemLink> <!-- Levi Strauss -->
+            </Item>
+            <Item>
+                <ItemLink>1900000029</ItemLink> <!-- Mr. Pringle -->
+            </Item>
+            <Item>
+                <ItemLink>1900000031</ItemLink> <!-- Ashot Chobanyan -->
+            </Item>
+            <Item>
+                <ItemLink>1900000033</ItemLink> <!-- Alfredo Linguini -->
+            </Item>
+            <Item>
+                <ItemLink>1900000043</ItemLink> <!-- Dmitri Mendeleev -->
+            </Item>
+            <Item>
+                <ItemLink>1900000047</ItemLink> <!-- Boris Yakobi -->
+            </Item>
+            <Item>
+                <ItemLink>1900000049</ItemLink> <!-- Ivan Michurin -->
+            </Item>    
+            <Item>
+                <ItemLink>1900000051</ItemLink> <!-- Nikolai Vavilov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000053</ItemLink> <!-- Sergey Botkin -->
+            </Item>
+            <Item>
+                <ItemLink>1900000055</ItemLink> <!-- Alexander Laurant -->
+            </Item>
+            <Item>
+                <ItemLink>1900000059</ItemLink> <!-- Vladimir Shukhov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000061</ItemLink> <!-- Andrey Vlasenko -->
+            </Item>
+            <Item>
+                <ItemLink>1900000067</ItemLink> <!-- Valiko Sunelishvili -->
+            </Item>
+        </ModOp>
+
+        <!-- Inuit -->
+        <ModOp Type="add" GUID='193835' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000065</ItemLink> <!-- Franz San Galli -->
+            </Item>
+        </ModOp>
+    </Group>
+
+<!-- NPC Dice Improved -->
+    <Group Condition="#Spice_NPCDiceDefault">
+        <!-- Archibald Blake -->
+        <ModOp Type="add" GUID='190166,192069' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000009</ItemLink> <!-- "Nobel" Shot -->
+            </Item>
+            <Item>
+                <ItemLink>1900000011</ItemLink> <!-- "Centurio" Gun -->
+            </Item>
+            <Item>
+                <ItemLink>1900000013</ItemLink> <!-- "Goliath" Engine -->
+            </Item>
+        </ModOp>
+
+        <!-- Eli Bleakworth -->
+        <ModOp Type="add" GUID='190306,190774,192909' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000003</ItemLink> <!-- Alexey Stakhanov -->
+            </Item>
+	        <Item>
+                <ItemLink>1900000017</ItemLink> <!-- Henry Ford -->
+             </Item>
+            <Item>
+                <ItemLink>1900000019</ItemLink> <!-- Elisha Graves Otis -->
+            </Item>
+            <Item>
+                <ItemLink>1900000021</ItemLink> <!-- Isaac Singer -->
+            </Item>
+            <Item>
+                <ItemLink>1900000023</ItemLink> <!-- Claude Moët -->
+            </Item>
+            <Item>
+                <ItemLink>1900000025</ItemLink> <!-- Gabrielle Bonheur "Coco" Chanel -->
+            </Item>
+            <Item>
+                <ItemLink>1900000027</ItemLink> <!-- Levi Strauss -->
+            </Item>
+            <Item>
+                <ItemLink>1900000029</ItemLink> <!-- Mr. Pringle -->
+            </Item>
+            <Item>
+                <ItemLink>1900000031</ItemLink> <!-- Ashot Chobanyan -->
+            </Item>
+            <Item>
+                <ItemLink>1900000033</ItemLink> <!-- Alfredo Linguini -->
+            </Item>
+            <Item>
+                <ItemLink>1900000043</ItemLink> <!-- Dmitri Mendeleev -->
+            </Item>
+            <Item>
+                <ItemLink>1900000045</ItemLink> <!-- Alexander Popov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000047</ItemLink> <!-- Boris Yakobi -->
+            </Item>
+            <Item>
+                <ItemLink>1900000049</ItemLink> <!-- Ivan Michurin -->
+            </Item>    
+            <Item>
+                <ItemLink>1900000051</ItemLink> <!-- Nikolai Vavilov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000053</ItemLink> <!-- Sergey Botkin -->
+            </Item>
+            <Item>
+                <ItemLink>1900000055</ItemLink> <!-- Alexander Laurant -->
+            </Item>
+            <Item>
+                <ItemLink>1900000057</ItemLink> <!-- Pavel Yablochkov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000059</ItemLink> <!-- Vladimir Shukhov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000061</ItemLink> <!-- Andrey Vlasenko -->
+            </Item>
+            <Item>
+                <ItemLink>1900000067</ItemLink> <!-- Valiko Sunelishvili -->
+            </Item>
+        </ModOp>
+
+        <!-- Isabel Sarmento -->
+        <ModOp Type="add" GUID='192072,192073,192904' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000003</ItemLink> <!-- Alexey Stakhanov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000021</ItemLink> <!-- Isaac Singer -->
+            </Item>
+            <Item>
+                <ItemLink>1900000023</ItemLink> <!-- Claude Moët -->
+            </Item>
+            <Item>
+                <ItemLink>1900000027</ItemLink> <!-- Levi Strauss -->
+            </Item>
+            <Item>
+                <ItemLink>1900000029</ItemLink> <!-- Mr. Pringle -->
+            </Item>
+            <Item>
+                <ItemLink>1900000031</ItemLink> <!-- Ashot Chobanyan -->
+            </Item>
+            <Item>
+                <ItemLink>1900000033</ItemLink> <!-- Alfredo Linguini -->
+            </Item>
+            <Item>
+                <ItemLink>1900000043</ItemLink> <!-- Dmitri Mendeleev -->
+            </Item>
+            <Item>
+                <ItemLink>1900000047</ItemLink> <!-- Boris Yakobi -->
+            </Item>
+            <Item>
+                <ItemLink>1900000049</ItemLink> <!-- Ivan Michurin -->
+            </Item>    
+            <Item>
+                <ItemLink>1900000051</ItemLink> <!-- Nikolai Vavilov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000053</ItemLink> <!-- Sergey Botkin -->
+            </Item>
+            <Item>
+                <ItemLink>1900000055</ItemLink> <!-- Alexander Laurant -->
+            </Item>
+            <Item>
+                <ItemLink>1900000059</ItemLink> <!-- Vladimir Shukhov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000061</ItemLink> <!-- Andrey Vlasenko -->
+            </Item>
+            <Item>
+                <ItemLink>1900000067</ItemLink> <!-- Valiko Sunelishvili -->
+            </Item>
+        </ModOp>
+
+        <!-- Inuit -->
+        <ModOp Type="add" GUID='193835' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000065</ItemLink> <!-- Franz San Galli -->
+            </Item>
+        </ModOp>
+    </Group>
+
+<!-- Sting_McRay_Traders_on_Rarity -->
+    <Group Condition="#Sting_McRay_Traders_on_Rarity">
+        <!-- Archibald Blake -->
+        <ModOp Type="add" GUID='192069' Path="/Values/RewardPool/ItemsPool">
+            <Item>
+                <ItemLink>1900000003</ItemLink> <!-- Alexey Stakhanov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000005</ItemLink> <!-- Captain Nemo -->
+            </Item>
+	        <Item>
+                <ItemLink>1900000007</ItemLink> <!-- Jacques-Yves Cousteau -->
+            </Item>
+            <Item>
+                <ItemLink>1900000009</ItemLink> <!-- "Nobel" Shot -->
+            </Item>
+            <Item>
+                <ItemLink>1900000011</ItemLink> <!-- "Centurio" Gun -->
+            </Item>
+            <Item>
+                <ItemLink>1900000013</ItemLink> <!-- "Goliath" Engine -->
+            </Item>
+	        <Item>
+                <ItemLink>1900000017</ItemLink> <!-- Henry Ford -->
+             </Item>
+            <Item>
+                <ItemLink>1900000019</ItemLink> <!-- Elisha Graves Otis -->
+            </Item>
+            <Item>
+                <ItemLink>1900000021</ItemLink> <!-- Isaac Singer -->
+            </Item>
+            <Item>
+                <ItemLink>1900000023</ItemLink> <!-- Claude Moët -->
+            </Item>
+            <Item>
+                <ItemLink>1900000025</ItemLink> <!-- Gabrielle Bonheur "Coco" Chanel -->
+            </Item>
+            <Item>
+                <ItemLink>1900000027</ItemLink> <!-- Levi Strauss -->
+            </Item>
+            <Item>
+                <ItemLink>1900000029</ItemLink> <!-- Mr. Pringle -->
+            </Item>
+            <Item>
+                <ItemLink>1900000031</ItemLink> <!-- Ashot Chobanyan -->
+            </Item>
+            <Item>
+                <ItemLink>1900000033</ItemLink> <!-- Alfredo Linguini -->
+            </Item>
+            <Item>
+                <ItemLink>1900000043</ItemLink> <!-- Dmitri Mendeleev -->
+            </Item>
+            <Item>
+                <ItemLink>1900000045</ItemLink> <!-- Alexander Popov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000047</ItemLink> <!-- Boris Yakobi -->
+            </Item>
+            <Item>
+                <ItemLink>1900000049</ItemLink> <!-- Ivan Michurin -->
+            </Item>    
+            <Item>
+                <ItemLink>1900000051</ItemLink> <!-- Nikolai Vavilov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000053</ItemLink> <!-- Sergey Botkin -->
+            </Item>
+            <Item>
+                <ItemLink>1900000055</ItemLink> <!-- Alexander Laurant -->
+            </Item>
+            <Item>
+                <ItemLink>1900000057</ItemLink> <!-- Pavel Yablochkov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000059</ItemLink> <!-- Vladimir Shukhov -->
+            </Item>
+            <Item>
+                <ItemLink>1900000061</ItemLink> <!-- Andrey Vlasenko -->
+            </Item>
+            <Item>
+                <ItemLink>1900000063</ItemLink> <!-- Faddey Bellingshausen -->
+            </Item>
+            <Item>
+                <ItemLink>1900000065</ItemLink> <!-- Franz San Galli -->
+            </Item>
+            <Item>
+                <ItemLink>1900000067</ItemLink> <!-- Valiko Sunelishvili -->
+            </Item>
+        </ModOp>
+
+        <!-- Anne Harlow -->  
+        <ModOp Type="remove" GUID="192070" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1900000005']"></ModOp> <!-- Captain Nemo -->
+
+        <!-- Anne Harlow -->
+        <ModOp Type="remove" GUID="192070" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1900000009']"></ModOp> <!-- "Nobel" Shot -->
+        <ModOp Type="remove" GUID="192070" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1900000011']"></ModOp> <!-- "Centurio" Gun -->
+
+        <!-- Jean LaFortune --> 
+        <ModOp Type="remove" GUID="192071" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1900000005']"></ModOp> <!-- Captain Nemo -->
+
+        <!-- Jean LaFortune -->
+        <ModOp Type="remove" GUID="192071" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1900000009']"></ModOp> <!-- "Nobel" Shot -->
+        <ModOp Type="remove" GUID="192071" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1900000011']"></ModOp> <!-- "Centurio" Gun -->
+        
+        <!-- Old Nate -->
+        <ModOp Type="remove" GUID="193451,193452,193472,193477" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1900000007']"></ModOp> <!-- Jacques-Yves Cousteau -->
+
+        <!-- Old Nate -->
+        <ModOp Type="remove" GUID="193451,193452" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1900000013']"></ModOp> <!-- "Goliath" Engine -->
+
+        <!-- Inuit -->
+        <ModOp Type="remove" GUID='116673,193845,193234,193788,193803' Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1900000065']"></ModOp> <!-- Franz San Galli -->
+    </Group>
+
+</ModOps>

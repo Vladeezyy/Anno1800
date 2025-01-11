@@ -1,5 +1,5 @@
 <ModOps>
-  <!-- Helium Extractor -->
+<!-- Helium Extractor -->
   <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories"> <!-- WorkforceMenu -->
     <Item>
       <Factory>1353</Factory> <!-- Helium Extractor -->
@@ -10,4 +10,10 @@
       <GUID>1353</GUID> <!-- Helium Extractor -->
     </Item>
   </ModOp>
+<!-- Add Hacienda Spice Farm to Shared Pools and Definitions -->
+    <ModOp Type="add" GUID="1500301959" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>25020</GUID> <!-- Hacienda Spice Farm -->
+      </Item>
+    </ModOp>
 </ModOps>

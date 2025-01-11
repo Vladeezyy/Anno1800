@@ -1,6 +1,6 @@
 <!-- 
 
-[Ships] Military Attention - Ships - v1.14
+[Ships] Military Attention - Ships - v1.22
   
 Created by Taubenangriff, jje1000 & Hier0nimus
 And help of A LOT of people. Big thank you all!
@@ -28,12 +28,19 @@ SHIPS
 1742100610 - Flak Ironclad - Ship - Description
 1742100611 - Small Reefer - Ship
 1742100612 - Small Reefer - Ship - Description
-1742100613 - B42 - AirShip
-1742100614 - B42 - AirShip - Description
+1742100613 - B42 (Helium) - AirShip
+1742100629 - B42 (Arctic Gas) - AirShip
+1742100614 - B42 (Helium) - AirShip - Description
 1742100615 - Ironclad Cruiser - Ship
 1742100616 - Ironclad Cruiser - Ship - Description
 1742100624 - Small Oil Tanker - Ship
 1742100625 - Large Oil Tanker - Ship
+1742100657 - F42 (Helium) - Airship
+1742100658 - F42 (Arctic Gas) - Airship
+1742100659 - F42 - Airship - Description
+1742100660 - A42 (Helium) - Airship
+1742100661 - A42 (Arctic Gas) - Airship
+1742100662 - A42 - Airship - Description
 
 1742100593 - Battle Cruiser - New Descriptiom
 1742100594 - Monitor - New Descriptiom
@@ -51,15 +58,20 @@ SHIPS SKINS
 1742100627 - Windjammer Skin 03 - Skin
 1742100628 - Windjammer Skin 02 - Skin
 
+BUILDINGS
+***************************
+1742100663 - Large Airship Hangar - Shipyard
+1742100664 - Large Airship Hangar - Shipyard - Description
+
 SHIPS TRIGGERS
 ***************************
 1742100754 - 750 Artisans - Trigger
 1742100755 - 1 Engineer - Trigger
 1742100765 - 500 Engineer - Trigger
 1742100769 - 1 Investors - Trigger
-1742100763 - 10000 Investors - Trigger
+1742100772 - 10000 Investors - Trigger
 1742100768 - Power Plant Unlock - Trigger
-1742100764 - Creative mode - Trigger
+1742100771 - Creative mode - Trigger
 
 -->
 
@@ -67,6 +79,7 @@ SHIPS TRIGGERS
   <!-- ************* INCLUDES ************* -->
   <Include File="../../../../hier0nimus/skins/assets.include.xml" />
   <Include File="../../../../hier0nimus/vehicles/assets.include.xml" />
+  <Include File="../../../../hier0nimus/buildings/assets.include.xml" />
   <Include File="../../../../hier0nimus/ships-balancing/assets.include.xml" />
   <Include File="../../../../hier0nimus/pools/assets.include.xml" />
   <Include File="../../../../hier0nimus/items/assets.include.xml" />

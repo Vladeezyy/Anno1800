@@ -1,22 +1,26 @@
 <ModOps>
 
 <!-- Changes text in shared-pools-and-definitions -->
-  <ModOp Type="add" Path="/TextExport/Texts">
-    <Text>
-      <GUID>1500011904</GUID>
-      <Text>Все фабрики швейных машин</Text> <!-- 1010284 -->
-    </Text>
-    <Text>
-      <GUID>1500200673</GUID>
-      <Text>Все пекарни</Text> <!-- 1010291 -->
-    </Text>
-    <Text>
-      <GUID>1500301021</GUID>
-      <Text>Все текстильные фабрики</Text> <!-- 1010315 -->
-    </Text>
-  </ModOp>
+  	<ModOp Type="add" Path="/TextExport/Texts">
+    	<Text>
+     		<GUID>1500011904</GUID>
+      		<Text>Все фабрики швейных машин</Text> <!-- 1010284 -->
+    	</Text>
+    	<Text>
+      		<GUID>1500200673</GUID>
+      		<Text>Все пекарни</Text> <!-- 1010291 -->
+    	</Text>
+    	<Text>
+      		<GUID>1500301021</GUID>
+      		<Text>Все швейные фабрики</Text> <!-- 1010315 -->
+    	</Text>
+    	<Text>
+      		<GUID>1500301945</GUID>
+      		<Text>Все ткацкие фабрики</Text>
+    	</Text>
+  	</ModOp>
 
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000003</GUID>
 			<Text>Алексей Стаханов</Text>
@@ -26,7 +30,7 @@
 			<Text>Советский шахтёр, новатор угольной промышленности, основоположник Стахановского движения.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000005</GUID>
 			<Text>Капитан Немо</Text>
@@ -36,7 +40,7 @@
 			<Text>Легендарный Капитан подводного корабля «Наутилус» из романов Жюля Верна!</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000007</GUID>
 			<Text>Жак-Ив Кусто</Text>
@@ -46,7 +50,7 @@
 			<Text>Французский исследователь мирового океана, фотограф, режиссёр, изобретатель, автор множества книг и фильмов.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000009</GUID>
 			<Text>Снаряд "Нобель"</Text>
@@ -56,7 +60,7 @@
 			<Text>Сверхмощный снаряд, названный в честь Альфреда Нобеля.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000011</GUID>
 			<Text>Пушка "Центурион"</Text>
@@ -66,7 +70,7 @@
 			<Text>Сверхточное и сверхмощное орудие.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000013</GUID>
 			<Text>Двигатель "Галиаф"</Text>
@@ -76,7 +80,7 @@
 			<Text>Самый мощный двигатель в мире.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000015</GUID>
 			<Text>Двигатель "Циклон"</Text>
@@ -86,7 +90,7 @@
 			<Text>Быстрый, как ураган.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000017</GUID>
 			<Text>Генри Форд</Text>
@@ -96,7 +100,7 @@
 			<Text>Американский промышленник, владелец заводов по производству автомобилей по всему миру.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000019</GUID>
 			<Text>Элиша Грейвс Отис</Text>
@@ -106,7 +110,7 @@
 			<Text>Американский изобретатель безопасного лифта.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000021</GUID>
 			<Text>Айзек Зингер</Text>
@@ -116,7 +120,7 @@
 			<Text>Внёс существенный вклад в усовершенствование конструкции швейной машины и основал компанию «Зингер».</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000023</GUID>
 			<Text>Клод Моэт</Text>
@@ -126,7 +130,7 @@
 			<Text>Клод Моэт был голландским виноделом и торговцем вином, который основал дом шампанского Moët et Chandon.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000025</GUID>
 			<Text>Габриэль Бонёр "Коко" Шанель</Text>
@@ -136,7 +140,7 @@
 			<Text>Французская модельер и основательница модного дома Chanel.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000027</GUID>
 			<Text>Ливай Страус</Text>
@@ -146,7 +150,7 @@
 			<Text>Изобретатель джинсов.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000029</GUID>
 			<Text>Мистер Прингл</Text>
@@ -156,7 +160,7 @@
 			<Text>Вы его знаете.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000031</GUID>
 			<Text>Ашот Чобанян, пастух из Арцаха</Text>
@@ -166,7 +170,7 @@
 			<Text>Вы его не знаете.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000033</GUID>
 			<Text>Альфредо Лингвини и его тайный помощник - минишеф</Text>
@@ -176,7 +180,7 @@
 			<Text>Знаменитый повар из мультфильма "Рататуй".</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000035</GUID>
 			<Text>Система фильтрации метана "Свежесть"</Text>
@@ -186,7 +190,7 @@
 			<Text>Создан, чтобы спасать жизни шахтёров.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+  	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000037</GUID>
 			<Text>Тоннелепроходческий комплекс "Шаи-Хулуд"</Text>
@@ -196,7 +200,7 @@
 			<Text>Машина для прокладки глубоких шахт.</Text>
 		</Text>
 	</ModOp>
-  <ModOp Type="add" Path="/TextExport/Texts">
+ 	<ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>1900000039</GUID>
 			<Text>Тяжелый бур "Землеройка"</Text>
@@ -216,6 +220,192 @@
 		<Text>
 			<GUID>1900000042</GUID>
 			<Text>Все кухни</Text>
+		</Text>
+	</ModOp>
+
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000043</GUID>
+			<Text>Дмитрий Менделеев</Text>
+		</Text>
+		<Text>
+			<GUID>1900000044</GUID>
+			<Text>Русский ученый-энциклопедист, создатель периодического закона химических элементов.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000045</GUID>
+			<Text>Александр Попов</Text>
+		</Text>
+		<Text>
+			<GUID>1900000046</GUID>
+			<Text>Русский физик и электротехник, изобретатель радио.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000047</GUID>
+			<Text>Борис Якоби</Text>
+		</Text>
+		<Text>
+			<GUID>1900000048</GUID>
+			<Text>Русский инженер и изобретатель. Создал первый электродвигатель, разработал различные конструкции телефонных аппаратов.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000049</GUID>
+			<Text>Иван Мичурин</Text>
+		</Text>
+		<Text>
+			<GUID>1900000050</GUID>
+			<Text>Русский биолог, ученый-селекционер. Вывел множество сортов плодово-ягодных культур.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000051</GUID>
+			<Text>Николай Вавилов</Text>
+		</Text>
+		<Text>
+			<GUID>1900000052</GUID>
+			<Text>Русский генетик, ботаник, селекционер. Создатель первого генетического банка семян.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000053</GUID>
+			<Text>Сергей Боткин</Text>
+		</Text>
+		<Text>
+			<GUID>1900000054</GUID>
+			<Text>Русский врач-терапевт. Исследовал природу распространения эпидемий опасных болезней.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000055</GUID>
+			<Text>Александр Лоран</Text>
+		</Text>
+		<Text>
+			<GUID>1900000056</GUID>
+			<Text>Русский изобретатель. Изобрел пену для тушения пожара и создал первый в мире пенный огнетушитель.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000057</GUID>
+			<Text>Павел Яблочков</Text>
+		</Text>
+		<Text>
+			<GUID>1900000058</GUID>
+			<Text>Русский инженер, изобретатель лампы накаливания, известной как «Свеча Яблочкова».</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000059</GUID>
+			<Text>Владимир Шухов</Text>
+		</Text>
+		<Text>
+			<GUID>1900000060</GUID>
+			<Text>Русский инженер, изобретатель цилиндрического нефтехранилища - «Резервуара Шухова».</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000061</GUID>
+			<Text>Андрей Власенко</Text>
+		</Text>
+		<Text>
+			<GUID>1900000062</GUID>
+			<Text>Русский агроном, изобретатель первого в мире зерноуборочного комбайна.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000063</GUID>
+			<Text>Фаддей Беллингсгаузен</Text>
+		</Text>
+		<Text>
+			<GUID>1900000064</GUID>
+			<Text>Русский мореплаватель, исследователь, первооткрыватель Антарктиды.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000065</GUID>
+			<Text>Франц Сан Галли</Text>
+		</Text>
+		<Text>
+			<GUID>1900000066</GUID>
+			<Text>Русский предприниматель, изобретатель батареи отопления.</Text>
+		</Text>
+	</ModOp>
+ 	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000067</GUID>
+			<Text>Валико Сунелишвили, лучший специалист по специям и травам</Text>
+		</Text>
+		<Text>
+			<GUID>1900000068</GUID>
+			<Text>Что может быть лучше доброго вина, свежайших трав и душистых специй?</Text>
+		</Text>
+	</ModOp>
+
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000069</GUID>
+			<Text>Все нефтяные заводы</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000070</GUID>
+			<Text>Все наземные нефтебазы</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000071</GUID>
+			<Text>Все химические заводы</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000072</GUID>
+			<Text>Все сады цитрусов</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000074</GUID>
+			<Text>Все фабрики соды</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000075</GUID>
+			<Text>Все фермы хмеля</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000076</GUID>
+			<Text>Все овощные фермы</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000077</GUID>
+			<Text>Все конопляные фермы</Text>
+		</Text>
+	</ModOp>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1900000078</GUID>
+			<Text>Все усадьбы</Text>
 		</Text>
 	</ModOp>
 </ModOps>

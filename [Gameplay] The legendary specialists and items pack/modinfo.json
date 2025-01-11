@@ -1,12 +1,16 @@
 {
-  "Version": "1.1",
+  "Version": "1.2.3",
   "ModID": "the_legendary_specialists_and_items_pack",
   "IncompatibleIds": [],
   "ModDependencies": [],
   "LoadAfterIds": [
     "*",
     "Arctic_Perfect_Ending_At_Beginning",
-    "shared-pools-and-definitions"
+    "shared-pools-and-definitions",
+    "AllItemsUnlockedAtTraders",
+    "lonelyPorter_dice",
+    "Spice_NPCDiceDefault",
+    "Sting_McRay_Traders_on_Rarity"
   ],
   "Category": {
     "English": "Gameplay",

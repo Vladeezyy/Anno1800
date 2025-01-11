@@ -4,7 +4,6 @@ Compatibility
 
 -->
 <ModOps>
-
     <Group Condition="#military_attention">
         <!-- START MILITARY ATTENTION - LOGISTICS & POPULATION -->
 
@@ -237,7 +236,7 @@ Compatibility
         </ModOp>
 
         <!-- 1742100613 - B42 - AirShip -->
-        <ModOp GUID="1742100613" Type="add" Path="/Values/Cost/Costs">
+        <ModOp GUID="1742100613,1742100629" Type="add" Path="/Values/Cost/Costs">
             <Item>
                 <Ingredient>849</Ingredient>                <!-- Care Packages - Product -->
                 <Amount>30</Amount>
@@ -245,6 +244,10 @@ Compatibility
             <Item>
                 <Ingredient>1742100533</Ingredient>                <!-- Sailors - Product -->
                 <Amount>30</Amount>
+            </Item>
+            <Item>
+                <Ingredient>1742100471</Ingredient>                <!-- Basic Weapons - Product -->
+                <Amount>20</Amount>
             </Item>
         </ModOp>
 
@@ -324,4 +327,20 @@ Compatibility
         <!-- END COMPATIBILITY 21 Legendary Items -->
     </Group>
 
+    <Group Condition="#Spice_Shipcapacity">
+        <!-- START COMPATIBILITY SIU SHIP CAPACITY -->
+        <!-- Increases the Cargolimit for Warships, early cargoships and airships -->
+        <ModOp Type="merge" GUID="1742100576,1742100578,1742100583,1742100587,1742100589,1742100591,1742100609,1742100613,1742100629,1742100615" Path="/Values/ItemContainer">
+            <StackLimit>75</StackLimit>
+        </ModOp>
+        <!-- Increases the Cargolimit of the Cargoships -->
+        <ModOp Type="merge" GUID='1742100581,1742100611,1742100585' Path="/Values/ItemContainer">
+            <StackLimit>100</StackLimit>
+        </ModOp>
+        <!-- Increases the Cargolimit if the Oil Tankers -->
+        <ModOp Type="merge" GUID='1742100624,1742100625' Path="/Values/ItemContainer">
+            <StackLimit>500</StackLimit>
+        </ModOp>
+        <!-- END COMPATIBILITY SIU SHIP CAPACITY -->
+    </Group>
 </ModOps>

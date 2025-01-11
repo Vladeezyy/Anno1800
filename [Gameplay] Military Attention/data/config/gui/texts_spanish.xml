@@ -618,30 +618,6 @@
       <Text>Reduce el consumo de correo para todas las residencias militares y civiles.</Text>
     </Text>
     <Text>
-      <GUID>1742100163</GUID>      <!-- Open Pit Iron Mine - Building -->
-      <Text>Mina de Hierro a cielo abierto</Text>
-    </Text>
-    <Text>
-      <GUID>1742100602</GUID>      <!-- Open Pit Iron Mine (NW) - Building -->
-      <Text>Mina de Hierro a cielo abierto</Text>
-    </Text>
-    <Text>
-      <GUID>1742100164</GUID>      <!-- Open Pit Iron Mine - Building - Description -->
-      <Text>Pozo abierto donde se extrae mineral de hierro. Todo el trabajo es realizado por mano de obra militar.</Text>
-    </Text>
-    <Text>
-      <GUID>1742100165</GUID>      <!-- Open Pit Coal Mine - Building -->
-      <Text>Mina de Carbón a cielo abierto</Text>
-    </Text>
-    <Text>
-      <GUID>1742100603</GUID>      <!-- Open Pit Coal Mine (NW) - Building -->
-      <Text>Mina de Carbón a cielo abierto</Text>
-    </Text>
-    <Text>
-      <GUID>1742100166</GUID>      <!-- Open Pit Coal Mine - Building - Description -->
-      <Text>Pozo abierto donde se extrae carbón. Todo el trabajo es realizado por mano de obra militar.</Text>
-    </Text>
-    <Text>
       <GUID>1742100167</GUID>      <!-- Pirate Naval Architect Blueprints - Item -->
       <Text>Planos de arquitecto Naval Pirata</Text>
     </Text>
@@ -1127,7 +1103,7 @@
     </Text>
     <Text>
       <GUID>1742100621</GUID>      <!-- Nitrary (AI) - Building -->
-      <Text>Salitrera (AI)</Text>
+      <Text>Salitrera</Text>
     </Text>
     <Text>
       <GUID>1742100290</GUID>      <!-- Nitrary - Building - Description -->
@@ -1995,27 +1971,27 @@
     </Text>
     <Text>
       <GUID>1742100537</GUID>      <!-- Fake AI Care Packages Factory - Building -->
-      <Text>Fábrica de paquetes de ayuda (AI)</Text>
+      <Text>Fábrica de paquetes de ayuda</Text>
     </Text>
     <Text>
       <GUID>1742100538</GUID>      <!-- Fake AI Navy Recruitment Office - Building -->
-      <Text>Oficina de reclutamiento de la armada (AI)</Text>
+      <Text>Oficina de reclutamiento de la armada</Text>
     </Text>
     <Text>
       <GUID>1742100539</GUID>      <!-- Fake AI Basic Ammunition Factory - Building -->
-      <Text>Fábrica de munición básica (AI)</Text>
+      <Text>Fábrica de munición básica</Text>
     </Text>
     <Text>
       <GUID>1742100623</GUID>      <!-- Fake AI Shell Ammunition Factory - Building -->
-      <Text>Fábrica de munición de obuses (AI)</Text>
+      <Text>Fábrica de munición de obuses</Text>
     </Text>
     <Text>
       <GUID>1742100541</GUID>      <!-- Fake AI Bombs Ammunition Factory - Building -->
-      <Text>Fábrica de Munición de bombas (AI)</Text>
+      <Text>Fábrica de Munición de bombas</Text>
     </Text>
     <Text>
       <GUID>1742100542</GUID>      <!-- Fake AI Basic Weapons Factory - Building -->
-      <Text>Fábrica de armas básicas (AI)</Text>
+      <Text>Fábrica de armas básicas</Text>
     </Text>
     <Text>
       <GUID>1742100543</GUID>      <!-- Fake Menu Chain (OW) -->
@@ -2227,7 +2203,139 @@
     </Text>
     <Text>
       <GUID>1742100622</GUID>      <!-- Gunpowder Factory (AI) - Building -->
-      <Text>Fábrica de pólvora (AI)</Text>
+      <Text>Fábrica de pólvora</Text>
+    </Text>
+    <Text>
+      <GUID>1742100630</GUID>      <!-- Mourning at sea - Building -->
+      <Text>Luto en el mar</Text>
+    </Text>
+    <Text>
+      <GUID>1742100631</GUID>      <!-- Mourning at sea - Building - Description -->
+      <Text>Los portuarios también deben tener un lugar donde llorar la muerte de sus seres queridos. Un lugar junto al mar donde esparcir las cenizas y pensar en sus seres queridos.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100632</GUID>      <!-- Cemetery - EffectContainer -->
+      <Text>Cementerio</Text>
+    </Text>
+    <Text>
+      <GUID>1742100633</GUID>      <!-- Cemetery - TownhallBuff -->
+      <Text>Cementerio</Text>
+    </Text>
+    <Text>
+      <GUID>1742100775</GUID>      <!--  Sammy Moray - Item -->
+      <Text>Sammy Moray</Text>
+    </Text>
+    <Text>
+      <GUID>1742100776</GUID>      <!-- Sammy Moray - Item - Description -->
+      <Text>Sammy no es muy partidario de utilizar el gas del Ártico. En su lugar, ve oportunidades para utilizar etanol.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100777</GUID>      <!-- All Gas Ammunition Depots - ItemEffectTargetPool -->
+      <Text>Todos los depósitos de munición de gas</Text>
+    </Text>
+    <Text>
+      <GUID>1742100778</GUID>      <!-- All Gas-Fired Power Plants - ItemEffectTargetPool -->
+      <Text>Todas las centrales de gas</Text>
+    </Text>
+    <Text>
+      <GUID>1742100006</GUID>      <!-- Atoll Soldiers - PopulationLevel7 -->
+      <Text>Atoll Soldiers</Text>
+    </Text>
+    <Text>
+      <GUID>1742100010</GUID>      <!-- Military (NH) - PopulationLevel7 -->
+      <Text>Atoll Soldiers</Text>
+    </Text>
+    <Text>
+      <GUID>1742100634</GUID>      <!-- Atoll Soldiers Residence - Encampment - Building -->
+      <Text>Encampment</Text>
+    </Text>
+    <Text>
+      <GUID>1742100635</GUID>      <!-- Atoll Soldiers Residence - Encampment - Building - Description -->
+      <Text>Residences for the Atoll Soldiers.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100636</GUID>      <!-- Canteen (NH) - Building -->
+      <Text>Canteen</Text>
+    </Text>
+    <Text>
+      <GUID>1742100637</GUID>      <!-- Canteen (NH) - Building - Description -->
+      <Text>Place where all military personnel gathers to eat.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100640</GUID>      <!-- Atoll Outpost - Building -->
+      <Text>Atoll Outpost</Text>
+    </Text>
+    <Text>
+      <GUID>1742100641</GUID>      <!-- Atoll Outpost - Building - Description -->
+      <Text>Outpost in the Atoll functioning as headquarters for Atoll Soldiers.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100638</GUID>      <!-- Canteen (NH) - Product -->
+      <Text>Canteen</Text>
+    </Text>
+    <Text>
+      <GUID>1742100639</GUID>      <!-- Canteen (NH) - Product - Description -->
+      <Text>Place where all military personnel gathers to eat.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100642</GUID>      <!-- Atoll Outpost - Product -->
+      <Text>Atoll Outpost</Text>
+    </Text>
+    <Text>
+      <GUID>1742100643</GUID>      <!-- Atoll Outpost - Product - Description -->
+      <Text>Outpost in the Atoll functioning as headquarters for Atoll Soldiers.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100644</GUID>      <!-- Atoll Soldiers Workforce - Product -->
+      <Text>Atoll Soldiers Workforce</Text>
+    </Text>
+    <Text>
+      <GUID>1742100645</GUID>      <!-- SoldiersConsumerGoods (NH) - ProductList -->
+      <Text>Atoll Soldiers Consumer Goods</Text>
+    </Text>
+    <Text>
+      <GUID>1742100646</GUID>      <!-- Military Construction Category (NH) -->
+      <Text>Soldiers</Text>
+    </Text>
+    <Text>
+      <GUID>1742100647</GUID>      <!-- Traditional Weapons - Product -->
+      <Text>Traditional Weapons</Text>
+    </Text>
+    <Text>
+      <GUID>1742100648</GUID>      <!-- Traditional Weapons - Product - Description -->
+      <Text>The military fights with traditional weapons.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100649</GUID>      <!-- Swordsmith - Building -->
+      <Text>Swordsmith</Text>
+    </Text>
+    <Text>
+      <GUID>1742100650</GUID>      <!-- Swordsmith - Building - Description -->
+      <Text>Producing traditional weapons is not for common blacksmiths.</Text>
+    </Text>
+    <Text>
+      <GUID>1742100651</GUID>      <!-- Navy Recruitment Office (NH) - Building -->
+      <Text>Navy Recruitment Office</Text>
+    </Text>
+    <Text>
+      <GUID>1742100652</GUID>      <!-- Small Military Warehouse (NH) - Building -->
+      <Text>Small Military Warehouse</Text>
+    </Text>
+    <Text>
+      <GUID>1742100654</GUID>      <!-- Nitrary AI - Building -->
+      <Text>Cannon Factory</Text>
+    </Text>
+    <Text>
+      <GUID>1742100655</GUID>      <!-- All Basic Weapons Factories Factories - ItemEffectTargetPool -->
+      <Text>All Basic Weapons Factories</Text>
+    </Text>
+    <Text>
+      <GUID>1742100656</GUID>      <!-- All Basic Weapons Factories Factories - ItemEffectTargetPool -->
+      <Text>All Military Uniform Factories</Text>
+    </Text>
+    <Text>
+      <GUID>1742100665</GUID>      <!-- All Cemeteries - ItemEffectTargetPool -->
+      <Text>Todos los cementerios</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -1,5 +1,5 @@
 <!--
-	GUIDs 1900000000-1900000042
+	GUIDs 1900000000-1900000078
 
 	Items List:
 	Alexey Stakhanov			1900000003-1900000004
@@ -24,6 +24,29 @@
 	All Sheep Farms Pool			1900000041
 	All Kitchens Pool			1900000042
 
+	New Items List:
+	Dmitri Mendeleev    1900000043-1900000044
+	Alexander Popov   1900000045-1900000046
+	Boris Yakobi (Moritz Hermann von Jacobi)    1900000047-1900000048
+	Ivan Michurin   1900000049-1900000050
+	Nikolai Vavilov   1900000051-1900000052
+	Sergey Botkin   1900000053-1900000054
+	Alexander Laurant   1900000055-1900000056
+	Pavel Yablochkov    1900000057-1900000058
+	Vladimir Shukhov    1900000059-1900000060
+	Andrey Vlasenko   1900000061-1900000062
+	Faddey Bellingshausen (Fabian Gottlieb von Bellingshausen)  1900000063-1900000064
+	Franz San Galli   1900000065-1900000066
+	Valiko Sunelishvili   1900000067-1900000068
+	All Oil Heavy Industries Pool   1900000069
+	All Land Oil Depots Pool   1900000070
+	All Chemical Plants Pool   1900000071
+	All Citrus Orchards Pool   1900000072
+  All Soda Factories Pool    1900000074
+  All Hop Farms Pool   1900000075
+  All Vegetable Farms Pool   1900000076
+  All Hemp Farms Pool   1900000077
+  All Noblesse oblige Manors Pool   1900000078
 -->
 
 <ModOps>
@@ -444,19 +467,19 @@
 		      <TradePrice>1000000</TradePrice>
 		    </Item>
 		    <VehicleUpgrade>
-		      <ForwardSpeedUpgrade>
-			      <Value>50</Value>
-			      <Percental>1</Percental>
-		      </ForwardSpeedUpgrade>
-		      <IgnoreDamageFactorUpgrade>
-			      <Value>100</Value>
-			      <Percental>1</Percental>
-		      </IgnoreDamageFactorUpgrade>
+          <ForwardSpeedUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ForwardSpeedUpgrade>
 		      <IgnoreWeightFactorUpgrade>
 			      <Value>100</Value>
 			      <Percental>1</Percental>
 		      </IgnoreWeightFactorUpgrade>
-		    </VehicleUpgrade>
+          <IgnoreDamageFactorUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </IgnoreDamageFactorUpgrade>
+        </VehicleUpgrade>
 		    <ExpeditionAttribute>
 		      <BaseMorale>0</BaseMorale>
 		      <ExpeditionAttributes>
@@ -468,16 +491,10 @@
 		      <ItemDifficulties>Hard</ItemDifficulties>
 		      <FluffText>1900000014</FluffText>
 		    </ExpeditionAttribute>
-		    <AttackableUpgrade>
-		      <MaxHitpointsUpgrade>
-			      <Value>50</Value>
-			      <Percental>1</Percental>
-		      </MaxHitpointsUpgrade>
-		    </AttackableUpgrade>
 	    </Values>
 	  </Asset>
   </ModOp> 
- 
+
 <!-- "Cyclone" Engine --> 
   <ModOp GUID="112574" Type="addNextSibling">
     <Asset>
@@ -575,16 +592,6 @@
               <AdditionalOutputCycle>3</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
-            <!-- <Item>
-              <Product>1010211</Product> --> <!-- Chassis -->
-              <!-- <AdditionalOutputCycle>2</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item>
-            <Item>
-              <Product>1010225</Product> --> <!-- Steam Carriages -->
-              <!-- <AdditionalOutputCycle>4</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item> -->
           </AdditionalOutput>
         </FactoryUpgrade>
         <ItemEffect>
@@ -733,16 +740,6 @@
               <AdditionalOutputCycle>3</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
-	          <!-- <Item>
-              <Product>135230</Product> --> <!-- Typewriters -->
-              <!-- <AdditionalOutputCycle>2</AdditionalOutputCycle>
-              <Amount>1</Amount>
-			      </Item>
-			      <Item>
-              <Product>1010246</Product> --> <!-- Pocket Watches -->
-              <!-- <AdditionalOutputCycle>2</AdditionalOutputCycle>
-              <Amount>1</Amount>
-	          </Item> -->
           </AdditionalOutput>
         </FactoryUpgrade>
         <ItemEffect>
@@ -772,7 +769,6 @@
             <Value>-20</Value>
             <Percental>1</Percental>
           </WorkforceAmountUpgrade>
-	        <!-- <ReplacingWorkforce>1010115</ReplacingWorkforce> -->
         </BuildingUpgrade>
       </Values>
     </Asset>
@@ -814,16 +810,6 @@
               <AdditionalOutputCycle>6</AdditionalOutputCycle>
               <Amount>1</Amount>
 	          </Item>
-	          <!-- <Item>
-              <Product>1010257</Product> --> <!-- Rum -->
-              <!-- <AdditionalOutputCycle>3</AdditionalOutputCycle>
-              <Amount>1</Amount>
-	          </Item>
-	          <Item>
-              <Product>120016</Product> --> <!-- Champagne-->
-              <!-- <AdditionalOutputCycle>4</AdditionalOutputCycle>
-              <Amount>1</Amount>
-	          </Item> -->
           </AdditionalOutput>
         </FactoryUpgrade>
         <ItemEffect>
@@ -899,11 +885,6 @@
               <AdditionalOutputCycle>4</AdditionalOutputCycle>
               <Amount>1</Amount>
 	          </Item>
-	          <!-- <Item>
-              <Product>120043</Product> --> <!-- Ponchos-->
-              <!-- <AdditionalOutputCycle>4</AdditionalOutputCycle>
-              <Amount>1</Amount>
-	          </Item> -->
           </AdditionalOutput>
         </FactoryUpgrade>
         <ItemEffect>
@@ -920,7 +901,7 @@
           <BaseMorale>0</BaseMorale>
           <ExpeditionAttributes>
             <Item>
-              <Attribute>PerkMale</Attribute>
+              <Attribute>PerkFemale</Attribute>
               <Amount>1</Amount>
             </Item>
             <Item>
@@ -1057,9 +1038,6 @@
             <Item>
               <GUID>1500200673</GUID> <!-- All Bakeries -->
             </Item>
-            <!-- <Item>
-              <GUID>135361</GUID> --> <!-- Assembly Line: Biscuits -->
-            <!-- </Item> -->
             <Item>
               <GUID>101271</GUID> <!-- Burrito Maker -->
             </Item>  
@@ -1126,16 +1104,6 @@
               <AdditionalOutputCycle>8</AdditionalOutputCycle>
               <Amount>1</Amount>
 	          </Item>
-	          <!--  <Item>
-              <Product>120036</Product> --> <!-- Alpaca wool -->
-              <!-- <AdditionalOutputCycle>8</AdditionalOutputCycle>
-              <Amount>1</Amount>
-	          </Item>
-	          <Item>
-              <Product>1010240</Product> --> <!-- Cotton Fabric -->
-              <!-- <AdditionalOutputCycle>3</AdditionalOutputCycle>
-              <Amount>1</Amount>
-	          </Item> -->
           </AdditionalOutput>
         </FactoryUpgrade>
         <ItemEffect>
@@ -1205,21 +1173,6 @@
               <AdditionalOutputCycle>2</AdditionalOutputCycle>
               <Amount>1</Amount>
 	          </Item>
-	          <!-- <Item>
-              <Product>133183</Product> --> <!-- Jam -->
-              <!-- <AdditionalOutputCycle>2</AdditionalOutputCycle>
-              <Amount>1</Amount>
-	          </Item>
-	          <Item>
-              <Product>120033</Product> --> <!-- Fried Plantain -->
-              <!-- <AdditionalOutputCycle>3</AdditionalOutputCycle>
-              <Amount>1</Amount>
-	          </Item>
-	          <Item>
-              <Product>120035</Product> --> <!-- Burritos -->
-              <!-- <AdditionalOutputCycle>4</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item> -->
 	          <Item>
               <Product>25131</Product> <!-- Atole -->
               <AdditionalOutputCycle>4</AdditionalOutputCycle>
@@ -1230,11 +1183,6 @@
               <AdditionalOutputCycle>4</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
-	          <!-- <Item>
-              <Product>5382</Product> --> <!-- Ice Cream -->
-              <!-- <AdditionalOutputCycle>10</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item> -->
 	          <Item>
               <Product>112705</Product> <!-- Pemmican-->
               <AdditionalOutputCycle>8</AdditionalOutputCycle>
@@ -1401,16 +1349,6 @@
               <AdditionalOutputCycle>4</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
-			      <!-- <Item>
-              <Product>1010226</Product> --> <!-- Coal -->
-              <!-- <AdditionalOutputCycle>2</AdditionalOutputCycle>
-              <Amount>1</Amount>
-			      </Item>
-            <Item>
-              <Product>1010233</Product> --> <!-- Gold Ore -->
-              <!-- <AdditionalOutputCycle>4</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item> -->
           </AdditionalOutput>
 		    </FactoryUpgrade>
 		    <ItemEffect>
@@ -1503,11 +1441,6 @@
               <AdditionalOutputCycle>6</AdditionalOutputCycle>
               <Amount>1</Amount>
             </Item>
-            <!-- <Item>
-              <Product>1010233</Product> --> <!-- Gold Ore -->
-              <!-- <AdditionalOutputCycle>4</AdditionalOutputCycle>
-              <Amount>1</Amount>
-            </Item> -->
           </AdditionalOutput>
 		    </FactoryUpgrade>
 		    <ItemEffect>
@@ -1564,10 +1497,1008 @@
 	    </Values>
 	  </Asset>
   </ModOp>
-  
+
+<!-- Dmitri Mendeleev -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000043</GUID>
+          <Name>Dmitri Mendeleev</Name>
+          <IconFilename>data/modgraphics/icons/icon_dmitri_mendeleev.png</IconFilename>
+          <InfoDescription>1900000044</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1900000071</GUID>  <!-- All Chemical Plants -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>        
+	      <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>135130</Product> <!-- Ethanol -->
+              <AdditionalOutputCycle>1</AdditionalOutputCycle>
+              <Amount>2</Amount>
+	          </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+	      <BuildingUpgrade>
+	        <MaintenanceUpgrade>
+	          <Value>-20</Value>
+	          <Percental>1</Percental>
+	        </MaintenanceUpgrade>
+	        <WorkforceAmountUpgrade>
+	          <Value>-10</Value>
+	          <Percental>1</Percental>
+	        </WorkforceAmountUpgrade>
+	      </BuildingUpgrade>        
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000044</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Alexander Popov -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000045</GUID>
+          <Name>Alexander Popov</Name>
+          <IconFilename>data/modgraphics/icons/icon_alexander_popov.png</IconFilename>
+          <InfoDescription>1900000046</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>TownHall</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>118736</GUID>  <!-- Radio Station -->
+            </Item>
+            <Item>
+              <GUID>114445</GUID>  <!-- Scholar Residence -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+		    <BuildingUpgrade>
+			    <PublicServiceFullSatisfactionDistance>
+				    <Value>50</Value>
+				    <Percental>1</Percental>
+			    </PublicServiceFullSatisfactionDistance>
+			    <PublicServiceNoSatisfactionDistance>
+				    <Value>50</Value>
+				    <Percental>1</Percental>
+			    </PublicServiceNoSatisfactionDistance>
+		    </BuildingUpgrade>
+        <PopulationUpgrade>
+          <ResidentsUpgrade>
+            <Value>10</Value>
+            <Percental>1</Percental>
+          </ResidentsUpgrade>
+          <InputBenefitModifier>
+            <Item>
+              <Product>118736</Product> <!-- Radio Station -->
+              <AdditionalSupply>10</AdditionalSupply>
+              <AdditionalResearch>2</AdditionalResearch>
+            </Item>
+          </InputBenefitModifier>
+        </PopulationUpgrade>
+        <ResidenceUpgrade>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>114431</ProvidedNeed> <!-- Telephones -->
+              <AmountInPercent>-30</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+        </ResidenceUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>          
+				    <Item>
+					    <Attribute>Diplomacy</Attribute>
+					    <Amount>25</Amount>
+				    </Item>
+				    <Item>
+					    <Attribute>Navigation</Attribute>
+					    <Amount>70</Amount>
+				    </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000046</FluffText>
+        </ExpeditionAttribute>
+        <Locked>
+			    <DLCDependency>410071</DLCDependency> <!-- DLC - Land of Lions -->
+		    </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Boris Yakobi -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000047</GUID>
+          <Name>Boris Yakobi</Name>
+          <IconFilename>data/modgraphics/icons/icon_boris_yakobi.png</IconFilename>
+          <InfoDescription>1900000048</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>118735</GUID>  <!-- Telephone Factory -->
+            </Item>
+            <Item>
+              <GUID>1500300076</GUID>  <!-- Cable Factory -->
+            </Item>
+            <Item>
+              <GUID>5659</GUID>  <!-- Motor Factory -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>        
+	      <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>70</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>5390</Product> <!-- Motor -->
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+	          </Item>
+            <Item>
+              <Product>114431</Product> <!-- Telephones -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+	          </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+	      <BuildingUpgrade>
+	        <MaintenanceUpgrade>
+	          <Value>-20</Value>
+	          <Percental>1</Percental>
+	        </MaintenanceUpgrade>
+	        <WorkforceAmountUpgrade>
+	          <Value>-10</Value>
+	          <Percental>1</Percental>
+	        </WorkforceAmountUpgrade>
+	      </BuildingUpgrade>        
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000048</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Ivan Michurin -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000049</GUID>
+          <Name>Ivan Michurin</Name>
+          <IconFilename>data/modgraphics/icons/icon_ivan_michurin.png</IconFilename>
+          <InfoDescription>1900000050</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>133496</GUID>  <!-- Jam Planter -->
+            </Item>
+            <Item>
+              <GUID>1500301925</GUID>  <!-- Vineyard -->
+            </Item>                      
+            <Item>
+              <GUID>1900000072</GUID>  <!-- All Citrus Orchards -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>        
+	      <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput />
+        </FactoryUpgrade>
+	      <BuildingUpgrade>
+	        <WorkforceAmountUpgrade>
+	          <Value>10</Value>
+	          <Percental>1</Percental>
+	        </WorkforceAmountUpgrade>
+	      </BuildingUpgrade>
+		    <CultureUpgrade>
+			    <AttractivenessUpgrade>
+				    <Value>50</Value>
+			    </AttractivenessUpgrade>
+		    </CultureUpgrade>                
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>20</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000050</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Nikolai Vavilov -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000051</GUID>
+          <Name>Nikolai Vavilov</Name>
+          <IconFilename>data/modgraphics/icons/icon_nikolai_vavilov.png</IconFilename>
+          <InfoDescription>1900000052</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500301922</GUID>  <!-- Grain Farm -->
+            </Item>
+            <Item>
+              <GUID>1500301921</GUID>  <!-- Potato Farm -->
+            </Item>
+            <Item>
+              <GUID>1900000075</GUID>  <!-- All Hop Farms -->
+            </Item>
+            <Item>
+              <GUID>100654</GUID>  <!-- Red Pepper Farm -->
+            </Item>
+            <Item>
+              <GUID>1500301927</GUID>  <!-- Corn Farm -->
+            </Item>
+            <Item>
+              <GUID>1500301956</GUID>  <!-- Linseed Farm -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>        
+	      <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+	          </Item>
+            <Item>
+              <Product>120034</Product> <!-- Corn -->
+              <AdditionalOutputCycle>6</AdditionalOutputCycle>
+              <Amount>1</Amount>
+	          </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+	      <BuildingUpgrade>
+	        <MaintenanceUpgrade>
+	          <Value>-10</Value>
+	          <Percental>1</Percental>
+	        </MaintenanceUpgrade>
+	      </BuildingUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000052</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Sergey Botkin -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000053</GUID>
+          <Name>Sergey Botkin</Name>
+          <IconFilename>data/modgraphics/icons/icon_sergey_botkin.png</IconFilename>
+          <InfoDescription>1900000054</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>TownHall</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>190777</GUID>  <!-- All Hospitals -->
+            </Item>
+            <Item>
+              <GUID>190762</GUID>  <!-- All Residences EU & SA + Africa & Scholar -->
+            </Item>            
+          </EffectTargets>
+        </ItemEffect>
+		    <BuildingUpgrade>
+			    <ResolverUnitMovementSpeedUpgrade>
+				    <Value>30</Value>
+				    <Percental>1</Percental>
+			    </ResolverUnitMovementSpeedUpgrade>
+          <ResolverUnitDecreaseUpgrade>
+				    <Value>20</Value>
+				    <Percental>1</Percental>
+			    </ResolverUnitDecreaseUpgrade>
+		    </BuildingUpgrade>
+		    <IncidentInfectableUpgrade>
+			    <IncidentIllnessIncreaseUpgrade>
+				    <Value>-50</Value>
+				    <Percental>1</Percental>
+			    </IncidentIllnessIncreaseUpgrade>
+		    </IncidentInfectableUpgrade>
+		    <IncidentInfluencerUpgrade>
+			    <IllnessInfluenceUpgrade>
+				    <Value>-5</Value>
+				    <Percental>1</Percental>
+			    </IllnessInfluenceUpgrade>
+		    </IncidentInfluencerUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>          
+				    <Item>
+					    <Attribute>Medicine</Attribute>
+					    <Amount>50</Amount>
+				    </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000054</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Alexander Laurant -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000055</GUID>
+          <Name>Alexander Laurant</Name>
+          <IconFilename>data/modgraphics/icons/icon_alexander_laurant.png</IconFilename>
+          <InfoDescription>1900000056</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>6629</GUID>  <!-- Fire Extinguishers -->
+            </Item>            
+          </EffectTargets>
+        </ItemEffect>        
+	      <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>70</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput />
+        </FactoryUpgrade>
+	      <BuildingUpgrade>
+	        <MaintenanceUpgrade>
+	          <Value>-30</Value>
+	          <Percental>1</Percental>
+	        </MaintenanceUpgrade>
+	        <WorkforceAmountUpgrade>
+	          <Value>-30</Value>
+	          <Percental>1</Percental>
+	        </WorkforceAmountUpgrade>
+		    </BuildingUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000056</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Pavel Yablochkov -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000057</GUID>
+          <Name>Pavel Yablochkov</Name>
+          <IconFilename>data/modgraphics/icons/icon_pavel_yablochkov.png</IconFilename>
+          <InfoDescription>1900000058</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1010286</GUID>  <!-- Light Bulb Factory -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>        
+	      <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>70</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010243</Product> <!-- Carbon Filament -->
+              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+              <Amount>1</Amount>
+	          </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+	      <BuildingUpgrade>
+	        <WorkforceAmountUpgrade>
+	          <Value>-30</Value>
+	          <Percental>1</Percental>
+	        </WorkforceAmountUpgrade>
+          <ReplacingWorkforce>1010115</ReplacingWorkforce>
+	      </BuildingUpgrade>        
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000058</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Vladimir Shukhov -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000059</GUID>
+          <Name>Vladimir Shukhov</Name>
+          <IconFilename>data/modgraphics/icons/icon_vladimir_shukhov.png</IconFilename>
+          <InfoDescription>1900000060</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1900000069</GUID>  <!-- All Oil Heavy Industries -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>        
+	      <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>1010566</Product> <!-- Oil -->
+              <AdditionalOutputCycle>12</AdditionalOutputCycle>
+              <Amount>1</Amount>
+	          </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+	      <BuildingUpgrade>
+	        <MaintenanceUpgrade>
+	          <Value>-30</Value>
+	          <Percental>1</Percental>
+	        </MaintenanceUpgrade>
+	        <WorkforceAmountUpgrade>
+	          <Value>-20</Value>
+	          <Percental>1</Percental>
+	        </WorkforceAmountUpgrade>
+	      </BuildingUpgrade>        
+		    <IncidentInfectableUpgrade>
+			    <IncidentFireIncreaseUpgrade>
+				    <Value>-6</Value>
+			    </IncidentFireIncreaseUpgrade>
+          <IncidentExplosionIncreaseUpgrade>
+				    <Value>-7</Value>
+			    </IncidentExplosionIncreaseUpgrade>
+		    </IncidentInfectableUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000060</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Andrey Vlasenko -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000061</GUID>
+          <Name>Andrey Vlasenko</Name>
+          <IconFilename>data/modgraphics/icons/icon_andrey_vlasenko.png</IconFilename>
+          <InfoDescription>1900000062</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500301922</GUID>  <!-- Grain Farm -->
+            </Item>
+            <Item>
+              <GUID>1500301927</GUID>  <!-- Corn Farm -->
+            </Item>
+            <Item>
+              <GUID>114450</GUID>  <!-- Teff Farm -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>        
+	      <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>70</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+	          </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+	      <BuildingUpgrade>
+	        <MaintenanceUpgrade>
+	          <Value>10</Value>
+	          <Percental>1</Percental>
+	        </MaintenanceUpgrade>
+	      </BuildingUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000062</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Faddey Bellingshausen (Fabian Gottlieb von Bellingshausen) -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>ShipSpecialist</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000063</GUID>
+          <Name>Faddey Bellingshausen</Name>
+          <IconFilename>data/modgraphics/icons/icon_faddey_bellingshausen.png</IconFilename>
+          <InfoDescription>1900000064</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>Ship</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <VehicleUpgrade>
+          <ForwardSpeedUpgrade>
+            <Value>30</Value>
+            <Percental>1</Percental>
+          </ForwardSpeedUpgrade>
+        </VehicleUpgrade>
+        <AttackableUpgrade>
+          <SelfHealPausedTimeIfAttackedUpgrade>
+            <Value>-50</Value>
+            <Percental>1</Percental>
+          </SelfHealPausedTimeIfAttackedUpgrade>
+          <SelfHealUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </SelfHealUpgrade>
+          <MaxHitpointsUpgrade>
+				    <Value>1000</Value>
+			    </MaxHitpointsUpgrade>
+          <MoralePowerUpgrade>
+				    <Value>50</Value>
+				    <Percental>1</Percental>
+			    </MoralePowerUpgrade>
+        </AttackableUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Navigation</Attribute>
+              <Amount>75</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkAnthropologist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000064</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Franz San Galli -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>TownhallItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000065</GUID>
+          <Name>Franz San Galli</Name>
+          <IconFilename>data/modgraphics/icons/icon_franz_san_galli.png</IconFilename>
+          <InfoDescription>1900000066</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>Lodge</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+				    <Item>
+					    <GUID>112091</GUID> <!-- Residence Arctic Tier 1 -->
+				    </Item>
+				    <Item>
+					    <GUID>112652</GUID> <!-- Residence Arctic Tier 2 -->
+				    </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <IncidentInfectableUpgrade>
+			    <IncidentArcticIllnessIncreaseUpgrade>
+				    <Value>-5</Value>
+			    </IncidentArcticIllnessIncreaseUpgrade>
+		    </IncidentInfectableUpgrade>        
+        <ResidenceUpgrade>
+			    <GoodConsumptionUpgrade>
+				    <Item>
+					    <ProvidedNeed>112701</ProvidedNeed> <!-- Sleeping Bags -->
+					    <AmountInPercent>-30</AmountInPercent>
+				    </Item>
+				    <Item>
+					    <ProvidedNeed>112700</ProvidedNeed> <!-- Parka -->
+					    <AmountInPercent>-30</AmountInPercent>
+				    </Item>
+			    </GoodConsumptionUpgrade>
+          <WorkforceModifierInPercent>20</WorkforceModifierInPercent>
+		    </ResidenceUpgrade>
+		    <PopulationUpgrade>
+			    <InputBenefitModifier>
+				    <Item>
+					    <Product>112701</Product> <!-- Sleeping Bags -->
+					    <AdditionalMoney>5</AdditionalMoney>
+				    </Item>
+				    <Item>
+					    <Product>112700</Product> <!-- Parka -->
+					    <AdditionalMoney>5</AdditionalMoney>
+				    </Item>
+			    </InputBenefitModifier>
+		    </PopulationUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>Hunting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000066</FluffText>
+        </ExpeditionAttribute>
+        <Locked>
+			    <DLCDependency>410042</DLCDependency> <!-- DLC - The Passage -->
+		    </Locked>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Valiko Sunelishvili -->
+  <ModOp GUID="112574" Type="addNextSibling">
+    <Asset>
+      <Template>GuildhouseItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1900000067</GUID>
+          <Name>Valiko Sunelishvili</Name>
+          <IconFilename>data/modgraphics/icons/icon_valiko_sunelishvili.png</IconFilename>
+          <InfoDescription>1900000068</InfoDescription>
+        </Standard>
+        <Text />
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>GuildHouse</Allocation>
+          <TradePrice>1000000</TradePrice>
+          <TradePriceOnlineCurrency>1000000</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1500301925</GUID>  <!-- Vineyard -->
+            </Item>
+            <Item>
+              <GUID>1500301934</GUID>  <!-- Herb Garden  -->
+            </Item>
+            <Item>
+              <GUID>1500301959</GUID>  <!-- Spice Farm -->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>        
+	      <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>50</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>135234</Product> <!-- Cognac -->
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+	          </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+	      <BuildingUpgrade />
+        <ModuleOwnerUpgrade>
+			    <ModuleLimitPercent>-20</ModuleLimitPercent>
+		    </ModuleOwnerUpgrade>
+		    <CultureUpgrade>
+			    <AttractivenessUpgrade>
+				    <Value>30</Value>
+			    </AttractivenessUpgrade>
+		    </CultureUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Hunting</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>Melee</Attribute>
+              <Amount>30</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkPolyglot</Attribute>
+              <Amount>1</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+          <FluffText>1900000068</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
   <!--
-      RewardPools id:
-	  
+    RewardPools IDs:
+
+	  Sir Archibald Blake
+	  190164 - 3rd_party_02 (Sir Archibald Blake) MidGame
+	  190165 - 3rd_party_02 (Sir Archibald Blake) LateMidGame
+	  190166 - 3rd_party_02 (Sir Archibald Blake) LateGame
+	  192069 - 3rd_party_02 (Sir Archibald Blake) EndGame
+    192876 - Blake Rare Machines
+	  192877 - Blake Epic Machines
+	  192878 - Blake Legendary Machines	  
+
     Eli Bleakworth (Jailer)
 	  190304 - 3rd_party_07 (jailer) MidGame
 	  190305 - 3rd_party_07 (jailer) LateMidGame
@@ -1575,29 +2506,55 @@
     190774 - 3rd_party_07 (jailer) Endgame
 	  192907 - Eli Rare Specialists
 	  192908 - Eli Epic Specialists
-	  192909 - Eli Legendary Specialists;
-	  
-	  Sir Archibald Blake
-	  190164 - 3rd_party_02 (Sir Archibald Blake) MidGame
-	  190165 - 3rd_party_02 (Sir Archibald Blake) LateMidGame
-	  190166 - 3rd_party_02 (Sir Archibald Blake) LateGame
-	  190169 - 3rd_party_02 (Sir Archibald Blake) EndGame
-	  192876 - Blake Rare Machines
-	  192877 - Blake Epic Machines
-	  192878 - Blake Legendary Machines
-	  
-	  Jean LaFortune 
-	  192065 - Third_party_04 (LaFortune) MidGame
-	  192066 - Third_party_04 (LaFortune) LateMidGame
-	  192067 - Third_party_04 (LaFortune) LateGame
-	  192071 - Third_party_04 (LaFortune) EndGame
-	  192917 - LaFortune Rare Specialists
-	  192918 - LaFortune Epic Specialists
-	  192919 - LaFortune Legendary Specialists
-	  192892 - LaFortune Rare Machines
-	  192893 - LaFortune Epic Machines
-	  192894 - LaFortune Legendary Machines
-	  
+	  192909 - Eli Legendary Specialists
+
+    Madame Kahina
+    190556 - Third_party_08 (Madame Kahina) Midgame
+    190367 - Third_party_08 (Madame Kahina) LateMidGame
+    190387 - Third_party_08 (Madame Kahina) LateGame
+    192068 - Third_party_08 (Madame Kahina) EndGame
+
+    Isabel Sarmento
+	  190362 - Third_party_05 (Sarmento) MidGame
+    190363 - Third_party_05 (Sarmento) LateMidGame
+    192072 - Third_party_05 (Sarmento) LateGame
+	  192073 - Third_party_05 (Sarmento) Endgame
+    192902 - Sarmento Rare Specialists
+    192903 - Sarmento Epic Specialists
+    192904 - Sarmento Legendary Specialists
+
+    Inuit
+    193832 - Third_party_11 (Inuit) Midgame
+    193833 - Third_party_11 (Inuit) LateMidGame
+    193834 - Third_party_11 (Inuit) LateGame
+    193835 - Third_party_11 (Inuit) EndGame
+    193843 - Inuit Rare Specialists
+    193844 - Inuit Epic Specialists
+    193845 - Inuit Legendary Specialists
+    193839 - Inuit Epic Machines
+    193840 - Inuit Legendary Machines
+    116673 - Specialists - All Inuits
+	  193788 - Specialists - Arctic Goods - Legendary
+	  193803 - Inventions - Arctic Inventions - Legendary
+
+	  Old Nate
+	  193449 - Third_party_06 (Old Nate) MidGame
+	  193450 - Third_party_06 (Old Nate) LateMidGame
+	  193451 - Third_party_06 (Old Nate) LateGame
+	  193452 - Third_party_06 (Old Nate) EndGame
+	  193643 - Old Nate Rare Specialists
+	  193644 - Old Nate Epic Specialists
+	  193645 - Old Nate Legendary Specialists
+	  193638 - Old Nate Rare Machines
+	  193639 - Old Nate Epic Machines
+	  193640 - Old Nate Legendary Machines
+
+    Ketema
+    127477 - 3rd_party_13 (Emperor Ketema) MidGame
+    127478 - 3rd_party_13 (Emperor Ketema) LateMidGame
+    127479 - 3rd_party_13 (Emperor Ketema) LateGame
+    127480 - 3rd_party_13 (Emperor Ketema) EndGame
+
 	  Anne Harlow
 	  190356 - Third_party_03 (Harlow) MidGame
 	  190357 - Third_party_03 (Harlow) LateMidGame
@@ -1610,26 +2567,18 @@
 	  192881 - Harlow Epic Machines
 	  192882 - Harlow Legendary Machines
 
-    Isabel Sarmento
-	  190362 - Third_party_05 (Sarmento) MidGame
-    190363 - Third_party_05 (Sarmento) LateMidGame
-    192072 - Third_party_05 (Sarmento) LateGame
-	  192073 - Third_party_05 (Sarmento) Endgame
-    192902 - Sarmento Rare Specialists
-    192903 - Sarmento Epic Specialists
-    192904 - Sarmento Legendary Specialists
-	  
-	  Old Nate
-	  193449 - Third_party_06 (Old Nate) MidGame
-	  193450 - Third_party_06 (Old Nate) LateMidGame
-	  193451 - Third_party_06 (Old Nate) LateGame
-	  193452 - Third_party_06 (Old Nate) EndGame
-	  193643 - Old Nate Rare Specialists
-	  193644 - Old Nate Epic Specialists
-	  193645 - Old Nate Legendary Specialists
-	  193638 - Old Nate Rare Machines
-	  193639 - Old Nate Epic Machines
-	  193640 - Old Nate Legendary Machines
+	  Jean LaFortune 
+	  192065 - Third_party_04 (LaFortune) MidGame
+	  192066 - Third_party_04 (LaFortune) LateMidGame
+	  192067 - Third_party_04 (LaFortune) LateGame
+	  192071 - Third_party_04 (LaFortune) EndGame
+	  192917 - LaFortune Rare Specialists
+	  192918 - LaFortune Epic Specialists
+	  192919 - LaFortune Legendary Specialists
+	  192892 - LaFortune Rare Machines
+	  192893 - LaFortune Epic Machines
+	  192894 - LaFortune Legendary Machines
+
 	  192973 - Specialists - Rare
 	  192974 - Specialists - Epic
 	  192975 - Specialists - Legendary
@@ -1639,6 +2588,7 @@
 	  192757 - Specialists - Military - Legendary
 	  192732 - Specialists - European Goods - Legendary
 	  192641 - Consumables - Naval Combat - Legendary
+    193234 - Visiting Specialists - Legendary
   -->
   
 <!-- Legendary - Ship Machines -->
@@ -1662,6 +2612,9 @@
 	  <Item>
       <ItemLink>1900000007</ItemLink> <!-- Jacques-Yves Cousteau -->
     </Item>
+    <Item>
+      <ItemLink>1900000063</ItemLink> <!-- Faddey Bellingshausen -->
+    </Item>
   </ModOp>
 
 <!-- Legendary - OW -->
@@ -1671,6 +2624,12 @@
     </Item>
     <Item>
       <ItemLink>1900000025</ItemLink> <!-- Gabrielle Bonheur "Coco" Chanel -->
+    </Item>
+    <Item>
+      <ItemLink>1900000057</ItemLink> <!-- Pavel Yablochkov -->
+    </Item>
+    <Item>
+      <ItemLink>1900000065</ItemLink> <!-- Franz San Galli -->
     </Item>
   </ModOp>  
 
@@ -1700,45 +2659,50 @@
     <Item>
       <ItemLink>1900000033</ItemLink> <!-- Alfredo Linguini -->
     </Item>
+    <Item>
+      <ItemLink>1900000043</ItemLink> <!-- Dmitri Mendeleev -->
+    </Item>
+    <Item>
+      <ItemLink>1900000047</ItemLink> <!-- Boris Yakobi -->
+    </Item>
+    <Item>
+      <ItemLink>1900000049</ItemLink> <!-- Ivan Michurin -->
+    </Item>    
+    <Item>
+      <ItemLink>1900000051</ItemLink> <!-- Nikolai Vavilov -->
+    </Item>
+    <Item>
+      <ItemLink>1900000055</ItemLink> <!-- Alexander Laurant -->
+    </Item>
+    <Item>
+      <ItemLink>1900000059</ItemLink> <!-- Vladimir Shukhov -->
+    </Item>
+    <Item>
+      <ItemLink>1900000061</ItemLink> <!-- Andrey Vlasenko -->
+    </Item>
+    <Item>
+      <ItemLink>1900000067</ItemLink> <!-- Valiko Sunelishvili -->
+    </Item>
   </ModOp>
-  
-<!-- Specialists - Epic/Legendary -->
-  <ModOp GUID="192974,192975" Type="add" Path="/Values/RewardPool/ItemsPool">
+
+<!-- Legendary - EU & SA - Public Buildings & City Institutions -->
+  <ModOp GUID="192742,192850,193089,193079" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
-      <ItemLink>1900000003</ItemLink> <!-- Alexey Stakhanov -->
+      <ItemLink>1900000053</ItemLink> <!-- Sergey Botkin -->
     </Item>
+  </ModOp>
+
+<!-- Legendary - Scholar - Public Buildings & City Institutions -->
+  <ModOp GUID="127835,127470,130314" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
-      <ItemLink>1900000005</ItemLink> <!-- Captain Nemo -->
+      <ItemLink>1900000045</ItemLink> <!-- Alexander Popov -->
     </Item>
+  </ModOp>
+
+<!-- Legendary Arctic - Other -->
+  <ModOp GUID="116673,193845,193234,193788,193803" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
-      <ItemLink>1900000007</ItemLink> <!-- Jacques-Yves Cousteau -->
-    </Item>
-    <Item>
-      <ItemLink>1900000017</ItemLink> <!-- Henry Ford -->
-    </Item>
-    <Item>
-      <ItemLink>1900000019</ItemLink> <!-- Elisha Graves Otis -->
-    </Item>
-    <Item>
-      <ItemLink>1900000021</ItemLink> <!-- Isaac Singer -->
-    </Item>
-    <Item>
-      <ItemLink>1900000023</ItemLink> <!-- Claude Moët -->
-    </Item>
-    <Item>
-      <ItemLink>1900000025</ItemLink> <!-- Gabrielle Bonheur "Coco" Chanel -->
-    </Item>
-    <Item>
-      <ItemLink>1900000027</ItemLink> <!-- Levi Strauss -->
-    </Item>
-    <Item>
-      <ItemLink>1900000029</ItemLink> <!-- Mr. Pringle -->
-    </Item>
-    <Item>
-      <ItemLink>1900000031</ItemLink> <!-- Ashot Chobanyan -->
-    </Item>
-    <Item>
-      <ItemLink>1900000033</ItemLink> <!-- Alfredo Linguini -->
+      <ItemLink>1900000065</ItemLink> <!-- Franz San Galli -->
     </Item>
   </ModOp>
 
@@ -1749,8 +2713,8 @@
     </Item>
   </ModOp>
 
-<!-- Machines - Epic/Legendary -->
-  <ModOp GUID="192954,192955" Type="add" Path="/Values/RewardPool/ItemsPool">
+<!-- Machines - Legendary -->
+  <ModOp GUID="192955" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
       <ItemLink>1900000009</ItemLink> <!-- "Nobel" Shot -->
     </Item>
@@ -1762,15 +2726,56 @@
     </Item>
   </ModOp>
 
-<!-- Anne Harlow - Epic/Legendary Specialists -->  
-  <ModOp GUID="190357,190358,192070,192898,192899" Type="add" Path="/Values/RewardPool/ItemsPool">
+<!-- Machines - Productivity and Evil Productivity - All DLCS -->
+  <ModOp GUID="190002" Type="add" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1900000009</ItemLink> <!-- "Nobel" Shot -->
+    </Item>
+    <Item>
+      <ItemLink>1900000011</ItemLink> <!-- "Centurio" Gun -->
+    </Item>
+    <Item>
+      <ItemLink>1900000013</ItemLink> <!-- "Goliath" Engine -->
+    </Item>
+    <Item>
+      <ItemLink>1900000015</ItemLink> <!-- "Cyclone" Engine -->
+    </Item>
+    <Item>
+      <ItemLink>1900000035</ItemLink> <!-- Methane Filtering System -->
+    </Item>
+    <Item>
+      <ItemLink>1900000037</ItemLink> <!-- Tunnel Boring Machine -->
+    </Item>
+    <Item>
+      <ItemLink>1900000039</ItemLink> <!-- Heavy Drill -->
+    </Item>
+  </ModOp>
+
+<!-- Inventions - Arctic Inventions - Legendary -->
+  <ModOp GUID="193803" Type="add" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1900000015</ItemLink> <!-- "Cyclone" Engine -->
+    </Item>
+    <Item>
+      <ItemLink>1900000035</ItemLink> <!-- Methane Filtering System -->
+    </Item>
+    <Item>
+      <ItemLink>1900000037</ItemLink> <!-- Tunnel Boring Machine -->
+    </Item>
+    <Item>
+      <ItemLink>1900000039</ItemLink> <!-- Heavy Drill -->
+    </Item>
+  </ModOp>
+
+<!-- Anne Harlow - Legendary Specialists -->  
+  <ModOp GUID="190358,192070" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
       <ItemLink>1900000005</ItemLink> <!-- Captain Nemo -->
     </Item>
   </ModOp>
 
-<!-- Anne Harlow - Epic/Legendary Machines -->
-  <ModOp GUID="190357,190358,192070,192881,192882" Type="add" Path="/Values/RewardPool/ItemsPool">
+<!-- Anne Harlow - Legendary Machines -->
+  <ModOp GUID="190358,192070" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
       <ItemLink>1900000009</ItemLink> <!-- "Nobel" Shot -->
     </Item>
@@ -1779,15 +2784,15 @@
     </Item>
   </ModOp>  
  
-<!-- Jean LaFortune  - Epic/Legendary Specialists --> 
-  <ModOp GUID="192066,192067,192071,192918,192919" Type="add" Path="/Values/RewardPool/ItemsPool">
+<!-- Jean LaFortune  - Legendary Specialists --> 
+  <ModOp GUID="192067,192071" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
       <ItemLink>1900000005</ItemLink> <!-- Captain Nemo -->
     </Item>
   </ModOp>
 
-<!-- Jean LaFortune  - Epic/Legendary Machines -->
-  <ModOp GUID="192066,192067,192071,192893,192894" Type="add" Path="/Values/RewardPool/ItemsPool">
+<!-- Jean LaFortune  - Legendary Machines -->
+  <ModOp GUID="192067,192071" Type="add" Path="/Values/RewardPool/ItemsPool">
     <Item>
       <ItemLink>1900000009</ItemLink> <!-- "Nobel" Shot -->
     </Item>
@@ -1796,19 +2801,19 @@
     </Item>
   </ModOp>
   
-<!-- Old Nate - Epic/Legendary Machines -->
-  <ModOp GUID="193450,193451,193452,193639,193640" Type="add" Path="/Values/RewardPool/ItemsPool">
-    <Item>
-      <ItemLink>1900000013</ItemLink> <!-- "Goliath" Engine -->
-    </Item>
-  </ModOp> 
-
-<!-- Old Nate - Epic/Legendary Specialists -->
-  <ModOp GUID="193450,193451,193452,193644,193645" Type="add" Path="/Values/RewardPool/ItemsPool">
+<!-- Old Nate - Legendary Specialists -->
+  <ModOp GUID="193451,193452" Type="add" Path="/Values/RewardPool/ItemsPool">
 	  <Item>
       <ItemLink>1900000007</ItemLink> <!-- Jacques-Yves Cousteau -->
     </Item>
   </ModOp>
+
+<!-- Old Nate - Legendary Machines -->
+  <ModOp GUID="193451,193452" Type="add" Path="/Values/RewardPool/ItemsPool">
+    <Item>
+      <ItemLink>1900000013</ItemLink> <!-- "Goliath" Engine -->
+    </Item>
+  </ModOp> 
 
 <!-- Add to be craftable at Arctic Old Nate -->
   <ModOp Type="add" GUID="117422" Path="/Values/ItemCrafter/CraftableItemsInRegion/Arctic/CraftableItems">
@@ -1894,6 +2899,45 @@
                       <Item>
                         <Asset>1900000033</Asset> <!-- Alfredo Linguini -->
                       </Item>
+                      <Item>
+                        <Asset>1900000043</Asset> <!-- Dmitri Mendeleev -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000045</Asset> <!-- Alexander Popov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000047</Asset> <!-- Boris Yakobi -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000049</Asset> <!-- Ivan Michurin -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000051</Asset> <!-- Nikolai Vavilov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000053</Asset> <!-- Sergey Botkin -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000055</Asset> <!-- Alexander Laurant -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000057</Asset> <!-- Pavel Yablochkov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000059</Asset> <!-- Vladimir Shukhov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000061</Asset> <!-- Andrey Vlasenko -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000063</Asset> <!-- Faddey Bellingshausen -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000065</Asset> <!-- Franz San Galli -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000067</Asset> <!-- Valiko Sunelishvili -->
+                      </Item>
                     </UnhideAssets>
                     <UnlockAssets>
                       <Item>
@@ -1941,12 +2985,57 @@
                       <Item>
                         <Asset>1900000033</Asset> <!-- Alfredo Linguini -->
                       </Item>
+                      <Item>
+                        <Asset>1900000043</Asset> <!-- Dmitri Mendeleev -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000045</Asset> <!-- Alexander Popov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000047</Asset> <!-- Boris Yakobi -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000049</Asset> <!-- Ivan Michurin -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000051</Asset> <!-- Nikolai Vavilov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000053</Asset> <!-- Sergey Botkin -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000055</Asset> <!-- Alexander Laurant -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000057</Asset> <!-- Pavel Yablochkov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000059</Asset> <!-- Vladimir Shukhov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000061</Asset> <!-- Andrey Vlasenko -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000063</Asset> <!-- Faddey Bellingshausen -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000065</Asset> <!-- Franz San Galli -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000067</Asset> <!-- Valiko Sunelishvili -->
+                      </Item>
                     </UnlockAssets>                    
                   </ActionUnlockAsset>
                 </Values>
               </TriggerAction>
             </Item>
           </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
         </Trigger>
         <TriggerSetup />
       </Values>
@@ -2021,6 +3110,33 @@
 		          </TriggerAction>
 		        </Item>
 		      </TriggerActions>
+			    <SubTriggers>
+				    <Item>
+					    <SubTrigger>
+						    <Template>AutoCreateTrigger</Template>
+						    <Values>
+							    <Trigger>
+								    <TriggerCondition>
+									    <Template>ConditionPlayerCounter</Template>
+									      <Values>
+										      <Condition/>
+										      <ConditionPlayerCounter>
+											      <Context>114166</Context> <!-- Passage Airship (Trade) -->
+											      <CounterAmount>1</CounterAmount>
+										      </ConditionPlayerCounter>
+									      </Values>
+								    </TriggerCondition>
+							    </Trigger>
+						    </Values>
+					    </SubTrigger>
+				    </Item>
+			    </SubTriggers>
+			    <ResetTrigger>
+				    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+				    <Values>
+					    <EmptyAutoCreateValue/>
+				    </Values>
+			    </ResetTrigger>
 		    </Trigger>
 		    <TriggerSetup/>
 	    </Values>
@@ -2032,7 +3148,7 @@
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>1900000003</GUID>
+          <GUID>1900000073</GUID>
           <Name>Unlock Creative Mode</Name>
         </Standard>
         <Trigger>
@@ -2109,6 +3225,45 @@
                       <Item>
                         <Asset>1900000039</Asset> <!-- Heavy Drill-->
                       </Item>                      
+                      <Item>
+                        <Asset>1900000043</Asset> <!-- Dmitri Mendeleev -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000045</Asset> <!-- Alexander Popov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000047</Asset> <!-- Boris Yakobi -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000049</Asset> <!-- Ivan Michurin -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000051</Asset> <!-- Nikolai Vavilov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000053</Asset> <!-- Sergey Botkin -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000055</Asset> <!-- Alexander Laurant -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000057</Asset> <!-- Pavel Yablochkov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000059</Asset> <!-- Vladimir Shukhov -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000061</Asset> <!-- Andrey Vlasenko -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000063</Asset> <!-- Faddey Bellingshausen -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000065</Asset> <!-- Franz San Galli -->
+                      </Item>
+                      <Item>
+                        <Asset>1900000067</Asset> <!-- Valiko Sunelishvili -->
+                      </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
@@ -2128,5 +3283,6 @@
   </ModOp> 
   
   <Include File="./other-mods.include.xml" />
-
+  <Include File="./compatibility.include.xml" />
+  
 </ModOps>

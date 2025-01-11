@@ -1,6 +1,6 @@
 <ModOps>
-  <!-- Extra Pools -->
-  <!-- All Sheep Farms -->
+<!-- Extra Pools -->
+<!-- All Sheep Farms -->
   <ModOp Type="addNextSibling" GUID="194011">
     <Asset>
       <Template>ItemEffectTargetPool</Template>
@@ -23,7 +23,7 @@
     </Asset>
   </ModOp>
 
-  <!-- All Kitchens -->
+<!-- All Kitchens -->
   <ModOp Type="addNextSibling" GUID="194011">
     <Asset>
       <Template>ItemEffectTargetPool</Template>
@@ -39,6 +39,12 @@
             </Item>
             <Item>
               <GUID>1500011511</GUID> <!-- Seafood Kitchen (Jakob) -->
+            </Item>
+            <Item>
+              <GUID>1999005339</GUID> <!-- Traditional Goulash Kitchen (Noblesse oblige) -->
+            </Item>
+            <Item>
+              <GUID>1999005295</GUID> <!-- Fish Stew Kitchen (Noblesse oblige) -->
             </Item>
             <Item>
               <GUID>1555000118</GUID> <!-- Pasta Kitchen -->
@@ -64,7 +70,220 @@
     </Asset>
   </ModOp>
 
-  <!-- Change Text in shared-pools-and-definitions -->
+<!-- All Oil Heavy Industries Pool -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+        <Values>
+        <Standard>
+          <GUID>1900000069</GUID>
+          <Name>All Oil Heavy Industries</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>101331</GUID>  <!-- Oil Heavy Industry -->
+            </Item>
+            <Item>
+              <GUID>1010561</GUID>  <!-- Oil Heavy Industry SA -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- All Land Oil Depots Pool -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+        <Values>
+        <Standard>
+          <GUID>1900000070</GUID>
+          <Name>All Land Oil Depots</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>2143505006</GUID>  <!-- Khobs Land Oil Depot -->
+            </Item>
+            <Item>
+              <GUID>2143505007</GUID>  <!-- Khobs Land Oil Depot SA -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- All Chemical Plants Pool -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+        <Values>
+        <Standard>
+          <GUID>1900000071</GUID>
+          <Name>All Chemical Plants</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>194011</GUID>  <!-- All Chemical Plants -->
+            </Item>
+            <Item>
+              <GUID>8392</GUID>  <!-- All Chemical Plants SA -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- All Citrus Orchards Pool -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+        <Values>
+        <Standard>
+          <GUID>1900000072</GUID>
+          <Name>All Citrus Orchards</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>133031</GUID>  <!-- Citrus Orchard -->
+            </Item>
+            <Item>
+              <GUID>1337472609</GUID> <!-- Enbesa Orchard: Citrus -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- All Soda Factories Pool -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+        <Values>
+        <Standard>
+          <GUID>1900000074</GUID>
+          <Name>All Soda Factories</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>1500302310</GUID> <!-- Soda Factory Kurila -->
+            </Item>
+            <Item>
+              <GUID>2100115702</GUID> <!-- Soda Production lion053 -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- All Hop Farms Pool -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+        <Values>
+        <Standard>
+          <GUID>1900000075</GUID>
+          <Name>All Hop Farms</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>1010264</GUID> <!-- Hop Farm -->
+            </Item>
+            <Item>
+              <GUID>1999005227</GUID> <!-- Noblesse oblige Hop Farm -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- All Vegetable Farms Pool -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+        <Values>
+        <Standard>
+          <GUID>1900000076</GUID>
+          <Name>All Vegetable Farms</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>100654</GUID> <!-- Red Pepper Farm -->
+            </Item>
+            <Item>
+              <GUID>1500010830</GUID> <!-- Vegetable Farm -->
+            </Item>
+            <Item>
+              <GUID>1999005223</GUID> <!-- Noblesse oblige Vegetable Farm -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- All Hemp Farms Pool -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+        <Values>
+        <Standard>
+          <GUID>1900000077</GUID>
+          <Name>All Hemp Farms</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>1500010124</GUID> <!-- Hemp Farm -->
+            </Item>
+            <Item>
+              <GUID>1999005224</GUID> <!-- Noblesse oblige Hemp Farm -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- All Noblesse oblige Manors Pool -->
+  <ModOp Type="addNextSibling" GUID="194011">
+    <Asset>
+      <Template>ItemEffectTargetPool</Template>
+        <Values>
+        <Standard>
+          <GUID>1900000078</GUID>
+          <Name>All Noblesse oblige manors</Name>
+        </Standard>
+        <ItemEffectTargetPool>
+          <EffectTargetGUIDs>
+            <Item>
+              <GUID>1999005102</GUID> <!-- Noblesse oblige Manor -->
+            </Item>
+            <Item>
+              <GUID>1999005117</GUID> <!-- Noblesse oblige Spacious Manor -->
+            </Item>
+            <Item>
+              <GUID>1999005118</GUID> <!-- Noblesse oblige Luxurious Manor -->
+            </Item>
+          </EffectTargetGUIDs>
+        </ItemEffectTargetPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Change Text in shared-pools-and-definitions -->
   <ModOp Type="replace" GUID="1500301021" Path="/Values/Text">
     <Text>
       <TextOverride>1500301021</TextOverride>

@@ -15,7 +15,7 @@
         <Factory>8857204</Factory> <!-- Arctic Copper Mine -->
       </Item>
     </ModOp>
-    <ModOp Type="add" GUID="6000018,193856,25599,368" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs/">   <!-- All production,  All Production except powerplant, AllProductionBuildings, All buildings with maintenance DLC11 -->
+    <ModOp Type="add" GUID="6000018,193856,25599,368" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">   <!-- All production,  All Production except powerplant, AllProductionBuildings, All buildings with maintenance DLC11 -->
       <Item>
         <GUID>8857200</GUID> <!-- Arctic Iron Mine -->
       </Item>
@@ -93,11 +93,33 @@
         <GUID>1999002310</GUID> <!-- Hacienda Wine Brewery -->
       </Item>
     </ModOp>
+    <!-- Add to Shared Pools and Definitions -->
+    <ModOp Type="add" GUID="1500301934" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Herb Garden -->
+      <Item>
+        <GUID>1999002164</GUID> <!-- Hacienda Herb Garden -->
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="1500301925" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Vineyard -->
+      <Item>
+        <GUID>1999002010</GUID> <!-- Hacienda Vineyard -->
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- Wine -->
+  <Group Condition="#Taludas_sharedproduct_wine">
+    <ModOp Type="addPrevSibling" GUID="1900000067" Path="/Values/FactoryUpgrade/AdditionalOutput/Item[1]">
+      <Item>
+        <Product>120016</Product> <!-- Wine -->
+        <AdditionalOutputCycle>2</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </ModOp>  
   </Group>
 
 <!-- Taludas_BurritoBoom -->
   <Group Condition="#Taludas_BurritoBoom">
-    <ModOp Type="addNextSibling" GUID="1900000029" Path="/Values/FactoryUpgrade/AdditionalOutput/Item[1]">
+    <ModOp Type="addNextSibling" GUID="1900000029" Path="/Values/FactoryUpgrade/AdditionalOutput/Item[1]" Condition="!#production_works_kurila">
       <Item>
         <Product>1999002213</Product> <!-- Tortillas -->
         <AdditionalOutputCycle>6</AdditionalOutputCycle>
@@ -109,6 +131,16 @@
         <Product>1999002215</Product> <!-- Guacamole -->
         <AdditionalOutputCycle>4</AdditionalOutputCycle>
         <Amount>1</Amount>
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- jakob_industrial_cities -->
+  <Group Condition="#jakob_industrial_cities">
+    <!-- Add to Shared Pools and Definitions -->
+    <ModOp Type="add" GUID="1500301021" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Framework Knitters -->
+      <Item>
+        <GUID>1500011460</GUID> <!-- Cloth Workshop -->
       </Item>
     </ModOp>
   </Group>
@@ -130,7 +162,7 @@
         <Factory>2100115090</Factory> <!-- Sulfur Module -->
       </Item>
     </ModOp>
-    <ModOp Type="add" GUID="6000018,193856,25599,368" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs/">   <!-- All production,  All Production except powerplant, AllProductionBuildings, All buildings with maintenance DLC11 -->
+    <ModOp Type="add" GUID="6000018,193856,25599,368" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">   <!-- All production,  All Production except powerplant, AllProductionBuildings, All buildings with maintenance DLC11 -->
       <Item>
         <GUID>2100115090</GUID> <!-- Sulfur Module -->
       </Item>
@@ -142,6 +174,36 @@
     <ModOp Type="add" GUID="1900000003" Path="/Values/ItemEffect/EffectTargets">
       <Item>
         <GUID>1742100407</GUID> <!-- Galena Module -->
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- shared_goods_gunpowder -->
+  <Group Condition="#shared_goods_gunpowder">
+    <ModOp Type="add" GUID="1900000043" Path="/Values/ItemEffect/EffectTargets">
+      <Item>
+        <GUID>1742100291</GUID> <!-- Gunpowder Factory -->
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- open_pit_mines -->
+  <Group Condition="#open_pit_mines">
+    <ModOp Type="addNextSibling" GUID="1900000003" Path="/Values/ItemEffect/EffectTargets/Item[GUID='190882']"> <!-- All Subsurface Mines -->
+      <Item>
+        <GUID>1742100163</GUID> <!-- Open Pit Iron Mine -->
+      </Item>
+      <Item>
+        <GUID>1742100165</GUID> <!-- Open Pit Coal Mine -->
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- shared_coal_works_kurila -->
+  <Group Condition="#shared_coal_works_kurila">
+    <ModOp Type="addNextSibling" GUID="1900000003" Path="/Values/ItemEffect/EffectTargets/Item[GUID='190882']"> <!-- All Subsurface Mines -->
+      <Item>
+        <GUID>1500302560</GUID> <!-- Coal Pit -->
       </Item>
     </ModOp>
   </Group>
@@ -171,13 +233,199 @@
         <Amount>1</Amount>
       </Item>
     </ModOp>
+    <ModOp Type="add" GUID="1900000067" Path="/Values/FactoryUpgrade/AdditionalOutput">
+      <Item>
+        <Product>1500010102</Product> <!-- Cheese -->
+        <AdditionalOutputCycle>3</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </ModOp>
   </Group>
 
-<!-- jakob_industrial_cities -->
-  <Group Condition="#jakob_industrial_cities">
+<!-- Vegetables -->
+  <Group Condition="@1500010836">
+    <ModOp Type="addNextSibling" GUID="1900000051" Path="/Values/ItemEffect/EffectTargets/Item[GUID='100654']" Condition="!#vegetable_integration_kurila">
+      <Item>
+        <GUID>1900000076</GUID> <!-- All Vegetable Farms -->
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- Hemp -->
+  <Group Condition="@1440224">
+    <ModOp Type="addNextSibling" GUID="1900000051" Path="/Values/ItemEffect/EffectTargets/Item[GUID='100654']">
+      <Item>
+        <GUID>1900000077</GUID> <!-- All Hemp Farms -->
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- Flax -->
+  <Group Condition="#ow-flax-jakob">
+    <!-- Add to Shared Pools and Definitions -->
+    <ModOp Type="add" GUID="1500301956" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Linseed Farm -->
+      <Item>
+        <GUID>1500011458</GUID> <!-- Flax Farm -->
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- Orchard: Apples -->
+  <Group Condition="@1404420046">
+    <ModOp Type="addPrevSibling" GUID="1900000049" Path="/Values/ItemEffect/EffectTargets/Item[1]">
+      <Item>
+        <GUID>1404420046</GUID> <!-- Orchard: Apples -->
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="1900000049" Path="/Values/FactoryUpgrade/AdditionalOutput">
+      <Item>
+        <Product>1404420032</Product> <!-- Apples -->
+        <AdditionalOutputCycle>2</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- Cherries -->
+  <Group Condition="@1404420030">
+    <Group Condition="#TaludasKurilaLordys_TrueJamExperience">
+      <ModOp Type="add" GUID="1900000049" Path="/Values/FactoryUpgrade/AdditionalOutput" Condition="!#OrchardRework">
+        <Item>
+          <Product>1404420030</Product> <!-- Cherries -->
+          <AdditionalOutputCycle>2</AdditionalOutputCycle>
+          <Amount>1</Amount>
+        </Item>
+      </ModOp>
+    </Group>  
+    <ModOp Type="add" GUID="1900000049" Path="/Values/FactoryUpgrade/AdditionalOutput" Condition="#OrchardRework">
+      <Item>
+        <Product>1404420030</Product> <!-- Cherries -->
+        <AdditionalOutputCycle>2</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- Tomatoes -->
+  <Group Condition="@1555000109">
+    <ModOp Type="add" GUID="1900000049" Path="/Values/FactoryUpgrade/AdditionalOutput">
+      <Item>
+        <Product>1555000109</Product> <!-- Tomatoes -->
+        <AdditionalOutputCycle>6</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- Spice Powder -->
+  <Group Condition="@1500301148">
+    <ModOp Type="add" GUID="1900000067" Path="/Values/FactoryUpgrade/AdditionalOutput">
+      <Item>
+        <Product>1500301148</Product> <!-- Spice Powder -->
+        <AdditionalOutputCycle>3</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- noodles-newhorizons -->
+  <Group Condition="#noodles-newhorizons">
+    <ModOp Type="addPrevSibling" GUID="1900000033" Path="/Values/FactoryUpgrade/AdditionalOutput/Item[Product='112705']"> <!-- Pemmican -->
+      <Item>
+        <Product>1440238</Product> <!-- Noodles -->
+        <AdditionalOutputCycle>8</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- Soda & Soda Factories -->
+  <Group Condition="@1999002300">
+    <ModOp Type="add" GUID="1900000055" Path="/Values/FactoryUpgrade/AdditionalOutput">
+      <Item>
+        <Product>1999002300</Product> <!-- Soda -->
+        <AdditionalOutputCycle>5</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </ModOp>
+    <ModOp Type="addPrevSibling" GUID="1900000055" Path="/Values/ItemEffect/EffectTargets/Item[1]">
+      <Item>
+        <GUID>1900000074</GUID>  <!-- All Soda Factories -->
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- Khobs Land Oil Depot -->
+  <Group Condition="#khobs_land_oil_depot">
+    <ModOp Type="add" GUID="1900000059" Path="/Values/ItemEffect/EffectTargets">
+      <Item>
+        <GUID>1900000070</GUID>  <!-- All Land Oil Depots -->
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- Ac3s Huge Oil Depot -->
+  <Group Condition="#Huge Oil Depot">
+    <ModOp Type="add" GUID="1900000059" Path="/Values/ItemEffect/EffectTargets">
+      <Item>
+        <GUID>1337473011</GUID>  <!-- Ac3s Huge Oil Depot -->
+      </Item>
+    </ModOp>
+  </Group>
+
+<!-- RickyTaludas_OWHacienda -->
+  <Group Condition="#RickyTaludas_OWHacienda">
+    <ModOp Type="addNextSibling" GUID="1900000053" Path="/Values/ItemEffect/EffectTargets/Item[GUID='190762']"> <!-- Sergey Botkin -->
+      <Item>
+        <GUID>1900000078</GUID> <!-- All Noblesse oblige Manors -->
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1900000049" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1900000072']"> <!-- Ivan Michurin -->
+      <Item>
+        <GUID>1999005200</GUID> <!-- Orangery -->
+      </Item>
+    </ModOp>
+    <ModOp Type="replace" GUID="1900000051" Path="/Values/ItemEffect/EffectTargets/Item[GUID='100654']">
+      <Item>
+        <GUID>1900000076</GUID> <!-- All Vegetable Farms -->
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1900000023" Path="/Values/ItemEffect/EffectTargets/Item[GUID='100659']"> <!-- Champagne Cellar -->
+      <Item>
+        <GUID>1999005285</GUID> <!-- Traditional Brewery: Wine -->
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1900000025" Path="/Values/ItemEffect/EffectTargets/Item[GUID='118734']"> <!-- Tailor's Shop -->
+      <Item>
+        <GUID>1999005341</GUID> <!-- Noblesse oblige Traditional Tailor -->
+      </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="1900000033" Path="/Values/FactoryUpgrade/AdditionalOutput/Item[Product='1010215']"> <!-- Goulash -->
+      <Item>
+        <Product>1999005296</Product> <!-- Fish Stew -->
+        <AdditionalOutputCycle>2</AdditionalOutputCycle>
+        <Amount>1</Amount>
+      </Item>
+    </ModOp>
+    <!-- Add to Shared Pools and Definitions -->
+    <ModOp Type="add" GUID="1500301921" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Potato Farm -->
+      <Item>
+        <GUID>1999005222</GUID> <!-- Noblesse oblige Potato Farm -->
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="1500301922" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Grain Farm -->
+      <Item>
+        <GUID>1999005226</GUID> <!-- Noblesse oblige Grain Farm -->
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="1500301925" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Vineyard -->
+      <Item>
+        <GUID>1999005229</GUID> <!-- Noblesse oblige Vineyard -->
+      </Item>
+    </ModOp>
     <ModOp Type="add" GUID="1500301021" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs"> <!-- Framework Knitters -->
       <Item>
-        <GUID>1500011460</GUID> <!-- Cloth Workshop -->
+        <GUID>1999005341</GUID> <!-- Noblesse oblige Traditional Tailor -->
       </Item>
     </ModOp>
   </Group>
@@ -210,100 +458,6 @@
         <Amount>1</Amount>
       </Item>
     </ModOp>
-  </Group>
-
-<!-- Arctic_Perfect_Ending_At_Beginning -->
-  <Group Condition="#Arctic_Perfect_Ending_At_Beginning">
-    <!--Get an Airship Near the Old Nate's Lighthouse At Beginning-->
-    <ModOp Type="add" GUID='114386' Path="/Values/Quest/OnQuestStart/Values/ActionList/Actions">
-      <Item>
-        <Action>
-          <Template>ActionSpawnObjects</Template>
-          <Values>
-            <Action />
-            <ActionSpawnObjects>
-              <SpawnGUID>114166</SpawnGUID>
-              <Amount>1</Amount>
-            </ActionSpawnObjects>
-            <SpawnArea>
-              <SpawnContext>Object</SpawnContext>
-              <ContextGUID>112659</ContextGUID>
-              <DistanceToContext>15</DistanceToContext>
-              <MinObjectDistance>5</MinObjectDistance>
-              <MaxObjectDistance>10</MaxObjectDistance>
-            </SpawnArea>
-            <SessionFilter>
-              <Sessions>
-                <Item>
-                  <Session>180045</Session>
-                </Item>
-              </Sessions>
-            </SessionFilter>
-          </Values>
-        </Action>
-      </Item>
-    </ModOp>
-    <!-- Unlock Assets -->
-    <ModOp Type="addNextSibling" GUID="130248">
-      <Asset>
-        <Template>Trigger</Template>
-        <Values>
-          <Standard>
-            <GUID>1900000001</GUID>
-            <Name>MOD Trigger</Name>
-          </Standard>
-          <Trigger>
-            <TriggerCondition>
-              <Template>ConditionAlwaysTrue</Template>
-              <Values>
-                <Condition />
-              </Values>
-            </TriggerCondition>
-            <TriggerActions>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionUnlockAsset</Template>
-                  <Values>
-                    <Action />
-                    <ActionUnlockAsset>
-                      <UnhideAssets>
-                        <Item>
-                          <Asset>1900000015</Asset> <!-- "Cyclone" Engine -->
-                        </Item>
-                        <Item>
-                          <Asset>1900000035</Asset> <!-- Methane Filtering System -->
-                        </Item>
-                        <Item>
-                          <Asset>1900000037</Asset> <!-- Tunnel Boring Machine -->
-                        </Item>
-                        <Item>
-                          <Asset>1900000039</Asset> <!-- Heavy Drill-->
-                        </Item>
-                      </UnhideAssets>
-                      <UnlockAssets>
-                        <Item>
-                          <Asset>1900000015</Asset> <!-- "Cyclone" Engine -->
-                        </Item>
-                        <Item>
-                          <Asset>1900000035</Asset> <!-- Methane Filtering System -->
-                        </Item>
-                        <Item>
-                          <Asset>1900000037</Asset> <!-- Tunnel Boring Machine -->
-                        </Item>
-                        <Item>
-                          <Asset>1900000039</Asset> <!-- Heavy Drill-->
-                        </Item>
-                      </UnlockAssets>                    
-                    </ActionUnlockAsset>
-                  </Values>
-                </TriggerAction>
-              </Item>
-            </TriggerActions>
-          </Trigger>
-          <TriggerSetup />
-        </Values>
-      </Asset>
-    </ModOp>  
   </Group>
 
 </ModOps>
